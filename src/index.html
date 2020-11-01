@@ -1,71 +1,6 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Grecko Bar &amp; Restaurant | Free Bootstrap Website Template</title>
-    <!-- Web app manifest -->
-    <link rel='manifest' href='manifest.json'>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- Default stylesheet -->
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body id="top">
-    <header>
-      <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand animated pulse" href="#">
-          <img src="media/brand/logo-dark.svg" width="30" height="30" alt="Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="pages/food.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Menu
-              </a>
-              <div class="dropdown-menu text-center text-lg-left" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="pages/food.html">Food</a>
-                <a class="dropdown-item" href="pages/desserts.html">Desserts</a>
-                <a class="dropdown-item" href="pages/drinks.html">Drinks</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/album.html">Album</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/reservations.html">Reservations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/contact.html">Contact</a>
-            </li>
-          </ul>
-          <div class="ml-auto">
-            <a class="nav-social mr-2" href="https://github.com/PictureElement"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a class="nav-social mr-2" href="https://github.com/PictureElement"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
-            <a class="nav-social mr-2" href="https://github.com/PictureElement"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a class="nav-social" href="https://github.com/PictureElement"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
+{% extends "base.html" %}
+{% block content %}
+
 
       <!-- COVER -->
       <div id="cover" class="cover carousel slide" data-ride="carousel">
@@ -101,7 +36,7 @@
             <div class="carousel-caption">
               <h1 class="brand-title display-2 animated fadeInDown">Restaurant Chinois Le Jardin</h1>
               <h4 class="brand-description animated fadeInDown">Depuis 1975</h4>
-              <a class="mt-3 btn btn-light animated fadeInUp" href="pages/reservations.html" role="button">BOOK NOW</a>
+              <a class="mt-3 btn btn-light animated fadeInUp" href="pages/reservations.html" role="button">Réservez maintenant</a>
             </div>
           </div>
           <div class="dark-overlay carousel-item">
@@ -136,8 +71,8 @@
               alt="Second slide">
             <div class="carousel-caption">
               <h1 class="brand-title display-2 animated fadeInDown">Restaurant Chinois Le Jardin</h1>
-              <h4 class="brand-description animated fadeInDown">BAR &amp; RESTAURANT</h4>
-              <a class="mt-3 btn btn-light animated fadeInUp" href="pages/reservations.html" role="button">BOOK NOW</a>
+              <h4 class="brand-description animated fadeInDown">Depuis 1975</h4>
+              <a class="mt-3 btn btn-light animated fadeInUp" href="pages/reservations.html" role="button">Réservez maintenant</a>
             </div>
           </div>
           <div class="dark-overlay carousel-item">
@@ -177,8 +112,8 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1 class="brand-title display-2 animated fadeInDown">Restaurant Chinois Le Jardin</h1>
-                <h4 class="brand-description animated fadeInDown">BAR &amp; RESTAURANT</h4>
-                <a class="mt-3 btn btn-light animated fadeInUp" href="pages/reservations.html" role="button">BOOK NOW</a>
+                <h4 class="brand-description animated fadeInDown">Depuis 1975</h4>
+                <a class="mt-3 btn btn-light animated fadeInUp" href="pages/reservations.html" role="button">Réservez maintenant</a>
               </div>
             </div>
           </div>
@@ -208,8 +143,8 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1 class="brand-title display-2 animated fadeInDown">Restaurant Chinois Le Jardin</h1>
-                <h4 class="brand-description animated fadeInDown">BAR &amp; RESTAURANT</h4>
-                <a class="mt-3 btn btn-light animated fadeInUp" href="pages/reservations.html" role="button">BOOK NOW</a>
+                <h4 class="brand-description animated fadeInDown">Depuis 1975</h4>
+                <a class="mt-3 btn btn-light animated fadeInUp" href="pages/reservations.html" role="button">Réservez maintenant</a>
               </div>
             </div>
           </div>
@@ -228,8 +163,25 @@
       <!-- MENU -->
       <div class="homepage-menu container text-center">
         <div class="row">
+          <div class="col-md-4 homepage-entree">
+            <h3 class="special-title-2">Entrées</h3>
+            <div id="entree">
+              <img
+                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_200/v1535882302/website-template-3/homepage-food.jpg" 
+                data-srcset="
+                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_200/v1535882302/website-template-3/homepage-food.jpg 1x, 
+                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_400/v1535882302/website-template-3/homepage-food.jpg 2x,
+                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_600/v1535882302/website-template-3/homepage-food.jpg 3x"
+                alt="Entree Menu"
+                class="rounded-circle lazyload">
+                <br>
+              <a class="btn btn-outline-dark" href="pages/food.html" role="button">Voir la carte</a>
+            </div>
+          </div>
+
+
           <div class="col-md-4 homepage-food">
-            <h3 class="special-title-2">Food</h3>
+            <h3 class="special-title-2">Plats</h3>
             <div id="food">
               <img
                 data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_200/v1535882302/website-template-3/homepage-food.jpg" 
@@ -239,14 +191,13 @@
                   https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_600/v1535882302/website-template-3/homepage-food.jpg 3x"
                 alt="Food Menu"
                 class="rounded-circle lazyload">
-              <p class="homepage-menu-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
-                dolor neque, condimentum quis ante ac, imperdiet varius sapien. 
-                Maecenas commodo ante et odio varius, at placerat mi tristique. 
-              </p>
-              <a class="btn btn-outline-dark" href="pages/food.html" role="button">VIEW MENU</a>
+                <br>
+              <a class="btn btn-outline-dark" href="pages/food.html" role="button">Voir la carte</a>
             </div>
           </div>
+        </div>
+
+        <div class="row">
           <div class="col-md-4 homepage-desserts">
             <h3 class="special-title-2">Desserts</h3>
             <div id="desserts">
@@ -258,16 +209,13 @@
                   https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_600/v1535885127/website-template-3/homepage-desserts.jpg 3x"
                 alt="Desserts Menu"
                 class="rounded-circle lazyload">
-              <p class="homepage-menu-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
-                dolor neque, condimentum quis ante ac, imperdiet varius sapien. 
-                Maecenas commodo ante et odio varius, at placerat mi tristique. 
-              </p>
-              <a class="btn btn-outline-dark" href="pages/desserts.html" role="button">VIEW MENU</a>
+                <br>
+              <a class="btn btn-outline-dark" href="pages/desserts.html" role="button">Voir la carte</a>
             </div>
           </div>
+
           <div class="col-md-4 homepage-drinks">
-            <h3 class="special-title-2">Drinks</h3>
+            <h3 class="special-title-2">Boissons</h3>
             <div id="drinks">
               <img 
                 data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_200/v1535885398/website-template-3/homepage-drinks.jpg" 
@@ -277,12 +225,8 @@
                   https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_600/v1535885398/website-template-3/homepage-drinks.jpg 3x"
                 alt="Drinks Menu"
                 class="rounded-circle lazyload">
-              <p class="homepage-menu-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
-                dolor neque, condimentum quis ante ac, imperdiet varius sapien. 
-                Maecenas commodo ante et odio varius, at placerat mi tristique. 
-              </p>
-              <a class="btn btn-outline-dark" href="pages/drinks.html" role="button">VIEW MENU</a>
+                <br>
+              <a class="btn btn-outline-dark" href="pages/drinks.html" role="button">Voir la carte</a>
             </div>
           </div>
         </div>
@@ -323,7 +267,7 @@
           alt=""
           class="homepage-about-us-bg lazyload">
         <div class="homepage-about-us-caption">
-          <h2 class="special-title-1">ABOUT US</h2>
+          <h2 class="special-title-1">A PROPOS</h2>
           <h3 class="special-title-2">Tradition &amp; Passion</h3>
           <div id="about-description">
             <p class="homepage-about-us-description">
@@ -339,7 +283,7 @@
 
       <!-- SPECIAL OFFERS -->
       <div class="homepage-special-offers container">
-        <h2 class="special-title-1 text-center">SPECIALS &amp; EVENTS</h2>
+        <h2 class="special-title-1 text-center">NEWS &amp; OFFRES</h2>
         <h3 class="special-title-2 text-center">Hurry Up</h3>
         <div class="row">
           <div id="card-1" class="col-md-4">
@@ -456,20 +400,13 @@
           data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535898673/website-template-3/cover-wooden-texture.jpg"
           alt=""
           class="homepage-testimonials-bg lazyload">
+
         <div class="homepage-testimonials-caption">
-          <h2 class="special-title-1">TESTIMONIALS</h2>
-          <h3 class="special-title-2">What Our Customers Say</h3>
+          <h2 class="special-title-1">AVIS</h2>
+          <h3 class="special-title-2">Ce que disent nos clients</h3>
           <div id="homepage-testimonials-carousel" class="homepage-testimonials-carousel carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img 
-                  src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_190/v1536003465/website-template-3/homepage-testimonials-1.jpg"
-                  srcset="
-                    https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_190/v1536003465/website-template-3/homepage-testimonials-1.jpg 1x, 
-                    https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_380/v1536003465/website-template-3/homepage-testimonials-1.jpg 2x,
-                    https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_570/v1536003465/website-template-3/homepage-testimonials-1.jpg 3x"
-                  alt="Testimonial"
-                  class="d-block mx-auto rounded-circle img-thumbnail">
                 <blockquote>
                   <p class="mb-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -479,15 +416,8 @@
                   <footer class="blockquote-footer">Michael Freemon, <cite title="Source Title"><a href="https://github.com/PictureElement">Trip Advisor</a></cite></footer>
                 </blockquote>
               </div>
+
               <div class="carousel-item">
-                <img 
-                  src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_190/v1536003765/website-template-3/homepage-testimonials-2.jpg"
-                  srcset="
-                    https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_190/v1536003765/website-template-3/homepage-testimonials-2.jpg 1x, 
-                    https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_380/v1536003765/website-template-3/homepage-testimonials-2.jpg 2x,
-                    https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_570/v1536003765/website-template-3/homepage-testimonials-2.jpg 3x"
-                  alt="Testimonial"
-                  class="d-block mx-auto rounded-circle img-thumbnail">
                 <blockquote>
                   <p class="mb-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -497,15 +427,8 @@
                   <footer class="blockquote-footer">Marie Lu, <cite title="Source Title"><a href="https://github.com/PictureElement">Trip Advisor</a></cite></footer>
                 </blockquote>
               </div>
+
               <div class="carousel-item">
-                <img 
-                  src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_190/v1536003858/website-template-3/homepage-testimonials-3.jpg"
-                  srcset="
-                    https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_190/v1536003858/website-template-3/homepage-testimonials-3.jpg 1x, 
-                    https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_380/v1536003858/website-template-3/homepage-testimonials-3.jpg 2x,
-                    https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_570/v1536003858/website-template-3/homepage-testimonials-3.jpg 3x"
-                  alt="Testimonial"
-                  class="d-block mx-auto rounded-circle img-thumbnail">
                 <blockquote>
                   <p class="mb-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -515,15 +438,8 @@
                   <footer class="blockquote-footer">Jason Wu, <cite title="Source Title"><a href="https://github.com/PictureElement">Trip Advisor</a></cite></footer>
                 </blockquote>
               </div>
+
               <div class="carousel-item">
-                <img 
-                  src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_190/v1536003941/website-template-3/homepage-testimonials-4.jpg"
-                  srcset="
-                    https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_190/v1536003941/website-template-3/homepage-testimonials-4.jpg 1x, 
-                    https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_380/v1536003941/website-template-3/homepage-testimonials-4.jpg 2x,
-                    https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_570/v1536003941/website-template-3/homepage-testimonials-4.jpg 3x"
-                  alt="Testimonial"
-                  class="d-block mx-auto rounded-circle img-thumbnail">
                 <blockquote>
                   <p class="mb-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -548,72 +464,8 @@
 
       <!-- GOOGLE MAP -->
       <div id="googleMapContainer" class="homepage-google-map">
-        <script defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjnin9RK4Yk9MVy0YSJhkTRzZK5uSZUy8&callback=initMap">
-      </script>
+          TODO:
                   </div>
 
     </main>
-
-    <footer class="page-footer">
-      <div class="container">
-        <a class="navbar-brand animated pulse d-block text-center m-0 p-0" href="#">
-          <img src="media/brand/logo-light.svg" width="50" height="50" alt="Logo">
-        </a>
-        <div class="row">
-          <div class="col-md-4">
-            <h5 class="page-footer-title">HEURES D'OUVERTURES</h5>
-            <p class="mb-0">Ouvert du Lundi au Vendredi</p> 
-            <p class="mb-0">Déjeuner: 12h - 14h</p>
-            <p>Diner: 19h - 22h</p>
-          </div>
-          <div class="col-md-4 h-100 border-left-custom">
-            <h5 class="page-footer-title mt-3 mt-md-0">LOCALISATION</h5>
-            <address>
-              Restaurant Chinois Le Jardin<br>
-              4 rue Meslay<br>
-              75003, Paris<br>
-              <abbr title="Phone">T:</abbr> (+33) 01 48 87 89 71<br>
-              <abbr title="Email">E:</abbr> TODO:
-            </address>
-          </div>
-          <div class="col-md-4 h-100 border-left-custom">
-            <h5 class="page-footer-title mt-3 mt-md-0">SUIVEZ-NOUS</h5>
-            <div class="mb-3">
-              <a class="footer-social" href="https://www.facebook.com/restaurantchinois.lejardin/" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a class="footer-social" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html" aria-label="tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
-              <a class="footer-social" href="https://github.com/PictureElement" aria-label="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </div>
-          </div>
-          <div class="col-md-0 h-100 border-left-custom">
-            <form id="newsletter-form"> <!-- kept because it breaks the template otherwise -->
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="page-footer-copyright container-fluid text-center">
-        © 2018 Grecko Bar &amp; Restaurant. All rights reserved.<br>
-        Design &amp; Development by <a href="https://pictureelement.github.io/portfolio-2/">PictureElement</a> (Marios Sofokleous).
-      </div>
-    </footer>
-    <a id="back-to-top" class="back-to-top smooth-scroll" href="#top">
-      <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
-    </a>
-    <!-- lazySizes -->
-    <script src="js/lazysizes.min.js" async=""></script>
-    <!-- jQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous">
-    </script>
-    <!-- Bootstrap -->
-    <script 
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
-      crossorigin="anonymous">
-    </script>
-    <script src="js/site.js"></script>
-    <script src="js/homepage-animations.js"></script>
-  </body>
-</html>
+  {% endblock %}

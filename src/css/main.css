@@ -200,6 +200,7 @@ a, a:hover {
 .homepage-menu {
   padding-top: 8rem;
   padding-bottom: 8rem;
+  margin: 0 auto;
 }
 
 .homepage-menu-description {

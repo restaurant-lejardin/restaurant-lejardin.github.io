@@ -25,3 +25,6 @@ grunt htmlmin
 
 cp -a dist/. docs/
 
+git push 
+
+git subtree push --prefix dist origin gh-pages
