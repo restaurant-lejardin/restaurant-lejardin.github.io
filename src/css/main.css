@@ -203,6 +203,10 @@ a, a:hover {
   margin: 0 auto;
 }
 
+.row-centered {
+  text-align:center;
+}
+
 .homepage-menu-description {
   margin-top: 2.8rem;
 }
