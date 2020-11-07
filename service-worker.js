@@ -14,7 +14,7 @@ var filesToCache = [
   '/website-template-3/gallery-food.html',
   '/website-template-3/gallery-location.html',
   '/website-template-3/gallery-staff.html',
-  '/website-template-3/reservations.html',
+  // '/website-template-3/reservations.html',
 
   '/website-template-3/js/about-animations.js',
   '/website-template-3/js/album-animations.js',
@@ -23,7 +23,7 @@ var filesToCache = [
   '/website-template-3/js/homepage-animations.js',
   '/website-template-3/js/lazysizes.min.js',
   '/website-template-3/js/menu-animations.js',
-  '/website-template-3/js/reservations-animations.js',
+  // '/website-template-3/js/reservations-animations.js',
   '/website-template-3/js/site.js',
 
   '/website-template-3/css/animate.css',
