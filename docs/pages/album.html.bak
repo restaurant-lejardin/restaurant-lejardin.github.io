@@ -78,6 +78,19 @@
       <div class="album-content">
         <div class="container">
           <div class="row">
+            <div id="card-entree" class="col-md-4">
+              <div class="card box-shadow">
+                <img class="card-img-top" src="../media/album/album-staff@1x.jpg" srcset="../media/album/album-staff@1x.jpg 1x, ../media/album/album-staff@2x.jpg 2x, ../media/album/album-staff@3x.jpg 3x, ../media/album/album-staff@4x.jpg 4x" alt="Staff image">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">ENTREES</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aliquam fermentum a sapien non pulvinar. 
+                  </p>
+                  <a href="gallery-staff.html" class="btn btn-outline-dark" role="button">View</a>
+                </div>
+              </div>
+            </div>
             <div id="card-food" class="col-md-4">
               <div class="card box-shadow">
                 <img class="card-img-top" src="../media/album/album-food@1x.jpg" srcset="../media/album/album-food@1x.jpg 1x, ../media/album/album-food@2x.jpg 2x, ../media/album/album-food@3x.jpg 3x, ../media/album/album-food@4x.jpg 4x" alt="Food image">
@@ -104,19 +117,7 @@
                 </div>
               </div>
             </div>
-            <div id="card-drinks" class="col-md-4">
-              <div class="card box-shadow">
-                <img class="card-img-top" src="../media/album/album-drinks@1x.jpg" srcset="../media/album/album-drinks@1x.jpg 1x, ../media/album/album-drinks@2x.jpg 2x, ../media/album/album-drinks@3x.jpg 3x, ../media/album/album-drinks@4x.jpg 4x" alt="Drink image">
-                <div class="card-body">
-                  <h5 class="card-title font-weight-bold">DRINKS</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Aliquam fermentum a sapien non pulvinar. 
-                  </p>
-                  <a href="gallery-drinks.html" class="btn btn-outline-dark" role="button">View</a>
-                </div>
-              </div>
-            </div>
+
           </div>
           <div class="row d-flex justify-content-center">
             <div id="card-location" class="col-md-4">
@@ -132,16 +133,16 @@
                 </div>
               </div>
             </div>
-            <div id="card-staff" class="col-md-4">
+            <div id="card-drinks" class="col-md-4">
               <div class="card box-shadow">
-                <img class="card-img-top" src="../media/album/album-staff@1x.jpg" srcset="../media/album/album-staff@1x.jpg 1x, ../media/album/album-staff@2x.jpg 2x, ../media/album/album-staff@3x.jpg 3x, ../media/album/album-staff@4x.jpg 4x" alt="Staff image">
+                <img class="card-img-top" src="../media/album/album-drinks@1x.jpg" srcset="../media/album/album-drinks@1x.jpg 1x, ../media/album/album-drinks@2x.jpg 2x, ../media/album/album-drinks@3x.jpg 3x, ../media/album/album-drinks@4x.jpg 4x" alt="Drink image">
                 <div class="card-body">
-                  <h5 class="card-title font-weight-bold">STAFF</h5>
+                  <h5 class="card-title font-weight-bold">DRINKS</h5>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Aliquam fermentum a sapien non pulvinar. 
                   </p>
-                  <a href="gallery-staff.html" class="btn btn-outline-dark" role="button">View</a>
+                  <a href="gallery-drinks.html" class="btn btn-outline-dark" role="button">View</a>
                 </div>
               </div>
             </div>

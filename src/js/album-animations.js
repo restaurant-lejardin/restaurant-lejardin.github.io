@@ -5,7 +5,7 @@ var cardFood = document.querySelector('#card-food');
 var cardDesserts = document.querySelector('#card-desserts');
 var cardDrinks = document.querySelector('#card-drinks');
 var cardLocation = document.querySelector('#card-location');
-var cardStaff = document.querySelector('#card-staff');
+var cardStaff = document.querySelector('#card-entree');
 var newsletterForm = document.querySelector('#newsletter-form');
 title1.style.opacity = "0";
 title2.style.opacity = "0";
@@ -72,7 +72,7 @@ function callback(entries, observer) {
           observer.unobserve(entry.target);
         }
         break;
-      case "card-staff":
+      case "card-entree":
         if (entry.intersectionRatio > 0) {
           cardStaff.style.opacity = "1";
           cardStaff.className += " animated slideInUp";
