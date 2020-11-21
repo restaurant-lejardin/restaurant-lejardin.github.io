@@ -70,13 +70,13 @@
       <!-- DIRECTIONS -->
       <div class="contact-directions container">
         <h1 id="title-1-directions" class="special-title-1">DIRECTIONS</h1>
-        <h2 id="title-2-directions" class="special-title-2">How to Get Here</h2>
+        <h2 id="title-2-directions" class="special-title-2">Comment venir</h2>
         <dl id="description" class="mb-0">
-          <dt>Directions from A</dt>
+          <dt>Directions depuis République</dt>
           <dd class="mb-0">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis mauris at mauris varius tincidunt. Mauris fermentum finibus purus, non commodo metus pulvinar ac. Phasellus ultricies ultricies eros, quis rhoncus urna efficitur sed. Aenean id tellus ligula.
           </dd>
-          <dt>Directions from B</dt>
+          <dt>Directions depuis Arts et Métiers</dt>
           <dd class="mb-0">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis mauris at mauris varius tincidunt. Mauris fermentum finibus purus, non commodo metus pulvinar ac. Phasellus ultricies ultricies eros, quis rhoncus urna efficitur sed. Aenean id tellus ligula.
           </dd>
@@ -154,25 +154,24 @@
               <div class="address">
                 <h6>ADDRESS</h6>
                 <address>
-                  Grecko Bar &amp; Seafood Restaurant<br>
-                  24 Akti Kampani St.<br>
-                  846 00, Mykonos, Greece<br>
-                  <abbr title="Phone">P:</abbr> (123) 456-7890<br>
-                  <abbr title="Email">E:</abbr> info@grecko.com
+                  Restaurant chinois Le Jardin<br>
+                  4 rue Meslay<br>
+                  75003, Paris, France<br>
+                  <abbr title="Phone">T:</abbr> (+33) 01 48 87 89 71<br>
+                  <abbr title="Email">E:</abbr> TODO:
                 </address>
               </div>
               <div class="opening-hours">
-                <h6>BAR SERVICE</h6>
-                <p>Daily: Bookings from 9am - 11pm</p>
-                <h6>LUNCH SERVICE</h6>
-                <p>Daily: Bookings from 12pm - 1.30pm</p>
-                <h6>DINNER SERVICE</h6>
-                <p>Daily: Bookings from 6pm - 9.30pm</p>
+                <p>Ouvert du Lundi au Vendredi</p> 
+                <h6>DEJEUNER</h6>
+                <p>Déjeuner: 12h - 14h</p>
+                <h6>DINER</h6>
+                <p>19h - 22h</p>
               </div>
               <div class="connect">
-                <a class="contact-social mr-2" href="https://github.com/PictureElement" aria-label="facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i></a>
-                <a class="contact-social mr-2" href="https://github.com/PictureElement" aria-label="tripadvisor"><i class="fa fa-fw fa-tripadvisor" aria-hidden="true"></i></a>
-                <a class="contact-social" href="https://github.com/PictureElement" aria-label="instagram"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i></a>
+                <a class="contact-social mr-2" href="https://www.facebook.com/restaurantchinois.lejardin/" aria-label="facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i></a>
+                <a class="contact-social mr-2" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html" aria-label="tripadvisor"><i class="fa fa-fw fa-tripadvisor" aria-hidden="true"></i></a>
+                <a class="contact-social" href="https://restaurantchinois-lejardin.business.site/" aria-label="google"><i class="go fa-google" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
