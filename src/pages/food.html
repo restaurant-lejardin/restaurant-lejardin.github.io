@@ -114,34 +114,36 @@
         <div class="food-jumbotron-caption container">
           <h1 id="title-1" class="special-title-2">Food Menu</h1>
           <div id="menu-icons">
-            <h2>PLATS A COMPOSER   (riz non compris)</h2>
+            <h2 class="special-title-3">PLATS A COMPOSER (riz non compris)</h2>
             <div class="row">
               <div class="col-4">
-                <a href="#breakfasts" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/breakfasts.svg" alt="Breakfasts"></a>
+                <!-- TODO: décalé -->
+                <a href="#wok" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/wok.svg" alt="Breakfasts"></a>
                 <h6 class="menu-icon-text mt-3 mb-0">NOS MARMITES ET WOKS</h6>
               </div>
               <div class="col-4">
-                <a href="#burgers" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/burgers.svg" alt="Burgers"></a>
+                <a href="#meat" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/meat.svg" alt="Burgers"></a>
                 <h6 class="menu-icon-text mt-3 mb-0">VOLAILLES / VIANDES</h6>
               </div>
               <div class="col-4">
-                <a href="#flavours-of-cyprus" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/flavours-of-cyprus.svg" alt="Flavours of Cyprus"></a>
+                <a href="#seafood" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/seafood.svg" alt="Flavours of Cyprus"></a>
                 <h6 class="menu-icon-text mt-3 mb-0">FRUITS DE MER</h6>
               </div>        
             </div>
-
-            <h2>ACCOMPAGNEMENT</h2>
+            
+            <br><br>
+            <h2 class="special-title-3">ACCOMPAGNEMENT</h2>
             <div class="row mt-5">
               <div class="col-4">
-                <a href="#pasta" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/pasta.svg" alt="Pasta"></a>
+                <a href="#rice" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/pasta.svg" alt="Pasta"></a>
                 <h6 class="menu-icon-text mt-3 mb-0">RIZ, LEGUMES ET NOUILLES</h6>
               </div>
               <div class="col-4">
-                <a href="#pies" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/pies.svg" alt="Pies"></a>
+                <a href="#bobun" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/bobun.svg" alt="Pies"></a>
                 <h6 class="menu-icon-text mt-3 mb-0">NOS BO BUN</h6>
               </div>
               <div class="col-4">
-                <a href="#pizzas" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/pizzas.svg" alt="Pizzas"></a>
+                <a href="#noodles" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/noodle.svg" alt="Pizzas"></a>
                 <h6 class="menu-icon-text mt-3 mb-0">SOUPES DE NOUILLES</h6>
               </div>
             </div>
@@ -152,9 +154,9 @@
 
       <!-- FOOD: DESCRIPTIONS -->
       <div class="food-descriptions container">
-        <h2>PLATS A COMPOSER   (riz non compris)</h2> <!-- TODO: text style -->
+        <h2 class="special-title-3">PLATS A COMPOSER (riz non compris)</h2> <!-- TODO: text style -->
         <!-- NOS MARMITES ET WOKS -->
-        <div id="breakfasts" class="food-category">
+        <div id="wok" class="food-category">
           <h2 class="banner">NOS MARMITES ET WOKS</h2>
           <hr class="food-horizontal-rule">
           <div class="row align-items-center menu-item">
@@ -269,7 +271,7 @@
         </div>
 
         <!-- VOLAILLES / VIANDES -->
-        <div id="burgers" class="food-category">
+        <div id="meat" class="food-category">
           <h2 class="banner">VOLAILLES / VIANDES</h2>
           <hr class="food-horizontal-rule">
           <div class="row align-items-center menu-item">
@@ -738,7 +740,7 @@
         </div>
 
         <!-- FRUITS DE MER -->
-        <div id="flavours-of-cyprus" class="food-category">
+        <div id="seafood" class="food-category">
           <h2 class="banner">FRUITS DE MER</h2>
           <hr class="food-horizontal-rule">
           <div class="row align-items-center menu-item">
@@ -989,9 +991,9 @@
           
         </div>
         
-        <h2>ACCOMPAGNEMENT</h2> <!-- TODO: text style -->
+        <h2 class="special-title-3">ACCOMPAGNEMENT</h2> <!-- TODO: text style -->
         <!-- RIZ, LEGUMES ET NOUILLES -->
-        <div id="from-the-grill" class="food-category">
+        <div id="rice" class="food-category">
           <h2 class="banner">RIZ, LEGUMES ET NOUILLES</h2>
           <hr class="food-horizontal-rule">
           <div class="row align-items-center menu-item">
@@ -1410,7 +1412,7 @@
         </div>
 
         <!-- NOS BO BUN -->
-        <div id="pasta" class="food-category">
+        <div id="bobun" class="food-category">
           <h2 class="banner">NOS BO BUN</h2>
           <hr class="food-horizontal-rule">
           <div class="row align-items-center menu-item">
@@ -1453,9 +1455,10 @@
         </div>
 
         <!-- SOUPES DE NOUILLES (fines de blé, grand bol) -->
-        <div id="pies" class="food-category">
-          <h2 class="banner">SOUPES DE NOUILLES (fines de blé, grand bol)</h2>
-          <u>ou</u> vermicelles de riz
+        <div id="noodles" class="food-category">
+          <h2 class="banner">SOUPES DE NOUILLES</h2>
+          Grand Bol<br>
+          Nouilles fines de blé <u>ou</u> vermicelles de riz<br>
           <u>ou</u> pâtes de riz <b>(+1€)</b>
           <hr class="food-horizontal-rule">
           <div class="row align-items-center menu-item">
@@ -1636,6 +1639,8 @@
       <div class="page-footer-copyright container-fluid text-center">
         © 2018 Restaurant Le Jardin. All rights reserved.<br>
         Design &amp; Development by <a href="https://pictureelement.github.io/portfolio-2/">PictureElement</a> (Marios Sofokleous).
+        
+        <div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp"></a></div>
       </div>
     </footer>
 
