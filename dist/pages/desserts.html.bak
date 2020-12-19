@@ -68,7 +68,8 @@
     </header>
     <main>
 
-      <!-- DESSERTS: JUMBOTRON -->
+      <h1>Under construction</h1>
+      <!-- DESSERTS: JUMBOTRON 
       <div class="jumbotron desserts-jumbotron dark-overlay text-white">
         <img
           sizes="(max-width: 2560px) 100vw, 2560px"
@@ -137,22 +138,16 @@
         </div>
       </div>
 
-      <!-- DESSERTS: DESCRIPTIONS -->
+       DESSERTS: DESCRIPTIONS
       <div class="desserts-descriptions container">
 
-        <!-- CAKES -->
+
         <div id="cakes" class="dessert-category">
           <h2 class="banner">CAKES</h2>
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898527/website-template-3/cakes.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898527/website-template-3/cakes.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537898527/website-template-3/cakes.jpg 2x"
-                alt="Cake"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -169,13 +164,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898527/website-template-3/cakes.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898527/website-template-3/cakes.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537898527/website-template-3/cakes.jpg 2x"
-                alt="Cake"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -192,13 +181,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898527/website-template-3/cakes.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898527/website-template-3/cakes.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537898527/website-template-3/cakes.jpg 2x"
-                alt="Cake"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -215,19 +198,13 @@
           <hr class="dessert-horizontal-rule">
         </div>
 
-        <!-- COOKIES -->
+
         <div id="cookies" class="dessert-category">
           <h2 class="banner">COOKIES</h2>
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898674/website-template-3/cookies.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898674/website-template-3/cookies.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537898674/website-template-3/cookies.jpg 2x"
-                alt="Cookie"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -244,13 +221,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898674/website-template-3/cookies.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898674/website-template-3/cookies.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537898674/website-template-3/cookies.jpg 2x"
-                alt="Cookie"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -267,13 +238,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898674/website-template-3/cookies.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898674/website-template-3/cookies.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537898674/website-template-3/cookies.jpg 2x"
-                alt="Cookie"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -290,19 +255,13 @@
           <hr class="dessert-horizontal-rule">
         </div>
 
-        <!-- FLAVOURS OF CYPRUS -->
+
         <div id="flavours-of-cyprus-desserts" class="dessert-category">
           <h2 class="banner">FLAVOURS OF CYPRUS</h2>
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898809/website-template-3/flavours-of-cyprus-2.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898809/website-template-3/flavours-of-cyprus-2.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537898809/website-template-3/flavours-of-cyprus-2.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -319,13 +278,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898809/website-template-3/flavours-of-cyprus-2.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898809/website-template-3/flavours-of-cyprus-2.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537898809/website-template-3/flavours-of-cyprus-2.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -342,13 +295,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898809/website-template-3/flavours-of-cyprus-2.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898809/website-template-3/flavours-of-cyprus-2.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537898809/website-template-3/flavours-of-cyprus-2.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -365,19 +312,13 @@
           <hr class="dessert-horizontal-rule">
         </div>
 
-        <!-- FROZEN DESSERTS -->
+
         <div id="frozen-desserts" class="dessert-category">
           <h2 class="banner">FROZEN DESSERTS</h2>
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898921/website-template-3/frozen-desserts.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898921/website-template-3/frozen-desserts.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537898921/website-template-3/frozen-desserts.jpg 2x"
-                alt="Frozen dessert"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -394,13 +335,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898921/website-template-3/frozen-desserts.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898921/website-template-3/frozen-desserts.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537898921/website-template-3/frozen-desserts.jpg 2x"
-                alt="Frozen dessert"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -417,13 +352,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898921/website-template-3/frozen-desserts.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537898921/website-template-3/frozen-desserts.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537898921/website-template-3/frozen-desserts.jpg 2x"
-                alt="Frozen dessert"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -440,19 +369,13 @@
           <hr class="dessert-horizontal-rule">
         </div>
 
-        <!-- FRUIT SALADS -->
+
         <div id="fruit-salads" class="dessert-category">
           <h2 class="banner">FRUIT SALADS</h2>
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899042/website-template-3/fruit-salads.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899042/website-template-3/fruit-salads.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537899042/website-template-3/fruit-salads.jpg 2x"
-                alt="Fruit salad"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -469,13 +392,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899042/website-template-3/fruit-salads.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899042/website-template-3/fruit-salads.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537899042/website-template-3/fruit-salads.jpg 2x"
-                alt="Fruit salad"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -492,13 +409,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899042/website-template-3/fruit-salads.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899042/website-template-3/fruit-salads.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537899042/website-template-3/fruit-salads.jpg 2x"
-                alt="Fruit salad"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -515,19 +426,13 @@
           <hr class="dessert-horizontal-rule">
         </div>
 
-        <!-- GELATIN DESSERTS -->
+
         <div id="gelatin-desserts" class="dessert-category">
           <h2 class="banner">GELATIN DESSERTS</h2>
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899152/website-template-3/gelatin-desserts.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899152/website-template-3/gelatin-desserts.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537899152/website-template-3/gelatin-desserts.jpg 2x"
-                alt="Gelatin dessert"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -544,13 +449,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899152/website-template-3/gelatin-desserts.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899152/website-template-3/gelatin-desserts.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537899152/website-template-3/gelatin-desserts.jpg 2x"
-                alt="Gelatin dessert"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -567,13 +466,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899152/website-template-3/gelatin-desserts.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899152/website-template-3/gelatin-desserts.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537899152/website-template-3/gelatin-desserts.jpg 2x"
-                alt="Gelatin dessert"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -590,19 +483,13 @@
           <hr class="dessert-horizontal-rule">
         </div>
 
-        <!-- PASTRIES -->
+
         <div id="pastries" class="dessert-category">
           <h2 class="banner">PASTRIES</h2>
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899340/website-template-3/pastries.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899340/website-template-3/pastries.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537899340/website-template-3/pastries.jpg 2x"
-                alt="Pastry"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -619,13 +506,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899340/website-template-3/pastries.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899340/website-template-3/pastries.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537899340/website-template-3/pastries.jpg 2x"
-                alt="Pastry"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -642,13 +523,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899340/website-template-3/pastries.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899340/website-template-3/pastries.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537899340/website-template-3/pastries.jpg 2x"
-                alt="Pastry"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -665,19 +540,13 @@
           <hr class="dessert-horizontal-rule">
         </div>
 
-        <!-- PUDDINGS -->
+
         <div id="puddings" class="dessert-category">
           <h2 class="banner">PUDDINGS</h2>
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899494/website-template-3/puddings.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899494/website-template-3/puddings.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537899494/website-template-3/puddings.jpg 2x"
-                alt="Pudding"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -694,13 +563,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899494/website-template-3/puddings.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899494/website-template-3/puddings.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537899494/website-template-3/puddings.jpg 2x"
-                alt="Pudding"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -717,13 +580,7 @@
           <hr class="dessert-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899494/website-template-3/puddings.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537899494/website-template-3/puddings.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537899494/website-template-3/puddings.jpg 2x"
-                alt="Pudding"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="dessert-title">
@@ -740,12 +597,12 @@
           <hr class="dessert-horizontal-rule">
         </div>
 
-      </div>
+      </div> -->
 
-      <!-- GOOGLE MAP -->
+      <!-- GOOGLE MAP
       <div id="googleMapContainer" class="homepage-google-map">
         <iframe title="Our location on Google My Maps" class="google-map" src="https://www.google.com/maps/d/embed?mid=1YihUagJV98aTSoPRpalSyqRjTVhaFv5E&hl=en"></iframe>
-      </div>
+      </div> -->
       
     </main>
     <footer class="page-footer">

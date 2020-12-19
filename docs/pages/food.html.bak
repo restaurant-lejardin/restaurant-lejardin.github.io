@@ -161,13 +161,7 @@
           <hr class="food-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896174/website-template-3/breakfasts.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896174/website-template-3/breakfasts.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896174/website-template-3/breakfasts.jpg 2x"
-                alt="Breakfast"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -179,13 +173,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896174/website-template-3/breakfasts.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896174/website-template-3/breakfasts.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896174/website-template-3/breakfasts.jpg 2x"
-                alt="Breakfast"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -197,13 +185,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896174/website-template-3/breakfasts.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896174/website-template-3/breakfasts.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896174/website-template-3/breakfasts.jpg 2x"
-                alt="Breakfast"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -215,13 +197,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896174/website-template-3/breakfasts.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896174/website-template-3/breakfasts.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896174/website-template-3/breakfasts.jpg 2x"
-                alt="Breakfast"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -235,13 +211,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896174/website-template-3/breakfasts.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896174/website-template-3/breakfasts.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896174/website-template-3/breakfasts.jpg 2x"
-                alt="Breakfast"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -253,13 +223,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896174/website-template-3/breakfasts.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896174/website-template-3/breakfasts.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896174/website-template-3/breakfasts.jpg 2x"
-                alt="Breakfast"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -276,13 +240,7 @@
           <hr class="food-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -294,13 +252,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -312,13 +264,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -330,13 +276,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -348,13 +288,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -367,13 +301,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -386,13 +314,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -404,13 +326,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -422,13 +338,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -443,13 +353,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -461,13 +365,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -479,13 +377,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -498,13 +390,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -516,13 +402,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -534,13 +414,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -554,13 +428,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -573,13 +441,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -591,13 +453,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -611,13 +467,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -629,13 +479,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -647,13 +491,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -666,13 +504,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -685,13 +517,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -703,13 +529,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -721,13 +541,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896695/website-template-3/burgers.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896695/website-template-3/burgers.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -745,13 +559,7 @@
           <hr class="food-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896862/website-template-3/flavours-of-cyprus.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -763,13 +571,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896862/website-template-3/flavours-of-cyprus.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -781,13 +583,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896862/website-template-3/flavours-of-cyprus.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -800,13 +596,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896862/website-template-3/flavours-of-cyprus.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -818,13 +608,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896862/website-template-3/flavours-of-cyprus.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -836,13 +620,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896862/website-template-3/flavours-of-cyprus.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -858,13 +636,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896862/website-template-3/flavours-of-cyprus.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -877,13 +649,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896862/website-template-3/flavours-of-cyprus.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -897,13 +663,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896862/website-template-3/flavours-of-cyprus.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -915,13 +675,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896862/website-template-3/flavours-of-cyprus.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -936,13 +690,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896862/website-template-3/flavours-of-cyprus.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -954,13 +702,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896862/website-template-3/flavours-of-cyprus.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -973,13 +715,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537896862/website-template-3/flavours-of-cyprus.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537896862/website-template-3/flavours-of-cyprus.jpg 2x"
-                alt="Flavour of Cyprus"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -998,13 +734,7 @@
           <hr class="food-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1017,13 +747,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload"> <!-- TODO: change alt text -->
+ <!-- TODO: change alt text -->
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1036,13 +760,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1055,13 +773,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1074,13 +786,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1092,13 +798,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1113,13 +813,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload"> <!-- TODO: change alt text -->
+ <!-- TODO: change alt text -->
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1131,13 +825,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1149,13 +837,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload"> <!-- TODO: change alt text -->
+ <!-- TODO: change alt text -->
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1167,13 +849,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1186,13 +862,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload"> <!-- TODO: change alt text -->
+ <!-- TODO: change alt text -->
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1204,13 +874,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1222,13 +886,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1243,13 +901,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1262,13 +914,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload"> <!-- TODO: change alt text -->
+ <!-- TODO: change alt text -->
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1281,13 +927,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1300,13 +940,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload"> <!-- TODO: change alt text -->
+ <!-- TODO: change alt text -->
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1320,13 +954,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload"> <!-- TODO: change alt text -->
+ <!-- TODO: change alt text -->
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1339,13 +967,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1357,13 +979,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload"> <!-- TODO: change alt text -->
+ <!-- TODO: change alt text -->
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1375,13 +991,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1393,13 +1003,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897003/website-template-3/from-the-grill.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897003/website-template-3/from-the-grill.jpg 2x"
-                alt="From the grill"
-                class="rounded-circle lazyload"> <!-- TODO: change alt text -->
+ <!-- TODO: change alt text -->
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1417,13 +1021,7 @@
           <hr class="food-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897119/website-template-3/pasta.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897119/website-template-3/pasta.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897119/website-template-3/pasta.jpg 2x"
-                alt="Pasta"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1436,13 +1034,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897119/website-template-3/pasta.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897119/website-template-3/pasta.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897119/website-template-3/pasta.jpg 2x"
-                alt="Pasta"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1463,13 +1055,7 @@
           <hr class="food-horizontal-rule">
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897297/website-template-3/pies.jpg 2x"
-                alt="Pie"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1482,13 +1068,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897297/website-template-3/pies.jpg 2x"
-                alt="Pie"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1500,13 +1080,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897297/website-template-3/pies.jpg 2x"
-                alt="Pie"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1518,13 +1092,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897297/website-template-3/pies.jpg 2x"
-                alt="Pie"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1536,13 +1104,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897297/website-template-3/pies.jpg 2x"
-                alt="Pie"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1554,13 +1116,7 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897297/website-template-3/pies.jpg 2x"
-                alt="Pie"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1572,13 +1128,7 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_150/v1537897297/website-template-3/pies.jpg 1x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_300/v1537897297/website-template-3/pies.jpg 2x"
-                alt="Pie"
-                class="rounded-circle lazyload">
+
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1594,10 +1144,10 @@
 
       </div>
 
-      <!-- GOOGLE MAP -->
+      <!-- GOOGLE MAP 
       <div id="googleMapContainer" class="homepage-google-map">
         <iframe title="Our location on Google My Maps" class="google-map" src="https://www.google.com/maps/d/embed?mid=1YihUagJV98aTSoPRpalSyqRjTVhaFv5E&hl=en"></iframe>
-      </div>
+      </div>-->
 
     </main>
     <footer class="page-footer">

@@ -178,10 +178,10 @@
         </div>
       </div>
       
-      <!-- GOOGLE MAP -->
+      <!-- GOOGLE MAP
       <div id="googleMapContainer" class="homepage-google-map">
         <iframe title="Our location on Google My Maps" class="google-map" src="https://www.google.com/maps/d/embed?mid=1YihUagJV98aTSoPRpalSyqRjTVhaFv5E&hl=en"></iframe>
-      </div>
+      </div> -->
 
     </main>
     <footer class="page-footer">
