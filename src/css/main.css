@@ -109,10 +109,10 @@ a, a:hover {
   display: block;
   width: 300px;
   height: 60px;
-  border: 1px solid #003166;
+  border: 1px solid #5a0000;
   text-align: center;
   color: #fff;
-  background: #003D7F;
+  background: #6b0101;
   border-radius: 4px;
   box-shadow: 0 0 30px rgba(0,0,0,.15) inset, 0 6px 10px rgba(0,0,0,.15);
 }
@@ -126,9 +126,9 @@ a, a:hover {
   display: block;
   width: 60px;
   height: 0px;
-  border: 30px solid #003D7F;
-  border-right: 20px solid #001933;
-  border-bottom-color: #003166;
+  border: 30px solid #6b0101;
+  border-right: 20px solid #460000;
+  border-bottom-color: #5a0000;
   border-left-color: transparent;
   transform: rotate(-5deg);
 }
@@ -136,7 +136,7 @@ a, a:hover {
 .banner::after {
   left: auto;
   right: -37px;
-  border-left: 20px solid #001933;
+  border-left: 20px solid #460000;
   border-right: 30px solid transparent;
   transform: rotate(5deg);
 }
@@ -228,7 +228,7 @@ a, a:hover {
 .homepage-about-us {
   overflow: hidden;
   position: relative;
-  background-color: #001F40;
+  background-color: #6b0101;
 }
 
 .homepage-about-us-bg {
@@ -324,7 +324,7 @@ a, a:hover {
   padding-top: 4rem;
   font-size: 0.75rem;
   text-align: center;
-  background: #001F40;
+  background: #6b0101; /* Couleur du pied de page */
   line-height: 1.75;
 }
 
@@ -350,7 +350,7 @@ a, a:hover {
 .page-footer-copyright {
   position: relative;
   z-index: 2;
-  background: #003D7F;
+  background: #b10000; /* Couleur du pied de page */
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
@@ -396,7 +396,7 @@ a, a:hover {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-color: #007bff;
+  background-color: #b10000;
   transition: all 0.3s ease-in-out;
   text-align: center;
   line-height: 47px;
@@ -404,7 +404,7 @@ a, a:hover {
 }
 
 .footer-social:hover {
-  background-color: #0069d9;
+  background-color: #970000;
   transform: scale(1.1) rotate(360deg);
 }
 
@@ -678,6 +678,7 @@ a, a:hover {
 
 .menu-icon-text {
   display: none;
+  font-size: 1.5rem;
 }
 
 .food-jumbotron h1 {
@@ -917,7 +918,7 @@ a, a:hover {
  */
 
 .album-description {
-  background: #003d7f;
+  background: #5c0101;
   padding-top: 8rem;
   padding-bottom: 8rem;
   text-align: center;
@@ -1046,7 +1047,7 @@ a, a:hover {
   .page-footer-title::before {
     content: '';
     width: 30px;
-    border-top: #007bff;
+    border-top: #b10000;
     border-top-style: solid;
     border-top-width: 3px;
     display: block;
@@ -1057,7 +1058,7 @@ a, a:hover {
     content: '';
     display: block;
     width: 30px;
-    border-top: 3px solid #007bff;
+    border-top: 3px solid #b10000;
     margin-bottom: .8rem;
   }
 
