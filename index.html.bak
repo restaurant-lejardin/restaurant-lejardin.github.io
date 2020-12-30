@@ -98,7 +98,7 @@
                 https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/location/front.jpg 2300w,
                 https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/location/front.jpg 2500w,
                 https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/location/front.jpg 2500w"
-              src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322021/website-template-3/cover-homepage-1.jpg"
+              src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/location/front.jpg"
               alt="First slide">
             <div class="carousel-caption">
               <h1 class="brand-title display-2 animated fadeInDown">Restaurant Chinois Le Jardin</h1>
@@ -110,31 +110,23 @@
             <img
               sizes="(max-width: 2560px) 100vw, 2560px"
               srcset="
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_320/v1535322195/website-template-3/cover-homepage-2.jpg 320w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_618/v1535322195/website-template-3/cover-homepage-2.jpg 618w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_842/v1535322195/website-template-3/cover-homepage-2.jpg 842w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1037/v1535322195/website-template-3/cover-homepage-2.jpg 1037w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1200/v1535322195/website-template-3/cover-homepage-2.jpg 1200w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1326/v1535322195/website-template-3/cover-homepage-2.jpg 1326w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1439/v1535322195/website-template-3/cover-homepage-2.jpg 1439w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1541/v1535322195/website-template-3/cover-homepage-2.jpg 1541w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1639/v1535322195/website-template-3/cover-homepage-2.jpg 1639w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1724/v1535322195/website-template-3/cover-homepage-2.jpg 1724w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1808/v1535322195/website-template-3/cover-homepage-2.jpg 1808w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1886/v1535322195/website-template-3/cover-homepage-2.jpg 1886w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1963/v1535322195/website-template-3/cover-homepage-2.jpg 1963w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2037/v1535322195/website-template-3/cover-homepage-2.jpg 2037w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2108/v1535322195/website-template-3/cover-homepage-2.jpg 2108w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2169/v1535322195/website-template-3/cover-homepage-2.jpg 2169w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2238/v1535322195/website-template-3/cover-homepage-2.jpg 2238w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2301/v1535322195/website-template-3/cover-homepage-2.jpg 2301w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2361/v1535322195/website-template-3/cover-homepage-2.jpg 2361w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2420/v1535322195/website-template-3/cover-homepage-2.jpg 2420w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2477/v1535322195/website-template-3/cover-homepage-2.jpg 2477w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2536/v1535322195/website-template-3/cover-homepage-2.jpg 2536w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2558/v1535322195/website-template-3/cover-homepage-2.jpg 2558w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322195/website-template-3/cover-homepage-2.jpg 2560w"
-              src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322195/website-template-3/cover-homepage-2.jpg"
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1608405084/Entrees/11_oc07di.png 300w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_500/v1608405084/Entrees/11_oc07di.png 500w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1608405084/Entrees/11_oc07di.png 700w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1608405084/Entrees/11_oc07di.png 900w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1608405084/Entrees/11_oc07di.png 1100w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1200/v1608405084/Entrees/11_oc07di.png 1200w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1608405084/Entrees/11_oc07di.png 1400w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1608405084/Entrees/11_oc07di.png 1500w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1608405084/Entrees/11_oc07di.png 1700w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/v1608405084/Entrees/11_oc07di.png 1800w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1608405084/Entrees/11_oc07di.png 1900w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1608405084/Entrees/11_oc07di.png 2100w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1608405084/Entrees/11_oc07di.png 2200w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1608405084/Entrees/11_oc07di.png 2300w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1608405084/Entrees/11_oc07di.png 2500w,
+              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1608405084/Entrees/11_oc07di.png 2500w"
+            src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1608405084/Entrees/11_oc07di.png"
               alt="Second slide">
             <div class="carousel-caption">
               <h1 class="brand-title display-2 animated fadeInDown">Restaurant Chinois Le Jardin</h1>
@@ -146,35 +138,23 @@
             <img
               sizes="(max-width: 2560px) 100vw, 2560px"
               srcset="
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_320/v1535322301/website-template-3/cover-homepage-3.jpg 320w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_525/v1535322301/website-template-3/cover-homepage-3.jpg 525w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_682/v1535322301/website-template-3/cover-homepage-3.jpg 682w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_827/v1535322301/website-template-3/cover-homepage-3.jpg 827w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_945/v1535322301/website-template-3/cover-homepage-3.jpg 945w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1052/v1535322301/website-template-3/cover-homepage-3.jpg 1052w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1153/v1535322301/website-template-3/cover-homepage-3.jpg 1153w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1251/v1535322301/website-template-3/cover-homepage-3.jpg 1251w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1346/v1535322301/website-template-3/cover-homepage-3.jpg 1346w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1427/v1535322301/website-template-3/cover-homepage-3.jpg 1427w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1506/v1535322301/website-template-3/cover-homepage-3.jpg 1506w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1592/v1535322301/website-template-3/cover-homepage-3.jpg 1592w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1680/v1535322301/website-template-3/cover-homepage-3.jpg 1680w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1760/v1535322301/website-template-3/cover-homepage-3.jpg 1760w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1814/v1535322301/website-template-3/cover-homepage-3.jpg 1814w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1895/v1535322301/website-template-3/cover-homepage-3.jpg 1895w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1972/v1535322301/website-template-3/cover-homepage-3.jpg 1972w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2034/v1535322301/website-template-3/cover-homepage-3.jpg 2034w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2107/v1535322301/website-template-3/cover-homepage-3.jpg 2107w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2174/v1535322301/website-template-3/cover-homepage-3.jpg 2174w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2245/v1535322301/website-template-3/cover-homepage-3.jpg 2245w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2302/v1535322301/website-template-3/cover-homepage-3.jpg 2302w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2366/v1535322301/website-template-3/cover-homepage-3.jpg 2366w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2429/v1535322301/website-template-3/cover-homepage-3.jpg 2429w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2497/v1535322301/website-template-3/cover-homepage-3.jpg 2497w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2559/v1535322301/website-template-3/cover-homepage-3.jpg 2559w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2555/v1535322301/website-template-3/cover-homepage-3.jpg 2555w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322301/website-template-3/cover-homepage-3.jpg 2560w"
-              src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322301/website-template-3/cover-homepage-3.jpg"
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1609323150/Food/t7_oqtwnq.jpg 300w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_500/v1609323150/Food/t7_oqtwnq.jpg 500w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1609323150/Food/t7_oqtwnq.jpg 700w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1609323150/Food/t7_oqtwnq.jpg 900w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1609323150/Food/t7_oqtwnq.jpg 1100w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1200/v1609323150/Food/t7_oqtwnq.jpg 1200w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1609323150/Food/t7_oqtwnq.jpg 1400w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609323150/Food/t7_oqtwnq.jpg 1500w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1609323150/Food/t7_oqtwnq.jpg 1700w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/v1609323150/Food/t7_oqtwnq.jpg 1800w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1609323150/Food/t7_oqtwnq.jpg 1900w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1609323150/Food/t7_oqtwnq.jpg 2100w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609323150/Food/t7_oqtwnq.jpg 2200w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1609323150/Food/t7_oqtwnq.jpg 2300w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609323150/Food/t7_oqtwnq.jpg 2500w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609323150/Food/t7_oqtwnq.jpg 2500w"
+              src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609323150/Food/t7_oqtwnq.jpg"
               alt="Third slide">
             <div class="container">
               <div class="carousel-caption">
@@ -188,24 +168,23 @@
             <img
               sizes="(max-width: 2560px) 100vw, 2560px"
               srcset="
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_320/v1535322386/website-template-3/cover-homepage-4.jpg 320w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_572/v1535322386/website-template-3/cover-homepage-4.jpg 572w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_782/v1535322386/website-template-3/cover-homepage-4.jpg 782w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_969/v1535322386/website-template-3/cover-homepage-4.jpg 969w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1131/v1535322386/website-template-3/cover-homepage-4.jpg 1131w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1291/v1535322386/website-template-3/cover-homepage-4.jpg 1291w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1446/v1535322386/website-template-3/cover-homepage-4.jpg 1446w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1583/v1535322386/website-template-3/cover-homepage-4.jpg 1583w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1713/v1535322386/website-template-3/cover-homepage-4.jpg 1713w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1837/v1535322386/website-template-3/cover-homepage-4.jpg 1837w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1959/v1535322386/website-template-3/cover-homepage-4.jpg 1959w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2075/v1535322386/website-template-3/cover-homepage-4.jpg 2075w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2193/v1535322386/website-template-3/cover-homepage-4.jpg 2193w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2305/v1535322386/website-template-3/cover-homepage-4.jpg 2305w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2407/v1535322386/website-template-3/cover-homepage-4.jpg 2407w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2513/v1535322386/website-template-3/cover-homepage-4.jpg 2513w,
-                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322386/website-template-3/cover-homepage-4.jpg 2560w"
-              src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322386/website-template-3/cover-homepage-4.jpg"
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 300w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_500/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 500w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 700w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 900w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 1100w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1200/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 1200w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 1400w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 1500w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 1700w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 1800w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 1900w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 2100w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 2200w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 2300w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 2500w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 2500w"
+              src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg"
               alt="Fourth slide">
             <div class="container">
               <div class="carousel-caption">
@@ -234,11 +213,11 @@
             <h3 class="special-title-2">Entrées</h3>
             <div id="entree">
               <img
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_200/v1535882302/website-template-3/homepage-food.jpg" 
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/11_oc07di.png" 
                 data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_200/v1535882302/website-template-3/homepage-food.jpg 1x, 
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_400/v1535882302/website-template-3/homepage-food.jpg 2x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_600/v1535882302/website-template-3/homepage-food.jpg 3x"
+                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_200,q_auto,w_200/v1608405084/Entrees/11_oc07di.png 1x, 
+                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_400,q_auto,w_400/v1608405084/Entrees/11_oc07di.png 2x,
+                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_600,q_auto,w_600/v1608405084/Entrees/11_oc07di.png 3x"
                 alt="Entree Menu"
                 class="rounded-circle lazyload">
                 <br>
@@ -251,11 +230,11 @@
             <h3 class="special-title-2">Plats</h3>
             <div id="food">
               <img
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_200/v1535882302/website-template-3/homepage-food.jpg" 
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_200/v1535882302/website-template-3/homepage-food.jpg 1x, 
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_400/v1535882302/website-template-3/homepage-food.jpg 2x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_600/v1535882302/website-template-3/homepage-food.jpg 3x"
+              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/60_xqiidq.jpg" 
+              data-srcset="
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_200,q_auto,w_200/v1609323150/Food/60_xqiidq.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_400,q_auto,w_400/v1609323150/Food/60_xqiidq.jpg 2x,
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_600,q_auto,w_600/v1609323150/Food/60_xqiidq.jpg 3x"
                 alt="Food Menu"
                 class="rounded-circle lazyload">
                 <br>
@@ -403,14 +382,13 @@
               <img
                 sizes="(max-width: 1016px) 100vw, 1016px"
                 data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_208/v1536003246/website-template-3/homepage-special-offers-3.jpg 208w,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_434/v1536003246/website-template-3/homepage-special-offers-3.jpg 434w,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_602/v1536003246/website-template-3/homepage-special-offers-3.jpg 602w,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_745/v1536003246/website-template-3/homepage-special-offers-3.jpg 745w,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_885/v1536003246/website-template-3/homepage-special-offers-3.jpg 885w,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1006/v1536003246/website-template-3/homepage-special-offers-3.jpg 1006w,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1016/v1536003246/website-template-3/homepage-special-offers-3.jpg 1016w"
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1016/v1536003246/website-template-3/homepage-special-offers-3.jpg"
+                  https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_200/v1608404079/Entrees/v0_jxwp8y.jpg 200w,
+                  https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_400/v1608404079/Entrees/v0_jxwp8y.jpg 400w,
+                  https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1608404079/Entrees/v0_jxwp8y.jpg 600w,
+                  https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1608404079/Entrees/v0_jxwp8y.jpg 700w,
+                  https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_800/v1608404079/Entrees/v0_jxwp8y.jpg 800w,
+                  https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1608404079/Entrees/v0_jxwp8y.jpg 1000w"
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1608404079/Entrees/v0_jxwp8y.jpg"
                 alt="Special offer"
                 class="card-img-top border-bottom border-dark lazyload">
               <div class="top-right"><span class="badge badge-pill badge-danger px-3 py-2">11€90</span></div>
@@ -560,7 +538,7 @@
             <div class="mb-3">
               <a class="footer-social" href="https://www.facebook.com/restaurantchinois.lejardin/" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
               <a class="footer-social" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html" aria-label="tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
-              <a class="footer-social" href="https://restaurantchinois-lejardin.business.site/" aria-label="google"><i class="go fa-google" aria-hidden="true"></i></a>
+              <a class="footer-social" href="https://restaurantchinois-lejardin.business.site/" aria-label="google"><i class="fa fa-google" aria-hidden="true"></i></a>
             </div>
           </div>
           <div class="col-md-0 h-100 border-left-custom">

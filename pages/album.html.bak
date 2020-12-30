@@ -80,26 +80,19 @@
           <div class="row">
             <div id="card-entree" class="col-md-4">
               <div class="card box-shadow">
-                <img class="card-img-top" src="../media/album/album-staff@1x.jpg" srcset="../media/album/album-staff@1x.jpg 1x, ../media/album/album-staff@2x.jpg 2x, ../media/album/album-staff@3x.jpg 3x, ../media/album/album-staff@4x.jpg 4x" alt="Staff image">
+                <img class="card-img-top" src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1608405084/Entrees/11_oc07di.png" 
+                        alt="Entree image">
                 <div class="card-body">
                   <h5 class="card-title font-weight-bold">ENTREES</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Aliquam fermentum a sapien non pulvinar. 
-                  </p>
                   <a href="gallery-staff.html" class="btn btn-outline-dark" role="button">View</a>
                 </div>
               </div>
             </div>
             <div id="card-food" class="col-md-4">
               <div class="card box-shadow">
-                <img class="card-img-top" src="../media/album/album-food@1x.jpg" srcset="../media/album/album-food@1x.jpg 1x, ../media/album/album-food@2x.jpg 2x, ../media/album/album-food@3x.jpg 3x, ../media/album/album-food@4x.jpg 4x" alt="Food image">
+                <img class="card-img-top" src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1609323149/Food/60_xqiidq.png" alt="Food image">
                 <div class="card-body">
                   <h5 class="card-title font-weight-bold">FOOD</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Aliquam fermentum a sapien non pulvinar. 
-                  </p>
                   <a href="gallery-food.html" class="btn btn-outline-dark" role="button">View</a>
                 </div>
               </div>
@@ -109,10 +102,6 @@
                 <img class="card-img-top" src="../media/album/album-desserts@1x.jpg" srcset="../media/album/album-desserts@1x.jpg 1x, ../media/album/album-desserts@2x.jpg 2x, ../media/album/album-desserts@3x.jpg 3x, ../media/album/album-desserts@4x.jpg 4x" alt="Dessert image">
                 <div class="card-body">
                   <h5 class="card-title font-weight-bold">DESSERTS</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Aliquam fermentum a sapien non pulvinar. 
-                  </p>
                   <a href="gallery-desserts.html" class="btn btn-outline-dark" role="button">View</a>
                 </div>
               </div>
@@ -120,29 +109,21 @@
 
           </div>
           <div class="row d-flex justify-content-center">
-            <div id="card-location" class="col-md-4">
-              <div class="card box-shadow">
-                <img class="card-img-top" src="../media/album/album-location@1x.jpg" srcset="../media/album/album-location@1x.jpg 1x, ../media/album/album-location@2x.jpg 2x, ../media/album/album-location@3x.jpg 3x, ../media/album/album-location@4x.jpg 4x" alt="Location image">
-                <div class="card-body">
-                  <h5 class="card-title font-weight-bold">LOCATION</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Aliquam fermentum a sapien non pulvinar. 
-                  </p>
-                  <a href="gallery-location.html" class="btn btn-outline-dark" role="button">View</a>
-                </div>
-              </div>
-            </div>
             <div id="card-drinks" class="col-md-4">
               <div class="card box-shadow">
                 <img class="card-img-top" src="../media/album/album-drinks@1x.jpg" srcset="../media/album/album-drinks@1x.jpg 1x, ../media/album/album-drinks@2x.jpg 2x, ../media/album/album-drinks@3x.jpg 3x, ../media/album/album-drinks@4x.jpg 4x" alt="Drink image">
                 <div class="card-body">
                   <h5 class="card-title font-weight-bold">DRINKS</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Aliquam fermentum a sapien non pulvinar. 
-                  </p>
                   <a href="gallery-drinks.html" class="btn btn-outline-dark" role="button">View</a>
+                </div>
+              </div>
+            </div>
+            <div id="card-location" class="col-md-4">
+              <div class="card box-shadow">
+                <img class="card-img-top" src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg"  alt="Location image">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">LOCATION</h5>
+                  <a href="gallery-location.html" class="btn btn-outline-dark" role="button">View</a>
                 </div>
               </div>
             </div>

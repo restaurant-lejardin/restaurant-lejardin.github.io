@@ -73,42 +73,42 @@
         <img
           sizes="(max-width: 2560px) 100vw, 2560px"
           srcset="
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_320/v1536008489/website-template-3/cover-food-menu.jpg 320w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_492/v1536008489/website-template-3/cover-food-menu.jpg 492w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_627/v1536008489/website-template-3/cover-food-menu.jpg 627w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_743/v1536008489/website-template-3/cover-food-menu.jpg 743w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_853/v1536008489/website-template-3/cover-food-menu.jpg 853w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_953/v1536008489/website-template-3/cover-food-menu.jpg 953w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1040/v1536008489/website-template-3/cover-food-menu.jpg 1040w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1120/v1536008489/website-template-3/cover-food-menu.jpg 1120w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1196/v1536008489/website-template-3/cover-food-menu.jpg 1196w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1273/v1536008489/website-template-3/cover-food-menu.jpg 1273w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1348/v1536008489/website-template-3/cover-food-menu.jpg 1348w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1416/v1536008489/website-template-3/cover-food-menu.jpg 1416w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1483/v1536008489/website-template-3/cover-food-menu.jpg 1483w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1543/v1536008489/website-template-3/cover-food-menu.jpg 1543w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1603/v1536008489/website-template-3/cover-food-menu.jpg 1603w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1665/v1536008489/website-template-3/cover-food-menu.jpg 1665w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1727/v1536008489/website-template-3/cover-food-menu.jpg 1727w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1787/v1536008489/website-template-3/cover-food-menu.jpg 1787w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1847/v1536008489/website-template-3/cover-food-menu.jpg 1847w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1900/v1536008489/website-template-3/cover-food-menu.jpg 1900w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1947/v1536008489/website-template-3/cover-food-menu.jpg 1947w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2001/v1536008489/website-template-3/cover-food-menu.jpg 2001w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2051/v1536008489/website-template-3/cover-food-menu.jpg 2051w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2104/v1536008489/website-template-3/cover-food-menu.jpg 2104w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2157/v1536008489/website-template-3/cover-food-menu.jpg 2157w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2203/v1536008489/website-template-3/cover-food-menu.jpg 2203w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2251/v1536008489/website-template-3/cover-food-menu.jpg 2251w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2299/v1536008489/website-template-3/cover-food-menu.jpg 2299w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2343/v1536008489/website-template-3/cover-food-menu.jpg 2343w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2389/v1536008489/website-template-3/cover-food-menu.jpg 2389w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2439/v1536008489/website-template-3/cover-food-menu.jpg 2439w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2486/v1536008489/website-template-3/cover-food-menu.jpg 2486w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2526/v1536008489/website-template-3/cover-food-menu.jpg 2526w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2558/v1536008489/website-template-3/cover-food-menu.jpg 2558w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1536008489/website-template-3/cover-food-menu.jpg 2560w"
-          src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1536008489/website-template-3/cover-food-menu.jpg"
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1609326356/Autres/bamboo2_iaabt7.jpg 3 00w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_400/v1609326356/Autres/bamboo2_iaabt7.jpg 400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609326356/Autres/bamboo2_iaabt7.jpg 600w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1609326356/Autres/bamboo2_iaabt7.jpg 700w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_800/v1609326356/Autres/bamboo2_iaabt7.jpg 800w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1609326356/Autres/bamboo2_iaabt7.jpg 900w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609326356/Autres/bamboo2_iaabt7.jpg 1000w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1609326356/Autres/bamboo2_iaabt7.jpg 1100w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1609326356/Autres/bamboo2_iaabt7.jpg 1100w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1200/v1609326356/Autres/bamboo2_iaabt7.jpg 1200w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1300/v1609326356/Autres/bamboo2_iaabt7.jpg 1300w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1609326356/Autres/bamboo2_iaabt7.jpg 1400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1609326356/Autres/bamboo2_iaabt7.jpg 1400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609326356/Autres/bamboo2_iaabt7.jpg 1500w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1600/v1609326356/Autres/bamboo2_iaabt7.jpg 1600w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1600/v1609326356/Autres/bamboo2_iaabt7.jpg 1600w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1609326356/Autres/bamboo2_iaabt7.jpg 1700w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1609326356/Autres/bamboo2_iaabt7.jpg 1700w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/v1609326356/Autres/bamboo2_iaabt7.jpg 1800w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1609326356/Autres/bamboo2_iaabt7.jpg 1900w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1609326356/Autres/bamboo2_iaabt7.jpg 1900w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2000/v1609326356/Autres/bamboo2_iaabt7.jpg 2000w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2000/v1609326356/Autres/bamboo2_iaabt7.jpg 2000w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1609326356/Autres/bamboo2_iaabt7.jpg 2100w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1609326356/Autres/bamboo2_iaabt7.jpg 2100w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609326356/Autres/bamboo2_iaabt7.jpg 2200w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609326356/Autres/bamboo2_iaabt7.jpg 2200w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609326356/Autres/bamboo2_iaabt7.jpg 2200w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1609326356/Autres/bamboo2_iaabt7.jpg 2300w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1609326356/Autres/bamboo2_iaabt7.jpg 2300w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2400/v1609326356/Autres/bamboo2_iaabt7.jpg 2400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2400/v1609326356/Autres/bamboo2_iaabt7.jpg 2400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg 2500w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg 2500w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg 2500w"
+          src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg"
           alt=""
           class="food-jumbotron-bg">
         <div class="food-jumbotron-caption container">
@@ -151,7 +151,7 @@
                 data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404955/Entrees/6_myf21o.png"
                 data-srcset="
                   https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/6_myf21o.jpg 1x,
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_300/v1608404079/Entrees/6_myf21o.jpg 2x"
+                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/6_myf21o.jpg 2x"
                 alt="Breakfast"
                 class="rounded-circle lazyload">
             </div>
@@ -180,7 +180,7 @@
                 data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/10_klhddm.jpg"
                 data-srcset="
                   https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/10_klhddm.jpg 1x,
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_300/v1608404079/Entrees/10_klhddm.jpg 2x"
+                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/10_klhddm.jpg 2x"
                 alt="Breakfast"
                 class="rounded-circle lazyload">
             </div>
@@ -193,13 +193,6 @@
           </div>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <!-- <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/10_klhddm.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/10_klhddm.jpg 1x,
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_300/v1608404079/Entrees/10_klhddm.jpg 2x"
-                alt="Breakfast"
-                class="rounded-circle lazyload"> -->
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -214,7 +207,7 @@
                 data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/t1_yntkqo.jpg"
                 data-srcset="
                   https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/t1_yntkqo.jpg 1x,
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_300/v1608404079/Entrees/t1_yntkqo.jpg 2x"
+                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/t1_yntkqo.jpg 2x"
                 alt="Breakfast"
                 class="rounded-circle lazyload">
             </div>
@@ -248,7 +241,7 @@
                 data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/11_oc07di.png"
                 data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/11_oc07di.png 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_300/v1608405084/Entrees/11_oc07di.png 2x"
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608405084/Entrees/11_oc07di.png 2x"
                 alt="Burger"
                 class="rounded-circle lazyload">
             </div>
@@ -296,7 +289,7 @@
                 data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/12_hhvrv1.jpg"
                 data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/12_hhvrv1.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_300/v1608404079/Entrees/12_hhvrv1.jpg 2x"
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/12_hhvrv1.jpg 2x"
                 alt="Burger"
                 class="rounded-circle lazyload">
             </div>
@@ -319,7 +312,7 @@
                 data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/12a_nbecdm.jpg"
                 data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/12a_nbecdm.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_300/v1608405084/Entrees/12a_nbecdm.jpg 2x"
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608405084/Entrees/12a_nbecdm.jpg 2x"
                 alt="Burger"
                 class="rounded-circle lazyload">
             </div>
@@ -339,7 +332,7 @@
                 data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/13_ocz4on.jpg"
                 data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/13_ocz4on.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_300/v1608404079/Entrees/13_ocz4on.jpg 2x"
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/13_ocz4on.jpg 2x"
                 alt="Burger"
                 class="rounded-circle lazyload">
             </div>
@@ -386,7 +379,7 @@
                 data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/t3_cydjya.jpg"
                 data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/t3_cydjya.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_300/v1608405084/Entrees/t3_cydjya.jpg 2x"
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608405084/Entrees/t3_cydjya.jpg 2x"
                 alt="Burger"
                 class="rounded-circle lazyload">
             </div>
@@ -452,7 +445,7 @@
                 data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r2_xleer1.jpg"
                 data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r2_xleer1.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_300/v1608404079/Entrees/r2_xleer1.jpg 2x"
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/r2_xleer1.jpg 2x"
                 alt="Raviolis"
                 class="rounded-circle lazyload">
             </div>
@@ -470,7 +463,7 @@
                 data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r4_npr56y.png"
                 data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r4_npr56y.png 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_300/v1608404079/Entrees/r4_npr56y.png 2x"
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/r4_npr56y.png 2x"
                 alt="Raviolis"
                 class="rounded-circle lazyload">
             </div>
@@ -490,7 +483,7 @@
                 data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/v0_jxwp8y.jpg"
                 data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/v0_jxwp8y.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_300/v1608404079/Entrees/v0_jxwp8y.jpg 2x"
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/v0_jxwp8y.jpg 2x"
                 alt="Raviolis"
                 class="rounded-circle lazyload">
             </div>
