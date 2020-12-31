@@ -810,8 +810,22 @@ a, a:hover {
   background: #fff;
 }
 
+.drink-name2 {
+  position: relative;
+  font-weight: lighter;
+  padding-right: 15px;
+  background: #fff;
+}
+
 .drink-price {
   position: relative;
+  padding-left: 15px;
+  background: #fff;
+}
+
+.drink-price2 {
+  position: relative;
+  font-weight: lighter;
   padding-left: 15px;
   background: #fff;
 }

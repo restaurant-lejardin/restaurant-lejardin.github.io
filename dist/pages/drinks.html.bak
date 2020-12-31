@@ -113,39 +113,51 @@
           <h1 id="title-1" class="special-title-2">Drinks Menu</h1>
           <div id="menu-icons">
             <div class="row">
-              <div class="col-3">
+              <div class="col-4">
                 <a href="#aperitifs" class="smooth-scroll"><img class="menu-icon" src="../media/menu/drinks/icons/aperitifs.svg" alt="Aperitifs"></a>
                 <h6 class="mt-3 mb-0 menu-icon-text">APERITIFS</h6>
               </div>
-              <div class="col-3">
+              <div class="col-4">
                 <a href="#brandies" class="smooth-scroll"><img class="menu-icon" src="../media/menu/drinks/icons/spirits.svg" alt="Brandies"></a>
                 <h6 class="mt-3 mb-0 menu-icon-text">DIGESTIFS</h6>
               </div>
-              <div class="col-3">
+              <div class="col-4">
                 <a href="#beers" class="smooth-scroll"><img class="menu-icon" src="../media/menu/drinks/icons/beers.svg" alt="Beers"></a>
                 <h6 class="mt-3 mb-0 menu-icon-text">BIERES</h6>
               </div>
-              <div class="col-3">
-                <a href="#cocktails" class="smooth-scroll"><img class="menu-icon" src="../media/menu/drinks/icons/cocktails.svg" alt="Cocktails"></a>
-                <h6 class="mt-3 mb-0 menu-icon-text">COCKTAILS</h6>
-              </div>
+
             </div>
             <div class="row mt-5">
-              <div class="col-3">
+              <div class="col-4">
                 <a href="#cold-beverages" class="smooth-scroll"><img class="menu-icon" src="../media/menu/drinks/icons/cold-beverages.svg" alt="Cold beverages"></a>
                 <h6 class="mt-3 mb-0 menu-icon-text">EAUX & SODAS</h6>
               </div>
-              <div class="col-3">
+              <div class="col-4">
                 <a href="#liqueurs" class="smooth-scroll"><img class="menu-icon" src="../media/menu/drinks/icons/liqueurs.svg" alt="Liqueurs"></a>
                 <h6 class="mt-3 mb-0 menu-icon-text">SPECIALITES</h6>
               </div>
-              <div class="col-3">
+              <div class="col-4">
                 <a href="#hot-beverages" class="smooth-scroll"><img class="menu-icon" src="../media/menu/drinks/icons/hot-beverages.svg" alt="Hot beverages"></a>
                 <h6 class="mt-3 mb-0 menu-icon-text">CAFES & THES</h6>
               </div>
+            </div>
+
+            <div class="row mt-5">
               <div class="col-3">
-                <a href="#milkshakes" class="smooth-scroll"><img class="menu-icon" src="../media/menu/drinks/icons/wines.svg" alt="Milkshakes"></a>
-                <h6 class="mt-3 mb-0 menu-icon-text">VINS</h6>
+                <a href="#milkshakes" class="smooth-scroll"><img class="menu-icon" src="../media/menu/drinks/icons/wines.svg" alt="Vins rouges"></a>
+                <h6 class="mt-3 mb-0 menu-icon-text">VINS ROUGES</h6>
+              </div>
+              <div class="col-3">
+                <a href="#roses" class="smooth-scroll"><img class="menu-icon" src="../media/menu/drinks/icons/wines.svg" alt="Rosés"></a>
+                <h6 class="mt-3 mb-0 menu-icon-text">VINS ROSES</h6>
+              </div>
+              <div class="col-3">
+                <a href="#vins-blancs" class="smooth-scroll"><img class="menu-icon" src="../media/menu/drinks/icons/wines.svg" alt="Vins blancs"></a>
+                <h6 class="mt-3 mb-0 menu-icon-text">VINS BLANCS</h6>
+              </div>
+              <div class="col-3">
+                <a href="#pichets" class="smooth-scroll"><img class="menu-icon" src="../media/menu/drinks/icons/jug2.svg" alt="Pichets"></a>
+                <h6 class="mt-3 mb-0 menu-icon-text">PICHETS DE VIN</h6>
               </div>
             </div>
             
@@ -163,7 +175,7 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Chips de crevettes    </span>
-              <span class="drink-price float-right">1.<sup>50</sup></span>
+              <span class="drink-price float-right">1.<sup>50</sup>€</span>
             </h3>
             <p class="drink-ingredients">
               Offerts avec l'apéritif
@@ -174,51 +186,61 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Cocktail Chinois (12 cl)</span>
+              <span class="drink-price float-right">4.<sup>80</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">China Blue (20 cl)</span>
+              <span class="drink-price float-right">6.<sup>80</sup>€</span> 
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Shanghai Orange (20 cl)</span>
+              <span class="drink-price float-right">6.<sup>80</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Kir (12 cl)</span>
+              <span class="drink-price float-right">4.<sup>80</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Martini rosso ou bianco</span>
+              <span class="drink-price float-right">4.<sup>80</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Baileys frappé</span>
+              <span class="drink-price float-right">5€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Suze</span>
+              <span class="drink-price float-right">4.<sup>80</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Porto</span>
+              <span class="drink-price float-right">4.<sup>80</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Ricard (2 cl)</span>
+              <span class="drink-price float-right">4.<sup>50</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Whisky (4 cl)</span>
+              <span class="drink-price float-right">7€</span>
             </h3>
           </div>
         </div>
@@ -230,36 +252,43 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">MEI KUEI LU (alcool de riz)</span>
+              <span class="drink-price float-right">4.<sup>20</sup>€</span>
             </h3>
           </div>        
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Calvados, Gin</span>
+              <span class="drink-price float-right">5.<sup>20</sup>€</span>
             </h3>
           </div>    
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Vodka (2,5 cl)</span>
+              <span class="drink-price float-right">5.<sup>20</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Poire WIlliams</span>
+              <span class="drink-price float-right">5.<sup>20</sup>€</span>
             </h3>
           </div>        
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Grand Marnier</span>
+              <span class="drink-price float-right">5.<sup>20</sup>€</span>
             </h3>
           </div>    
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Cointreau</span>
+              <span class="drink-price float-right">5.<sup>20</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Cognac V.S. (4 cl)</span>
+              <span class="drink-price float-right">8.<sup>50</sup>€</span>
             </h3>
           </div>
         </div>
@@ -270,237 +299,422 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">HEINEKEN (25 cl)</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
             </h3>
           </div> 
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">TSING TAO (33 cl ou 64 cl)</span>
+              <span class="drink-name">TSING TAO (33 cl / 64 cl)</span>
+              <span class="drink-price float-right">4€ / 7€ </span>
             </h3>
           </div>
-        </div>
-
-
-        <!-- COCKTAILS -->
-        <div id="cocktails" class="drink-category">
-          <h2 class="banner">COCKTAILS</h2>
-          
-          <div class="menu-item">
-            <h3 class="drink-title">
-              <span class="drink-name">CUBA LIBRE</span>
-            </h3>
-          </div>
-          
-          <div class="menu-item">
-            <h3 class="drink-title">
-              <span class="drink-name">PINA COLADA</span>
-            </h3>
-          </div>
-          
-          <div class="menu-item">
-            <h3 class="drink-title">
-              <span class="drink-name">BLACK RUSSIAN</span>
-            </h3>
-          </div>
-          
         </div>
 
         <!-- COLD BEVERAGES -->
         <div id="cold-beverages" class="drink-category">
-          <h2 class="banner">COLD BEVERAGES</h2>
+          <h2 class="banner">EAUX & SODAS</h2>
           
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">SMOOTHIE</span>
+              <span class="drink-name">Vittel (50 cl / 100 cl)</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€ / 6€</span>
             </h3>
-          </div>
-          
+          </div>     
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">ICED TEA</span>
+              <span class="drink-name">Badoit, San Pellegrino (50 cl / 100 cl)</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€ / 6€</span>
             </h3>
-          </div>
-          
+          </div>          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">SOFT DRINK</span>
+              <span class="drink-name">Perrier (33 cl)</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
             </h3>
           </div>
-          
-        </div>
+          <hr class="drink-horizontal-rule">
 
-        <!-- HOT BEVERAGES -->
-        <div id="hot-beverages" class="drink-category">
-          <h2 class="banner">HOT BEVERAGES</h2>
-          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">COFFEE</span>
+              <span class="drink-name">Jus d'orange</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
             </h3>
-          </div>
-          
+          </div>     
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">TEA</span>
+              <span class="drink-name">Jus d'ananas</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
             </h3>
-          </div>
-          
+          </div>          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">HOT CHOCOLATE</span>
+              <span class="drink-name">Jus de pomme</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
             </h3>
           </div>
-          
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Coca-Cola (33 cl)</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+            </h3>
+          </div>     
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Coca-Cola Zero (33 cl)</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+            </h3>
+          </div>          
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Ice Tea, Orangina</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Limonade (soda)</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+            </h3>
+          </div>
         </div>
 
         <!-- LIQUEURS -->
         <div id="liqueurs" class="drink-category">
-          <h2 class="banner">LIQUEURS</h2>
+          <h2 class="banner">SPECIALITES (sans alcool)</h2>
           
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">TIA MARIA</span>
+              <span class="drink-name">Lait de soja (chaud ou froid)</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
             </h3>
           </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Lait de coco</span>
+              <span class="drink-price float-right">4€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Jus de coco</span>
+              <span class="drink-price float-right">4€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Jus de mangue</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Jus de goyave</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Jus de lychees</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Cocktail de fruits</span>
+              <span class="drink-price float-right">4.<sup>80</sup>€</span>
+            </h3>
+          </div>
+        </div>
+
+        <!-- HOT BEVERAGES -->
+        <div id="hot-beverages" class="drink-category">
+          <h2 class="banner">CAFES & THES</h2>
           
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">GALLIANO</span>
+              <span class="drink-name">Expresso</span>
+              <span class="drink-price float-right">2.<sup>20</sup>€</span>
             </h3>
           </div>
-          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">COINTREAU</span>
+              <span class="drink-name">Cafe long, décaféiné</span>
+              <span class="drink-price float-right">2.<sup>50</sup>€</span>
             </h3>
           </div>
-          
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Chocolat chaud</span>
+              <span class="drink-price float-right">4€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Cappuccino, café au lait</span>
+              <span class="drink-price float-right">4€</span>
+            </h3>
+          </div>
+          <hr class="drink-horizontal-rule">
+
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Thé au jasmin</span>
+              <span class="drink-price float-right">3€</span>
+            </h3>
+          </div>     
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Thé vert</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+            </h3>
+          </div>          
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Thé vert Xi ju long jing</span>
+              <span class="drink-price float-right">3€</span>
+            </h3>
+          </div>     
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Thé Oolong Tie guan yin</span>
+              <span class="drink-price float-right">3.<sup>30</sup>€</span>
+            </h3>
+          </div>          
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Thé oolong Da hong pao</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Thé noir yunnan puer</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Thé blanc An ji bai cha</span>
+              <span class="drink-price float-right">3.<sup>30</sup>€</span>
+            </h3>
+          </div>          
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Thé vert à la menthe fraîche</span>
+              <span class="drink-price float-right">3.<sup>30</sup>€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Infusion de chrysanthème</span>
+              <span class="drink-price float-right">3€</span>
+            </h3>
+          </div>     
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Infusion de rose</span>
+              <span class="drink-price float-right">3€</span>
+            </h3>
+          </div>          
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Infusion (verveine, tilleul, lipton)</span>
+              <span class="drink-price float-right">3€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h4 class="drink-title">
+              <span class="drink-name2">Suppl. eau chaude</span>
+              <span class="drink-price2 float-right">1€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h4 class="drink-title">
+              <span class="drink-name2">Suppl. citron <u>ou</u> lait</span>
+              <span class="drink-price2 float-right">0.<sup>50</sup>€</span>
+            </h3>
+          </div>
         </div>
 
         <!-- MILKSHAKES -->
         <div id="milkshakes" class="drink-category">
-          <h2 class="banner">MILKSHAKES</h2>
-          
+          <h2 class="banner">VINS ROUGES en bouteille </h2>
+          <p>Notre sélection A.O.C/A.O.P <span class="float-right">75 cl / 37.5 cl</span></p>
+          <br>
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">CHOCOLATE MILKSHAKE</span>
+              <span class="drink-name">Rhône - Côtes du Rhone</span>
+              <span class="drink-price float-right">18€ / 11.<sup>50</sup>€</span>
             </h3>
           </div>
-          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">BANANA MILKSHAKE</span>
+              <span class="drink-name">Loire - Touraine Gamay</span>
+              <span class="drink-price float-right">18€ / 11.<sup>50</sup>€</span>
             </h3>
           </div>
-          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">VANILLA MILKSHAKE</span>
+              <span class="drink-name">Beaujolais - Brouilly</span>
+              <span class="drink-price float-right">22€ / 13€</span>
             </h3>
           </div>
-          
-        </div>
-
-        <!-- SHOOTERS -->
-        <div id="shooters" class="drink-category">
-          <h2 class="banner">SHOOTERS</h2>
-          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">B-52</span>
+              <span class="drink-name">Bourgogne - Hautes Côtes de Beaune</span>
+              <span class="drink-price float-right">30€ / -</span>
             </h3>
           </div>
-          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">TNT</span>
+              <span class="drink-name">Bordeaux - Bordeaux Supérieur</span>
+              <span class="drink-price float-right">22€ / 13€</span>
             </h3>
           </div>
-          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">A-BOMB</span>
+              <span class="drink-name">Bordeaux - Médoc 09/14</span>
+              <span class="drink-price float-right">24€ / 14€</span>
             </h3>
           </div>
-          
-        </div>
-
-        <!-- SPIRITS -->
-        <div id="spirits" class="drink-category">
-          <h2 class="banner">SPIRITS</h2>
-          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">SMIRNOFF VODKA</span>
+              <span class="drink-name">Bordeaux - Saint-Emilion 09/12</span>
+              <span class="drink-price float-right">30€ / 16€</span>
             </h3>
           </div>
-          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">CASA NOBLE TEQUILA</span>
+              <span class="drink-name">Bordeaux - Saint-Emilion Grand Cru</span>
+              <span class="drink-price float-right">32€ / -</span>
             </h3>
           </div>
-          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">BACARDI RUM</span>
+              <span class="drink-name">Bordeaux - Pomerol</span>
+              <span class="drink-price float-right">42€ / -</span>
             </h3>
           </div>
-          
-        </div>
-
-        <!-- WHISKEYS -->
-        <div id="whiskeys" class="drink-category">
-          <h2 class="banner">WHISKEYS</h2>
-          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">JAMESON</span>
+              <span class="drink-name">Chine - Greatwall</span>
+              <span class="drink-price float-right">24€ / -</span>
             </h3>
           </div>
-          
-          <div class="menu-item">
-            <h3 class="drink-title">
-              <span class="drink-name">JOHNNIE WALKER</span>
-            </h3>
-          </div>
-          
-          <div class="menu-item">
-            <h3 class="drink-title">
-              <span class="drink-name">JACK DANIELS</span>
-            </h3>
-          </div>
-          
         </div>
 
         <!-- WINES -->
-        <div id="wines" class="drink-category">
-          <h2 class="banner">WINES</h2>
-          
+        <div id="roses" class="drink-category">
+          <h2 class="banner">VINS ROSES en bouteille</h2>
+          <p>Notre sélection A.O.C/A.O.P <span class="float-right">75 cl / 37.5 cl</span></p>
+          <br>
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">MEYER</span>
+              <span class="drink-name">Provence - Côtes de Provence</span>
+              <span class="drink-price float-right">20€ / 12€</span>
             </h3>
           </div>
-          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">ALTESINO</span>
+              <span class="drink-name">Provence - Bandol</span>
+              <span class="drink-price float-right">23€ / -</span>
             </h3>
           </div>
-          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">PAZO DE SENORANS</span>
+              <span class="drink-name">Loire - Cabernet d'Anjou (demi-sec)</span>
+              <span class="drink-price float-right">17€ / -</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Rhône - Tavel</span>
+              <span class="drink-price float-right">23€ / -</span>
             </h3>
           </div>
         </div>
 
-      </div>
+        <div id="vins-blancs" class="drink-category">
+          <h2 class="banner">VINS BLANCS en bouteille</h2>
+          <p>Notre sélection A.O.C/A.O.P <span class="float-right">75 cl / 37.5 cl</span></p>
+          <br>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Pays d'Oc - Chardonnay (fruité)</span>
+              <span class="drink-price float-right">18€ / 11.<sup>50</sup>€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Alsace - Riesling</span>
+              <span class="drink-price float-right">20€ / 12€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Bourgogne - Chablis 1er cru</span>
+              <span class="drink-price float-right">45€ / -</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Bourgogne - Chablis</span>
+              <span class="drink-price float-right">39€ / 21€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Loire - Muscadet sur lie</span>
+              <span class="drink-price float-right">20€ / 12€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Champagne - Moet et Chandon</span>
+              <span class="drink-price float-right">65€ / -</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Champagne - Duval-Leroy 1er cru</span>
+              <span class="drink-price float-right">- / 39€</span>
+            </h3>
+          </div>
+        </div>
 
-      <!-- GOOGLE MAP -->
-      <div id="googleMapContainer" class="homepage-google-map">
-        <iframe title="Our location on Google My Maps" class="google-map" src="https://www.google.com/maps/d/embed?mid=1YihUagJV98aTSoPRpalSyqRjTVhaFv5E&hl=en"></iframe>
+      <div id="pichets" class="drink-category">
+        <h2 class="banner">Pichets de vin</h2>
+        <p>Vins A.O.C / A.O.P <span class="float-right">le verre 14 cl / le pichet 25 cl / 50 cl</span></p>
+        <br>
+        <div class="menu-item">
+          <h3 class="drink-title">
+            <span class="drink-name">Côtes du Rhône</span>
+            <span class="drink-price float-right">3.<sup>80</sup>€ / 6€ / 11.<sup>90</sup>€</span>
+          </h3>
+        </div>
+        <div class="menu-item">
+          <h3 class="drink-title">
+            <span class="drink-name">Bordeaux</span>
+            <span class="drink-price float-right">3.<sup>80</sup>€ / 6€ / 11.<sup>90</sup>€</span>
+          </h3>
+        </div>
+        <hr class="drink-horizontal-rule">
+
+        <br><p>Vins de pays A.O.P</p><br>
+        <div class="menu-item">
+          <h3 class="drink-title">
+            <span class="drink-name">Vin rosé (Pays d'Oc)</span>
+            <span class="drink-price float-right">3.<sup>30</sup>€ / 4.<sup>50</sup>€ / 8.<sup>90</sup>€</span>
+          </h3>
+        </div>
+        <div class="menu-item">
+          <h3 class="drink-title">
+            <span class="drink-name">Vin blanc</span>
+            <span class="drink-price float-right">3.<sup>30</sup>€ / 4.<sup>50</sup>€ / 8.<sup>90</sup>€</span>
+          </h3>
+        </div>
       </div>
+    </div>
 
     </main>
     <footer class="page-footer">
