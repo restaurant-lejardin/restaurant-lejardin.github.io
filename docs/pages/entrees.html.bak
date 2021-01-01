@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse text-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="../index.html">Accueil <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown active">
               <a class="nav-link dropdown-toggle" href="food.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -45,7 +45,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.html">A propos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="album.html">Album</a>
@@ -54,14 +54,14 @@
               <a class="nav-link" href="reservations.html">Reservations</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Directions</a>
             </li>
           </ul>
           <div class="ml-auto">
             <a class="nav-social mr-2" href="https://www.facebook.com/restaurantchinois.lejardin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a class="nav-social mr-2" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
             <a class="nav-social mr-2" href="https://restaurantchinois-lejardin.business.site/"><i class="fa fa-google" aria-hidden="true"></i></a>
-            <a class="nav-social" href="TODO:"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a class="nav-social" href="restaurantchinoislejardin@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
           </div>
         </div>
       </nav>
@@ -574,7 +574,7 @@
         </a>
         <div class="row">
           <div class="col-md-4">
-            <h5 class="page-footer-title">HEURES D'OUVERTURES</h5>
+            <h5 class="page-footer-title">HEURES D'OUVERTURE</h5>
             <p class="mb-0">Ouvert du Lundi au Vendredi</p> 
             <p class="mb-0">Déjeuner: 12h - 14h</p>
             <p>Diner: 19h - 22h</p>
@@ -586,7 +586,7 @@
               4 rue Meslay<br>
               75003, Paris<br>
               <abbr title="Phone">T:</abbr> (+33) 01 48 87 89 71<br>
-              <abbr title="Email">E:</abbr> TODO:
+              <abbr title="Email">E:</abbr> restaurantchinoislejardin@gmail.com
             </address>
           </div>
           <div class="col-md-4 h-100 border-left-custom">
@@ -604,8 +604,8 @@
         </div>
       </div>
       <div class="page-footer-copyright container-fluid text-center">
-        © 2018 Restaurant Le Jardin. All rights reserved.<br>
-        Design &amp; Development by <a href="https://pictureelement.github.io/portfolio-2/">PictureElement</a> (Marios Sofokleous).
+        © 2019 Marios Sofokleous (<a href="https://pictureelement.github.io/portfolio-2/">PictureElement</a>).<br>
+        Design by <a href="https://github.com/catherning">Catherning</a> (Catherine Xu).
       </div>
     </footer>
     <a id="back-to-top" class="back-to-top smooth-scroll" href="#top">
