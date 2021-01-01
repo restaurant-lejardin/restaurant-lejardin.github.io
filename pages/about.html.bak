@@ -54,14 +54,14 @@
               <a class="nav-link" href="reservations.html">Réservations</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Directions</a>
             </li>
           </ul>
           <div class="ml-auto">
             <a class="nav-social mr-2" href="https://www.facebook.com/restaurantchinois.lejardin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a class="nav-social mr-2" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
             <a class="nav-social mr-2" href="https://restaurantchinois-lejardin.business.site/"><i class="fa fa-google" aria-hidden="true"></i></a>
-            <a class="nav-social" href="TODO:"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a class="nav-social" href="restaurantchinoislejardin@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
           </div>
         </div>
       </nav>
@@ -72,28 +72,27 @@
         <img
           sizes="(max-width: 2560px) 100vw, 2560px"
           srcset="
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_320/v1536008889/website-template-3/cover-about.jpg 320w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_552/v1536008889/website-template-3/cover-about.jpg 552w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_747/v1536008889/website-template-3/cover-about.jpg 747w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_900/v1536008889/website-template-3/cover-about.jpg 900w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1070/v1536008889/website-template-3/cover-about.jpg 1070w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1224/v1536008889/website-template-3/cover-about.jpg 1224w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1367/v1536008889/website-template-3/cover-about.jpg 1367w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1521/v1536008889/website-template-3/cover-about.jpg 1521w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1654/v1536008889/website-template-3/cover-about.jpg 1654w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1777/v1536008889/website-template-3/cover-about.jpg 1777w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1905/v1536008889/website-template-3/cover-about.jpg 1905w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2033/v1536008889/website-template-3/cover-about.jpg 2033w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2143/v1536008889/website-template-3/cover-about.jpg 2143w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2263/v1536008889/website-template-3/cover-about.jpg 2263w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2380/v1536008889/website-template-3/cover-about.jpg 2380w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2488/v1536008889/website-template-3/cover-about.jpg 2488w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1536008889/website-template-3/cover-about.jpg 2560w"
-          src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1536008889/website-template-3/cover-about.jpg"
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/location/front.jpg 300w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_500/location/front.jpg 500w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/location/front.jpg 700w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/location/front.jpg 900w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/location/front.jpg 1100w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1200/location/front.jpg 1200w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/location/front.jpg 1400w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/location/front.jpg 1500w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/location/front.jpg 1700w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/location/front.jpg 1800w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/location/front.jpg 1900w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/location/front.jpg 2100w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/location/front.jpg 2200w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/location/front.jpg 2300w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/location/front.jpg 2500w,
+          https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/location/front.jpg 2500w"
+        src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/location/front.jpg"
           alt=""
           class="about-jumbotron-bg">
         <div class="about-jumbotron-caption">
-          <h1 id="title-1" class="special-title-1">ABOUT US</h1>
+          <h1 id="title-1" class="special-title-1">A PROPOS DU RESTAURANT</h1>
           <h2 id="title-2" class="special-title-2">Tradition &amp; Passion</h2>
           <a class="about-arrow animated bounce smooth-scroll" href="#about-history" aria-label="our history"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
         </div>
@@ -102,18 +101,20 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-4 about-history-title">
             <h3>Notre histoire</h3>
-            <p>COMMENT NOTRE RESTAURANT EST NE</p>
           </div>
           <div id="history-description" class="col-md-8">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta iaculis nulla, nec volutpat risus varius vitae. Vestibulum in semper lorem. Nunc nec augue quis felis sagittis maximus. Sed elementum ante non semper fermentum. Donec dui urna, faucibus consectetur ante id, condimentum fringilla arcu. Donec vitae accumsan justo, eget suscipit velit. Nam nec auctor felis. Sed molestie nisi massa, a vulputate nibh posuere vel. Donec non ipsum ornare, fringilla metus a, porttitor velit. In aliquet nec ligula ut semper. Maecenas ut justo lorem. Vestibulum cursus enim molestie purus posuere, id luctus eros condimentum.
+              Notre restaurant familial est ouvert depuis 1975 dans une ancienne salle de billard français du début du XX<sup>e</sup> siècle. 
+              Le plafond et les miroirs d'origine se marient avec le décor du Shanghai des années 1930, apportant le réconfort d'un restaurant traditional à la cuisine authentique.
+              Nous cuisinons sur place la gastronomie chinoise depuis 45 ans et la gastronomie thaï depuis 30 ans. Nous pouvons adapter les plats selon les goûts et les restrictions alimentaires sur demande.
             </p>
             <p>
-              Maecenas vel sem sed tellus tempus pretium et sed ipsum. Aliquam dictum, ipsum vitae dignissim vestibulum, ex nibh feugiat dui, non iaculis neque ex eu augue. Aenean tristique faucibus quam, non mollis ipsum aliquet sit amet. Fusce ac dictum metus, eget consectetur nulla. Morbi pretium ornare risus, sed gravida orci consectetur sed. Nunc eu ipsum sapien. Suspendisse sagittis in libero in lacinia.
+              Idéalement situé entre la BNP et la Société Générale tout près de la place de la République, le restaurant est accueillant pour tout public, pour vos repas d'affaires, rendez-vous entre amis et repas en famille.
+              On peut ressentir à la fois la convivialité et la discretion dans l'ambiance générale.
             </p>
-            <p class="mb-0">
-              Ce website a un but de présentation des savoir-faire du restaurant. Le site a été développé dans le cadre d'un portfolio  personnel de compétences techniques.  
-            </p>
+            <p><small>
+              Ce website a un but de présentation des savoir-faire du restaurant. Le site a été développé dans le cadre d'un portfolio personnel de compétences techniques.  
+            </small></p>
           </div>
         </div>
       </div>
@@ -125,11 +126,6 @@
           </div>
         </div>
       </div>
-      
-      <!-- GOOGLE MAP
-      <div id="googleMapContainer" class="homepage-google-map">
-        <iframe title="Our location on Google My Maps" class="google-map" src="https://www.google.com/maps/d/embed?mid=1YihUagJV98aTSoPRpalSyqRjTVhaFv5E&hl=en"></iframe>
-      </div> -->
 
     </main>
 
@@ -140,7 +136,7 @@
         </a>
         <div class="row">
           <div class="col-md-4">
-            <h5 class="page-footer-title">HEURES D'OUVERTURES</h5>
+            <h5 class="page-footer-title">HEURES D'OUVERTURE</h5>
             <p class="mb-0">Ouvert du Lundi au Vendredi</p> 
             <p class="mb-0">Déjeuner: 12h - 14h</p>
             <p>Diner: 19h - 22h</p>
@@ -152,7 +148,7 @@
               4 rue Meslay<br>
               75003, Paris<br>
               <abbr title="Phone">T:</abbr> (+33) 01 48 87 89 71<br>
-              <abbr title="Email">E:</abbr> TODO:
+              <abbr title="Email">E:</abbr> restaurantchinoislejardin@gmail.com
             </address>
           </div>
           <div class="col-md-4 h-100 border-left-custom">
@@ -170,8 +166,8 @@
         </div>
       </div>
       <div class="page-footer-copyright container-fluid text-center">
-        © 2018 Restaurant Le Jardin. All rights reserved.<br>
-        Design &amp; Development by <a href="https://pictureelement.github.io/portfolio-2/">PictureElement</a> (Marios Sofokleous).
+        © 2019 Marios Sofokleous (<a href="https://pictureelement.github.io/portfolio-2/">PictureElement</a>).<br>
+        Design by <a href="https://github.com/catherning">Catherning</a> (Catherine Xu).
       </div>
     </footer>
     <a id="back-to-top" class="back-to-top smooth-scroll" href="#top">
