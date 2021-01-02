@@ -247,13 +247,13 @@
           <div class="col-md-6 homepage-desserts">
             <h3 class="special-title-2">Desserts</h3>
             <div id="desserts">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_200/v1535885127/website-template-3/homepage-desserts.jpg" 
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_200/v1535885127/website-template-3/homepage-desserts.jpg 1x, 
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_400/v1535885127/website-template-3/homepage-desserts.jpg 2x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_600/v1535885127/website-template-3/homepage-desserts.jpg 3x"
-                alt="Desserts Menu"
+              <img
+              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg" 
+              data-srcset="
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_200,q_auto,w_200/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_400,q_auto,w_400/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 2x,
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_600,q_auto,w_600/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 3x"
+                alt="Food Menu"
                 class="rounded-circle lazyload">
                 <br>
               <a class="btn btn-outline-dark" href="pages/desserts.html" role="button">Voir la carte</a>
@@ -261,14 +261,14 @@
           </div>
 
           <div class="col-md-6 homepage-drinks">
-            <h3 class="special-title-2">Boissons</h3>
+            <h3 class="special-title-2">Boissons</h3> 
             <div id="drinks">
-              <img 
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_200/v1535885398/website-template-3/homepage-drinks.jpg" 
-                data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_200/v1535885398/website-template-3/homepage-drinks.jpg 1x, 
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_400/v1535885398/website-template-3/homepage-drinks.jpg 2x,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_600/v1535885398/website-template-3/homepage-drinks.jpg 3x"
+              <img
+              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619308/desserts/china_blue_b2xhob.jpg" 
+              data-srcset="
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_200,q_auto,w_200/v1609619308/desserts/china_blue_b2xhob.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_400,q_auto,w_400/v1609619308/desserts/china_blue_b2xhob.jpg 2x,
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_600,q_auto,w_600/v1609619308/desserts/china_blue_b2xhob.jpg 3x"
                 alt="Drinks Menu"
                 class="rounded-circle lazyload">
                 <br>
@@ -361,11 +361,12 @@
               <img
                 sizes="(max-width: 1016px) 100vw, 1016px"
                 data-srcset="
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_208/v1536003196/website-template-3/homepage-special-offers-2.jpg 208w,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_679/v1536003196/website-template-3/homepage-special-offers-2.jpg 679w,
-                  https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1016/v1536003196/website-template-3/homepage-special-offers-2.jpg 1016w"
-                data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1016/v1536003196/website-template-3/homepage-special-offers-2.jpg"
-                alt="Special offer"
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_200/v1609614574/Autres/paiements_rvhj86.png 200w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_500/v1609614574/Autres/paiements_rvhj86.png 500w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1609614574/Autres/paiements_rvhj86.png 700w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1609614574/Autres/paiements_rvhj86.png 900w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609614574/Autres/paiements_rvhj86.png 1000w"
+              data-src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609614574/Autres/paiements_rvhj86.png"                alt="Special offer"
                 class="card-img-top border-bottom border-dark lazyload">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">NOUVEAUX MODES DE PAIEMENTS</h5>

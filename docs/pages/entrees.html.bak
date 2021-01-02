@@ -309,10 +309,10 @@
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
               <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/12a_nbecdm.jpg"
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/12a_sg9vdr.jpg"
                 data-srcset="
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/12a_nbecdm.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608405084/Entrees/12a_nbecdm.jpg 2x"
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/12a_sg9vdr.jpg 1x,
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618678/Entrees/12a_sg9vdr.jpg 2x"
                 alt="Burger"
                 class="rounded-circle lazyload">
             </div>
@@ -329,10 +329,10 @@
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
               <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/13_ocz4on.jpg"
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/13_wdqelz.jpg"
                 data-srcset="
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/13_ocz4on.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/13_ocz4on.jpg 2x"
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/13_wdqelz.jpg 1x,
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618679/Entrees/13_wdqelz.jpg 2x"
                 alt="Burger"
                 class="rounded-circle lazyload">
             </div>
@@ -500,7 +500,14 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
+              <img
+              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/v1_edqlbj.jpg"
+              data-srcset="
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/v1_edqlbj.jpg 1x,
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/v1_edqlbj.jpg
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618678/Entrees/v1_edqlbj.jpg 2x"
+              alt="Fruits de mer"
+              class="rounded-circle lazyload">
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -548,7 +555,14 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
+              <img
+              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/v7_lxrtwx.jpg"
+              data-srcset="
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/v7_lxrtwx.jpg 1x,
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/v7_lxrtwx.jpg
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618679/Entrees/v7_lxrtwx.jpg 2x"
+              alt="Fruits de mer"
+              class="rounded-circle lazyload">
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
