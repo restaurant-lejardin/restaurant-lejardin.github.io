@@ -78,49 +78,28 @@
       <div class="album-content">
         <div class="container">
           <div class="row">
-            <div id="card-entree" class="col-md-4">
+            <div id="card-food" class="col-md-4">
               <div class="card box-shadow">
                 <img class="card-img-top" src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1608405084/Entrees/11_oc07di.png" 
                         alt="Entree image">
                 <div class="card-body">
-                  <h5 class="card-title font-weight-bold">ENTREES</h5>
-                  <a href="gallery-staff.html" class="btn btn-outline-dark" role="button">View</a>
-                </div>
-              </div>
-            </div>
-            <div id="card-food" class="col-md-4">
-              <div class="card box-shadow">
-                <img class="card-img-top" src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1609323149/Food/60_xqiidq.png" alt="Food image">
-                <div class="card-body">
-                  <h5 class="card-title font-weight-bold">FOOD</h5>
+                  <h5 class="card-title font-weight-bold">ENTREES et PLATS</h5>
                   <a href="gallery-food.html" class="btn btn-outline-dark" role="button">View</a>
                 </div>
               </div>
             </div>
             <div id="card-desserts" class="col-md-4">
               <div class="card box-shadow">
-                <img class="card-img-top" src="../media/album/album-desserts@1x.jpg" srcset="../media/album/album-desserts@1x.jpg 1x, ../media/album/album-desserts@2x.jpg 2x, ../media/album/album-desserts@3x.jpg 3x, ../media/album/album-desserts@4x.jpg 4x" alt="Dessert image">
+                <img class="card-img-top" src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1609619308/desserts/assortiment_maison_t7heqj.jpg" alt="Food image">
                 <div class="card-body">
-                  <h5 class="card-title font-weight-bold">DESSERTS</h5>
+                  <h5 class="card-title font-weight-bold">DESSERTS et BOISSONS</h5>
                   <a href="gallery-desserts.html" class="btn btn-outline-dark" role="button">View</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div class="row d-flex justify-content-center">
-            <div id="card-drinks" class="col-md-4">
-              <div class="card box-shadow">
-                <img class="card-img-top" src="../media/album/album-drinks@1x.jpg" srcset="../media/album/album-drinks@1x.jpg 1x, ../media/album/album-drinks@2x.jpg 2x, ../media/album/album-drinks@3x.jpg 3x, ../media/album/album-drinks@4x.jpg 4x" alt="Drink image">
-                <div class="card-body">
-                  <h5 class="card-title font-weight-bold">DRINKS</h5>
-                  <a href="gallery-drinks.html" class="btn btn-outline-dark" role="button">View</a>
                 </div>
               </div>
             </div>
             <div id="card-location" class="col-md-4">
               <div class="card box-shadow">
-                <img class="card-img-top" src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg"  alt="Location image">
+                <img class="card-img-top" src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg" alt="Dessert image">
                 <div class="card-body">
                   <h5 class="card-title font-weight-bold">LOCATION</h5>
                   <a href="gallery-location.html" class="btn btn-outline-dark" role="button">View</a>
@@ -130,11 +109,6 @@
           </div>
         </div>
       </div>
-
-      <!-- GOOGLE MAP
-      <div id="googleMapContainer" class="homepage-google-map">
-        <iframe title="Our location on Google My Maps" class="google-map" src="https://www.google.com/maps/d/embed?mid=1YihUagJV98aTSoPRpalSyqRjTVhaFv5E&hl=en"></iframe>
-      </div> -->
           
     </main>
 

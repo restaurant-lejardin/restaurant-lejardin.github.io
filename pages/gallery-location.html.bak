@@ -81,31 +81,31 @@
           <div id="galleryCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="../media/galleries/3x/gallery-location-1.jpg" alt="First slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012268/Location/front.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="../media/galleries/3x/gallery-location-2.jpg" alt="Second slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="../media/galleries/3x/gallery-location-3.jpg" alt="Third slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg" alt="Third slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="../media/galleries/3x/gallery-location-4.jpg" alt="Fourth slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg" alt="Fourth slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="../media/galleries/3x/gallery-location-5.jpg" alt="Fifth slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338855/Location/unnamed_j4hwby.jpg" alt="Fifth slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="../media/galleries/3x/gallery-location-6.jpg" alt="Sixth slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338851/Location/IMG_20200911_195839_byeolb.jpg" alt="Sixth slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="../media/galleries/3x/gallery-location-7.jpg" alt="Seventh slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338847/Location/2018-10-02_vt9gq4.jpg" alt="Seventh slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="../media/galleries/3x/gallery-location-8.jpg" alt="Eighth slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg" alt="Eighth slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="../media/galleries/3x/gallery-location-9.jpg" alt="Ninth slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012271/Location/back.jpg" alt="Ninth slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
@@ -126,47 +126,83 @@
           <div class="row">
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="0">
-                <img class="img-fluid rounded box-shadow border" src="../media/galleries/1x/gallery-location-1.jpg" srcset="../media/galleries/1x/gallery-location-1.jpg 1x, ../media/galleries/2x/gallery-location-1.jpg 2x, ../media/galleries/3x/gallery-location-1.jpg 3x" draggable="false" alt="Location">
+                <img class="img-fluid rounded box-shadow border" 
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012268/Location/front.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012268/Location/front.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1605012268/Location/front.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012268/Location/front.jpg 3x" draggable="false" alt="Location">
               </a>
             </div>
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="1">
-                <img class="img-fluid rounded box-shadow border" src="../media/galleries/1x/gallery-location-2.jpg" srcset="../media/galleries/1x/gallery-location-2.jpg 1x, ../media/galleries/2x/gallery-location-2.jpg 2x, ../media/galleries/3x/gallery-location-2.jpg 3x" draggable="false" alt="Location">
+                <img class="img-fluid rounded box-shadow border" 
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg 3x" draggable="false" alt="Location">
               </a>
             </div>
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="2">
-                <img class="img-fluid rounded box-shadow border" src="../media/galleries/1x/gallery-location-3.jpg" srcset="../media/galleries/1x/gallery-location-3.jpg 1x, ../media/galleries/2x/gallery-location-3.jpg 2x, ../media/galleries/3x/gallery-location-3.jpg 3x" draggable="false" alt="Location">
+                <img class="img-fluid rounded box-shadow border" 
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg 3x" draggable="false" alt="Location">
               </a>
             </div>
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="3">
-                <img class="img-fluid rounded box-shadow border" src="../media/galleries/1x/gallery-location-4.jpg" srcset="../media/galleries/1x/gallery-location-4.jpg 1x, ../media/galleries/2x/gallery-location-4.jpg 2x, ../media/galleries/3x/gallery-location-4.jpg 3x" draggable="false" alt="Location">
+                <img class="img-fluid rounded box-shadow border" 
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg 3x" draggable="false" alt="Location">
               </a>
             </div>
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="4">
-                <img class="img-fluid rounded box-shadow border" src="../media/galleries/1x/gallery-location-5.jpg" srcset="../media/galleries/1x/gallery-location-5.jpg 1x, ../media/galleries/2x/gallery-location-5.jpg 2x, ../media/galleries/3x/gallery-location-5.jpg 3x" draggable="false" alt="Location">
+                <img class="img-fluid rounded box-shadow border" 
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338855/Location/unnamed_j4hwby.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338855/Location/unnamed_j4hwby.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338855/Location/unnamed_j4hwby.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338855/Location/unnamed_j4hwby.jpg 3x" draggable="false" alt="Location">
               </a>
             </div>
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="5">
-                <img class="img-fluid rounded box-shadow border" src="../media/galleries/1x/gallery-location-6.jpg" srcset="../media/galleries/1x/gallery-location-6.jpg 1x, ../media/galleries/2x/gallery-location-6.jpg 2x, ../media/galleries/3x/gallery-location-6.jpg 3x" draggable="false" alt="Location">
+                <img class="img-fluid rounded box-shadow border" 
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338851/Location/IMG_20200911_195839_byeolb.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338851/Location/IMG_20200911_195839_byeolb.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338851/Location/IMG_20200911_195839_byeolb.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338851/Location/IMG_20200911_195839_byeolb.jpg 3x" draggable="false" alt="Location">
               </a>
             </div>
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="6">
-                <img class="img-fluid rounded box-shadow border" src="../media/galleries/1x/gallery-location-7.jpg" srcset="../media/galleries/1x/gallery-location-7.jpg 1x, ../media/galleries/2x/gallery-location-7.jpg 2x, ../media/galleries/3x/gallery-location-7.jpg 3x" draggable="false" alt="Location">
+                <img class="img-fluid rounded box-shadow border" 
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338847/Location/2018-10-02_vt9gq4.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338847/Location/2018-10-02_vt9gq4.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338847/Location/2018-10-02_vt9gq4.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338847/Location/2018-10-02_vt9gq4.jpg 3x" draggable="false" alt="Location">
               </a>
             </div>
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="7">
-                <img class="img-fluid rounded box-shadow border" src="../media/galleries/1x/gallery-location-8.jpg" srcset="../media/galleries/1x/gallery-location-8.jpg 1x, ../media/galleries/2x/gallery-location-8.jpg 2x, ../media/galleries/3x/gallery-location-8.jpg 3x" draggable="false" alt="Location">
+                <img class="img-fluid rounded box-shadow border" 
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 3x" draggable="false" alt="Location">
               </a>
             </div>
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="8">
-                <img class="img-fluid rounded box-shadow border" src="../media/galleries/1x/gallery-location-9.jpg" srcset="../media/galleries/1x/gallery-location-9.jpg 1x, ../media/galleries/2x/gallery-location-9.jpg 2x, ../media/galleries/3x/gallery-location-9.jpg 3x" draggable="false" alt="Location">
+                <img class="img-fluid rounded box-shadow border" 
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012271/Location/back.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012271/Location/back.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1605012271/Location/back.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012271/Location/back.jpg 3x" draggable="false" alt="Location">
               </a>
             </div>
           </div>
