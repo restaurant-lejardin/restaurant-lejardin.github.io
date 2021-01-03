@@ -70,8 +70,8 @@
 
       <!-- GALLERY DESCRIPTION -->
       <div class="gallery-description container-fluid bg-dark text-white">
-        <h1 id="title-1" class="special-title-1">STAFF GALLERY</h1>
-        <h2 id="title-2" class="special-title-2">The Dream Team</h2>
+        <h1 id="title-1" class="special-title-1">ENTREES</h1>
+        <h2 id="title-2" class="special-title-2">Nos entrées pour bien commencer le repas </h2>
       </div>
             
       <!-- GALLERY LIGHTBOX -->

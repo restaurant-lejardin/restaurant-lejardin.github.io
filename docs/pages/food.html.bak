@@ -198,7 +198,6 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -250,7 +249,6 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -264,10 +262,9 @@
         <!-- VOLAILLES / VIANDES -->
         <div id="meat" class="food-category">
           <h2 class="banner">VOLAILLES / VIANDES</h2>
-          <hr class="food-horizontal-rule">
+          <hr class="food-horizontal-rule"><br>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -279,7 +276,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -369,7 +365,6 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -418,11 +413,9 @@
             </div>
           </div>
 
-          <hr class="food-horizontal-rule">
-
+          <hr class="food-horizontal-rule"><br>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -434,7 +427,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -446,7 +438,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -497,7 +488,6 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -507,11 +497,9 @@
             </div>
           </div>
 
-          <hr class="food-horizontal-rule">
-
+          <hr class="food-horizontal-rule"><br>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -543,7 +531,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -576,7 +563,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -588,7 +574,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -621,16 +606,14 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <div class="col-md-3 food-image">
-                <img
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617486/Food/f1g_vhpoic.jpg"
-                data-srcset="
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617486/Food/f1g_vhpoic.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617486/Food/f1g_vhpoic.jpg
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609617486/Food/f1g_vhpoic.jpg 2x"
-                alt="Fruits de mer"
-                class="rounded-circle lazyload">
-              </div>
+              <img
+              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617486/Food/f1g_vhpoic.jpg"
+              data-srcset="
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617486/Food/f1g_vhpoic.jpg 1x,
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617486/Food/f1g_vhpoic.jpg
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609617486/Food/f1g_vhpoic.jpg 2x"
+              alt="Fruits de mer"
+              class="rounded-circle lazyload">
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -653,7 +636,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -690,7 +672,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -702,7 +683,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -734,7 +714,6 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -746,7 +725,6 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -758,11 +736,9 @@
           </div>
 
 
-          <hr class="food-horizontal-rule">
-
+          <hr class="food-horizontal-rule"><br>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -856,7 +832,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -869,7 +844,6 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -885,10 +859,9 @@
         <!-- RIZ, LEGUMES ET NOUILLES -->
         <div id="rice" class="food-category">
           <h2 class="banner">RIZ, LEGUMES ET NOUILLES</h2>
-          <hr class="food-horizontal-rule">
+          <hr class="food-horizontal-rule"><br>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1003,7 +976,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1015,7 +987,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1027,7 +998,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1039,7 +1009,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1052,7 +1021,6 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1083,7 +1051,6 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1118,7 +1085,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1172,7 +1138,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1223,7 +1188,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1235,7 +1199,6 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1250,10 +1213,9 @@
         <!-- NOS BO BUN -->
         <div id="bobun" class="food-category">
           <h2 class="banner">NOS BO BUN</h2>
-          <hr class="food-horizontal-rule">
+          <hr class="food-horizontal-rule"><br>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1352,7 +1314,6 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1364,7 +1325,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1376,7 +1336,6 @@
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
@@ -1388,7 +1347,6 @@
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-
             </div>
             <div class="col-md-9">
               <h3 class="food-title">

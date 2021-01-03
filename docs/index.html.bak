@@ -96,7 +96,6 @@
                 https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/location/front.jpg 2100w,
                 https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/location/front.jpg 2200w,
                 https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/location/front.jpg 2300w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/location/front.jpg 2500w,
                 https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/location/front.jpg 2500w"
               src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/location/front.jpg"
               alt="First slide">
@@ -124,7 +123,6 @@
               https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1608405084/Entrees/11_oc07di.png 2100w,
               https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1608405084/Entrees/11_oc07di.png 2200w,
               https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1608405084/Entrees/11_oc07di.png 2300w,
-              https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1608405084/Entrees/11_oc07di.png 2500w,
               https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1608405084/Entrees/11_oc07di.png 2500w"
             src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1608405084/Entrees/11_oc07di.png"
               alt="Second slide">
@@ -138,23 +136,22 @@
             <img
               sizes="(max-width: 2560px) 100vw, 2560px"
               srcset="
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1609323150/Food/t7_oqtwnq.jpg 300w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_500/v1609323150/Food/t7_oqtwnq.jpg 500w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1609323150/Food/t7_oqtwnq.jpg 700w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1609323150/Food/t7_oqtwnq.jpg 900w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1609323150/Food/t7_oqtwnq.jpg 1100w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1200/v1609323150/Food/t7_oqtwnq.jpg 1200w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1609323150/Food/t7_oqtwnq.jpg 1400w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609323150/Food/t7_oqtwnq.jpg 1500w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1609323150/Food/t7_oqtwnq.jpg 1700w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/v1609323150/Food/t7_oqtwnq.jpg 1800w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1609323150/Food/t7_oqtwnq.jpg 1900w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1609323150/Food/t7_oqtwnq.jpg 2100w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609323150/Food/t7_oqtwnq.jpg 2200w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1609323150/Food/t7_oqtwnq.jpg 2300w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609323150/Food/t7_oqtwnq.jpg 2500w,
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609323150/Food/t7_oqtwnq.jpg 2500w"
-              src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609323150/Food/t7_oqtwnq.jpg"
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1609617489/Food/18_vbl4t8.jpg 300w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_500/v1609617489/Food/18_vbl4t8.jpg 500w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1609617489/Food/18_vbl4t8.jpg 700w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1609617489/Food/18_vbl4t8.jpg 900w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1609617489/Food/18_vbl4t8.jpg 1100w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1200/v1609617489/Food/18_vbl4t8.jpg 1200w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1609617489/Food/18_vbl4t8.jpg 1400w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609617489/Food/18_vbl4t8.jpg 1500w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1609617489/Food/18_vbl4t8.jpg 1700w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/v1609617489/Food/18_vbl4t8.jpg 1800w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1609617489/Food/18_vbl4t8.jpg 1900w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1609617489/Food/18_vbl4t8.jpg 2100w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609617489/Food/18_vbl4t8.jpg 2200w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1609617489/Food/18_vbl4t8.jpg 2300w,
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609617489/Food/18_vbl4t8.jpg 2500w"
+              src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609617489/Food/18_vbl4t8.jpg"
               alt="Third slide">
             <div class="container">
               <div class="carousel-caption">

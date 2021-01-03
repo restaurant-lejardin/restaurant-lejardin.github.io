@@ -649,7 +649,7 @@ a, a:hover {
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-color: #001F40;
+  background-color: #50000b;
   border-radius: 0%;
   height:  calc(100vh - 62px);
 }
@@ -705,7 +705,7 @@ a, a:hover {
 .food-title {
   font-size: 1rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .food-title:before {
@@ -747,7 +747,7 @@ a, a:hover {
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-color: #001F40;
+  background-color: #50000b;
   border-radius: 0%;
   height:  calc(100vh - 62px);
 }
@@ -846,7 +846,7 @@ a, a:hover {
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-color: #001F40;
+  background-color: #50000b;
   border-radius: 0%;
   height:  calc(100vh - 62px);
 }
@@ -893,7 +893,7 @@ a, a:hover {
 .dessert-title {
   font-size: 1rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .dessert-title:before {
