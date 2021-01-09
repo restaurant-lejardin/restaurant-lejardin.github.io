@@ -50,12 +50,7 @@
             <li class="nav-item active">
               <a class="nav-link" href="album.html">Album</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="reservations.html">Reservations</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Directions</a>
-            </li>
+
           </ul>
           <div class="ml-auto">
             <a class="nav-social mr-2" href="https://www.facebook.com/restaurantchinois.lejardin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -84,7 +79,7 @@
                         alt="Entree image">
                 <div class="card-body">
                   <h5 class="card-title font-weight-bold">ENTREES et PLATS</h5>
-                  <a href="gallery-food.html" class="btn btn-outline-dark" role="button">View</a>
+                  <a href="gallery-food.html" class="btn btn-outline-dark" role="button">Voir</a>
                 </div>
               </div>
             </div>
@@ -93,7 +88,7 @@
                 <img class="card-img-top" src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1609619308/desserts/assortiment_maison_t7heqj.jpg" alt="Food image">
                 <div class="card-body">
                   <h5 class="card-title font-weight-bold">DESSERTS et BOISSONS</h5>
-                  <a href="gallery-desserts.html" class="btn btn-outline-dark" role="button">View</a>
+                  <a href="gallery-desserts.html" class="btn btn-outline-dark" role="button">Voir</a>
                 </div>
               </div>
             </div>
@@ -102,7 +97,7 @@
                 <img class="card-img-top" src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg" alt="Dessert image">
                 <div class="card-body">
                   <h5 class="card-title font-weight-bold">LOCATION</h5>
-                  <a href="gallery-location.html" class="btn btn-outline-dark" role="button">View</a>
+                  <a href="gallery-location.html" class="btn btn-outline-dark" role="button">Voir</a>
                 </div>
               </div>
             </div>
