@@ -56,7 +56,7 @@
             <a class="nav-social mr-2" href="https://www.facebook.com/restaurantchinois.lejardin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a class="nav-social mr-2" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
             <a class="nav-social mr-2" href="https://restaurantchinois-lejardin.business.site/"><i class="fa fa-google" aria-hidden="true"></i></a>
-            <a class="nav-social" href="restaurantchinoislejardin@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a class="nav-social" href="mailto: restaurantchinoislejardin@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
           </div>
         </div>
       </nav>
@@ -107,7 +107,7 @@
           alt=""
           class="food-jumbotron-bg">
         <div class="food-jumbotron-caption container">
-          <h1 id="title-1" class="special-title-2">Food Menu</h1>
+          <h1 id="title-1" class="special-title-2">Plats</h1>
           <div id="menu-icons">
             <h2 class="special-title-3">PLATS A COMPOSER (riz non compris)</h2>
             <div class="row">
@@ -465,11 +465,11 @@
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
               <img
-              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617489/Food/18_vbl4t8.jpg"
+              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1610796543/Food/18b_ndopxm.jpg"
               data-srcset="
-              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617489/Food/18_vbl4t8.jpg 1x,
-              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617489/Food/18_vbl4t8.jpg
-              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609617489/Food/18_vbl4t8.jpg 2x"
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1610796543/Food/18b_ndopxm.jpg 1x,
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1610796543/Food/18b_ndopxm.jpg
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1610796543/Food/18b_ndopxm.jpg 2x"
               alt="Viande"
               class="rounded-circle lazyload">
             </div>
@@ -804,7 +804,7 @@
           </div>
 
           <hr class="food-horizontal-rule">
-          <h3 class="special-title-3">Poisson selon arrivage (cabillaud ou colin)</h3>
+          <h3 class="special-title-4">Poisson selon arrivage (cabillaud ou colin)</h3>
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
@@ -849,7 +849,9 @@
           </div>
           
         </div>
-        
+        <hr class="food-horizontal-separation">
+
+
         <h2 class="special-title-3">ACCOMPAGNEMENT</h2>
         <!-- RIZ, LEGUMES ET NOUILLES -->
         <div id="rice" class="food-category">

@@ -56,7 +56,7 @@
             <a class="nav-social mr-2" href="https://www.facebook.com/restaurantchinois.lejardin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a class="nav-social mr-2" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
             <a class="nav-social mr-2" href="https://restaurantchinois-lejardin.business.site/"><i class="fa fa-google" aria-hidden="true"></i></a>
-            <a class="nav-social" href="restaurantchinoislejardin@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a class="nav-social" href="mailto: restaurantchinoislejardin@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
           </div>
         </div>
       </nav>
@@ -91,7 +91,7 @@
                 <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619142/Food/77_mdmzy7.jpg" alt="Fifth slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609617489/Food/18_vbl4t8.jpg" alt="Sixth slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1610796543/Food/18b_ndopxm.jpg" alt="Sixth slide">
               </div>
               <div class="carousel-item">
                 <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609617486/Food/f1g_vhpoic.jpg" alt="Seventh slide">
@@ -161,10 +161,10 @@
             </div>
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="5">
-                <img class="img-fluid rounded box-shadow border" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609617489/Food/18_vbl4t8.jpg" 
-                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609617489/Food/18_vbl4t8.jpg 1x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609617489/Food/18_vbl4t8.jpg 2x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609617489/Food/18_vbl4t8.jpg 3x" draggable="false" alt="Food">
+                <img class="img-fluid rounded box-shadow border" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1610796543/Food/18b_ndopxm.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1610796543/Food/18b_ndopxm.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1610796543/Food/18b_ndopxm.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1610796543/Food/18b_ndopxm.jpg 3x" draggable="false" alt="Food">
               </a>
             </div>
             <div class="gallery-item col-md-4">

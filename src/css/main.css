@@ -95,6 +95,14 @@ a, a:hover {
 
 .special-title-3 {
   font-family: 'Fredericka the Great', cursive;
+  margin-top: 4rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.special-title-4 {
+  font-family:'Gill Sans', 'Gill Sans MT';
+  margin-top: 1rem;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -737,6 +745,12 @@ a, a:hover {
 
 .food-horizontal-rule {
   margin: 0;
+}
+
+.food-horizontal-separation {
+  margin: 0;
+  margin-top: 4em;
+  border: 2px solid;
 }
 
 /*
