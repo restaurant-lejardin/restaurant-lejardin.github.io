@@ -56,7 +56,7 @@
             <a class="nav-social mr-2" href="https://www.facebook.com/restaurantchinois.lejardin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a class="nav-social mr-2" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
             <a class="nav-social mr-2" href="https://restaurantchinois-lejardin.business.site/"><i class="fa fa-google" aria-hidden="true"></i></a>
-            <a class="nav-social" href="restaurantchinoislejardin@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a class="nav-social" href="mailto: restaurantchinoislejardin@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
           </div>
         </div>
       </nav>
@@ -68,44 +68,44 @@
         <img
           sizes="(max-width: 2560px) 100vw, 2560px"
           srcset="
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_320/v1536008791/website-template-3/cover-drinks-menu.jpg 320w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_491/v1536008791/website-template-3/cover-drinks-menu.jpg 491w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_623/v1536008791/website-template-3/cover-drinks-menu.jpg 623w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_744/v1536008791/website-template-3/cover-drinks-menu.jpg 744w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_849/v1536008791/website-template-3/cover-drinks-menu.jpg 849w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_935/v1536008791/website-template-3/cover-drinks-menu.jpg 935w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1018/v1536008791/website-template-3/cover-drinks-menu.jpg 1018w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1106/v1536008791/website-template-3/cover-drinks-menu.jpg 1106w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1189/v1536008791/website-template-3/cover-drinks-menu.jpg 1189w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1262/v1536008791/website-template-3/cover-drinks-menu.jpg 1262w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1333/v1536008791/website-template-3/cover-drinks-menu.jpg 1333w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1406/v1536008791/website-template-3/cover-drinks-menu.jpg 1406w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1475/v1536008791/website-template-3/cover-drinks-menu.jpg 1475w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1543/v1536008791/website-template-3/cover-drinks-menu.jpg 1543w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1613/v1536008791/website-template-3/cover-drinks-menu.jpg 1613w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1676/v1536008791/website-template-3/cover-drinks-menu.jpg 1676w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1740/v1536008791/website-template-3/cover-drinks-menu.jpg 1740w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1807/v1536008791/website-template-3/cover-drinks-menu.jpg 1807w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1867/v1536008791/website-template-3/cover-drinks-menu.jpg 1867w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1927/v1536008791/website-template-3/cover-drinks-menu.jpg 1927w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1987/v1536008791/website-template-3/cover-drinks-menu.jpg 1987w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2044/v1536008791/website-template-3/cover-drinks-menu.jpg 2044w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2101/v1536008791/website-template-3/cover-drinks-menu.jpg 2101w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2161/v1536008791/website-template-3/cover-drinks-menu.jpg 2161w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2214/v1536008791/website-template-3/cover-drinks-menu.jpg 2214w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2274/v1536008791/website-template-3/cover-drinks-menu.jpg 2274w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2329/v1536008791/website-template-3/cover-drinks-menu.jpg 2329w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2382/v1536008791/website-template-3/cover-drinks-menu.jpg 2382w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2441/v1536008791/website-template-3/cover-drinks-menu.jpg 2441w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2495/v1536008791/website-template-3/cover-drinks-menu.jpg 2495w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2551/v1536008791/website-template-3/cover-drinks-menu.jpg 2551w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2559/v1536008791/website-template-3/cover-drinks-menu.jpg 2559w,
-            https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1536008791/website-template-3/cover-drinks-menu.jpg 2560w"
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 300w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_400/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 600w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 700w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_800/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 800w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 900w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1000w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1100w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1100w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1200/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1200w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1300/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1300w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1500w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1600/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1600w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1600/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1600w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1700w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1800w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1800w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1900w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1900w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2000/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2000w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2100w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2100w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2200w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2200w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2300w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2300w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2400/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2400/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2500w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2500w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2500w"
           src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1536008791/website-template-3/cover-drinks-menu.jpg"
           alt=""
           class="drinks-jumbotron-bg">
         <div class="drinks-jumbotron-caption container">
-          <h1 id="title-1" class="special-title-2">Drinks Menu</h1>
+          <h1 id="title-1" class="special-title-2">Boissons</h1>
           <div id="menu-icons">
             <div class="row">
               <div class="col-4">
