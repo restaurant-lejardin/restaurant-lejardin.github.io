@@ -235,7 +235,7 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Whisky (4 cl)</span>
-              <span class="drink-price float-right">7€</span>
+              <span class="drink-price float-right"> à partir de 7€</span>
             </h3>
           </div>
         </div>
@@ -460,13 +460,13 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Thé vert</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">3€</span>
             </h3>
           </div>          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">Thé vert Xi ju long jing</span>
-              <span class="drink-price float-right">3€</span>
+              <span class="drink-name">Thé vert Xi hu long jing</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
             </h3>
           </div>     
           <div class="menu-item">
@@ -477,7 +477,7 @@
           </div>          
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">Thé oolong Da hong pao</span>
+              <span class="drink-name">Thé Oolong Da hong pao</span>
               <span class="drink-price float-right">3.<sup>80</sup>€</span>
             </h3>
           </div>
@@ -709,6 +709,8 @@
           </h3>
         </div>
       </div>
+
+      <br> <h6>Tarifs à titre indicatif</h6>
     </div>
 
     </main>
@@ -730,8 +732,8 @@
               Restaurant Chinois Le Jardin<br>
               4 rue Meslay<br>
               75003, Paris<br>
-              <abbr title="Phone">P:</abbr> (+33) 01 48 87 89 71<br>
-              <abbr title="Email">E:</abbr> restaurantchinoislejardin@gmail.com
+              <abbr title="Phone">T :</abbr> (+33) 01 48 87 89 71<br>
+              <abbr title="Email">E :</abbr> restaurantchinoislejardin@gmail.com
             </address>
           </div>
           <div class="col-md-4 h-100 border-left-custom">
