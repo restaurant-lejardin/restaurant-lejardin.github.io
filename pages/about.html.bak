@@ -110,9 +110,9 @@
 
           <br>
           <div class="row">
-            <div class="col-md-5">Métro
+            <div class="col-md-5">Métro Station République
             </div>
-            <div class="col-md-5">Bus et Noctilien
+            <div class="col-md-5">Bus et Noctilien Station République
             </div>
           </div>
           <div class="row">
@@ -148,12 +148,12 @@
           <div id="history-description" class="col-md-8">
             <p>
               Notre restaurant familial est ouvert depuis 1975 dans une ancienne salle de billard français du début du XX<sup>e</sup> siècle. 
-              Le plafond et les miroirs d'origine se marient avec le décor du Shanghai des années 1930, apportant le réconfort d'un restaurant traditional à la cuisine authentique.
+              Le plafond et les miroirs d'origine se marient avec le décor du Shanghai des années 1930, apportant le réconfort d'un restaurant traditionel à la cuisine authentique.
               Nous cuisinons sur place la gastronomie chinoise depuis 45 ans et la gastronomie thaï depuis 30 ans. Nous pouvons adapter les plats selon les goûts et les restrictions alimentaires sur demande.
             </p>
             <p>
               Idéalement situé entre la BNP et la Société Générale tout près de la place de la République, le restaurant est accueillant pour tout public, pour vos repas d'affaires, rendez-vous entre amis et repas en famille.
-              On peut ressentir à la fois la convivialité et la discretion dans l'ambiance générale.
+              On peut ressentir à la fois la convivialité et la discrétion dans l'ambiance générale.
             </p>
             <p><small>
               Ce website a un but de présentation des savoir-faire du restaurant. Le site a été développé dans le cadre d'un portfolio personnel de compétences techniques.  
@@ -190,8 +190,8 @@
               Restaurant Chinois Le Jardin<br>
               4 rue Meslay<br>
               75003, Paris<br>
-              <abbr title="Phone">T:</abbr> (+33) 01 48 87 89 71<br>
-              <abbr title="Email">E:</abbr> restaurantchinoislejardin@gmail.com
+              <abbr title="Phone">T :</abbr> (+33) 01 48 87 89 71<br>
+              <abbr title="Email">E :</abbr> restaurantchinoislejardin@gmail.com
             </address>
           </div>
           <div class="col-md-4 h-100 border-left-custom">
