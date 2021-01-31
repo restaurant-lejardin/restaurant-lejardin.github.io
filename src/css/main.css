@@ -100,10 +100,27 @@ a, a:hover {
   text-align: center;
 }
 
+/* Poisson détail */
 .special-title-4 {
   font-family:'Gill Sans', 'Gill Sans MT';
   margin-top: 1rem;
   font-size: 1.5rem;
+  text-align: center;
+}
+
+/* formule information sans dessert */
+.special-title-5 {
+  font-family:'Gill Sans', 'Gill Sans MT';
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* Partie d'une formule */
+.special-title-6 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 1rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -712,6 +729,12 @@ a, a:hover {
 }
 
 .food-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.formule-title {
   font-size: 1rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
