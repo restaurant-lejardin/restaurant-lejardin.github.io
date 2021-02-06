@@ -41,6 +41,7 @@
                 <a class="dropdown-item" href="entrees.html">Entrées</a>
                 <a class="dropdown-item" href="food.html">Plats</a>
                 <a class="dropdown-item" href="desserts.html">Desserts</a>
+                <a class="dropdown-item" href="formules.html">Formules</a>
                 <a class="dropdown-item" href="drinks.html">Boissons</a>
               </div>
             </li>
