@@ -41,6 +41,7 @@
                 <a class="dropdown-item" href="pages/entrees.html">Entrées</a>
                 <a class="dropdown-item" href="pages/food.html">Plats</a>
                 <a class="dropdown-item" href="pages/desserts.html">Desserts</a>
+                <a class="dropdown-item" href="pages/formules.html">Formules</a>
                 <a class="dropdown-item" href="pages/drinks.html">Boissons</a>
               </div>
             </li>
@@ -418,9 +419,9 @@
                 <blockquote>
                   <p class="mb-0">
                     Vous recherchez un endroit calme, agréable, et une cuisine excellente... 
-                    Faîtes l effort d une petite rue en sortant légèrement de la place de la république, 
+                    Faîtes l'effort d'une petite rue en sortant légèrement de la place de la République, 
                     vous ne serez pas en mode cantine ou industrielle. Nous y retournons régulièrement et 
-                    franchement même un vendredi soir c est un endroit reposant...
+                    franchement même un vendredi soir c'est un endroit reposant...
                   </p>
                   <footer class="blockquote-footer">Christophe V, <cite title="Source Title"></cite></footer>
                 </blockquote>
