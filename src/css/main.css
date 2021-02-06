@@ -323,7 +323,7 @@ a, a:hover {
 }
 
 .homepage-testimonials blockquote {
-  max-width: 50em;
+  max-width: 55em; /* Changé pour garder les avis sur 3 lignes */
   margin: 2.8rem auto 0 auto;
 }
 
