@@ -1,6 +1,8 @@
 /* Homepage */
+var entrees = document.querySelector('#entrees');
 var food = document.querySelector('#food');
 var desserts = document.querySelector('#desserts');
+var formules = document.querySelector('#formules');
 var drinks = document.querySelector('#drinks');
 var aboutDescription  = document.querySelector('#about-description');
 var card1 = document.querySelector('#card-1');
@@ -24,6 +26,14 @@ var options = {
 function callback(entries, observer) {
   entries.forEach(function(entry) {
     switch (entry.target.id) {
+      case "entrees":
+        if (entry.intersectionRatio > 0) {
+          entrees.style.opacity = "1";
+          entrees.className += " animated slideInUp";
+          // Stop observing target
+          observer.unobserve(entry.target);
+        }
+        break;
       case "food":
         if (entry.intersectionRatio > 0) {
           food.style.opacity = "1";
@@ -36,6 +46,14 @@ function callback(entries, observer) {
         if (entry.intersectionRatio > 0) {
           desserts.style.opacity = "1";
           desserts.className += " animated slideInUp";
+          // Stop observing target
+          observer.unobserve(entry.target);
+        }
+        break;  
+      case "formules":
+        if (entry.intersectionRatio > 0) {
+          formules.style.opacity = "1";
+          formules.className += " animated slideInUp";
           // Stop observing target
           observer.unobserve(entry.target);
         }
@@ -96,8 +114,10 @@ function callback(entries, observer) {
 var observer = new IntersectionObserver(callback, options);
 
 // Start observing 
+observer.observe(entrees);
 observer.observe(food);
 observer.observe(desserts);
+observer.observe(formules);
 observer.observe(drinks);
 observer.observe(aboutDescription);
 observer.observe(card1);
