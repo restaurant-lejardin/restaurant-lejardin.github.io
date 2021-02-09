@@ -139,7 +139,8 @@
             </div>
           </div>
         </dl>
-      <hr>
+        <hr>
+      </div>
 
       <div id="about-history" class="container about-history">
         <div class="row d-flex align-items-center">
@@ -156,19 +157,14 @@
               Idéalement situé entre la BNP et la Société Générale tout près de la place de la République, le restaurant est accueillant pour tout public, pour vos repas d'affaires, rendez-vous entre amis et repas en famille.
               On peut ressentir à la fois la convivialité et la discrétion dans l'ambiance générale.
             </p>
-            <p><small>
-              Ce website a un but de présentation des savoir-faire du restaurant. Le site a été développé dans le cadre d'un portfolio personnel de compétences techniques.  
-            </small></p>
           </div>
         </div>
       </div>
-
-      <!-- Kept so that history animation works -->
-      <div class="container about-job-openings">
-        <div class="row d-flex align-items-center">
-          <div id="job-description" class="col-md-8">
-          </div>
-        </div>
+      
+      <div class="container">
+        <p><small>
+          Ce website a un but de présentation des savoir-faire du restaurant. Le site a été développé dans le cadre d'un portfolio personnel de compétences techniques.  
+        </small></p>
       </div>
 
     </main>
