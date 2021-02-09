@@ -515,18 +515,17 @@ a, a:hover {
 }
 
 .about-history {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }
 
-.about-history-title h3, .about-job-openings-title h3 {
+.about-history-title h3 {
   font-family: 'Fredericka the Great', cursive;
   margin-bottom: 1rem;
   color: #007bff;
   font-size: 1.8rem;
 }
 
-.about-history-title p, .about-job-openings-title p {
+.about-history-title p {
   font-size: 2.8rem;
 }
 
@@ -534,11 +533,6 @@ a, a:hover {
   margin-top: 0;
   margin-bottom: 0;
 }
-
-/* .about-job-openings {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-} */
 
 /* 
  * RESERVATIONS
@@ -601,7 +595,7 @@ a, a:hover {
 
 .contact-directions {
   text-align: center;
-  padding-top: 8rem;
+  padding-top: 4rem;
   padding-bottom: 8rem;
   max-width: 50em;
 }
