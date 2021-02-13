@@ -713,6 +713,10 @@
 
       <br> <h6>Tarifs à titre indicatif</h6>
     </div>
+      <div id="googleMapContainer" class="homepage-google-map">
+        <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=4%20rue%20Meslay+(Restaurant%20Le%20Jardin)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameborder="0">
+        </iframe>
+      </div>
 
     </main>
     <footer class="page-footer">
@@ -732,7 +736,7 @@
             <address>
               Restaurant Chinois Le Jardin<br>
               4 rue Meslay<br>
-              75003, Paris<br>
+              75003 Paris<br>
               <abbr title="Phone">T :</abbr> (+33) 01 48 87 89 71<br>
               <abbr title="Email">E :</abbr> restaurantchinoislejardin@gmail.com
             </address>
