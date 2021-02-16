@@ -348,10 +348,10 @@
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
               <img
-              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg"
+              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1613499933/desserts/coupe_Shanghai_iz7zv9_cmxb0d.jpg"
               data-srcset="
-              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 1x,
-              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 2x"
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1613499933/desserts/coupe_Shanghai_iz7zv9_cmxb0d.jpg 1x,
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1613499933/desserts/coupe_Shanghai_iz7zv9_cmxb0d.jpg 2x"
               alt="Glace"
               class="rounded-circle lazyload">
             </div>
