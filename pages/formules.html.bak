@@ -112,15 +112,15 @@
           <div id="menu-icons">
             <div class="row">
               <div class="col-4">
-                <a href="#soup" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/soup.svg" alt="Breakfasts"></a>
+                <a href="#gourmet" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/soup.svg" alt="Breakfasts"></a>
                 <h6 class="menu-icon-text mt-3 mb-0">Formule gourmet <br> à partir de 13.<sup>80</sup>€</h6>
               </div>
               <div class="col-4">
-                <a href="#burgers" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/salad.svg" alt="Burgers"></a>
+                <a href="#express" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/salad.svg" alt="Burgers"></a>
                 <h6 class="menu-icon-text mt-3 mb-0">Formule express <br> à 11.<sup>90</sup>€</h6>
               </div>
               <div class="col-4">
-                <a href="#flavours-of-cyprus" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/dim-sum.svg" alt="Flavours of Cyprus"></a>
+                <a href="#vapeur" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/dim-sum.svg" alt="Flavours of Cyprus"></a>
                 <h6 class="menu-icon-text mt-3 mb-0">Formule vapeur <br> à partir de 11.<sup>90</sup>€</h6>
               </div>
        
@@ -134,7 +134,7 @@
       <div class="food-descriptions container">
         
         <!-- Formule gourmet -->
-        <div id="soup" class="food-category">
+        <div id="gourmet" class="food-category">
           <h2 class="banner">FORMULE GOURMET à 13.<sup>80</sup>€</h2>
           <h3 class="special-title-5">avec dessert à 15.<sup>50</sup>€</h3>
           <hr class="food-horizontal-rule">
@@ -350,7 +350,7 @@
         </div>
 
         <!-- HORS D'OEUVRES -->
-        <div id="burgers" class="food-category">
+        <div id="express" class="food-category">
           <h2 class="banner">FORMULE EXPRESS 11.<sup>90</sup>€</h2>
           <hr class="food-horizontal-rule">
 
@@ -411,7 +411,7 @@
       
 
         <!-- Formule Vapeur -->
-        <div id="flavours-of-cyprus" class="food-category">
+        <div id="vapeur" class="food-category">
           <h2 class="banner">FORMULE VAPEUR <br> à partir de 11.<sup>90</sup>€</h2>
           <h3 class="special-title-5">6 pièces à 11.<sup>90</sup>€</h3>
           <h3 class="special-title-5">8 pièces à 13.<sup>90</sup>€</h3>
@@ -530,10 +530,6 @@
               <a class="footer-social" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html" aria-label="tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
               <a class="footer-social" href="https://restaurantchinois-lejardin.business.site/" aria-label="google"><i class="fa fa-google" aria-hidden="true"></i></a>
             </div>
-          </div>
-          <div class="col-md-0 h-100 border-left-custom">
-            <form id="Newsletter-form"> <!-- kept because it breaks the template otherwise -->
-            </form>
           </div>
         </div>
       </div>
