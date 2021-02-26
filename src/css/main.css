@@ -196,6 +196,8 @@ a, a:hover {
   min-width: 100%;
   height: calc(100vh - 62px);
   object-fit: cover;
+  object-position: center;
+  width:100%; 
 }
 
 .cover .carousel-caption {
