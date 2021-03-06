@@ -239,7 +239,9 @@ a, a:hover {
 .homepage-menu {
   padding-top: 8rem;
   padding-bottom: 8rem;
-  margin: 0 auto;
+  margin: 0 ;
+  margin-left: auto;
+  margin-right: auto
 }
 
 .row-centered {
@@ -247,12 +249,11 @@ a, a:hover {
 }
 
 .homepage-menu-description {
-  margin-top: 2.8rem;
+  margin-top: 2rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-.homepage-desserts, .homepage-drinks {
-  margin-top: 8rem;
-}
 
 /* 
  * HOMEPAGE-ABOUT-US
@@ -1138,7 +1139,7 @@ a, a:hover {
   }
 
   .special-title-2-bis {
-    font-size: 3.8rem;
+    font-size: 3.2rem;
   }
 }
 
