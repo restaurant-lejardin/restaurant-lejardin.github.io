@@ -4930,6 +4930,17 @@ tbody.collapse.show {
   background-color: #1d2124;
 }
 
+#fait-maison{
+  text-align:left;
+}
+
+@media (max-width: 900px) {
+  #fait-maison {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
