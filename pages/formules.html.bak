@@ -11,7 +11,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
-    <link rel="stylesheet" href="../css/purestyles.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!-- Default stylesheet -->
+    <link rel="stylesheet" href="../css/main.css">
   </head>
   <body id="top">
     <header>
@@ -292,7 +297,7 @@
 
           <hr class="food-horizontal-rule">
           
-          <h3 class="special-title-6">Dessert au choix <u>ou</u> Café (formule à 15.<sup>50)</h3>
+          <h3 class="special-title-6">Dessert au choix <u>ou</u> Café (formule à 15.<sup>80</sup>€)</h3>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
