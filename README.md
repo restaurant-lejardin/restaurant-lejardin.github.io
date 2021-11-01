@@ -9,6 +9,7 @@ Publish to website subtree
 bash script.sh
 git subtree push --prefix dist origin gh-pages
 ```
+Then normal git push
 
 Preview online
 Go to **src** during dev or **dist** before deploying folder, then
