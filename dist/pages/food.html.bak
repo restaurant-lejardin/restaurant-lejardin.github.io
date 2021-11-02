@@ -261,7 +261,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Poulet aux amandes</span>
-                <span class="food-price float-right">9.<sup>80</sup>€</span>
+                <span class="food-price float-right">10€</span>
               </h3>
             </div>
           </div>
@@ -375,7 +375,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Poulet sauté à la citronnelle</span>
-                <span class="food-price float-right">9.<sup>50</sup>€</span>
+                <span class="food-price float-right">9.<sup>80</sup>€</span>
               </h3>
             </div>
           </div>
@@ -393,7 +393,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Poulet au curry Thaï au lait de coco KENG KARI KAI </span>
-                <span class="food-price float-right">9.<sup>50</sup>€</span>
+                <span class="food-price float-right">10.<sup>20</sup>€</span>
               </h3>
               <p>(au curry vert possible)</p>
             </div>
@@ -488,7 +488,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Porc CHA SIU sauce caramel  </span>
-                <span class="food-price float-right">9.<sup>50</sup>€</span>
+                <span class="food-price float-right">9.<sup>80</sup>€</span>
               </h3>
               <p>Porc en tranche</p>
             </div>
@@ -538,7 +538,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Bœuf aux oignons  </span>
-                <span class="food-price float-right">9.<sup>50</sup>€</span>
+                <span class="food-price float-right">9.<sup>80</sup>€</span>
               </h3>
             </div>
           </div>
@@ -560,7 +560,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Bœuf aux champignons noirs</span>
-                <span class="food-price float-right">9.<sup>50</sup>€</span>
+                <span class="food-price float-right">9.<sup>80</sup>€</span>
               </h3>
             </div>
           </div>
@@ -577,8 +577,8 @@
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
-                <span class="food-name">Bœuf  CHOP SUEY</span>
-                <span class="food-price float-right">9.<sup>50</sup>€</span>
+                <span class="food-name">Bœuf CHOP SUEY</span>
+                <span class="food-price float-right">10.<sup>20</sup>€</span>
               </h3>
               <p>Mélange de légumes</p>
             </div>
@@ -607,8 +607,8 @@
             </div>
             <div class="col-md-9">
               <h3 class="food-title">
-                <span class="food-name">Bœuf sauté sauce Thaï au basilic    KAPAO NEUA </span>
-                <span class="food-price float-right">9.<sup>80</sup>€</span>
+                <span class="food-name">Bœuf sauté sauce Thaï au basilic KAPAO NEUA </span>
+                <span class="food-price float-right">10.<sup>20</sup>€</span>
               </h3>
             </div>
           </div>
@@ -619,7 +619,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Bœuf sauté à la citronnelle   NEUA PAD SA MOUN PRAI </span>
-                <span class="food-price float-right">9.<sup>80</sup>€</span>
+                <span class="food-price float-right">10.<sup>20</sup>€</span>
               </h3>
             </div>
           </div>
@@ -727,7 +727,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Seiche à la sauce piquante  </span>
-                <span class="food-price float-right">9.<sup>90</sup>€</span>
+                <span class="food-price float-right">10.<sup>50</sup>€</span>
               </h3>
             </div>
           </div>
@@ -745,7 +745,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Seiche sautée sauce Thaï au basilic </span>
-                <span class="food-price float-right">9.<sup>90</sup>€</span>
+                <span class="food-price float-right">10.<sup>50</sup>€</span>
               </h3>
             </div>
           </div>
@@ -991,7 +991,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Légumes sautés au curry au lait de coco  </span>
-                <span class="food-price float-right">9.<sup>80</sup>€</span>
+                <span class="food-price float-right">10.<sup>20</sup>€</span>
               </h3>
               <p>(au curry vert possible)</p>
             </div>
@@ -1012,7 +1012,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">MAPO TOFU sauce piquante </span>
-                <span class="food-price float-right">9.<sup>20</sup>€</span>
+                <span class="food-price float-right">9.<sup>80</sup>€</span>
               </h3>
               <p>Porc</p>
             </div>
@@ -1024,7 +1024,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Vermicelles de soja au TOFU  </span>
-                <span class="food-price float-right">9.<sup>50</sup>€</span>
+                <span class="food-price float-right">10.<sup>50</sup>€</span>
               </h3>
               <p>Vermicelles transparentes</p>
             </div>
@@ -1043,7 +1043,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Vermicelles aux légumes </span>
-                <span class="food-price float-right">9.<sup>20</sup>€</span>
+                <span class="food-price float-right">9.<sup>50</sup>€</span>
               </h3>
               <p>Vermicelles transparentes</p>
             </div>
