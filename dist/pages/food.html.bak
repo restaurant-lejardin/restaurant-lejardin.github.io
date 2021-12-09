@@ -110,7 +110,7 @@
         <div class="food-jumbotron-caption container">
           <h1 id="title-1" class="special-title-2">Plats</h1>
           <div id="menu-icons">
-            <h2 class="special-title-3">PLATS A COMPOSER (riz non compris)</h2>
+            <h2 class="special-title-3 liste-food-1">PLATS A COMPOSER (riz non compris)</h2>
             <div class="row">
               <div class="col-4">
                 <a href="#wok" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/wok.svg" alt="Breakfasts"></a>
@@ -126,8 +126,7 @@
               </div>        
             </div>
             
-            <br><br>
-            <h2 class="special-title-3">ACCOMPAGNEMENT</h2>
+            <h2 class="special-title-3 liste-food-2">ACCOMPAGNEMENT</h2>
             <div class="row mt-5">
               <div class="col-4">
                 <a href="#rice" class="smooth-scroll"><img class="menu-icon" src="../media/menu/food/icons/pasta.svg" alt="Pasta"></a>

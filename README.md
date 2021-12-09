@@ -28,7 +28,7 @@ Original Theme:
 https://stackoverflow.com/questions/13925916/what-is-causing-this-error-fatal-error-unable-to-find-local-grunt
 
 ## Tips / Issues I got and how I solved them
-- In case of broken pages when previewing, check if the html pages use the correct css files => check if perl commands worked
+- In case of broken pages when previewing, check if the html pages use the correct css files => check if perl commands worked : issue is often \n not recognized
 - Remove node_modules
 - If can't push to gh-pages, https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase then https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 

@@ -706,8 +706,8 @@ a, a:hover {
 }
 
 .menu-icon-text {
-  display: none;
-  font-size: 1.5rem;
+  display: block;
+  font-size: 1.2rem;
 }
 
 .food-jumbotron h1 {
@@ -1062,12 +1062,36 @@ a, a:hover {
  * MEDIA QUERIES
  */
 
+/* Specific small devices (phones iPhone SE, 375px and up) */
+@media (width: 375px) {
+  .menu-icon-text {
+    display: block;
+    font-size: 1rem;
+  }
+  /*2 suivants spécifiques aux icones en haut de page Plats pour les petits écrans, 
+  sinon on ne voit pas le bas du texte des icones*/
+  .liste-food-1{
+    margin-top: -20px;
+  }
+
+  .liste-food-2{
+    margin-bottom: -20px;
+    margin-top: 30px;
+  }
+}
+
+
 /* Small devices (phones, 576px and up) */
 @media (min-width: 576px) {
   .menu-icon-text {
     display: block;
+    /* font-size: 1.2rem; */
   }
 }
+
+
+
+
  
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -1159,9 +1183,9 @@ a, a:hover {
   .about-arrow {
     display: none;
   }
-  .menu-icon-text {
-    display: none;
-  }
+  /* .menu-icon-text {
+    font-size: 1.2rem;
+  } */
   .menu-icon {
     max-width: 30px;
   }
