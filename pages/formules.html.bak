@@ -113,7 +113,7 @@
             <div class="row">
               <div class="col-4">
                 <a href="#gourmet" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/soup.svg" alt="Breakfasts"></a>
-                <h6 class="menu-icon-text mt-3 mb-0">Formule gourmet <br> à partir de 13.<sup>80</sup>€</h6>
+                <h6 class="menu-icon-text mt-3 mb-0">Formule gourmet <br> à partir de 13.<sup>90</sup>€</h6>
               </div>
               <div class="col-4">
                 <a href="#express" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/salad.svg" alt="Burgers"></a>
@@ -135,8 +135,8 @@
         
         <!-- Formule gourmet -->
         <div id="gourmet" class="food-category">
-          <h2 class="banner">FORMULE GOURMET à 13.<sup>80</sup>€</h2>
-          <h3 class="special-title-5">avec dessert à 15.<sup>80</sup>€</h3>
+          <h2 class="banner">FORMULE GOURMET à 13.<sup>90</sup>€</h2>
+          <h3 class="special-title-5">avec dessert à 15.<sup>90</sup>€</h3>
           <hr class="food-horizontal-rule">
           
           <h3 class="special-title-6">Entrée au choix</h3>

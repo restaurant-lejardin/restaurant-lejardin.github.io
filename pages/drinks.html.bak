@@ -540,13 +540,13 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Rhône - Côtes du Rhone</span>
-              <span class="drink-price float-right">18€ / 11.<sup>50</sup>€</span>
+              <span class="drink-price float-right">20€ / 12€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Loire - Touraine Gamay</span>
-              <span class="drink-price float-right">18€ / 11.<sup>50</sup>€</span>
+              <span class="drink-price float-right">20€ / 12€</span>
             </h3>
           </div>
           <div class="menu-item">
@@ -607,25 +607,25 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Provence - Côtes de Provence</span>
-              <span class="drink-price float-right">20€ / 12€</span>
+              <span class="drink-price float-right">22€ / 13€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Provence - Bandol</span>
-              <span class="drink-price float-right">23€ / -</span>
+              <span class="drink-price float-right">24€ / -</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Loire - Cabernet d'Anjou (demi-sec)</span>
-              <span class="drink-price float-right">17€ / -</span>
+              <span class="drink-price float-right">19€ / -</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Rhône - Tavel</span>
-              <span class="drink-price float-right">23€ / -</span>
+              <span class="drink-price float-right">24€ / -</span>
             </h3>
           </div>
         </div>
@@ -637,13 +637,13 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Pays d'Oc - Chardonnay (fruité)</span>
-              <span class="drink-price float-right">18€ / 11.<sup>50</sup>€</span>
+              <span class="drink-price float-right">20€ / 12€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Alsace - Riesling</span>
-              <span class="drink-price float-right">20€ / 12€</span>
+              <span class="drink-price float-right">22€ / 13€</span>
             </h3>
           </div>
           <div class="menu-item">
@@ -661,7 +661,7 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Loire - Muscadet sur lie</span>
-              <span class="drink-price float-right">20€ / 12€</span>
+              <span class="drink-price float-right">22€ / 13€</span>
             </h3>
           </div>
           <div class="menu-item">
@@ -685,13 +685,13 @@
         <div class="menu-item">
           <h3 class="drink-title">
             <span class="drink-name">Côtes du Rhône</span>
-            <span class="drink-price float-right">3.<sup>80</sup>€ / 6€ / 11.<sup>90</sup>€</span>
+            <span class="drink-price float-right">4€ / 6.<sup>50</sup>€ / 12.<sup>90</sup>€</span>
           </h3>
         </div>
         <div class="menu-item">
           <h3 class="drink-title">
             <span class="drink-name">Bordeaux</span>
-            <span class="drink-price float-right">3.<sup>80</sup>€ / 6€ / 11.<sup>90</sup>€</span>
+            <span class="drink-price float-right">4€ / 6.<sup>50</sup>€ / 12.<sup>90</sup>€</span>
           </h3>
         </div>
         <hr class="drink-horizontal-rule">
@@ -700,13 +700,13 @@
         <div class="menu-item">
           <h3 class="drink-title">
             <span class="drink-name">Vin rosé (Pays d'Oc)</span>
-            <span class="drink-price float-right">3.<sup>30</sup>€ / 4.<sup>50</sup>€ / 8.<sup>90</sup>€</span>
+            <span class="drink-price float-right">3.<sup>50</sup>€ / 4.<sup>80</sup>€ / 9.<sup>50</sup>€</span>
           </h3>
         </div>
         <div class="menu-item">
           <h3 class="drink-title">
             <span class="drink-name">Vin blanc</span>
-            <span class="drink-price float-right">3.<sup>30</sup>€ / 4.<sup>50</sup>€ / 8.<sup>90</sup>€</span>
+            <span class="drink-price float-right">3.<sup>50</sup>€ / 4.<sup>80</sup>€ / 9.<sup>50</sup>€</span>
           </h3>
         </div>
       </div>
