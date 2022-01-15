@@ -7,9 +7,9 @@ This real restaurant website has been done as a side project to work on HTML and
 Publish to website subtree
 ```
 bash script.sh
+git push
 git subtree push --prefix dist origin gh-pages
 ```
-Then normal git push
 
 Preview online
 Go to **src** during dev or **dist** before deploying folder, then
