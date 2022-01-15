@@ -67,7 +67,7 @@
       <!-- ALBUM DESCRIPTION -->
       <div class="album-description container-fluid text-white">
         <h1 id="title-1" class="special-title-1">ALBUM</h1>
-        <h2 id="title-2" class="special-title-2">Explore Our Galleries</h2>
+        <h2 id="title-2" class="special-title-2">Découvrez notre restaurant avec cet album photo</h2>
       </div>
 
       <!-- ALBUM CONTENT -->
@@ -97,7 +97,7 @@
               <div class="card box-shadow">
                 <img class="card-img-top" src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg" alt="Dessert image">
                 <div class="card-body">
-                  <h5 class="card-title font-weight-bold">LOCATION</h5>
+                  <h5 class="card-title font-weight-bold">LIEU</h5>
                   <a href="gallery-location.html" class="btn btn-outline-dark" role="button">Voir</a>
                 </div>
               </div>

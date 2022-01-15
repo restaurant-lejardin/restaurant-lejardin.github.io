@@ -113,15 +113,15 @@
             <div class="row">
               <div class="col-4">
                 <a href="#soup" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/soup.svg" alt="Breakfasts"></a>
-                <h6 class="menu-icon-text mt-3 mb-0">Potages et soupes</h6>
+                <h6 class="menu-icon-text mt-3 mb-0">POTAGES ET SOUPES</h6>
               </div>
               <div class="col-4">
                 <a href="#burgers" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/salad.svg" alt="Burgers"></a>
-                <h6 class="menu-icon-text mt-3 mb-0">Hors d'oeuvres</h6>
+                <h6 class="menu-icon-text mt-3 mb-0">HORS D'OEUVRES</h6>
               </div>
               <div class="col-4">
                 <a href="#flavours-of-cyprus" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/dim-sum.svg" alt="Flavours of Cyprus"></a>
-                <h6 class="menu-icon-text mt-3 mb-0">Raviolis</h6>
+                <h6 class="menu-icon-text mt-3 mb-0">RAVIOLIS</h6>
               </div>
        
             </div>

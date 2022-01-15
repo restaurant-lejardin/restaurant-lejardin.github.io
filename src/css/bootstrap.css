@@ -4109,6 +4109,11 @@ tbody.collapse.show {
     padding-right: 0;
     padding-left: 0;
   }
+
+  /* Hide menu pictures on phones */
+  .food-image {
+    display:none
+  }
 }
 
 @media (min-width: 768px) {
@@ -5144,7 +5149,7 @@ tbody.collapse.show {
   color: #fff;
   text-align: center;
   background-color: #007bff;
-  transition: width 0.6s ease;
+  transition: width 0.7s ease;
 }
 
 .progress-bar-striped {
@@ -5879,9 +5884,9 @@ button.close {
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
-  transition: -webkit-transform 0.6s ease;
-  transition: transform 0.6s ease;
-  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+  transition: -webkit-transform 0.6s ;
+  transition: transform 0.6s ;
+  transition: transform 0.6s , -webkit-transform 0.6s ;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
