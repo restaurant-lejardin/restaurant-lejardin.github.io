@@ -551,6 +551,14 @@
 
         <br> <h6>Tarifs à titre indicatif</h6>
 
+        <div class="row-centered end-menu">
+          <a class="btn btn-outline-dark" href="food.html" role="button">Nos plats</a>
+          <a class="btn btn-outline-dark" href="desserts.html" role="button">Nos desserts</a>
+          <a class="btn btn-outline-dark" href="formules.html" role="button">Nos formules</a>
+          <a class="btn btn-outline-dark" href="drinks.html" role="button">Nos boissons</a>
+          <br>
+        </div>
+
       </div>
 
       <div id="googleMapContainer" class="homepage-google-map">
