@@ -1,0 +1,22 @@
+name: Flex
+markdown: kramdown
+highlighter: pygments
+exclude: ["LICENSE", "README.md","script.sh","Gruntfile.js","manifest.json","package-lock.json","package.json","service-worker.js"]
+
+baseurl: ""
+permalink: /:title/
+
+
+plugins:
+  - jekyll-polyglot
+
+
+# jekyll-multiple-languages-plugin settings:
+languages: ["fr", "en", "ch"]
+default_lang: "fr"
+
+exclude_from_localization: ["docs", "node-modules", "css","src/media"]
+
+parallel_localization: true
+
+lang_from_path: true
