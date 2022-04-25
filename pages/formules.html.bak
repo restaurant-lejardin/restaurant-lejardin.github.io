@@ -113,15 +113,15 @@
             <div class="row">
               <div class="col-4">
                 <a href="#gourmet" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/soup.svg" alt="Breakfasts"></a>
-                <h6 class="menu-icon-text mt-3 mb-0">FORMULE GOURMET <br> à partir de 13.<sup>90</sup>€</h6>
+                <h6 class="menu-icon-text mt-3 mb-0">FORMULE GOURMET <br> à partir de 14.<sup>90</sup>€</h6>
               </div>
               <div class="col-4">
                 <a href="#express" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/salad.svg" alt="Burgers"></a>
-                <h6 class="menu-icon-text mt-3 mb-0">FORMULE EXPRESS <br> à 12.<sup>50</sup>€</h6>
+                <h6 class="menu-icon-text mt-3 mb-0">FORMULE EXPRESS <br> à 12.<sup>90</sup>€</h6>
               </div>
               <div class="col-4">
                 <a href="#vapeur" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/dim-sum.svg" alt="Flavours of Cyprus"></a>
-                <h6 class="menu-icon-text mt-3 mb-0">FORMULE VAPEUR <br> à partir de 12.<sup>50</sup>€</h6>
+                <h6 class="menu-icon-text mt-3 mb-0">FORMULE VAPEUR <br> à partir de 12.<sup>90</sup>€</h6>
               </div>
        
             </div>
@@ -135,8 +135,8 @@
         
         <!-- Formule gourmet -->
         <div id="gourmet" class="food-category">
-          <h2 class="banner">FORMULE GOURMET à 13.<sup>90</sup>€</h2>
-          <h3 class="special-title-5">avec dessert à 15.<sup>90</sup>€</h3>
+          <h2 class="banner">FORMULE GOURMET à 14.<sup>90</sup>€</h2>
+          <h3 class="special-title-5">avec dessert à 16.<sup>90</sup>€</h3>
           <hr class="food-horizontal-rule">
           
           <h3 class="special-title-6">Entrée au choix</h3>
@@ -297,7 +297,7 @@
 
           <hr class="food-horizontal-rule">
           
-          <h3 class="special-title-6">Dessert au choix <u>ou</u> Café (formule à 15.<sup>90</sup>€)</h3>
+          <h3 class="special-title-6">Dessert au choix <u>ou</u> Café (formule à 16.<sup>90</sup>€)</h3>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
@@ -351,7 +351,7 @@
 
         <!-- HORS D'OEUVRES -->
         <div id="express" class="food-category">
-          <h2 class="banner">FORMULE EXPRESS 12.<sup>50</sup>€</h2>
+          <h2 class="banner">FORMULE EXPRESS 12.<sup>90</sup>€</h2>
           <hr class="food-horizontal-rule">
 
           <h3 class="special-title-6">Entrée au choix</h3>
@@ -412,9 +412,9 @@
 
         <!-- Formule Vapeur -->
         <div id="vapeur" class="food-category">
-          <h2 class="banner">FORMULE VAPEUR <br> à partir de 12.<sup>50</sup>€</h2>
-          <h3 class="special-title-5">6 pièces à 12.<sup>50</sup>€</h3>
-          <h3 class="special-title-5">8 pièces à 14.<sup>50</sup>€</h3>
+          <h2 class="banner">FORMULE VAPEUR <br> à partir de 12.<sup>90</sup>€</h2>
+          <h3 class="special-title-5">6 pièces à 12.<sup>90</sup>€</h3>
+          <h3 class="special-title-5">8 pièces à 14.<sup>90</sup>€</h3>
           <hr class="food-horizontal-rule">
 
           <h3 class="special-title-6">Entrée au choix</h3>
