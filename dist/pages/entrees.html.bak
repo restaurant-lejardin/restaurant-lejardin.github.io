@@ -244,7 +244,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Nems vietnamiens au poulet</span>
-                <span class="food-price float-right">6€</span>
+                <span class="food-price float-right">6.<sup>50</sup>€</span>
               </h3>
               <p class="food-ingredients">
                 4 pièces
@@ -257,7 +257,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Nems vietnamiens aux crevettes  </span>
-                <span class="food-price float-right">7€</span>
+                <span class="food-price float-right">7.<sup>50</sup>€</span>
               </h3>
               <p class="food-ingredients">
                 4 pièces
@@ -270,7 +270,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Nems végétarien</span>
-                <span class="food-price float-right">6€</span>
+                <span class="food-price float-right">6.<sup>50</sup>€</span>
               </h3>
               <p class="food-ingredients">
                 4 pièces
@@ -290,7 +290,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Pâtés Impériaux chinois</span>
-                <span class="food-price float-right">6€</span>
+                <span class="food-price float-right">6.<sup>50</sup>€</span>
               </h3>
               <p class="food-ingredients">
                 poulet, 2 pièces
