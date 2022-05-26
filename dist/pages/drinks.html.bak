@@ -295,7 +295,7 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">HEINEKEN (25 cl)</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">4€</span>
             </h3>
           </div> 
           <div class="menu-item">
@@ -313,19 +313,19 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Vittel (50 cl / 100 cl)</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€ / 6€</span>
+              <span class="drink-price float-right">4€ / 6.<sup>80</sup>€</span>
             </h3>
           </div>     
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Badoit, San Pellegrino (50 cl / 100 cl)</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€ / 6€</span>
+              <span class="drink-price float-right">4€ / 6.<sup>80</sup>€</span>
             </h3>
           </div>          
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Perrier (33 cl)</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">4€</span>
             </h3>
           </div>
           <hr class="drink-horizontal-rule">
@@ -333,43 +333,43 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Jus d'orange</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">4€</span>
             </h3>
           </div>     
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Jus d'ananas</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">4€</span>
             </h3>
           </div>          
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Jus de pomme</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">4€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Coca-Cola (33 cl)</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">4€</span>
             </h3>
           </div>     
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Coca-Cola Zero (33 cl)</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">4€</span>
             </h3>
           </div>          
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Ice Tea, Orangina</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">4€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Limonade (soda)</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">4€</span>
             </h3>
           </div>
         </div>
@@ -381,43 +381,43 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Lait de soja (chaud ou froid)</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">4€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Lait de coco</span>
-              <span class="drink-price float-right">4€</span>
+              <span class="drink-price float-right">4.<sup>20</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Jus de coco</span>
-              <span class="drink-price float-right">4€</span>
+              <span class="drink-price float-right">4.<sup>20</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Jus de mangue</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">4€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Jus de goyave</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">4€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Jus de lychees</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">4€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Cocktail de fruits</span>
-              <span class="drink-price float-right">4.<sup>80</sup>€</span>
+              <span class="drink-price float-right">5€</span>
             </h3>
           </div>
         </div>
@@ -429,7 +429,7 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Expresso</span>
-              <span class="drink-price float-right">2.<sup>20</sup>€</span>
+              <span class="drink-price float-right">2.<sup>30</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
@@ -446,8 +446,14 @@
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">Cappuccino, café au lait</span>
-              <span class="drink-price float-right">4€</span>
+              <span class="drink-name">Cappuccino</span>
+              <span class="drink-price float-right">4.<sup>80</sup>€</span>
+            </h3>
+          </div>
+          <div class="menu-item">
+            <h3 class="drink-title">
+              <span class="drink-name">Café au lait</span>
+              <span class="drink-price float-right">4.<sup>80</sup>€</span>
             </h3>
           </div>
           <hr class="drink-horizontal-rule">
@@ -455,19 +461,19 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Thé au jasmin</span>
-              <span class="drink-price float-right">3€</span>
+              <span class="drink-price float-right">3.<sup>30</sup>€</span>
             </h3>
           </div>     
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Thé vert</span>
-              <span class="drink-price float-right">3€</span>
+              <span class="drink-price float-right">3.<sup>30</sup>€</span>
             </h3>
           </div>          
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Thé vert Xi hu long jing</span>
-              <span class="drink-price float-right">3.<sup>80</sup>€</span>
+              <span class="drink-price float-right">3.<sup>30</sup>€</span>
             </h3>
           </div>     
           <div class="menu-item">
@@ -484,7 +490,7 @@
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
-              <span class="drink-name">Thé noir yunnan puer</span>
+              <span class="drink-name">Thé noir Yunnan puer</span>
               <span class="drink-price float-right">3.<sup>80</sup>€</span>
             </h3>
           </div>
@@ -497,25 +503,25 @@
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Thé vert à la menthe fraîche</span>
-              <span class="drink-price float-right">3.<sup>30</sup>€</span>
+              <span class="drink-price float-right">3.<sup>80</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Infusion de chrysanthème</span>
-              <span class="drink-price float-right">3€</span>
+              <span class="drink-price float-right">3.<sup>30</sup>€</span>
             </h3>
           </div>     
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Infusion de rose</span>
-              <span class="drink-price float-right">3€</span>
+              <span class="drink-price float-right">3.<sup>30</sup>€</span>
             </h3>
           </div>          
           <div class="menu-item">
             <h3 class="drink-title">
               <span class="drink-name">Infusion (verveine, tilleul, lipton)</span>
-              <span class="drink-price float-right">3€</span>
+              <span class="drink-price float-right">3.<sup>30</sup>€</span>
             </h3>
           </div>
           <div class="menu-item">
