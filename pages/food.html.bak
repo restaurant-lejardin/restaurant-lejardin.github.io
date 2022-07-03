@@ -852,7 +852,7 @@
             </div>
           </div>
           
-          <div class="row align-items-center menu-item">
+          <!-- <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
               <img
               data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/81a_ticroo.jpg"
@@ -868,8 +868,8 @@
                 <span class="food-price float-right">10.<sup>50</sup>€</span>
               </h3>
               <p>viandes et crevettes</p>
-            </div>
-          </div>
+            </div> 
+          </div> -->
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
@@ -1017,7 +1017,7 @@
             </div>
           </div>
           
-          <div class="row align-items-center menu-item">
+          <!-- <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
@@ -1027,7 +1027,7 @@
               </h3>
               <p>Vermicelles transparentes</p>
             </div>
-          </div>
+          </div> -->
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
