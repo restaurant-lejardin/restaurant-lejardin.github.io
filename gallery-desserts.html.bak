@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Restaurant Chinois Le Jardin - </title>
     <!-- Web app manifest -->
-    <link rel='manifest' href='../manifest.json'>
+    <link rel='manifest' href='manifest.json'>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <!-- Animate.css -->
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Default stylesheet -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body id="top">
     <header>
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand animated pulse" href="../index.html">
-          <img src="../media/brand/logo-dark.svg" width="30" height="30" alt="Logo">
+        <a class="navbar-brand animated pulse" href="index.html">
+          <img src="media/brand/logo-dark.svg" width="30" height="30" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse text-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="../index.html">Accueil <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="food.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -66,8 +66,8 @@
 
       <!-- GALLERY DESCRIPTION -->
       <div class="gallery-description container-fluid bg-dark text-white">
-        <h1 id="title-1" class="special-title-1">GALLERIE DU RESTAURANT</h1>
-        <h2 id="title-2" class="special-title-2">Une ambiance traditionnelle</h2>
+        <h1 id="title-1" class="special-title-1">GALLERIE DES DESSERTS ET BOISSONS</h1>
+        <h2 id="title-2" class="special-title-2">Des plaisirs pour tous les goûts</h2>
       </div>
 
       <!-- GALLERY LIGHTBOX -->
@@ -77,31 +77,19 @@
           <div id="galleryCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012268/Location/front.jpg" alt="First slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/assortiment_maison_t7heqj.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg" alt="Second slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/raviolis_frits_bxb3hh.jpg" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg" alt="Third slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg" alt="Third slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg" alt="Fourth slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg" alt="Fourth slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338855/Location/unnamed_j4hwby.jpg" alt="Fifth slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338851/Location/IMG_20200911_195839_byeolb.jpg" alt="Sixth slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338847/Location/2018-10-02_vt9gq4.jpg" alt="Seventh slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg" alt="Eighth slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012271/Location/back.jpg" alt="Ninth slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/china_blue_b2xhob.jpg" alt="Fifth slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
@@ -123,94 +111,71 @@
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="0">
                 <img class="img-fluid rounded box-shadow border" 
-                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012268/Location/front.jpg" 
-                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012268/Location/front.jpg 1x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1605012268/Location/front.jpg 2x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012268/Location/front.jpg 3x" draggable="false" alt="Location">
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/assortiment_maison_t7heqj.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/assortiment_maison_t7heqj.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/assortiment_maison_t7heqj.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/assortiment_maison_t7heqj.jpg 3x" draggable="false" alt="Dessert">
               </a>
+              <div class="row-centered">Assortiment maison <br>
+                Gingembre, perles de coco, nougats chinois</div>
             </div>
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="1">
                 <img class="img-fluid rounded box-shadow border" 
-                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg" 
-                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg 1x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg 2x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg 3x" draggable="false" alt="Location">
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/raviolis_frits_bxb3hh.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/raviolis_frits_bxb3hh.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/raviolis_frits_bxb3hh.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/raviolis_frits_bxb3hh.jpg 3x" draggable="false" alt="Dessert">
               </a>
+              <div class="row-centered">Raviolis frits <br> A la crème d'haricots rouges
+              </div>
             </div>
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="2">
                 <img class="img-fluid rounded box-shadow border" 
-                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg" 
-                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg 1x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg 2x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg 3x" draggable="false" alt="Location">
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 3x" draggable="false" alt="Dessert">
               </a>
+              <div class="row-centered">Coupe Shanghai</div>
             </div>
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="3">
                 <img class="img-fluid rounded box-shadow border" 
-                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg" 
-                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg 1x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg 2x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg 3x" draggable="false" alt="Location">
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg 3x" draggable="false" alt="Dessert">
               </a>
+              <div class="row-centered">Beignets de pomme</div>
             </div>
             <div class="gallery-item col-md-4">
               <a href="#" data-slide-number="4">
                 <img class="img-fluid rounded box-shadow border" 
-                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338855/Location/unnamed_j4hwby.jpg" 
-                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338855/Location/unnamed_j4hwby.jpg 1x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338855/Location/unnamed_j4hwby.jpg 2x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338855/Location/unnamed_j4hwby.jpg 3x" draggable="false" alt="Location">
+                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/china_blue_b2xhob.jpg" 
+                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/china_blue_b2xhob.jpg 1x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/china_blue_b2xhob.jpg 2x, 
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/china_blue_b2xhob.jpg 3x" draggable="false" alt="Dessert">
               </a>
-            </div>
-            <div class="gallery-item col-md-4">
-              <a href="#" data-slide-number="5">
-                <img class="img-fluid rounded box-shadow border" 
-                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338851/Location/IMG_20200911_195839_byeolb.jpg" 
-                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338851/Location/IMG_20200911_195839_byeolb.jpg 1x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338851/Location/IMG_20200911_195839_byeolb.jpg 2x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338851/Location/IMG_20200911_195839_byeolb.jpg 3x" draggable="false" alt="Location">
-              </a>
-            </div>
-            <div class="gallery-item col-md-4">
-              <a href="#" data-slide-number="6">
-                <img class="img-fluid rounded box-shadow border" 
-                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338847/Location/2018-10-02_vt9gq4.jpg" 
-                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338847/Location/2018-10-02_vt9gq4.jpg 1x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338847/Location/2018-10-02_vt9gq4.jpg 2x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338847/Location/2018-10-02_vt9gq4.jpg 3x" draggable="false" alt="Location">
-              </a>
-            </div>
-            <div class="gallery-item col-md-4">
-              <a href="#" data-slide-number="7">
-                <img class="img-fluid rounded box-shadow border" 
-                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg" 
-                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 1x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 2x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 3x" draggable="false" alt="Location">
-              </a>
-            </div>
-            <div class="gallery-item col-md-4">
-              <a href="#" data-slide-number="8">
-                <img class="img-fluid rounded box-shadow border" 
-                src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012271/Location/back.jpg" 
-                srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012271/Location/back.jpg 1x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1605012271/Location/back.jpg 2x, 
-                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012271/Location/back.jpg 3x" draggable="false" alt="Location">
-              </a>
+              <div class="row-centered">China Blue</div>
             </div>
           </div>
-        </div>
+        </div>        
       </div>
-
+      
       <div class="row-centered end-menu">
+        <a class="btn btn-outline-dark" href="desserts.html" role="button">Nos desserts</a>
+        <a class="btn btn-outline-dark" href="drinks.html" role="button">Nos boissons</a>
         <a class="btn btn-outline-dark" href="gallery-food.html" role="button">Galerie des entrées et plats</a>
-        <a class="btn btn-outline-dark" href="gallery-desserts.html" role="button">Galerie des desserts et boissons</a>
+        <a class="btn btn-outline-dark" href="gallery-location.html" role="button">Galerie du lieu</a>
         <br>
       </div>
-   
+      
+      <!-- GOOGLE MAP
+      <div id="googleMapContainer" class="homepage-google-map">
+        <iframe title="Our location on Google My Maps" class="google-map" src="https://www.google.com/maps/d/embed?mid=1YihUagJV98aTSoPRpalSyqRjTVhaFv5E&hl=en"></iframe>
+      </div> -->
       <div id="googleMapContainer" class="homepage-google-map">
         <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=4%20rue%20Meslay+(Restaurant%20Le%20Jardin)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameborder="0">
         </iframe>
@@ -221,7 +186,7 @@
     <footer class="page-footer">
       <div class="container">
         <a class="navbar-brand animated pulse d-block text-center m-0 p-0" href="#">
-          <img src="../media/brand/logo-light.svg" width="50" height="50" alt="Logo">
+          <img src="media/brand/logo-light.svg" width="50" height="50" alt="Logo">
         </a>
         <div class="row">
           <div class="col-md-4">
@@ -248,6 +213,19 @@
               <a class="footer-social" href="https://restaurantchinois-lejardin.business.site/" aria-label="google"><i class="fa fa-google" aria-hidden="true"></i></a>
 
             </div>
+            <link href="https://awards.infcdn.net/rect_v2.css" rel="stylesheet"/>
+            <div id="rest_v2" class="">
+        <div class="rb_flex rb_top"> 
+          <span class="rb_hat"></span> 
+          <span class="rb_type ">Recommandé</span> 
+        </div> 
+        <a href="https://fr.restaurantguru.com/Le-Jardin-Paris-2" class="rb_center f16" target="_blank">Restaurant chinois Le Jardin</a>
+        <div class="rb_flex"> 
+          <a href="https://restaurantguru.com" class="rb_bot" target="_blank">Restaurant Guru</a>
+          <div>2022</div>
+      </div>
+    </div>
+
           </div>
           <div class="col-md-0 h-100 border-left-custom">
             <form id="newsletter-form"> <!-- kept because it breaks the template otherwise -->
@@ -298,7 +276,7 @@
         }
       });
     </script>
-    <script src="../js/site.js"></script>
-    <script src="../js/gallery-animations.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/gallery-animations.js"></script>
   </body>
 </html>
