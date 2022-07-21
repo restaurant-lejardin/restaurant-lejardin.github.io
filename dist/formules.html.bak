@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Restaurant Chinois Le Jardin - </title>
     <!-- Web app manifest -->
-    <link rel='manifest' href='../manifest.json'>
+    <link rel='manifest' href='manifest.json'>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <!-- Animate.css -->
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Default stylesheet -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body id="top">
     <header>
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand animated pulse" href="../index.html">
-          <img src="../media/brand/logo-dark.svg" width="30" height="30" alt="Logo">
+        <a class="navbar-brand animated pulse" href="index.html">
+          <img src="media/brand/logo-dark.svg" width="30" height="30" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse text-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="../index.html">Accueil <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown active">
               <a class="nav-link dropdown-toggle" href="food.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -108,20 +108,20 @@
           alt=""
           class="food-jumbotron-bg">
         <div class="food-jumbotron-caption container">
-          <h1 id="title-1" class="special-title-2">Entrées</h1>
+          <h1 id="title-1" class="special-title-2">Formules</h1>
           <div id="menu-icons">
             <div class="row">
               <div class="col-4">
-                <a href="#soup" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/soup.svg" alt="Breakfasts"></a>
-                <h6 class="menu-icon-text mt-3 mb-0">POTAGES ET SOUPES</h6>
+                <a href="#gourmet" class="smooth-scroll"><img class="menu-icon" src="media/menu/entrees/icons/soup.svg" alt="Breakfasts"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">FORMULE GOURMET <br> à partir de 14.<sup>90</sup>€</h6>
               </div>
               <div class="col-4">
-                <a href="#burgers" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/salad.svg" alt="Burgers"></a>
-                <h6 class="menu-icon-text mt-3 mb-0">HORS D'OEUVRES</h6>
+                <a href="#express" class="smooth-scroll"><img class="menu-icon" src="media/menu/entrees/icons/salad.svg" alt="Burgers"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">FORMULE EXPRESS <br> à 12.<sup>90</sup>€</h6>
               </div>
               <div class="col-4">
-                <a href="#flavours-of-cyprus" class="smooth-scroll"><img class="menu-icon" src="../media/menu/entrees/icons/dim-sum.svg" alt="Flavours of Cyprus"></a>
-                <h6 class="menu-icon-text mt-3 mb-0">RAVIOLIS</h6>
+                <a href="#vapeur" class="smooth-scroll"><img class="menu-icon" src="media/menu/entrees/icons/dim-sum.svg" alt="Flavours of Cyprus"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">FORMULE VAPEUR <br> à partir de 12.<sup>90</sup>€</h6>
               </div>
        
             </div>
@@ -133,57 +133,144 @@
       <!-- FOOD: DESCRIPTIONS -->
       <div class="food-descriptions container">
         
-        <!-- POTAGES ET SOUPES -->
-        <div id="soup" class="food-category">
-          <h2 class="banner">POTAGES ET SOUPES</h2>
+        <!-- Formule gourmet -->
+        <div id="gourmet" class="food-category">
+          <h2 class="banner">FORMULE GOURMET à 14.<sup>90</sup>€</h2>
+          <h3 class="special-title-5">avec dessert à 16.<sup>90</sup>€</h3>
           <hr class="food-horizontal-rule">
+          
+          <h3 class="special-title-6">Entrée au choix</h3>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Nems vietnamiens (poulet ou végétarien) / 4 pièces</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Pâtés impériaux chinois (au poulet)</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Salade chinoise aux crevettes</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Potage Pékinois piquant</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Raviolis vapeur aux crevettes</span>
+                <span class="food-price float-right">+ 1.<sup>30</sup>€</span>
+              </h3>
+            </div>
+          </div>
 
-          <!-- <hr class="food-horizontal-rule"> -->
+          <hr class="food-horizontal-rule">
+          
+          <h3 class="special-title-6">Plat au choix</h3>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Bœuf aux oignons</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Poulet au curry</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Poulet Thaï au basilic</span>
+                <span class="food-price float-right">+ 1.<sup>30</sup>€</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Poulet à la sauce aigre-douce (ananas)</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Canard aux champignons noirs et bambou</span>
+                <span class="food-price float-right">+ 2.<sup>30</sup>€</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Légumes sautés</span>
+              </h3>
+            </div>
+          </div>
 
-          <!-- <hr class="food-horizontal-rule"> -->
+          <hr class="food-horizontal-rule">
+          
+          <h3 class="special-title-6">Accompagnement au choix</h3>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404955/Entrees/6_myf21o.png"
-                data-srcset="
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/6_myf21o.jpg 1x,
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/6_myf21o.jpg 2x"
-                alt="Breakfast"
-                class="rounded-circle lazyload">
             </div>
             <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Soupe aux vermicelles et poulet (ou légumes)</span>
-                <span class="food-price float-right">5.<sup>80</sup>€</span>
+              <h3 class="formule-title">
+                <span class="food-name">Riz nature</span>
               </h3>
             </div>
           </div>
           <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-              <img 
-                class="rounded-circle lazyload">
+            <div class="col-md-3 food-image" style="text-align:right;">
+              <u>OU</u>
             </div>
             <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Potage au maïs et poulet </span>
-                <span class="food-price float-right">5.<sup>80</sup>€</span>
-              </h3>
-            </div>
-          </div>
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/10_klhddm.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/10_klhddm.jpg 1x,
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/10_klhddm.jpg 2x"
-                alt="Breakfast"
-                class="rounded-circle lazyload">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Potage pékinois piquant </span>
-                <span class="food-price float-right">5.<sup>80</sup>€</span>
+              <h3 class="formule-title">
+                <span class="food-name">Riz gluant dans la feuille de lotus</span>
+                <span class="food-price float-right">+ 1.<sup>50</sup>€</span>
               </h3>
             </div>
           </div>
@@ -191,26 +278,9 @@
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Soupe de poulet au lait de coco épicée TOM KHA KAI </span>
-                <span class="food-price float-right">8.<sup>50</sup>€</span>
-              </h3>
-            </div>
-          </div>
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/t1_yntkqo.jpg"
-                data-srcset="
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/t1_yntkqo.jpg 1x,
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/t1_yntkqo.jpg 2x"
-                alt="Breakfast"
-                class="rounded-circle lazyload">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Soupe de crevettes à la citronnelle aigre TOM YUM </span>
-                <span class="food-price float-right">8.<sup>80</sup>€</span>
+              <h3 class="formule-title">
+                <span class="food-name">Riz sauté cantonais</span>
+                <span class="food-price float-right">+ 2€</span>
               </h3>
             </div>
           </div>
@@ -218,136 +288,90 @@
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name text-truncate">Soupe de raviolis aux crevettes</span>
-                <span class="food-price float-right">8.<sup>50</sup>€</span>
+              <h3 class="formule-title">
+                <span class="food-name">Nouilles sautées</span>
+                <span class="food-price float-right">+ 2.<sup>50</sup>€</span>
               </h3>
+            </div>
+          </div>
+
+          <hr class="food-horizontal-rule">
+          
+          <h3 class="special-title-6">Dessert au choix <u>ou</u> Café (formule à 16.<sup>90</sup>€)</h3>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Coupe de litchis</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Nougats chinois (caramel mou aux cacahuètes)</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Coupe de glace (vanille <u>ou</u> sorbet)</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Boules de coco farcies / 2 pièces</span>
+                <span class="food-price float-right">+ 1€</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Beignets de pomme</span>
+                <span class="food-price float-right">+ 1€</span>
+              </h3>
+              <p>Flambé + 2€ <u>ou</u> boule glace vanille +2€</p>
             </div>
           </div>
 
         </div>
 
         <!-- HORS D'OEUVRES -->
-        <div id="burgers" class="food-category">
-          <h2 class="banner">HORS D'OEUVRES</h2>
-          <hr class="food-horizontal-rule">
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/11_oc07di.png"
-                data-srcset="
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/11_oc07di.png 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608405084/Entrees/11_oc07di.png 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Nems vietnamiens au poulet</span>
-                <span class="food-price float-right">6.<sup>50</sup>€</span>
-              </h3>
-              <p class="food-ingredients">
-                4 pièces
-              </p>
-            </div>
-          </div>
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Nems vietnamiens aux crevettes  </span>
-                <span class="food-price float-right">7.<sup>50</sup>€</span>
-              </h3>
-              <p class="food-ingredients">
-                4 pièces
-              </p>
-            </div>
-          </div>
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Nems végétarien</span>
-                <span class="food-price float-right">6.<sup>50</sup>€</span>
-              </h3>
-              <p class="food-ingredients">
-                4 pièces
-              </p>
-            </div>
-          </div>
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/12_hhvrv1.jpg"
-                data-srcset="
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/12_hhvrv1.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/12_hhvrv1.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Pâtés Impériaux chinois</span>
-                <span class="food-price float-right">6.<sup>50</sup>€</span>
-              </h3>
-              <p class="food-ingredients">
-                poulet, 2 pièces
-              </p>
-            </div>
-          </div>
-
+        <div id="express" class="food-category">
+          <h2 class="banner">FORMULE EXPRESS 12.<sup>90</sup>€</h2>
           <hr class="food-horizontal-rule">
 
+          <h3 class="special-title-6">Entrée au choix</h3>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/12a_sg9vdr.jpg"
-                data-srcset="
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/12a_sg9vdr.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618678/Entrees/12a_sg9vdr.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
             </div>
             <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Rouleau de printemps froid</span>
-                <span class="food-price float-right">6€</span>
+              <h3 class="formule-title">
+                <span class="food-name">Nems vietnamiens (poulet ou végétarien) / 3 pièces</span>
               </h3>
-              <p class="food-ingredients">
-                poulet et crevettes
-              </p>
             </div>
           </div>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
               <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/13_wdqelz.jpg"
-                data-srcset="
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/13_wdqelz.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618679/Entrees/13_wdqelz.jpg 2x"
-                alt="Burger"
                 class="rounded-circle lazyload">
             </div>
             <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Salade chinoise aux crevettes</span>
-                <span class="food-price float-right">5.<sup>80</sup>€</span>
-              </h3>
-              <p class="food-ingredients">
-                petite
-              </p>
-            </div>
-          </div>
-
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Salade chinoise à la chair de crabe</span>
-                <span class="food-price float-right">8.<sup>50</sup>€</span>
+              <h3 class="formule-title">
+                <span class="food-name">Soupe aux vermicelles et légumes</span>
               </h3>
             </div>
           </div>
@@ -355,50 +379,21 @@
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Salade chinoise au poulet ou nature</span>
-                <span class="food-price float-right">5.<sup>60</sup>€</span>
+              <h3 class="formule-title">
+                <span class="food-name">Salade chinoise au poulet</span>
               </h3>
             </div>
           </div>
 
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/t3_cydjya.jpg"
-                data-srcset="
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/t3_cydjya.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608405084/Entrees/t3_cydjya.jpg 2x"
-                alt="Burger"
-                class="rounded-circle lazyload">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Salade Thaï de crevettes à la citronnelle   YAM KUNG  </span>
-                <span class="food-price float-right">11.<sup>20</sup>€</span>
-              </h3>
-            </div>
-          </div>
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Salade Thaï de bœuf à la citronnelle    YAM NEUA </span>
-                <span class="food-price float-right">9.<sup>20</sup>€</span>
-              </h3>
-            </div>
-          </div>
-          
           <hr class="food-horizontal-rule">
           
+          <h3 class="special-title-6">Plat au choix</h3>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Omelette aux légumes FOU YON</span>
-                <span class="food-price float-right">7.<sup>20</sup>€</span>
+              <h3 class="formule-title">
+                <span class="food-name">Nouilles sautées au poulet</span>
               </h3>
             </div>
           </div>
@@ -406,158 +401,105 @@
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Beignets de crevettes  </span>
-                <span class="food-price float-right">6.<sup>50</sup>€</span>
+              <h3 class="formule-title">
+                <span class="food-name">Nouilles sautées au bœuf</span>
               </h3>
             </div>
           </div>
+        
         </div>
       
 
-        <!-- RAVIOLIS -->
-        <div id="flavours-of-cyprus" class="food-category">
-          <h2 class="banner">RAVIOLIS</h2>
-          <h3 class="special-title-4">4 pièces, sauf indication contraire</h3>
+        <!-- Formule Vapeur -->
+        <div id="vapeur" class="food-category">
+          <h2 class="banner">FORMULE VAPEUR <br> à partir de 12.<sup>90</sup>€</h2>
+          <h3 class="special-title-5">6 pièces à 12.<sup>90</sup>€</h3>
+          <h3 class="special-title-5">8 pièces à 14.<sup>90</sup>€</h3>
           <hr class="food-horizontal-rule">
+
+          <h3 class="special-title-6">Entrée au choix</h3>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r2_xleer1.jpg"
-                data-srcset="
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r2_xleer1.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/r2_xleer1.jpg 2x"
-                alt="Raviolis"
-                class="rounded-circle lazyload">
             </div>
             <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Raviolis Pékinois grillés  GIOZA </span>
-                <span class="food-price float-right">6.<sup>20</sup>€</span>
+              <h3 class="formule-title">
+                <span class="food-name">Salade chinoise au poulet</span>
               </h3>
             </div>
           </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Nems vietnamiens (poulet) / 3 pièces</span>
+              </h3>
+            </div>
+          </div>
+
+          <hr class="food-horizontal-rule">
+
+          <h3 class="special-title-6">Plat</h3>
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r4_npr56y.png"
-                data-srcset="
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r4_npr56y.png 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/r4_npr56y.png 2x"
-                alt="Raviolis"
-                class="rounded-circle lazyload">
             </div>
             <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Raviolis frits aux crevettes</span>
-                <span class="food-price float-right">6.<sup>80</sup>€</span>
+              <h3 class="formule-title">
+                <span class="food-name">Assortiment de RAVIOLIS vapeur (6 ou 8 pièces)</span>
+                
               </h3>
+              <p>(Crevettes, viandes, légumes)<br>
+              Sans viande<span class="food-price float-right"><b>+ 1€</b></span></p>
             </div>
           </div>
 
-          <hr class="food-horizontal-rule">
-
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-              <img 
-                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/v0_jxwp8y.jpg"
-                data-srcset="
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/v0_jxwp8y.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/v0_jxwp8y.jpg 2x"
-                alt="Raviolis"
-                class="rounded-circle lazyload">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Assortiment de raviolis cuit à la vapeur</span>
-                <span class="food-price float-right">7.<sup>20</sup>€</span>
-              </h3>
-              <p class="food-ingredients">
-                6 pièces
-              </p>
-            </div>
-          </div>
-
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-              <img
-              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/v1_edqlbj.jpg"
-              data-srcset="
-              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/v1_edqlbj.jpg 1x,
-              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618678/Entrees/v1_edqlbj.jpg 2x"
-              alt="Fruits de mer"
-              class="rounded-circle lazyload">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Raviolis  HA CAO  aux crevettes</span>
-                <span class="food-price float-right">6.<sup>20</sup>€</span>
-              </h3>
-            </div>
-          </div>
-
+          <h3 class="special-title-6">Accompagnement au choix</h3>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Raviolis XIA MAI  bouchées aux crevettes</span>
-                <span class="food-price float-right">6.<sup>20</sup>€</span>
+              <h3 class="formule-title">
+                <span class="food-name">Bol de Riz nature</span>
               </h3>
             </div>
           </div>
-
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image" style="text-align:right;">
+              <u>OU</u>
+            </div>
+            <div class="col-md-9">
+              <h3 class="formule-title">
+                <span class="food-name">Riz sauté cantonais</span>
+                <span class="food-price float-right">+ 2€</span>
+              </h3>
+            </div>
+          </div>
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Raviolis XAO MAI  bouchées au porc</span>
-                <span class="food-price float-right">5.<sup>50</sup>€</span>
+              <h3 class="formule-title">
+                <span class="food-name">Riz gluant dans la feuille de lotus</span>
+                <span class="food-price float-right">+ 1.<sup>50</sup>€</span>
               </h3>
             </div>
           </div>
 
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Raviolis  JI GUAN JIAO au poulet</span>
-                <span class="food-price float-right">5.<sup>50</sup>€</span>
-              </h3>
-            </div>
-          </div>
-
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-              <img
-              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/v7_lxrtwx.jpg"
-              data-srcset="
-              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/v7_lxrtwx.jpg 1x,
-              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618679/Entrees/v7_lxrtwx.jpg 2x"
-              alt="Fruits de mer"
-              class="rounded-circle lazyload">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Raviolis SOU JIAO aux légumes</span>
-                <span class="food-price float-right">5.<sup>50</sup>€</span>
-              </h3>
-            </div>
-          </div>
         </div>
 
-        <br> <h6>Tarifs à titre indicatif</h6>
+        <br> <h6>Tarifs à titre indicatif et choix sujets à modification</h6>
 
         <div class="row-centered end-menu">
+          <a class="btn btn-outline-dark" href="entrees.html" role="button">Nos entrées</a>
           <a class="btn btn-outline-dark" href="food.html" role="button">Nos plats</a>
           <a class="btn btn-outline-dark" href="desserts.html" role="button">Nos desserts</a>
-          <a class="btn btn-outline-dark" href="formules.html" role="button">Nos formules</a>
           <a class="btn btn-outline-dark" href="drinks.html" role="button">Nos boissons</a>
           <br>
         </div>
+
 
       </div>
 
@@ -567,10 +509,11 @@
       </div>
 
     </main>
+    
     <footer class="page-footer">
       <div class="container">
         <a class="navbar-brand animated pulse d-block text-center m-0 p-0" href="#">
-          <img src="../media/brand/logo-light.svg" width="50" height="50" alt="Logo">
+          <img src="media/brand/logo-light.svg" width="50" height="50" alt="Logo">
         </a>
         <div class="row">
           <div class="col-md-4">
@@ -597,10 +540,6 @@
               <a class="footer-social" href="https://restaurantchinois-lejardin.business.site/" aria-label="google"><i class="fa fa-google" aria-hidden="true"></i></a>
             </div>
           </div>
-          <div class="col-md-0 h-100 border-left-custom">
-            <form id="newsletter-form"> <!-- kept because it breaks the template otherwise -->
-            </form>
-          </div>
         </div>
       </div>
       <div class="page-footer-copyright container-fluid text-center">
@@ -612,7 +551,7 @@
       <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
     </a>
     <!-- lazySizes -->
-    <script src="../js/lazysizes.min.js" async=""></script>
+    <script src="js/lazysizes.min.js" async=""></script>
     <!-- jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -625,7 +564,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
       crossorigin="anonymous">
     </script>
-    <script src="../js/site.js"></script>
-    <script src="../js/menu-animations.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/menu-animations.js"></script>
   </body>
 </html>

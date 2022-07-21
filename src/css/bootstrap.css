@@ -89,6 +89,13 @@ p {
   margin-bottom: 1rem;
 }
 
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50px; */
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -7359,6 +7366,7 @@ button.bg-dark:focus {
     position: sticky;
     top: 0;
     z-index: 1020;
+    margin-top: 3em;
   }
 }
 
@@ -8763,6 +8771,7 @@ button.bg-dark:focus {
 .text-center {
   text-align: center !important;
 }
+
 
 @media (min-width: 576px) {
   .text-sm-left {

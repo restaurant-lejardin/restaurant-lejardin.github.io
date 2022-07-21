@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     purifycss: {
       options: {},
       target: {
-        src: ['src/index.html', 'src/pages/*.html', 'src/js/*.js'],
+        src: ['src/*.html', 'src/js/*.js'],
         css: ['src/css/*.css'],
         dest: 'dist/css/purestyles.css'
       },
@@ -37,14 +37,8 @@ module.exports = function(grunt) {
     copy: {
       t1: {
         expand: true,
-        cwd: 'src/pages/',
-        src: '*.html',
-        dest: 'dist/pages/'
-      },
-      t2: {
-        expand: true,
         cwd: 'src/',
-        src: 'index.html',
+        src: '*.html',
         dest: 'dist/'
       },
       t3: {
@@ -71,19 +65,7 @@ module.exports = function(grunt) {
           width: 1920,
           height: 1080
         },
-        src: 'dist/index.html',
-        dest: 'dist/index.html'
-      },
-      t2: {
-        options: {
-          base: 'dist/',
-          css: [
-            'dist/css/purestyles.css'
-          ],
-          width: 1920,
-          height: 1080
-        },
-        src: 'dist/pages/*.html',
+        src: 'dist/*.html',
         dest: 'dist/'
       }
     },
@@ -96,23 +78,11 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'dist/pages/',
-          src: '*.html',
-          dest: 'dist/pages/'
-        }]
-      },
-      t2: {                                     
-        options: {                                 
-          removeComments: true,
-          collapseWhitespace: true
-        },
-        files: [{
-          expand: true,
           cwd: 'dist/',
-          src: 'index.html',
+          src: '*.html',
           dest: 'dist/'
         }]
-      }
+      },
     }
 
   });

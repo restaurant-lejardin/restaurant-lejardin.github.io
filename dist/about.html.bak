@@ -4,26 +4,26 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Restaurant Chinois Le Jardin - A propos</title>
+    <title>Restaurant Chinois Le Jardin - </title>
     <!-- Web app manifest -->
-    <link rel='manifest' href='../manifest.json'>
+    <link rel='manifest' href='manifest.json'>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <!-- Animate.css -->
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Default stylesheet -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body id="top">
     <header>
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand animated pulse" href="../index.html">
-          <img src="../media/brand/logo-dark.svg" width="30" height="30" alt="Logo">
+        <a class="navbar-brand animated pulse" href="index.html">
+          <img src="media/brand/logo-dark.svg" width="30" height="30" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse text-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="../index.html">Accueil <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="food.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -63,6 +63,7 @@
     </header>
     
     <main class="about-main">
+
       <div class="jumbotron about-jumbotron dark-overlay text-white">
         <img
           sizes="(max-width: 2560px) 100vw, 2560px"
@@ -118,24 +119,24 @@
           </div>
           <div class="row">
             <div class="col-md-5">
-              <img src="../media/transport/M3genRVB.svg" width="30" height="30" alt="Logo">
-              <img src="../media/transport/M5genRVB.svg" width="30" height="30" alt="Logo">
-              <img src="../media/transport/M8genRVB.svg" width="30" height="30" alt="Logo">
-              <img src="../media/transport/M9genRVB.svg" width="30" height="30" alt="Logo">
-              <img src="../media/transport/M11genRVB.svg" width="30" height="30" alt="Logo">
+              <img src="media/transport/M3genRVB.svg" width="30" height="30" alt="Logo">
+              <img src="media/transport/M5genRVB.svg" width="30" height="30" alt="Logo">
+              <img src="media/transport/M8genRVB.svg" width="30" height="30" alt="Logo">
+              <img src="media/transport/M9genRVB.svg" width="30" height="30" alt="Logo">
+              <img src="media/transport/M11genRVB.svg" width="30" height="30" alt="Logo">
             </div>
             <div class="col-md-5">
-              <img src="../media/transport/20genRVB.svg" width="30"alt="Logo">
-              <img src="../media/transport/56genRVB.svg" width="30"alt="Logo">
-              <img src="../media/transport/75genRVB.svg" width="30"alt="Logo">
-              <img src="../media/transport/91genRVB.svg" width="30"alt="Logo">
+              <img src="media/transport/20genRVB.svg" width="30"alt="Logo">
+              <img src="media/transport/56genRVB.svg" width="30"alt="Logo">
+              <img src="media/transport/75genRVB.svg" width="30"alt="Logo">
+              <img src="media/transport/91genRVB.svg" width="30"alt="Logo">
               <br>
-              <img src="../media/transport/Noct-01-genRVB.svg" width="30"alt="Logo">
-              <img src="../media/transport/Noct-02-genRVB.svg" width="30"alt="Logo">
-              <img src="../media/transport/Noct-12-genRVB.svg" width="30"alt="Logo">
-              <img src="../media/transport/Noct-23-genRVB.svg" width="30"alt="Logo">
-              <img src="../media/transport/Noct-141-genRVB.svg" width="30"alt="Logo">
-              <img src="../media/transport/Noct-142-genRVB.svg" width="30"alt="Logo">
+              <img src="media/transport/Noct-01-genRVB.svg" width="30"alt="Logo">
+              <img src="media/transport/Noct-02-genRVB.svg" width="30"alt="Logo">
+              <img src="media/transport/Noct-12-genRVB.svg" width="30"alt="Logo">
+              <img src="media/transport/Noct-23-genRVB.svg" width="30"alt="Logo">
+              <img src="media/transport/Noct-141-genRVB.svg" width="30"alt="Logo">
+              <img src="media/transport/Noct-142-genRVB.svg" width="30"alt="Logo">
             </div>
           </div>
         </dl>
@@ -178,7 +179,7 @@
     <footer class="page-footer">
       <div class="container">
         <a class="navbar-brand animated pulse d-block text-center m-0 p-0" href="#">
-          <img src="../media/brand/logo-light.svg" width="30" height="30" alt="Logo">
+          <img src="media/brand/logo-light.svg" width="30" height="30" alt="Logo">
         </a>
         <div class="row">
           <div class="col-md-4">
@@ -204,7 +205,22 @@
               <a class="footer-social" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html" aria-label="tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
               <a class="footer-social" href="https://restaurantchinois-lejardin.business.site/" aria-label="google"><i class="fa fa-google" aria-hidden="true"></i></a>
             </div>
+
+            <link href="https://awards.infcdn.net/rect_v2.css" rel="stylesheet"/>
+            <div id="rest_v2" class="">
+                <div class="rb_flex rb_top"> 
+                  <span class="rb_hat"></span> 
+                  <span class="rb_type ">Recommandé</span> 
+                </div> 
+                <a href="https://fr.restaurantguru.com/Le-Jardin-Paris-2" class="rb_center f16" target="_blank">Restaurant chinois Le Jardin</a>
+                <div class="rb_flex"> 
+                  <a href="https://restaurantguru.com" class="rb_bot" target="_blank">Restaurant Guru</a>
+                  <div>2022</div>
+              </div>
+            </div>
+
           </div>
+
           <div class="col-md-0 h-100 border-left-custom">
             <form id="newsletter-form"> <!-- kept because it breaks the template otherwise -->
             </form>
@@ -231,7 +247,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
       crossorigin="anonymous">
     </script>
-    <script src="../js/site.js"></script>
-    <script src="../js/about-animations.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/about-animations.js"></script>
   </body>
 </html>
