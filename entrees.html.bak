@@ -298,6 +298,17 @@
             </div>
           </div>
 
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Beignets de crevettes  </span>
+                <span class="food-price float-right">7.<sup>50</sup>€</span>
+              </h3>
+            </div>
+          </div>
+
           <hr class="food-horizontal-rule">
 
           <div class="row align-items-center menu-item">
@@ -389,29 +400,7 @@
               </h3>
             </div>
           </div>
-          
-          <hr class="food-horizontal-rule">
-          
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Omelette aux légumes FOU YON</span>
-                <span class="food-price float-right">7.<sup>20</sup>€</span>
-              </h3>
-            </div>
-          </div>
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-            </div>
-            <div class="col-md-9">
-              <h3 class="food-title">
-                <span class="food-name">Beignets de crevettes  </span>
-                <span class="food-price float-right">6.<sup>50</sup>€</span>
-              </h3>
-            </div>
-          </div>
+
         </div>
       
 
@@ -451,7 +440,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Raviolis frits aux crevettes</span>
-                <span class="food-price float-right">6.<sup>80</sup>€</span>
+                <span class="food-price float-right">7.<sup>80</sup>€</span>
               </h3>
             </div>
           </div>
@@ -547,6 +536,18 @@
               </h3>
             </div>
           </div>
+
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Raviolis  Gyoza</span>
+                <span class="food-price float-right">6.<sup>80</sup>€</span>
+              </h3>
+            </div>
+          </div>
+
         </div>
 
         <br> <h6>Tarifs à titre indicatif</h6>
