@@ -190,7 +190,7 @@
             </div>
           </div>
 
-          <div class="row align-items-center menu-item">
+          <!-- <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
@@ -199,7 +199,7 @@
                 <span class="food-price float-right">13.<sup>90</sup>€</span>
               </h3>
             </div>
-          </div>
+          </div> -->
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
@@ -411,7 +411,7 @@
             </div>
           </div>
           
-          <div class="row align-items-center menu-item">
+          <!-- <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
@@ -420,7 +420,7 @@
                 <span class="food-price float-right">13.<sup>90</sup>€</span>
               </h3>
             </div>
-          </div>
+          </div> -->
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
@@ -494,7 +494,7 @@
             </div>
           </div>
           
-          <div class="row align-items-center menu-item">
+          <!-- <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
               <img
               data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617484/Food/s12_dbzhun.jpg"
@@ -510,7 +510,7 @@
                 <span class="food-price float-right">9.<sup>80</sup>€</span>
               </h3>
             </div>
-          </div>
+          </div> -->
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
@@ -584,7 +584,7 @@
             </div>
           </div>
           
-          <div class="row align-items-center menu-item">
+          <!-- <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
               <img
               data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617486/Food/f1g_vhpoic.jpg"
@@ -600,7 +600,7 @@
                 <span class="food-price float-right">13.<sup>90</sup>€</span>
               </h3>
             </div>
-          </div>
+          </div> -->
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
@@ -613,7 +613,7 @@
             </div>
           </div>
           
-          <div class="row align-items-center menu-item">
+          <!-- <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
@@ -622,7 +622,7 @@
                 <span class="food-price float-right">10.<sup>20</sup>€</span>
               </h3>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -933,7 +933,7 @@
             </div>
           </div>
           
-          <div class="row align-items-center menu-item">
+          <!-- <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
@@ -942,7 +942,7 @@
                 <span class="food-price float-right">8.<sup>20</sup>€</span>
               </h3>
             </div>
-          </div>
+          </div> -->
           
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
@@ -1117,7 +1117,7 @@
             </div>
           </div>
           
-          <div class="row align-items-center menu-item">
+          <!-- <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
@@ -1126,7 +1126,7 @@
                 <span class="food-price float-right">9.<sup>50</sup>€</span>
               </h3>
             </div>
-          </div>
+          </div> -->
 
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
