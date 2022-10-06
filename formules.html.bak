@@ -236,16 +236,6 @@
             </div>
             <div class="col-md-9">
               <h3 class="formule-title">
-                <span class="food-name">Canard aux champignons noirs et bambou</span>
-                <span class="food-price float-right">+ 2.<sup>30</sup>€</span>
-              </h3>
-            </div>
-          </div>
-          <div class="row align-items-center menu-item">
-            <div class="col-md-3 food-image">
-            </div>
-            <div class="col-md-9">
-              <h3 class="formule-title">
                 <span class="food-name">Légumes sautés</span>
               </h3>
             </div>
@@ -335,7 +325,7 @@
               </h3>
             </div>
           </div>
-          <div class="row align-items-center menu-item">
+          <!-- <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
@@ -345,7 +335,7 @@
               </h3>
               <p>Flambé + 2€ <u>ou</u> boule glace vanille +2€</p>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
