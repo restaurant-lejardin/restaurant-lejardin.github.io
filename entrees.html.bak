@@ -352,7 +352,7 @@
             </div>
           </div>
 
-          <div class="row align-items-center menu-item">
+          <!-- <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
             <div class="col-md-9">
@@ -361,7 +361,7 @@
                 <span class="food-price float-right">8.<sup>50</sup>€</span>
               </h3>
             </div>
-          </div>
+          </div> -->
           <div class="row align-items-center menu-item">
             <div class="col-md-3 food-image">
             </div>
