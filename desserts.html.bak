@@ -394,7 +394,7 @@
               </p>
             </div>
           </div>
-          <div class="row align-items-center menu-item">
+          <!-- <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
               <img
               data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619956/desserts/coco_givre_k4soka.png"
@@ -439,7 +439,7 @@
                 Sorbet Orange dans une véritable orange
               </p>
             </div>
-          </div>
+          </div> -->
           <div class="row align-items-center menu-item">
             <div class="col-md-3 dessert-image">
               <img
@@ -488,8 +488,8 @@
         <div class="row">
           <div class="col-md-4">
             <h5 class="page-footer-title">HEURES D'OUVERTURE</h5>
-            <p class="mb-0">Ouvert du Lundi au Samedi</p> 
-            <p class="mb-0">Déjeuner: 12h - 14h</p>
+            <p class="mb-0">Ouvert du Lundi soir au Samedi</p> 
+            <p class="mb-0">Déjeuner: 12h - 14h (Fermé le lundi)</p>
             <p>Diner: 19h - 22h</p>
           </div>
           <div class="col-md-4 h-100 border-left-custom">

@@ -1197,7 +1197,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Soupe de nouilles et porc grillé CHA SIU</span>
-                <span class="food-price float-right">10.<sup>80</sup>€</span>
+                <span class="food-price float-right">11.<sup>80</sup>€</span>
               </h3>
               <p>Porc en tranche</p>
             </div>
@@ -1216,7 +1216,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Soupe DAN DAN au hachis de porc piment</span>
-                <span class="food-price float-right">10.<sup>50</sup>€</span>
+                <span class="food-price float-right">11.<sup>20</sup>€</span>
               </h3>
             </div>
           </div>
@@ -1234,7 +1234,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Soupe de nouilles et légumes</span>
-                <span class="food-price float-right">11.<sup>20</sup>€</span>
+                <span class="food-price float-right">12.<sup>20</sup>€</span>
               </h3>
             </div>
           </div>
@@ -1245,7 +1245,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Soupe de nouilles et crevettes</span>
-                <span class="food-price float-right">11.<sup>90</sup>€</span>
+                <span class="food-price float-right">12.<sup>90</sup>€</span>
               </h3>
             </div>
           </div>
@@ -1256,7 +1256,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Soupe de nouilles au poulet, coriandre et curry</span>
-                <span class="food-price float-right">11.<sup>20</sup>€</span>
+                <span class="food-price float-right">12.<sup>20</sup>€</span>
               </h3>
             </div>
           </div>
@@ -1267,7 +1267,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Soupe de nouilles, légumes et poulet</span>
-                <span class="food-price float-right">11.<sup>90</sup>€</span>
+                <span class="food-price float-right">12.<sup>90</sup>€</span>
               </h3>
             </div>
           </div>
@@ -1278,7 +1278,7 @@
             <div class="col-md-9">
               <h3 class="food-title">
                 <span class="food-name">Soupe de nouilles et raviolis aux crevettes</span>
-                <span class="food-price float-right">11.<sup>90</sup>€</span>
+                <span class="food-price float-right">12.<sup>90</sup>€</span>
               </h3>
             </div>
           </div>
@@ -1315,8 +1315,8 @@
         <div class="row">
           <div class="col-md-4">
             <h5 class="page-footer-title">HEURES D'OUVERTURE</h5>
-            <p class="mb-0">Ouvert du Lundi au Samedi</p> 
-            <p class="mb-0">Déjeuner: 12h - 14h</p>
+            <p class="mb-0">Ouvert du Lundi soir au Samedi</p> 
+            <p class="mb-0">Déjeuner: 12h - 14h (Fermé le lundi)</p>
             <p>Diner: 19h - 22h</p>
           </div>
           <div class="col-md-4 h-100 border-left-custom">
