@@ -226,8 +226,8 @@
         <div class="row">
           <div class="col-md-4">
             <h5 class="page-footer-title">HEURES D'OUVERTURE</h5>
-            <p class="mb-0">Ouvert du Lundi au Samedi</p> 
-            <p class="mb-0">Déjeuner: 12h - 14h</p>
+            <p class="mb-0">Ouvert du Lundi soir au Samedi</p> 
+            <p class="mb-0">Déjeuner: 12h - 14h (Fermé le lundi)</p>
             <p>Diner: 19h - 22h</p>
           </div>
           <div class="col-md-4 h-100 border-left-custom">
