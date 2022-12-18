@@ -1,0 +1,12 @@
+global:
+  tagline: Chinese
+  about: CH about
+langs:
+  fr: fdzdz
+  en: Anglaisdzd
+  ch: Chinoisdd
+pages:
+  example: Exemple
+  includeexample: Blala fr
+titles:
+  pagination: Resto

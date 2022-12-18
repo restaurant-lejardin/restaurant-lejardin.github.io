@@ -1,0 +1,12 @@
+global:
+  tagline: English
+  about: About
+langs:
+  fr: French
+  en: English
+  ch: Chinese
+pages:
+  example: Example
+  includeexample: Blala en
+titles:
+  pagination: Resto

@@ -113,7 +113,31 @@ module.exports = function(grunt) {
           dest: 'dist/'
         }]
       }
+    },
+
+    jekyll: {                             // Task
+      options: {                          // Universal options
+        config: '_config.yml',//,_config.build.yml',
+        bundleExec: true,
+        src : './jekyll-website/'
+      },
+      dist: {                             // Target
+        options: {                        // Target options
+          // dest: '<%= dist %>',
+          config: '_config.yml'//,_config.build.yml'
+        }
+      },
+      serve: {                            // Another target
+        options: {
+          serve: true,
+          dest: '.jekyll',
+          drafts: true,
+          future: true
+        }
+      }
     }
+
+
 
   });
 
@@ -125,6 +149,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-critical');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+
+  grunt.loadNpmTasks('grunt-jekyll');
   
   // Default task(s).
   //grunt.registerTask('default', ['clean']);
