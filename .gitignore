@@ -3,3 +3,5 @@ node_modules
 package-lock.json
 _plugins/
 _i18n/
+.jekyll-cache
+_site/

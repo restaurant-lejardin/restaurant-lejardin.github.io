@@ -5977,6 +5977,8 @@ button.close {
   opacity: 0.5;
 }
 
+
+
 .carousel-control-prev:hover, .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
@@ -7404,6 +7406,10 @@ button.bg-dark:focus {
 
 .w-75 {
   width: 75% !important;
+}
+
+.w-90 {
+  width: 90% !important;
 }
 
 .w-100 {
