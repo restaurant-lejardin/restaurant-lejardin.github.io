@@ -17,6 +17,11 @@ Go to **src** during dev or **dist** before deploying folder, then
 browser-sync start --server --files "css/*.css"
 ```
 
+## Multiple languages
+- Use Jekyll with Bundler
+- Issues I ran into: https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/8 solved with bundle add webrick
+
+
 ## Author
 
 Original Theme:
