@@ -115,15 +115,15 @@
             <div class="row">
               <div class="col-4">
                 <a href="#gourmet" class="smooth-scroll"><img class="menu-icon" src="media/menu/entrees/icons/soup.svg" alt="Breakfasts"></a>
-                <h6 class="menu-icon-text mt-3 mb-0">FORMULE GOURMET <br> à partir de 14.<sup>90</sup>€</h6>
+                <h6 class="menu-icon-text mt-3 mb-0">FORMULE GOURMET <br> à partir de 15.<sup>90</sup>€</h6>
               </div>
               <div class="col-4">
                 <a href="#express" class="smooth-scroll"><img class="menu-icon" src="media/menu/entrees/icons/salad.svg" alt="Burgers"></a>
-                <h6 class="menu-icon-text mt-3 mb-0">FORMULE EXPRESS <br> à 12.<sup>90</sup>€</h6>
+                <h6 class="menu-icon-text mt-3 mb-0">FORMULE EXPRESS <br> à 13.<sup>90</sup>€</h6>
               </div>
               <div class="col-4">
                 <a href="#vapeur" class="smooth-scroll"><img class="menu-icon" src="media/menu/entrees/icons/dim-sum.svg" alt="Flavours of Cyprus"></a>
-                <h6 class="menu-icon-text mt-3 mb-0">FORMULE VAPEUR <br> à partir de 12.<sup>90</sup>€</h6>
+                <h6 class="menu-icon-text mt-3 mb-0">FORMULE VAPEUR <br> à partir de 13.<sup>90</sup>€</h6>
               </div>
        
             </div>
@@ -137,8 +137,8 @@
         
         <!-- Formule gourmet -->
         <div id="gourmet" class="food-category">
-          <h2 class="banner">FORMULE GOURMET à 14.<sup>90</sup>€</h2>
-          <h3 class="special-title-5">avec dessert à 16.<sup>90</sup>€</h3>
+          <h2 class="banner">FORMULE GOURMET à 15.<sup>90</sup>€</h2>
+          <h3 class="special-title-5">avec dessert à 18.<sup>20</sup>€</h3>
           <hr class="food-horizontal-rule">
           
           <h3 class="special-title-6">Entrée au choix</h3>
@@ -262,7 +262,7 @@
             <div class="col-md-9">
               <h3 class="formule-title">
                 <span class="food-name">Riz gluant dans la feuille de lotus</span>
-                <span class="food-price float-right">+ 1.<sup>50</sup>€</span>
+                <span class="food-price float-right">+ 1.<sup>80</sup>€</span>
               </h3>
             </div>
           </div>
@@ -272,7 +272,7 @@
             <div class="col-md-9">
               <h3 class="formule-title">
                 <span class="food-name">Riz sauté cantonais</span>
-                <span class="food-price float-right">+ 2€</span>
+                <span class="food-price float-right">+ 2.<sup>30</sup>€</span>
               </h3>
             </div>
           </div>
@@ -282,7 +282,7 @@
             <div class="col-md-9">
               <h3 class="formule-title">
                 <span class="food-name">Nouilles sautées</span>
-                <span class="food-price float-right">+ 2.<sup>50</sup>€</span>
+                <span class="food-price float-right">+ 2.<sup>80</sup>€</span>
               </h3>
             </div>
           </div>
@@ -343,7 +343,7 @@
 
         <!-- HORS D'OEUVRES -->
         <div id="express" class="food-category">
-          <h2 class="banner">FORMULE EXPRESS 12.<sup>90</sup>€</h2>
+          <h2 class="banner">FORMULE EXPRESS 13.<sup>90</sup>€</h2>
           <hr class="food-horizontal-rule">
 
           <h3 class="special-title-6">Entrée au choix</h3>
@@ -413,9 +413,9 @@
 
         <!-- Formule Vapeur -->
         <div id="vapeur" class="food-category">
-          <h2 class="banner">FORMULE VAPEUR <br> à partir de 12.<sup>90</sup>€</h2>
-          <h3 class="special-title-5">6 pièces à 12.<sup>90</sup>€</h3>
-          <h3 class="special-title-5">8 pièces à 14.<sup>90</sup>€</h3>
+          <h2 class="banner">FORMULE VAPEUR <br> à partir de 13.<sup>90</sup>€</h2>
+          <h3 class="special-title-5">6 pièces à 13.<sup>90</sup>€</h3>
+          <h3 class="special-title-5">8 pièces à 15.<sup>90</sup>€</h3>
           <hr class="food-horizontal-rule">
 
           <h3 class="special-title-6">Entrée au choix</h3>
@@ -474,7 +474,7 @@
             <div class="col-md-9">
               <h3 class="formule-title">
                 <span class="food-name">Riz sauté cantonais</span>
-                <span class="food-price float-right">+ 2€</span>
+                <span class="food-price float-right">+ 2.<sup>30</sup>€</span>
               </h3>
             </div>
           </div>
@@ -484,7 +484,7 @@
             <div class="col-md-9">
               <h3 class="formule-title">
                 <span class="food-name">Riz gluant dans la feuille de lotus</span>
-                <span class="food-price float-right">+ 1.<sup>50</sup>€</span>
+                <span class="food-price float-right">+ 1.<sup>80</sup>€</span>
               </h3>
             </div>
           </div>
