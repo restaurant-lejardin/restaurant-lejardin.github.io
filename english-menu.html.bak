@@ -133,7 +133,7 @@
           </div>
         </div>
       </div>
-      <br> <h6>Prices given are for information only</h6>
+      <br> <h6 class="text-center">Prices given are for information only</h6>
 
       <div class="row-centered end-menu">
         <a class="btn btn-outline-dark" href="gallery-food.html" role="button">Gallery of dishes</a>
