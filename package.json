@@ -1,8 +1,8 @@
 {
-  "name": "website-template-3",
-  "version": "0.1.0",
+  "name": "multi-language-website",
+  "version": "0.0.1",
   "devDependencies": {
-    "grunt": "^1.4.1",
+    "grunt": "^1.5.3",
     "grunt-cli": "latest",
     "grunt-contrib-clean": "latest",
     "grunt-contrib-copy": "latest",
@@ -10,6 +10,20 @@
     "grunt-contrib-htmlmin": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-critical": "latest",
-    "grunt-purifycss": "latest"
+    "grunt-jekyll": "^1.0.1",
+    "grunt-purifycss": "latest",
+    "grunt-autoprefixer": "latest",
+    "grunt-build-control": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-sass": "latest",
+    "grunt-svgmin": "latest",
+    "grunt-uncss": "latest",
+    "jit-grunt": "latest",
+    "time-grunt": "latest"
+  },
+  "engines": {
+    "node": ">=0.10.0"
   }
 }
