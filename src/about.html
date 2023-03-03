@@ -208,17 +208,16 @@
             </div>
 
             <link href="https://awards.infcdn.net/rect_v2.css" rel="stylesheet"/>
-            <div id="rest_v2" class="">
-                <div class="rb_flex rb_top"> 
-                  <span class="rb_hat"></span> 
-                  <span class="rb_type ">Recommandé</span> 
-                </div> 
-                <a href="https://fr.restaurantguru.com/Le-Jardin-Paris-2" class="rb_center f16" target="_blank">Restaurant chinois Le Jardin</a>
-                <div class="rb_flex"> 
-                  <a href="https://restaurantguru.com" class="rb_bot" target="_blank">Restaurant Guru</a>
-                  <div>2022</div>
-              </div>
+            <div id="rest_v2" onclick="if(event.target.nodeName.toLowerCase() != 'a') {window.open(this.querySelector('.sq_center').href);return 0;}">
+               <div class="rb_flex rb_top"> <span class="rb_hat"></span> <span class="rb_type ">Recommandé</span> </div>
+               <a href="https://fr.restaurantguru.com/Le-Jardin-Paris-2" class="rb_center f16" target="_blank">Restaurant chinois Le Jardin</a> 
+               <div class="rb_flex">
+                  <a href="https://restaurantguru.com" class="rb_bot" target="_blank">Restaurant Guru</a> 
+                  <div>2023</div>
+               </div>
             </div>
+            
+            
 
           </div>
 
