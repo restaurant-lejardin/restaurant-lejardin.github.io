@@ -13,10 +13,8 @@ grunt uglify
 
 grunt copy
 
-# TODO: split so that it doesn't take \n into account
-# perl -0pi -e 's/    <!-- Bootstrap -->\r\n    <link rel="stylesheet" href="..\/css\/bootstrap.css">\r\n    <!-- Animate.css -->\r\n    <link rel="stylesheet" href="..\/css\/animate.css">\r\n    <!-- Default stylesheet -->\r\n    <link rel="stylesheet" href="..\/css\/main.css">/    <link rel="stylesheet" href="..\/css\/purestyles.css">/' dist/*.html  
-perl -0pi -e 's/    <!-- Bootstrap -->\r\n    <link rel="stylesheet" href="css\/bootstrap.css">\r\n    <!-- Animate.css -->\r\n    <link rel="stylesheet" href="css\/animate.css">\r\n    <!-- Default stylesheet -->\r\n    <link rel="stylesheet" href="css\/main.css">/    <link rel="stylesheet" href="css\/purestyles.css">/' dist/*.html
- 
 grunt critical
 
 grunt htmlmin
+
+perl -0pi -e 's/<link rel="stylesheet" href="css\/bootstrap.css"><link rel="stylesheet" href="css\/animate.css"><link rel="stylesheet" href="css\/main.css">/<link rel="stylesheet" href="css\/purestyles.css">/' dist/*.html
