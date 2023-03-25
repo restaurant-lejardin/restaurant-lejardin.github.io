@@ -17,4 +17,14 @@
           lightbox = false;
           $("#lightbox").hide();
         }
+<<<<<<< HEAD
       });</script><script src="js/site.js"></script><script src="js/gallery-animations.js"></script></body></html>
+=======
+      });
+    </script>
+    <script src="js/site.js"></script>
+    <script src="js/gallery-animations.js"></script>
+  </body>
+</html>
+    
+>>>>>>> 76e75701b176ab43c2296a8796a0f0bdfdc25c3c

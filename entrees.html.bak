@@ -1,25 +1,637 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>Restaurant Chinois Le Jardin -</title><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet"><link rel="stylesheet" href="css/bootstrap.css"><link rel="stylesheet" href="css/animate.css"><link rel="stylesheet" href="css/main.css"></head><body id="top"><header><nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"><a class="navbar-brand animated pulse" href="index.html"><img src="media/brand/logo-dark.svg" width="30" height="30" alt="Logo"> </a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse text-center" id="navbarNav"><ul class="navbar-nav"><li class="nav-item"><a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a></li><li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="food.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a><div class="dropdown-menu text-center text-lg-left" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="entrees.html">Entrées</a> <a class="dropdown-item" href="food.html">Plats</a> <a class="dropdown-item" href="desserts.html">Desserts</a> <a class="dropdown-item" href="formules.html">Formules</a> <a class="dropdown-item" href="drinks.html">Boissons</a> <a class="dropdown-item" href="english-menu.html">English menu</a></div></li><li class="nav-item"><a class="nav-link" href="about.html">A propos</a></li><li class="nav-item"><a class="nav-link" href="album.html">Album</a></li></ul><div class="ml-auto"><a class="nav-social mr-2" href="https://www.facebook.com/restaurantchinois.lejardin/"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a class="nav-social mr-2" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a> <a class="nav-social mr-2" href="https://restaurantchinois-lejardin.business.site/"><i class="fa fa-google" aria-hidden="true"></i></a> <a class="nav-social" href="mailto: restaurantchinoislejardin@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></div></div></nav></header><main><div class="jumbotron food-jumbotron dark-overlay text-white"><img sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1609326356/Autres/bamboo2_iaabt7.jpg 3 00w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_400/v1609326356/Autres/bamboo2_iaabt7.jpg 400w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609326356/Autres/bamboo2_iaabt7.jpg 600w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1609326356/Autres/bamboo2_iaabt7.jpg 700w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_800/v1609326356/Autres/bamboo2_iaabt7.jpg 800w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1609326356/Autres/bamboo2_iaabt7.jpg 900w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609326356/Autres/bamboo2_iaabt7.jpg 1000w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1609326356/Autres/bamboo2_iaabt7.jpg 1100w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1609326356/Autres/bamboo2_iaabt7.jpg 1100w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1200/v1609326356/Autres/bamboo2_iaabt7.jpg 1200w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1300/v1609326356/Autres/bamboo2_iaabt7.jpg 1300w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1609326356/Autres/bamboo2_iaabt7.jpg 1400w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1609326356/Autres/bamboo2_iaabt7.jpg 1400w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609326356/Autres/bamboo2_iaabt7.jpg 1500w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1600/v1609326356/Autres/bamboo2_iaabt7.jpg 1600w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1600/v1609326356/Autres/bamboo2_iaabt7.jpg 1600w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1609326356/Autres/bamboo2_iaabt7.jpg 1700w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1609326356/Autres/bamboo2_iaabt7.jpg 1700w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/v1609326356/Autres/bamboo2_iaabt7.jpg 1800w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1609326356/Autres/bamboo2_iaabt7.jpg 1900w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1609326356/Autres/bamboo2_iaabt7.jpg 1900w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2000/v1609326356/Autres/bamboo2_iaabt7.jpg 2000w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2000/v1609326356/Autres/bamboo2_iaabt7.jpg 2000w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1609326356/Autres/bamboo2_iaabt7.jpg 2100w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1609326356/Autres/bamboo2_iaabt7.jpg 2100w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609326356/Autres/bamboo2_iaabt7.jpg 2200w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609326356/Autres/bamboo2_iaabt7.jpg 2200w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609326356/Autres/bamboo2_iaabt7.jpg 2200w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1609326356/Autres/bamboo2_iaabt7.jpg 2300w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1609326356/Autres/bamboo2_iaabt7.jpg 2300w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2400/v1609326356/Autres/bamboo2_iaabt7.jpg 2400w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2400/v1609326356/Autres/bamboo2_iaabt7.jpg 2400w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg 2500w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg 2500w, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg 2500w" src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg" alt="" class="food-jumbotron-bg"><div class="food-jumbotron-caption container"><h1 id="title-1" class="special-title-2">Entrées</h1><div id="menu-icons"><div class="row"><div class="col-4"><a href="#soup" class="smooth-scroll"><img class="menu-icon" src="media/menu/entrees/icons/soup.svg" alt="Breakfasts"></a><h6 class="menu-icon-text mt-3 mb-0">POTAGES ET SOUPES</h6></div><div class="col-4"><a href="#burgers" class="smooth-scroll"><img class="menu-icon" src="media/menu/entrees/icons/salad.svg" alt="Burgers"></a><h6 class="menu-icon-text mt-3 mb-0">HORS D'OEUVRES</h6></div><div class="col-4"><a href="#flavours-of-cyprus" class="smooth-scroll"><img class="menu-icon" src="media/menu/entrees/icons/dim-sum.svg" alt="Flavours of Cyprus"></a><h6 class="menu-icon-text mt-3 mb-0">RAVIOLIS</h6></div></div></div></div></div><div class="food-descriptions container"><div id="soup" class="food-category"><h2 class="banner">POTAGES ET SOUPES</h2><hr class="food-horizontal-rule"><div class="row align-items-center menu-item"><div class="col-md-3 food-image"><img data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404955/Entrees/6_myf21o.png" data-srcset="
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Restaurant Chinois Le Jardin - </title>
+    <!-- Web app manifest -->
+    <link rel='manifest' href='manifest.json'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Default stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body id="top">
+    <header>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand animated pulse" href="index.html">
+          <img src="media/brand/logo-dark.svg" width="30" height="30" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="food.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+              </a>
+              <div class="dropdown-menu text-center text-lg-left" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="entrees.html">Entrées</a>
+                <a class="dropdown-item" href="food.html">Plats</a>
+                <a class="dropdown-item" href="desserts.html">Desserts</a>
+                <a class="dropdown-item" href="formules.html">Formules</a>
+                <a class="dropdown-item" href="drinks.html">Boissons</a>
+                <a class="dropdown-item" href="english-menu.html">English menu</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="album.html">Album</a>
+            </li>
+
+          </ul>
+          <div class="ml-auto">
+            <a class="nav-social mr-2" href="https://www.facebook.com/restaurantchinois.lejardin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="nav-social mr-2" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+            <a class="nav-social mr-2" href="https://restaurantchinois-lejardin.business.site/"><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a class="nav-social" href="mailto: restaurantchinoislejardin@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+
+      <!-- FOOD: JUMBOTRON -->
+      <div class="jumbotron food-jumbotron dark-overlay text-white">
+        <img
+          sizes="(max-width: 2560px) 100vw, 2560px"
+          srcset="
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1609326356/Autres/bamboo2_iaabt7.jpg 3 00w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_400/v1609326356/Autres/bamboo2_iaabt7.jpg 400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609326356/Autres/bamboo2_iaabt7.jpg 600w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1609326356/Autres/bamboo2_iaabt7.jpg 700w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_800/v1609326356/Autres/bamboo2_iaabt7.jpg 800w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1609326356/Autres/bamboo2_iaabt7.jpg 900w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609326356/Autres/bamboo2_iaabt7.jpg 1000w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1609326356/Autres/bamboo2_iaabt7.jpg 1100w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1609326356/Autres/bamboo2_iaabt7.jpg 1100w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1200/v1609326356/Autres/bamboo2_iaabt7.jpg 1200w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1300/v1609326356/Autres/bamboo2_iaabt7.jpg 1300w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1609326356/Autres/bamboo2_iaabt7.jpg 1400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1609326356/Autres/bamboo2_iaabt7.jpg 1400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609326356/Autres/bamboo2_iaabt7.jpg 1500w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1600/v1609326356/Autres/bamboo2_iaabt7.jpg 1600w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1600/v1609326356/Autres/bamboo2_iaabt7.jpg 1600w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1609326356/Autres/bamboo2_iaabt7.jpg 1700w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1609326356/Autres/bamboo2_iaabt7.jpg 1700w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/v1609326356/Autres/bamboo2_iaabt7.jpg 1800w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1609326356/Autres/bamboo2_iaabt7.jpg 1900w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1609326356/Autres/bamboo2_iaabt7.jpg 1900w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2000/v1609326356/Autres/bamboo2_iaabt7.jpg 2000w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2000/v1609326356/Autres/bamboo2_iaabt7.jpg 2000w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1609326356/Autres/bamboo2_iaabt7.jpg 2100w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1609326356/Autres/bamboo2_iaabt7.jpg 2100w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609326356/Autres/bamboo2_iaabt7.jpg 2200w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609326356/Autres/bamboo2_iaabt7.jpg 2200w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609326356/Autres/bamboo2_iaabt7.jpg 2200w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1609326356/Autres/bamboo2_iaabt7.jpg 2300w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1609326356/Autres/bamboo2_iaabt7.jpg 2300w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2400/v1609326356/Autres/bamboo2_iaabt7.jpg 2400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2400/v1609326356/Autres/bamboo2_iaabt7.jpg 2400w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg 2500w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg 2500w,
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg 2500w"
+          src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg"
+          alt=""
+          class="food-jumbotron-bg">
+        <div class="food-jumbotron-caption container">
+          <h1 id="title-1" class="special-title-2">Entrées</h1>
+          <div id="menu-icons">
+            <div class="row">
+              <div class="col-4">
+                <a href="#soup" class="smooth-scroll"><img class="menu-icon" src="media/menu/entrees/icons/soup.svg" alt="Breakfasts"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">POTAGES ET SOUPES</h6>
+              </div>
+              <div class="col-4">
+                <a href="#burgers" class="smooth-scroll"><img class="menu-icon" src="media/menu/entrees/icons/salad.svg" alt="Burgers"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">HORS D'OEUVRES</h6>
+              </div>
+              <div class="col-4">
+                <a href="#flavours-of-cyprus" class="smooth-scroll"><img class="menu-icon" src="media/menu/entrees/icons/dim-sum.svg" alt="Flavours of Cyprus"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">RAVIOLIS</h6>
+              </div>
+       
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOD: DESCRIPTIONS -->
+      <div class="food-descriptions container">
+        
+        <!-- POTAGES ET SOUPES -->
+        <div id="soup" class="food-category">
+          <h2 class="banner">POTAGES ET SOUPES</h2>
+          <hr class="food-horizontal-rule">
+
+          <!-- <hr class="food-horizontal-rule"> -->
+
+          <!-- <hr class="food-horizontal-rule"> -->
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404955/Entrees/6_myf21o.png"
+                data-srcset="
                   https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/6_myf21o.jpg 1x,
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/6_myf21o.jpg 2x" alt="Breakfast" class="rounded-circle lazyload"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name" id="soupe vermicelles poulet">Soupe aux vermicelles et poulet (ou légumes)</span> <span class="food-price float-right">6€</span></h3></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"><img class="rounded-circle lazyload"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Potage au maïs et poulet </span><span class="food-price float-right">6€</span></h3></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"><img data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/10_klhddm.jpg" data-srcset="
+                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/6_myf21o.jpg 2x"
+                alt="Breakfast"
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name" id="soupe vermicelles poulet">Soupe aux vermicelles et poulet (ou légumes)</span>
+                <span class="food-price float-right">6€</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Potage au maïs et poulet </span>
+                <span class="food-price float-right">6€</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/10_klhddm.jpg"
+                data-srcset="
                   https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/10_klhddm.jpg 1x,
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/10_klhddm.jpg 2x" alt="Breakfast" class="rounded-circle lazyload"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Potage pékinois piquant </span><span class="food-price float-right">6€</span></h3></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Soupe Thaï de poulet au lait de coco épicée TOM KHA KAI </span><span class="food-price float-right">8.<sup>80</sup>€</span></h3></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"><img data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/t1_yntkqo.jpg" data-srcset="
+                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/10_klhddm.jpg 2x"
+                alt="Breakfast"
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Potage pékinois piquant </span>
+                <span class="food-price float-right">6€</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Soupe Thaï de poulet au lait de coco épicée TOM KHA KAI </span>
+                <span class="food-price float-right">8.<sup>80</sup>€</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/t1_yntkqo.jpg"
+                data-srcset="
                   https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/t1_yntkqo.jpg 1x,
-                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/t1_yntkqo.jpg 2x" alt="Breakfast" class="rounded-circle lazyload"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Soupe Thaï de crevettes à la citronnelle aigre TOM YUM </span><span class="food-price float-right">9.<sup>20</sup>€</span></h3></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name text-truncate">Soupe de raviolis aux crevettes</span> <span class="food-price float-right">8.<sup>80</sup>€</span></h3></div></div></div><div id="burgers" class="food-category"><h2 class="banner">HORS D'OEUVRES</h2><hr class="food-horizontal-rule"><div class="row align-items-center menu-item"><div class="col-md-3 food-image"><img data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/11_oc07di.png" data-srcset="
+                  https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/t1_yntkqo.jpg 2x"
+                alt="Breakfast"
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Soupe Thaï de crevettes à la citronnelle aigre TOM YUM </span>
+                <span class="food-price float-right">9.<sup>20</sup>€</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name text-truncate">Soupe de raviolis aux crevettes</span>
+                <span class="food-price float-right">8.<sup>80</sup>€</span>
+              </h3>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- HORS D'OEUVRES -->
+        <div id="burgers" class="food-category">
+          <h2 class="banner">HORS D'OEUVRES</h2>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/11_oc07di.png"
+                data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/11_oc07di.png 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608405084/Entrees/11_oc07di.png 2x" alt="Burger" class="rounded-circle lazyload"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Nems vietnamiens au poulet</span> <span class="food-price float-right">6.<sup>80</sup>€</span></h3><p class="food-ingredients">4 pièces</p></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Nems vietnamiens aux crevettes </span><span class="food-price float-right">7.<sup>80</sup>€</span></h3><p class="food-ingredients">4 pièces</p></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Nems végétarien</span> <span class="food-price float-right">6.<sup>80</sup>€</span></h3><p class="food-ingredients">4 pièces</p></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"><img data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/12_hhvrv1.jpg" data-srcset="
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608405084/Entrees/11_oc07di.png 2x"
+                alt="Burger"
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Nems vietnamiens au poulet</span>
+                <span class="food-price float-right">6.<sup>80</sup>€</span>
+              </h3>
+              <p class="food-ingredients">
+                4 pièces
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Nems vietnamiens aux crevettes  </span>
+                <span class="food-price float-right">7.<sup>80</sup>€</span>
+              </h3>
+              <p class="food-ingredients">
+                4 pièces
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Nems végétarien</span>
+                <span class="food-price float-right">6.<sup>80</sup>€</span>
+              </h3>
+              <p class="food-ingredients">
+                4 pièces
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/12_hhvrv1.jpg"
+                data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/12_hhvrv1.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/12_hhvrv1.jpg 2x" alt="Burger" class="rounded-circle lazyload"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Pâtés Impériaux chinois</span> <span class="food-price float-right">6.<sup>60</sup>€</span></h3><p class="food-ingredients">poulet, 2 pièces</p></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Beignets de crevettes </span><span class="food-price float-right">7.<sup>50</sup>€</span></h3></div></div><hr class="food-horizontal-rule"><div class="row align-items-center menu-item"><div class="col-md-3 food-image"><img data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/12a_sg9vdr.jpg" data-srcset="
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/12_hhvrv1.jpg 2x"
+                alt="Burger"
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Pâtés Impériaux chinois</span>
+                <span class="food-price float-right">6.<sup>60</sup>€</span>
+              </h3>
+              <p class="food-ingredients">
+                poulet, 2 pièces
+              </p>
+            </div>
+          </div>
+
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Beignets de crevettes  </span>
+                <span class="food-price float-right">7.<sup>50</sup>€</span>
+              </h3>
+            </div>
+          </div>
+
+          <hr class="food-horizontal-rule">
+
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/12a_sg9vdr.jpg"
+                data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/12a_sg9vdr.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618678/Entrees/12a_sg9vdr.jpg 2x" alt="Burger" class="rounded-circle lazyload"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Rouleau de printemps froid</span> <span class="food-price float-right">6.<sup>20</sup>€</span></h3><p class="food-ingredients">poulet et crevettes</p></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"><img data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/13_wdqelz.jpg" data-srcset="
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618678/Entrees/12a_sg9vdr.jpg 2x"
+                alt="Burger"
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Rouleau de printemps froid</span>
+                <span class="food-price float-right">6.<sup>20</sup>€</span>
+              </h3>
+              <p class="food-ingredients">
+                poulet et crevettes
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/13_wdqelz.jpg"
+                data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/13_wdqelz.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618679/Entrees/13_wdqelz.jpg 2x" alt="Burger" class="rounded-circle lazyload"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Salade chinoise aux crevettes</span> <span class="food-price float-right">6.<sup>20</sup>€</span></h3><p class="food-ingredients">petite</p></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Salade chinoise au poulet ou nature</span> <span class="food-price float-right">6€</span></h3></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"><img data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/t3_cydjya.jpg" data-srcset="
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618679/Entrees/13_wdqelz.jpg 2x"
+                alt="Burger"
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Salade chinoise aux crevettes</span>
+                <span class="food-price float-right">6.<sup>20</sup>€</span>
+              </h3>
+              <p class="food-ingredients">
+                petite
+              </p>
+            </div>
+          </div>
+
+          <!-- <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Salade chinoise à la chair de crabe</span>
+                <span class="food-price float-right">8.<sup>50</sup>€</span>
+              </h3>
+            </div>
+          </div> -->
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Salade chinoise au poulet ou nature</span>
+                <span class="food-price float-right">6€</span>
+              </h3>
+            </div>
+          </div>
+
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/t3_cydjya.jpg"
+                data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/t3_cydjya.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608405084/Entrees/t3_cydjya.jpg 2x" alt="Burger" class="rounded-circle lazyload"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Salade Thaï de crevettes à la citronnelle YAM KUNG </span><span class="food-price float-right">11.<sup>90</sup>€</span></h3></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Salade Thaï de bœuf à la citronnelle YAM NEUA </span><span class="food-price float-right">9.<sup>80</sup>€</span></h3></div></div></div><div id="flavours-of-cyprus" class="food-category"><h2 class="banner">RAVIOLIS</h2><h3 class="special-title-4">4 pièces, sauf indication contraire</h3><hr class="food-horizontal-rule"><div class="row align-items-center menu-item"><div class="col-md-3 food-image"><img data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r2_xleer1.jpg" data-srcset="
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608405084/Entrees/t3_cydjya.jpg 2x"
+                alt="Burger"
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Salade Thaï de crevettes à la citronnelle   YAM KUNG  </span>
+                <span class="food-price float-right">11.<sup>90</sup>€</span>
+              </h3>
+            </div>
+          </div>
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Salade Thaï de bœuf à la citronnelle    YAM NEUA </span>
+                <span class="food-price float-right">9.<sup>80</sup>€</span>
+              </h3>
+            </div>
+          </div>
+
+        </div>
+      
+
+        <!-- RAVIOLIS -->
+        <div id="flavours-of-cyprus" class="food-category">
+          <h2 class="banner">RAVIOLIS</h2>
+          <h3 class="special-title-4">4 pièces, sauf indication contraire</h3>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r2_xleer1.jpg"
+                data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r2_xleer1.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/r2_xleer1.jpg 2x" alt="Raviolis" class="rounded-circle lazyload"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Raviolis Pékinois grillés GYOZA </span><span class="food-price float-right">7.<sup>20</sup>€</span></h3></div></div><hr class="food-horizontal-rule"><div class="row align-items-center menu-item"><div class="col-md-3 food-image"><img data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/v0_jxwp8y.jpg" data-srcset="
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/r2_xleer1.jpg 2x"
+                alt="Raviolis"
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Raviolis Pékinois grillés GYOZA </span>
+                <span class="food-price float-right">7.<sup>20</sup>€</span>
+              </h3>
+            </div>
+          </div>
+          
+          <!-- <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r4_npr56y.png"
+                data-srcset="
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r4_npr56y.png 1x,
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/r4_npr56y.png 2x"
+                alt="Raviolis"
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Raviolis frits aux crevettes</span>
+                <span class="food-price float-right">7.<sup>80</sup>€</span>
+              </h3>
+            </div>
+          </div> -->
+
+          <hr class="food-horizontal-rule">
+
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img 
+                data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/v0_jxwp8y.jpg"
+                data-srcset="
                 https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/v0_jxwp8y.jpg 1x,
-                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/v0_jxwp8y.jpg 2x" alt="Raviolis" class="rounded-circle lazyload"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Assortiment de raviolis cuit à la vapeur</span> <span class="food-price float-right">7.<sup>50</sup>€</span></h3><p class="food-ingredients">6 pièces</p></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"><img data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/v1_edqlbj.jpg" data-srcset="
+                https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1608404079/Entrees/v0_jxwp8y.jpg 2x"
+                alt="Raviolis"
+                class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Assortiment de raviolis cuit à la vapeur</span>
+                <span class="food-price float-right">7.<sup>50</sup>€</span>
+              </h3>
+              <p class="food-ingredients">
+                6 pièces
+              </p>
+            </div>
+          </div>
+
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img
+              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/v1_edqlbj.jpg"
+              data-srcset="
               https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/v1_edqlbj.jpg 1x,
-              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618678/Entrees/v1_edqlbj.jpg 2x" alt="Fruits de mer" class="rounded-circle lazyload"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Raviolis HA CAO aux crevettes</span> <span class="food-price float-right">6.<sup>50</sup>€</span></h3></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Raviolis XAO MAI bouchées au porc</span> <span class="food-price float-right">6€</span></h3></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Raviolis JI GUAN JIAO au poulet</span> <span class="food-price float-right">6€</span></h3></div></div><div class="row align-items-center menu-item"><div class="col-md-3 food-image"><img data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/v7_lxrtwx.jpg" data-srcset="
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618678/Entrees/v1_edqlbj.jpg 2x"
+              alt="Fruits de mer"
+              class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Raviolis  HA CAO  aux crevettes</span>
+                <span class="food-price float-right">6.<sup>50</sup>€</span>
+              </h3>
+            </div>
+          </div>
+
+          <!-- <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Raviolis XIA MAI  bouchées aux crevettes</span>
+                <span class="food-price float-right">6.<sup>20</sup>€</span>
+              </h3>
+            </div>
+          </div> -->
+
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Raviolis XAO MAI  bouchées au porc</span>
+                <span class="food-price float-right">6€</span>
+              </h3>
+            </div>
+          </div>
+
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Raviolis  JI GUAN JIAO au poulet</span>
+                <span class="food-price float-right">6€</span>
+              </h3>
+            </div>
+          </div>
+
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img
+              data-src="https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/v7_lxrtwx.jpg"
+              data-srcset="
               https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/v7_lxrtwx.jpg 1x,
-              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618679/Entrees/v7_lxrtwx.jpg 2x" alt="Fruits de mer" class="rounded-circle lazyload"></div><div class="col-md-9"><h3 class="food-title"><span class="food-name">Raviolis SOU JIAO aux légumes</span> <span class="food-price float-right">6€</span></h3></div></div></div><br><h6>Tarifs à titre indicatif</h6><div class="row-centered end-menu"><a class="btn btn-outline-dark" href="food.html" role="button">Nos plats</a> <a class="btn btn-outline-dark" href="desserts.html" role="button">Nos desserts</a> <a class="btn btn-outline-dark" href="formules.html" role="button">Nos formules</a> <a class="btn btn-outline-dark" href="drinks.html" role="button">Nos boissons</a><br></div></div><div id="googleMapContainer" class="homepage-google-map"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=4%20rue%20Meslay+(Restaurant%20Le%20Jardin)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameborder="0"></iframe></div></main><footer class="page-footer"><div class="container"><a class="navbar-brand animated pulse d-block text-center m-0 p-0" href="#"><img src="media/brand/logo-light.svg" width="50" height="50" alt="Logo"></a><div class="row"><div class="col-md-4"><h5 class="page-footer-title">HEURES D'OUVERTURE</h5><p class="mb-0">Ouvert du Lundi au Vendredi</p><p class="mb-0">Déjeuner: 12h - 14h</p><p>Diner: 19h - 22h</p></div><div class="col-md-4 h-100 border-left-custom"><h5 class="page-footer-title mt-3 mt-md-0">LOCALISATION</h5><address>Restaurant Chinois Le Jardin<br>4 rue Meslay<br>75003 Paris<br><abbr title="Phone">T :</abbr> (+33) 01 48 87 89 71<br><abbr title="Email">E :</abbr> restaurantchinoislejardin@gmail.com</address></div><div class="col-md-4 h-100 border-left-custom"><h5 class="page-footer-title mt-3 mt-md-0">SUIVEZ-NOUS</h5><div class="mb-3"><a class="footer-social" href="https://www.facebook.com/restaurantchinois.lejardin/" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a class="footer-social" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html" aria-label="tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a> <a class="footer-social" href="https://restaurantchinois-lejardin.business.site/" aria-label="google"><i class="fa fa-google" aria-hidden="true"></i></a></div><link href="https://awards.infcdn.net/rect_v2.css" rel="stylesheet"><div id="rest_v2" onclick="if(event.target.nodeName.toLowerCase() != 'a') {window.open(this.querySelector('.sq_center').href);return 0;}"><div class="rb_flex rb_top"><span class="rb_hat"></span> <span class="rb_type">Recommandé</span></div><a href="https://fr.restaurantguru.com/Le-Jardin-Paris-2" class="rb_center f16" target="_blank">Restaurant chinois Le Jardin</a><div class="rb_flex"><a href="https://restaurantguru.com" class="rb_bot" target="_blank">Restaurant Guru</a><div>2023</div></div></div></div></div><div class="col-md-0 h-100 border-left-custom"><form id="newsletter-form"></form></div></div><div class="page-footer-copyright container-fluid text-center">© 2019 Marios Sofokleous (<a href="https://pictureelement.github.io/portfolio-2/">PictureElement</a>).<br>Design by <a href="https://github.com/catherning">Catherning</a> (Catherine Xu).</div></footer><a id="back-to-top" class="back-to-top smooth-scroll" href="#top"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a><script src="js/lazysizes.min.js" async=""></script><script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><script src="js/site.js"></script><script src="js/menu-animations.js"></script></body></html>
+              https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_300,q_auto,w_300/v1609618679/Entrees/v7_lxrtwx.jpg 2x"
+              alt="Fruits de mer"
+              class="rounded-circle lazyload">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">Raviolis SOU JIAO aux légumes</span>
+                <span class="food-price float-right">6€</span>
+              </h3>
+            </div>
+          </div>
+
+
+        </div>
+
+        <br> <h6>Tarifs à titre indicatif</h6>
+
+        <div class="row-centered end-menu">
+          <a class="btn btn-outline-dark" href="food.html" role="button">Nos plats</a>
+          <a class="btn btn-outline-dark" href="desserts.html" role="button">Nos desserts</a>
+          <a class="btn btn-outline-dark" href="formules.html" role="button">Nos formules</a>
+          <a class="btn btn-outline-dark" href="drinks.html" role="button">Nos boissons</a>
+          <br>
+        </div>
+
+      </div>
+
+      <div id="googleMapContainer" class="homepage-google-map">
+        <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=4%20rue%20Meslay+(Restaurant%20Le%20Jardin)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameborder="0">
+        </iframe>
+      </div>
+
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <a class="navbar-brand animated pulse d-block text-center m-0 p-0" href="#">
+          <img src="media/brand/logo-light.svg" width="50" height="50" alt="Logo">
+        </a>
+        <div class="row">
+          <div class="col-md-4">
+            <h5 class="page-footer-title">HEURES D'OUVERTURE</h5>
+            <p class="mb-0">Ouvert du Lundi au Vendredi</p> 
+            <p class="mb-0">Déjeuner: 12h - 14h</p>
+            <p>Diner: 19h - 22h</p>
+          </div>
+          <div class="col-md-4 h-100 border-left-custom">
+            <h5 class="page-footer-title mt-3 mt-md-0">LOCALISATION</h5>
+            <address>
+              Restaurant Chinois Le Jardin<br>
+              4 rue Meslay<br>
+              75003 Paris<br>
+              <abbr title="Phone">T :</abbr> (+33) 01 48 87 89 71<br>
+              <abbr title="Email">E :</abbr> restaurantchinoislejardin@gmail.com
+            </address>
+          </div>
+          <div class="col-md-4 h-100 border-left-custom">
+            <h5 class="page-footer-title mt-3 mt-md-0">SUIVEZ-NOUS</h5>
+            <div class="mb-3">
+              <a class="footer-social" href="https://www.facebook.com/restaurantchinois.lejardin/" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a class="footer-social" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html" aria-label="tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+              <a class="footer-social" href="https://restaurantchinois-lejardin.business.site/" aria-label="google"><i class="fa fa-google" aria-hidden="true"></i></a>
+
+              </div>
+              <link href="https://awards.infcdn.net/rect_v2.css" rel="stylesheet" />
+              <div id="rest_v2"
+                onclick="if(event.target.nodeName.toLowerCase() != 'a') {window.open(this.querySelector('.sq_center').href);return 0;}">
+                <div class="rb_flex rb_top"> <span class="rb_hat"></span> <span class="rb_type ">Recommandé</span> </div>
+                <a href="https://fr.restaurantguru.com/Le-Jardin-Paris-2" class="rb_center f16" target="_blank">Restaurant
+                  chinois Le Jardin</a>
+                <div class="rb_flex">
+                  <a href="https://restaurantguru.com" class="rb_bot" target="_blank">Restaurant Guru</a>
+                  <div>2023</div>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+          <div class="col-md-0 h-100 border-left-custom">
+            <form id="newsletter-form"> <!-- kept because it breaks the template otherwise -->
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="page-footer-copyright container-fluid text-center">
+        © 2019 Marios Sofokleous (<a href="https://pictureelement.github.io/portfolio-2/">PictureElement</a>).<br>
+        Design by <a href="https://github.com/catherning">Catherning</a> (Catherine Xu).
+      </div>
+    </footer>
+    <a id="back-to-top" class="back-to-top smooth-scroll" href="#top">
+      <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+    </a>
+    <!-- lazySizes -->
+    <script src="js/lazysizes.min.js" async=""></script>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap -->
+    <script 
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+      crossorigin="anonymous">
+    </script>
+    <script src="js/site.js"></script>
+    <script src="js/menu-animations.js"></script>
+  </body>
+</html>

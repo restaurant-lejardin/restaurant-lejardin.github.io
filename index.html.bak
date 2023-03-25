@@ -18,12 +18,89 @@
                   https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_500/v1605365168/Autres/covid.jpg 500w,
                   https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1605365168/Autres/covid.jpg 700w,
                   https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1605365168/Autres/covid.jpg 900w,
+<<<<<<< HEAD
                   https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1605365168/Autres/covid.jpg 1000w" data-src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1605365168/Autres/covid.jpg" alt="Special offer" class="card-img-top border-bottom border-dark lazyload"></div></div><div id="card-2" class="col-md-4"><div class="card-2 card box-shadow"><img sizes="(max-width: 1016px) 100vw, 1016px" data-srcset="
+=======
+                  https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1605365168/Autres/covid.jpg 1000w"
+              data-src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1605365168/Autres/covid.jpg"
+              alt="Special offer" class="card-img-top border-bottom border-dark lazyload">
+            <!-- <div class="card-body">
+                <h5 class="card-title font-weight-bold">CONFINEMENT</h5>
+                <p class="card-text">
+                  Nous sommes ouverts pour la vente à emporter en Call & Collect au 01 48 87 89 71.
+                </p>
+              </div> -->
+          </div>
+        </div>
+        <div id="card-2" class="col-md-4">
+          <div class="card-2 card box-shadow">
+            <img sizes="(max-width: 1016px) 100vw, 1016px"
+              data-srcset="
+>>>>>>> 76e75701b176ab43c2296a8796a0f0bdfdc25c3c
                 https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_200/v1609614574/Autres/paiements_rvhj86.jpg  200w,
                 https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_500/v1609614574/Autres/paiements_rvhj86.jpg  500w,
                 https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1609614574/Autres/paiements_rvhj86.jpg  700w,
                 https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1609614574/Autres/paiements_rvhj86.jpg  900w,
+<<<<<<< HEAD
                 https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609614574/Autres/paiements_rvhj86.jpg  1000w" data-src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609614574/Autres/paiements_rvhj86.jpg " alt="Special offer" class="card-img-top border-bottom border-dark lazyload"><div class="card-body"><h5 class="card-title font-weight-bold">NOUVEAUX MODES DE PAIEMENTS</h5><p class="card-text">Nous acceptons maintenant les Chèques-vacances-Connect, en plus des chèques-vacances version papier, et certaines Cartes Titres-restaurants (sauf Edenred Tickets-restaurants et Apetiz ...)</p></div></div></div><div id="card-3" class="col-md-4"><div class="card-3 card box-shadow"><div style="position: center;"></div><div id="rest_v2" onclick="if(event.target.nodeName.toLowerCase() != 'a') {window.open(this.querySelector('.sq_center').href);return 0;}"><div class="rb_flex rb_top"><span class="rb_hat"></span> <span class="rb_type">Recommandé</span></div><a href="https://fr.restaurantguru.com/Le-Jardin-Paris-2" class="rb_center f16" target="_blank">Restaurant chinois Le Jardin</a><div class="rb_flex"><a href="https://restaurantguru.com" class="rb_bot" target="_blank">Restaurant Guru</a><div>2023</div></div></div><div class="card-body"><h5 class="card-title font-weight-bold">Réseaux sociaux</h5><p class="card-text">Nous sommes maintenant référencés sur <a href="https://restaurantguru.com" class="rb_bot" target="_blank">Restaurant Guru</a> ! Retrouvez nous également sur <a href="https://www.facebook.com/restaurantchinois.lejardin/">Facebook</a>, <a href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html">Tripadvisor</a> et <a href="https://restaurantchinois-lejardin.business.site/">Google</a>.</p></div></div></div></div></div><div class="homepage-testimonials dark-overlay text-center"><img sizes="(max-width: 2560px) 100vw, 2560px" data-srcset="
+=======
+                https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609614574/Autres/paiements_rvhj86.jpg  1000w"
+              data-src="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609614574/Autres/paiements_rvhj86.jpg "
+              alt="Special offer" class="card-img-top border-bottom border-dark lazyload">
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">NOUVEAUX MODES DE PAIEMENTS</h5>
+              <p class="card-text">
+                Nous acceptons maintenant les Chèques-vacances-Connect, en plus des chèques-vacances
+                version papier, et certaines Cartes Titres-restaurants (sauf Edenred Tickets-restaurants
+                et Apetiz ...)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="card-3" class="col-md-4">
+          <div class="card-3 card box-shadow">
+
+            <div style="position: center ;"> </div>
+            <div id="rest_v2"
+              onclick="if(event.target.nodeName.toLowerCase() != 'a') {window.open(this.querySelector('.sq_center').href);return 0;}">
+              <div class="rb_flex rb_top"> <span class="rb_hat"></span> <span class="rb_type ">Recommandé</span> </div>
+              <a href="https://fr.restaurantguru.com/Le-Jardin-Paris-2" class="rb_center f16" target="_blank">Restaurant
+                chinois Le Jardin</a>
+              <div class="rb_flex">
+                <a href="https://restaurantguru.com" class="rb_bot" target="_blank">Restaurant Guru</a>
+                <div>2023</div>
+              </div>
+            </div>
+
+
+
+
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">Réseaux sociaux</h5>
+              <p class="card-text">
+                Nous sommes maintenant référencés sur <a href="https://restaurantguru.com" class="rb_bot"
+                  target="_blank">Restaurant Guru</a> !
+                Retrouvez nous également sur <a
+                  href="https://www.facebook.com/restaurantchinois.lejardin/">Facebook</a>,
+                <a
+                  href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html">Tripadvisor</a>
+                et
+                <a href="https://restaurantchinois-lejardin.business.site/">Google</a>.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- TESTIMONIALS -->
+    <div class="homepage-testimonials dark-overlay text-center">
+      <img sizes="(max-width: 2560px) 100vw, 2560px"
+        data-srcset="
+>>>>>>> 76e75701b176ab43c2296a8796a0f0bdfdc25c3c
             https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1610796996/Autres/cover-wooden-texture_eg46rk.jpg 300w,
             https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_500/v1610796996/Autres/cover-wooden-texture_eg46rk.jpg 500w,
             https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1610796996/Autres/cover-wooden-texture_eg46rk.jpg 700w,
@@ -59,4 +136,157 @@
             https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1610796996/Autres/cover-wooden-texture_eg46rk.jpg 2500w,
             https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1610796996/Autres/cover-wooden-texture_eg46rk.jpg 2500w,
             https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1610796996/Autres/cover-wooden-texture_eg46rk.jpg 2500w,
+<<<<<<< HEAD
             https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1610796996/Autres/cover-wooden-texture_eg46rk.jpg 2500w" data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535898673/website-template-3/cover-wooden-texture.jpg" alt="" class="homepage-testimonials-bg lazyload"><div class="homepage-testimonials-caption"><h2 class="special-title-1">AVIS</h2><h3 class="special-title-2">Ce que disent nos clients</h3><div id="homepage-testimonials-carousel" class="homepage-testimonials-carousel carousel slide" data-ride="carousel"><div class="carousel-inner"><div class="carousel-item active"><blockquote><p class="mb-0">Vous recherchez un endroit calme, agréable, et une cuisine excellente... Faîtes l'effort d'une petite rue en sortant légèrement de la place de la République, vous ne serez pas en mode cantine ou industrielle. Nous y retournons régulièrement et franchement même un Samedi soir c'est un endroit reposant...</p><footer class="blockquote-footer">Christophe V, <cite title="Source Title"></cite></footer></blockquote></div><div class="carousel-item"><blockquote><p class="mb-0">Très bon resto chinois, proposant une carte variée et bien fournie en plats classiques et spécialités plus exotiques à découvrir.. Le cadre, à lui seul, vaut vraiment le détour, très belle déco, et personnel toujours très agréable, c'était un peu notre cantine quand nous vivions à Paris, dans le 10eme</p><footer class="blockquote-footer">Caroline C <cite title="Source Title"></cite></footer></blockquote></div><div class="carousel-item"><blockquote><p class="mb-0">De nombreuses spécialités provinciales proposées sur la carte à découvrir avec plaisir, que nous autres français n'avons pas forcement la chance de connaître, une patronne très accueillante et très gentille, ainsi qu'une belle décoration intérieure. C'est ainsi que je recommande vivement ce restaurant chinois authentique, devenu mon préféré à Paris !</p><footer class="blockquote-footer">François L <cite title="Source Title"></cite></footer></blockquote></div></div><a class="carousel-control-prev" href="#homepage-testimonials-carousel" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a><a class="carousel-control-next" href="#homepage-testimonials-carousel" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span></a></div></div></div><div id="googleMapContainer" class="homepage-google-map"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=4%20rue%20Meslay+(Restaurant%20Le%20Jardin)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameborder="0"></iframe></div></main><footer class="page-footer"><div class="container"><a class="navbar-brand animated pulse d-block text-center m-0 p-0" href="#"><img src="media/brand/logo-light.svg" width="50" height="50" alt="Logo"></a><div class="row"><div class="col-md-4"><h5 class="page-footer-title">HEURES D'OUVERTURE</h5><p class="mb-0">Ouvert du Lundi au Vendredi</p><p class="mb-0">Déjeuner: 12h - 14h</p><p>Diner: 19h - 22h</p></div><div class="col-md-4 h-100 border-left-custom"><h5 class="page-footer-title mt-3 mt-md-0">LOCALISATION</h5><address>Restaurant Chinois Le Jardin<br>4 rue Meslay<br>75003 Paris<br><abbr title="Phone">T :</abbr> (+33) 01 48 87 89 71<br><abbr title="Email">E :</abbr> restaurantchinoislejardin@gmail.com</address></div><div class="col-md-4 h-100 border-left-custom"><h5 class="page-footer-title mt-3 mt-md-0">SUIVEZ-NOUS</h5><div class="mb-3"><a class="footer-social" href="https://www.facebook.com/restaurantchinois.lejardin/" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a class="footer-social" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html" aria-label="tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a> <a class="footer-social" href="https://restaurantchinois-lejardin.business.site/" aria-label="google"><i class="fa fa-google" aria-hidden="true"></i></a></div><link href="https://awards.infcdn.net/rect_v2.css" rel="stylesheet"><div id="rest_v2" onclick="if(event.target.nodeName.toLowerCase() != 'a') {window.open(this.querySelector('.sq_center').href);return 0;}"><div class="rb_flex rb_top"><span class="rb_hat"></span> <span class="rb_type">Recommandé</span></div><a href="https://fr.restaurantguru.com/Le-Jardin-Paris-2" class="rb_center f16" target="_blank">Restaurant chinois Le Jardin</a><div class="rb_flex"><a href="https://restaurantguru.com" class="rb_bot" target="_blank">Restaurant Guru</a><div>2023</div></div></div></div><div class="col-md-0 h-100 border-left-custom"><form id="newsletter-form"></form></div></div></div><div class="page-footer-copyright container-fluid text-center">© 2019 Marios Sofokleous (<a href="https://pictureelement.github.io/portfolio-2/">PictureElement</a>).<br>Design by <a href="https://github.com/catherning">Catherning</a> (Catherine Xu).</div></footer><a id="back-to-top" class="back-to-top smooth-scroll" href="#top"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a><script src="js/lazysizes.min.js" async=""></script><script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><script src="js/site.js"></script><script src="js/homepage-animations.js"></script></body></html>
+=======
+            https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1610796996/Autres/cover-wooden-texture_eg46rk.jpg 2500w"
+        data-src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535898673/website-template-3/cover-wooden-texture.jpg"
+        alt="" class="homepage-testimonials-bg lazyload">
+
+      <div class="homepage-testimonials-caption">
+        <h2 class="special-title-1">AVIS</h2>
+        <h3 class="special-title-2">Ce que disent nos clients</h3>
+        <div id="homepage-testimonials-carousel" class="homepage-testimonials-carousel carousel slide"
+          data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <blockquote>
+                <p class="mb-0">
+                  Vous recherchez un endroit calme, agréable, et une cuisine excellente...
+                  Faîtes l'effort d'une petite rue en sortant légèrement de la place de la République,
+                  vous ne serez pas en mode cantine ou industrielle. Nous y retournons régulièrement et
+                  franchement même un Samedi soir c'est un endroit reposant...
+                </p>
+                <footer class="blockquote-footer">Christophe V, <cite title="Source Title"></cite></footer>
+              </blockquote>
+            </div>
+
+            <div class="carousel-item">
+              <blockquote>
+                <p class="mb-0">
+                  Très bon resto chinois, proposant une carte variée et bien fournie en plats classiques et spécialités
+                  plus exotiques à découvrir.. Le cadre, à lui seul, vaut vraiment le détour, très belle déco,
+                  et personnel toujours très agréable, c'était un peu notre cantine quand nous vivions à Paris, dans le
+                  10eme
+                </p>
+                <footer class="blockquote-footer">Caroline C <cite title="Source Title"></cite></footer>
+              </blockquote>
+            </div>
+
+            <div class="carousel-item">
+              <blockquote>
+                <p class="mb-0">
+                  De nombreuses spécialités provinciales proposées sur la carte à découvrir avec plaisir,
+                  que nous autres français n'avons pas forcement la chance de connaître, une patronne très accueillante
+                  et
+                  très gentille, ainsi qu'une belle décoration intérieure. C'est ainsi que je recommande vivement ce
+                  restaurant
+                  chinois authentique, devenu mon préféré à Paris !
+                </p>
+                <footer class="blockquote-footer">François L <cite title="Source Title"></cite></footer>
+              </blockquote>
+            </div>
+
+          </div>
+          <a class="carousel-control-prev" href="#homepage-testimonials-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#homepage-testimonials-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="googleMapContainer" class="homepage-google-map">
+      <iframe scrolling="no" marginheight="0" marginwidth="0"
+        src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=4%20rue%20Meslay+(Restaurant%20Le%20Jardin)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        width="100%" height="400" frameborder="0">
+      </iframe>
+    </div>
+
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <a class="navbar-brand animated pulse d-block text-center m-0 p-0" href="#">
+        <img src="media/brand/logo-light.svg" width="50" height="50" alt="Logo">
+      </a>
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="page-footer-title">HEURES D'OUVERTURE</h5>
+          <p class="mb-0">Ouvert du Lundi au Vendredi</p>
+          <p class="mb-0">Déjeuner: 12h - 14h</p>
+          <p>Diner: 19h - 22h</p>
+        </div>
+        <div class="col-md-4 h-100 border-left-custom">
+          <h5 class="page-footer-title mt-3 mt-md-0">LOCALISATION</h5>
+          <address>
+            Restaurant Chinois Le Jardin<br>
+            4 rue Meslay<br>
+            75003 Paris<br>
+            <abbr title="Phone">T :</abbr> (+33) 01 48 87 89 71<br>
+            <abbr title="Email">E :</abbr> restaurantchinoislejardin@gmail.com
+          </address>
+        </div>
+        <div class="col-md-4 h-100 border-left-custom">
+          <h5 class="page-footer-title mt-3 mt-md-0">SUIVEZ-NOUS</h5>
+          <div class="mb-3">
+            <a class="footer-social" href="https://www.facebook.com/restaurantchinois.lejardin/"
+              aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="footer-social"
+              href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html"
+              aria-label="tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+            <a class="footer-social" href="https://restaurantchinois-lejardin.business.site/" aria-label="google"><i
+                class="fa fa-google" aria-hidden="true"></i></a>
+          </div>
+
+          <link href="https://awards.infcdn.net/rect_v2.css" rel="stylesheet" />
+          <div id="rest_v2"
+            onclick="if(event.target.nodeName.toLowerCase() != 'a') {window.open(this.querySelector('.sq_center').href);return 0;}">
+            <div class="rb_flex rb_top"> <span class="rb_hat"></span> <span class="rb_type ">Recommandé</span> </div>
+            <a href="https://fr.restaurantguru.com/Le-Jardin-Paris-2" class="rb_center f16" target="_blank">Restaurant
+              chinois Le Jardin</a>
+            <div class="rb_flex">
+              <a href="https://restaurantguru.com" class="rb_bot" target="_blank">Restaurant Guru</a>
+              <div>2023</div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-md-0 h-100 border-left-custom">
+          <form id="newsletter-form">
+            <!-- kept because it breaks the template otherwise -->
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="page-footer-copyright container-fluid text-center">
+      © 2019 Marios Sofokleous (<a href="https://pictureelement.github.io/portfolio-2/">PictureElement</a>).<br>
+      Design by <a href="https://github.com/catherning">Catherning</a> (Catherine Xu).
+    </div>
+  </footer>
+
+  <a id="back-to-top" class="back-to-top smooth-scroll" href="#top">
+    <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+  </a>
+  <!-- lazySizes -->
+  <script src="js/lazysizes.min.js" async=""></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+    </script>
+  <!-- Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+  <script src="js/site.js"></script>
+  <script src="js/homepage-animations.js"></script>
+</body>
+
+</html>
+>>>>>>> 76e75701b176ab43c2296a8796a0f0bdfdc25c3c
