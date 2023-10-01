@@ -7,6 +7,8 @@ This real restaurant website has been done as a side project to work on HTML and
 Publish to website subtree
 ```
 bash script.sh
+git add .
+git commit -m "Commit message"
 git push
 git subtree push --prefix dist origin gh-pages
 ```
