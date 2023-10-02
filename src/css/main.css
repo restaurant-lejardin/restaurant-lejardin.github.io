@@ -138,7 +138,7 @@ a, a:hover {
   position: relative;
   margin: 0 auto;
   display: block;
-  width: 300px;
+  width: 300px; /*TODO: adapt size depending on device*/
   height: 60px;
   border: 1px solid #5a0000;
   text-align: center;
@@ -736,6 +736,7 @@ a, a:hover {
   text-align: center;
 }
 
+
 .food-title {
   font-size: 1rem;
   font-weight: 700;
@@ -1083,6 +1084,10 @@ a, a:hover {
     margin-bottom: -20px;
     margin-top: 30px;
   }
+
+  .menu-OU-text {
+    text-align: left; /*TODO: change to left when smartphone*/
+  }
 }
 
 
@@ -1169,6 +1174,10 @@ a, a:hover {
 
   .special-title-2-bis {
     font-size: 3.2rem;
+  }
+
+  .menu-OU-text {
+    text-align: right; /*TODO: change to left when smartphone*/
   }
 }
 
