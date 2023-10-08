@@ -19,6 +19,12 @@ Go to **src** during dev or **dist** before deploying folder, then
 browser-sync start --server --files "css/*.css"
 ```
 
+## Installation prerequisites
+- Install nvm : `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash`
+- Install npm : `nvm install --lts`
+<!-- - Install grunt packages: `npm install` -->
+- Install grunt : `npm install -g grunt-cli && npm install grunt`
+
 ## Author
 
 Original Theme:
