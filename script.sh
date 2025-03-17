@@ -13,8 +13,6 @@ grunt uglify
 
 grunt copy
 
-grunt critical
-
 grunt htmlmin
 
 perl -0pi -e 's/<link rel="stylesheet" href="css\/bootstrap.css"><link rel="stylesheet" href="css\/animate.css"><link rel="stylesheet" href="css\/main.css">/<link rel="stylesheet" href="css\/purestyles.css">/' dist/*.html
