@@ -41,5 +41,4 @@ https://stackoverflow.com/questions/13925916/what-is-causing-this-error-fatal-er
 - If can't push to gh-pages, https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase then https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site or https://stackoverflow.com/questions/52087783/git-push-to-gh-pages-updates-were-rejected
 
 # Todo
-- Multi-language website
-- Fix npm versions and bash error
+Multi-language website
