@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{fetch("footer.html").then(e=>{if(e.ok)return e.text();throw new Error("Failed to load footer")}).then(e=>{document.querySelector("footer").outerHTML=e}).catch(e=>console.error("Error loading footer:",e))});
