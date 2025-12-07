@@ -41,6 +41,12 @@ module.exports = function(grunt) {
         src: '*.html',
         dest: 'dist/'
       },
+      t2: {
+        expand: true,
+        cwd: 'src/config',
+        src: '*.json',
+        dest: 'dist/config'
+      },
       t3: {
         expand: true,
         cwd: 'src/',
