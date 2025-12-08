@@ -7,8 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
       return response.text();
     })
     .then((footerHTML) => {
-      document.querySelector("footer").outerHTML = footerHTML;
+      const pageFooter = document.querySelector("footer.page-footer");
+      if (pageFooter) {
+        pageFooter.innerHTML = footerHTML;
+      }
     })
     .catch((error) => console.error("Error loading footer:", error));
-
-  });
+});

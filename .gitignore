@@ -5,3 +5,4 @@ _plugins/
 _i18n/
 .jekyll-cache
 _site/
+.vscode/
