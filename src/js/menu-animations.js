@@ -56,19 +56,73 @@ var options2 = {
 function callback2(entries, observer2) {
   entries.forEach(function(entry) {
     if (entry.intersectionRatio > 0) {
+      console.log('Animating:', entry.target);
       entry.target.style.opacity = "1";
       entry.target.className += " animated fadeInUp";
-      // Stop observing target
       observer2.unobserve(entry.target);
     }
   });
 }
 
-// Create an intersection observer
+// Function to observe and animate menu items
+function observeMenuItems(items) {
+  items.forEach(function(foodItem) {
+    console.log('Observing menu item:', foodItem);
+    foodItem.style.opacity = "0";
+    observer2.observe(foodItem);
+  });
+}
+
+// Create an intersection observer for menu items
 var observer2 = new IntersectionObserver(callback2, options2);
 
-// Start observing
-menuItems.forEach(function(foodItem) {
-  observer2.observe(foodItem);
+// Observe existing menu items
+observeMenuItems(menuItems);
+
+// Updated MutationObserver logic to handle three levels: food div, category, and menu items
+const mutationObserver = new MutationObserver((mutations) => {
+  mutations.forEach((mutation) => {
+    if (mutation.type === "childList") {
+      mutation.addedNodes.forEach((node) => {
+        console.log('New node detected:', node);
+        if (node.nodeType === Node.ELEMENT_NODE) {
+          // Check if the node is a category or food div
+          if (node.classList.contains("food-category")) {
+            console.log('New food category detected:', node);
+            // Check for menu items within the category
+            const menuItems = node.querySelectorAll('.menu-item');
+            menuItems.forEach((menuItem) => {
+              console.log('New .menu-item detected in category:', menuItem);
+              observeMenuItems([menuItem]);
+            });
+          }
+
+          // Check if the node itself is a menu item
+          if (node.classList.contains("menu-item")) {
+            console.log('New .menu-item detected:', node);
+            observeMenuItems([node]);
+          }
+
+          // Check for menu items in descendants of the food div
+          const menuItemsInDescendants = node.querySelectorAll('.menu-item');
+          menuItemsInDescendants.forEach((menuItem) => {
+            console.log('New .menu-item detected in descendants:', menuItem);
+            observeMenuItems([menuItem]);
+          });
+        }
+      });
+    }
+  });
 });
+
+// Start observing the food container for changes
+mutationObserver.observe(document.getElementById("food-container"), {
+  childList: true,
+  subtree: true,
+});
+
+const item = document.querySelector('.menu-item');
+console.log('Adding animation to item:', item);
+item.classList.add('animated', 'fadeInUp');
+item.style.opacity = "1";
 

@@ -14,6 +14,9 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
+  // Check if the data-json attribute corresponds to drinks
+  const isDrinksPage = jsonFilePath === "config/drinks-data.json";
+
   // Fetch the food data
   fetch(jsonFilePath)
     .then((response) => response.json())
@@ -69,33 +72,39 @@ document.addEventListener("DOMContentLoaded", () => {
           const row = document.createElement("div");
           row.classList.add("row", "align-items-center", "menu-item");
 
-          // Food image
-          const imgCol = document.createElement("div");
-          imgCol.classList.add("col-md-3", "food-image");
-          if (item.image) {
-            const img = document.createElement("img");
-            img.classList.add("rounded-circle", "lazyload");
-            img.setAttribute("data-src", item.image);
-            imgCol.appendChild(img);
-          }
-          row.appendChild(imgCol);
+          // // Add animation classes and style to menu-item div
+          // row.classList.add("animated", "fadeInUp");
+          // row.style.opacity = "1";
 
-          // Food details
-          const detailsCol = document.createElement("div");
-          detailsCol.classList.add("col-md-9");
-          const foodTitle = document.createElement("h3");
-          foodTitle.classList.add("food-title");
-          foodTitle.innerHTML = `
+            // Food image (only if not drinks)
+            if (!isDrinksPage) {
+            const imgCol = document.createElement("div");
+            imgCol.classList.add("col-md-3", "food-image");
+            if (item.image) {
+              const img = document.createElement("img");
+              img.classList.add("rounded-circle", "lazyload");
+              img.setAttribute("data-src", item.image);
+              imgCol.appendChild(img);
+            }
+            row.appendChild(imgCol);
+            }
+
+            // Food details
+            const detailsCol = document.createElement("div");
+            detailsCol.classList.add(isDrinksPage ? "col-md-12" : "col-md-9");
+            const foodTitle = document.createElement("h3");
+            foodTitle.classList.add("food-title");
+            foodTitle.innerHTML = `
             <span class="food-name">${item.name}</span>
             <span class="food-price float-right">${item.price}€</span>
-          `;
-          detailsCol.appendChild(foodTitle);
+            `;
+            detailsCol.appendChild(foodTitle);
 
           // Add description if available
           if (item.description) {
             const description = document.createElement("p");
             description.classList.add("food-ingredients");
-            description.textContent = item.description;
+            description.innerHTML = item.description;
             detailsCol.appendChild(description);
           }
 
