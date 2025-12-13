@@ -99,10 +99,10 @@
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t20_veniz0.jpg",
           "name": "Poulet au curry Thaï au lait de coco KENG KARI KAI ",
           "price": "11.80",
-          "showHr": true,
           "description": "(au curry vert possible)"
         },
         {
+          "showHr": true,
           "name": "Magret de canard sauce au caramel",
           "price": "14.90"
         },
@@ -123,20 +123,20 @@
         },
         {
           "name": "Magret de canard sauté sauce Thaï au basilic  ",
-          "price": "14.90",
-          "showHr": true
+          "price": "14.90"
         },
         {
+          "showHr": true,
           "name": "Porc CHAR SIU sauce caramel  ",
           "price": "11.80",
           "description": "Porc en tranche"
         },
         {
           "name": "Travers de porc grillé “sel et poivre”",
-          "price": "12.50",
-          "showHr": true
+          "price": "12.50"
         },
         {
+          "showHr": true,
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619141/Food/54_pd3fxh.jpg",
           "name": "Bœuf aux oignons",
           "price": "11.20"
@@ -187,10 +187,10 @@
         {
           "name": "Crevettes au curry au lait de coco",
           "price": "13.90",
-          "description": "(au curry vert possible)",
-          "showHr": true
+          "description": "(au curry vert possible)"
         },
         {
+          "showHr": true,
           "specialTitle": "Poisson selon arrivage (cabillaud ou colin)",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/31_dkwwp7.jpg",
           "name": "Filet de poisson grillé à la façon du chef  ",
@@ -237,10 +237,10 @@
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t16_eryml1.jpg",
           "name": "Riz sauté à la thaïlandaise (poulet) KHAO PAD THAI",
           "price": "8.50",
-          "showHr": true,
           "description": "Bol"
         },
         {
+          "showHr": true,
           "name": "Germes de soja sautés aux champignons noirs",
           "price": 9
         },
@@ -265,10 +265,10 @@
         {
           "name": "Légumes sautés au curry au lait de coco",
           "price": "11.80",
-          "showHr": true,
           "description": "(au curry vert possible)"
         },
         {
+          "showHr": true,
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617485/Food/88_pip3ac.jpg",
           "name": "MAPO TOFU sauce piquante ",
           "price": "11.80",

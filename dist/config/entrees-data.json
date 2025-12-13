@@ -67,10 +67,10 @@
         {
           "name": "Beignets de crevettes",
           "price": "7.80",
-          "image": "",
-          "showHr": true
+          "image": ""
         },
         {
+          "showHr": true,
           "name": "Rouleau de printemps froid",
           "price": "6.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/12a_sg9vdr.jpg",
@@ -107,10 +107,10 @@
           "specialTitle": "4 pièces, sauf indication contraire",
           "name": "Raviolis Pékinois grillés GYOZA",
           "price": "7.80",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r2_xleer1.jpg",
-          "showHr": true
+          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r2_xleer1.jpg"
         },
         {
+          "showHr": true,
           "name": "Assortiment de raviolis cuit à la vapeur",
           "price": "8.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/v0_jxwp8y.jpg",
