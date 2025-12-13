@@ -1,0 +1,130 @@
+{
+  "categories": [
+    {
+      "id": "gourmet",
+      "title": "FORMULE GOURMET à 15.90€",
+      "items": [
+        {
+          "specialTitle": "Entrée au choix",
+          "name": "Nems vietnamiens (poulet ou végétarien) / 4 pièces"
+        },
+        {
+          "name": "Pâtés impériaux chinois (au poulet)"
+        },
+        {
+          "name": "Salade chinoise aux crevettes"
+        },
+        {
+          "name": "Potage Pékinois piquant"
+        },
+        {
+          "name": "Raviolis gyoza",
+          "price": "+ 1.30"
+        },
+        {
+          "showHr": true,
+          "specialTitle": "Plat au choix",
+          "name": "Bœuf aux oignons"
+        },
+        {
+          "name": "Poulet au curry"
+        },
+        {
+          "name": "Poulet Thaï au basilic",
+          "price": "+ 1.30"
+        },
+        {
+          "name": "Poulet à la sauce aigre-douce (ananas)"
+        },
+        {
+          "name": "Légumes sautés"
+        },
+        {
+          "showHr": true,
+          "specialTitle": "Accompagnement au choix",
+          "name": "Riz nature"
+        },
+        {
+          "name": "Riz gluant dans la feuille de lotus",
+          "price": "+ 1.80",
+          "ou-highlight": true
+        },
+        {
+          "name": "Riz sauté cantonais",
+          "price": "+ 2.30"
+        },
+        {
+          "name": "Nouilles sautées",
+          "price": "+ 2.80"
+        }
+      ]
+    },
+    {
+      "id": "express",
+      "title": "FORMULE EXPRESS à 13.90€",
+      "items": [
+        {
+          "showHr": true,
+          "specialTitle": "Entrée au choix",
+          "name": "Nems vietnamiens (poulet ou végétarien) / 3 pièces"
+        },
+        {
+          "name": "Soupe aux vermicelles et légumes"
+        },
+        {
+          "name": "Salade chinoise au poulet"
+        },
+        {
+          "showHr": true,
+          "specialTitle": "Plat au choix",
+          "name": "Nouilles sautées au poulet"
+        },
+        {
+          "name": "Nouilles sautées au bœuf"
+        },
+        {
+          "name": "Riz sauté Singapour au poulet"
+        }
+      ]
+    },
+    {
+      "id": "vapeur",
+      "title": "FORMULE VAPEUR à 13.90€",
+      "items": [
+        {
+          "showHr": true,
+          "specialTitle": "Entrée au choix",
+          "name": "Salade chinoise au poulet"
+        },
+        {
+          "name": "Nems vietnamiens (poulet) / 3 pièces"
+        },
+        {
+          "showHr": true,
+          "specialTitle": "Plat",
+          "name": "Assortiment de 6 RAVIOLIS vapeur"
+        },
+        {
+          "name": "Assortiment de 8 RAVIOLIS vapeur",
+          "price": "+ 2",
+          "ou-highlight": true
+        },
+        {
+          "showHr": true,
+          "specialTitle": "Accompagnement au choix",
+          "name": "Bol de Riz nature"
+        },
+        {
+          "name": "Riz sauté cantonais",
+          "price": "+ 2.30",
+          "ou-highlight": true
+        },
+        {
+          "name": "Riz gluant dans la feuille de lotus",
+          "price": "+ 1.80",
+          "ou-highlight": true
+        }
+      ]
+    }
+  ]
+}

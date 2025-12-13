@@ -4,11 +4,11 @@ var  cacheName = 'grecko-cache';
 var filesToCache = [
   '/website-template-3/',
   '/website-template-3/about.html',
-  '/website-template-3/album.html',
   '/website-template-3/desserts.html',
   '/website-template-3/drinks.html',
   '/website-template-3/food.html',
   '/website-template-3/formules.html',
+  '/website-template-3/gallery.html',
   '/website-template-3/gallery-desserts.html',
   '/website-template-3/gallery-food.html',
   '/website-template-3/gallery-location.html',
