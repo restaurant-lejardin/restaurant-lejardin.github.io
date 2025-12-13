@@ -3,10 +3,8 @@
 /* ======= Observer #1 logic ======= */
 var title1 = document.querySelector('#title-1');
 var title2 = document.querySelector('#title-2');
-var newsletterForm = document.querySelector('#newsletter-form');
 title1.style.opacity = "0";
 title2.style.opacity = "0";
-newsletterForm.style.opacity = "0";
 
 var options1 = {
   rootMargin: '0px',
@@ -32,14 +30,6 @@ function callback1(entries, observer1) {
           observer1.unobserve(entry.target);
         }
         break;
-      case "newsletter-form":
-        if (entry.intersectionRatio > 0) {
-          newsletterForm.style.opacity = "1";
-          newsletterForm.className += " animated fadeInUp";
-          // Stop observing target
-          observer1.unobserve(entry.target);
-        }
-        break;
     }
   });
 }
@@ -50,7 +40,6 @@ var observer1 = new IntersectionObserver(callback1, options1);
 // Start observing 
 observer1.observe(title1);
 observer1.observe(title2);
-observer1.observe(newsletterForm);
 
 /* ======= Observer #2 logic ======= */
 

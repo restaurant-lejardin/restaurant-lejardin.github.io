@@ -9,9 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
       var title1 = document.querySelector('#title-1');
       var title2 = document.querySelector('#title-2');
       var historyDescription = document.querySelector('#history-description');
-      var newsletterForm = document.querySelector('#newsletter-form');
 
-      if (!title1 || !title2 || !historyDescription || !newsletterForm) {
+      if (!title1 || !title2 || !historyDescription) {
         console.error("One or more elements not found. Check your selectors.");
         return;
       }
@@ -19,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
       title1.style.opacity = "0";
       title2.style.opacity = "0";
       historyDescription.style.opacity = "0";
-      newsletterForm.style.opacity = "0";
 
       var options = {
         rootMargin: '10px', // Adjusted margin
@@ -52,13 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 observer.unobserve(entry.target);
               }
               break;
-            case "newsletter-form":
-              if (entry.intersectionRatio > 0) {
-                newsletterForm.style.opacity = "1";
-                newsletterForm.className += " animated fadeInUp";
-                observer.unobserve(entry.target);
-              }
-              break;
           }
         });
       }
@@ -70,7 +61,6 @@ document.addEventListener("DOMContentLoaded", () => {
       observer.observe(title1);
       observer.observe(title2);
       observer.observe(historyDescription);
-      observer.observe(newsletterForm);
 
       // Fallback: Force visibility after 10 seconds if not triggered
       setTimeout(() => {
