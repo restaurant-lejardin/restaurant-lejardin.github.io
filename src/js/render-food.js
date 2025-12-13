@@ -61,6 +61,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Add food items
         category.items.forEach((item) => {
+
+          // Add <hr> if showHr is true before the item
+          if (item.showHr) {
+            const hr = document.createElement("hr");
+            hr.classList.add("food-horizontal-rule");
+            categoryDiv.appendChild(hr);
+          }
           // Add special title if applicable
           if (item.specialTitle) {
           const specialTitle = document.createElement("h3");
@@ -72,31 +79,37 @@ document.addEventListener("DOMContentLoaded", () => {
           const row = document.createElement("div");
           row.classList.add("row", "align-items-center", "menu-item");
 
-          // // Add animation classes and style to menu-item div
-          // row.classList.add("animated", "fadeInUp");
-          // row.style.opacity = "1";
+            // Replace food-image with menu-OU-text for formules page
+            if (jsonFilePath === "config/formules-data.json" && item["ou-highlight"]) {
+              const ouTextDiv = document.createElement("div");
+              ouTextDiv.classList.add("col-md-3", "menu-OU-text");
+              ouTextDiv.innerHTML = "<u>OU</u>";
+              row.appendChild(ouTextDiv);
+            } else if (!isDrinksPage) {
+              // Add eventual food image for non-drinks pages
+              const imgCol = document.createElement("div");
+              imgCol.classList.add("col-md-3", "food-image");
+              if (item.image) {
+                const img = document.createElement("img");
+                img.classList.add("rounded-circle", "lazyload");
+                img.setAttribute("data-src", item.image);
+                imgCol.appendChild(img);
+              }
+              row.appendChild(imgCol);
+            }
 
-            // Food image (only if not drinks)
-            if (!isDrinksPage) {
-            const imgCol = document.createElement("div");
-            imgCol.classList.add("col-md-3", "food-image");
-            if (item.image) {
-              const img = document.createElement("img");
-              img.classList.add("rounded-circle", "lazyload");
-              img.setAttribute("data-src", item.image);
-              imgCol.appendChild(img);
-            }
-            row.appendChild(imgCol);
-            }
 
             // Food details
             const detailsCol = document.createElement("div");
             detailsCol.classList.add(isDrinksPage ? "col-md-12" : "col-md-9");
             const foodTitle = document.createElement("h3");
-            foodTitle.classList.add("food-title");
+            // Use the correct class for formules
+            const foodTitleClass = jsonFilePath === "config/formules-data.json" ? "formule-title" : "food-title";
+            foodTitle.classList.add(foodTitleClass);
+
             foodTitle.innerHTML = `
             <span class="food-name">${item.name}</span>
-            <span class="food-price float-right">${item.price}€</span>
+            ${item.price ? `<span class="food-price float-right">${item.price}€</span>` : ""}
             `;
             detailsCol.appendChild(foodTitle);
 
@@ -112,15 +125,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
           // Append the row to the category
           categoryDiv.appendChild(row);
-
-          // Add <hr> if showHr is true
-          if (item.showHr) {
-            const hr = document.createElement("hr");
-            hr.classList.add("food-horizontal-rule");
-            categoryDiv.appendChild(hr);
-          }
-
-
 
         });
 
