@@ -40,24 +40,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   renderSection("footer.html", "footer.page-footer");
-
-  // Dynamically add shared head elements
-  fetch("shared-head.html")
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Failed to load shared head elements");
-      }
-      return response.text();
-    })
-    .then((headHTML) => {
-      const tempDiv = document.createElement("div");
-      tempDiv.innerHTML = headHTML;
-
-      // Append styles and scripts to the <head>
-      const head = document.querySelector("head");
-      tempDiv.querySelectorAll("link, style, script").forEach((node) => {
-        head.appendChild(node);
-      });
-    })
-    .catch((error) => console.error("Error loading shared head elements:", error));
 });
