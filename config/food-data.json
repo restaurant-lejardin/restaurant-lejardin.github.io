@@ -57,22 +57,23 @@
           "name": "Poulet au curry",
           "price": "10.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/40_lkg6mn.jpg",
-          "description": "Filet"
+          "description": "Filet de poulet"
         },
         {
-          "name": "Poulet à l'ananas (sauce aigre-douce)",
+          "name": "Poulet à l'ananas",
           "price": "10.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/46_sxcqku.jpg",
-          "description": "Filet de poulet, ananas"
+          "description": "Filet de poulet, sauce aigre-douce"
         },
         {
           "name": "Poulet sauté sauce Thaï au basilic",
           "price": "11.50"
         },
         {
-          "name": "Poulet (filet) sauté à la citronnelle",
+          "name": "Poulet sauté à la citronnelle",
           "price": "11.50",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t10_ixwldi.jpg"
+          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t10_ixwldi.jpg",
+          "description": "Filet de poulet"
         },
         {
           "name": "Poulet au curry Thaï au lait de coco KENG KARI KAI",
@@ -81,35 +82,14 @@
           "description": "(au curry vert possible)"
         },
         {
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/46_sxcqku.jpg",
-          "name": "Poulet à l'ananas (sauce aigre-douce)",
-          "price": "10.80",
-          "description": "Filet de poulet, ananas"
-        },
-        {
-          "name": "Poulet sauté sauce Thaï au basilic   ",
-          "price": "11.50"
-        },
-        {
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t10_ixwldi.jpg",
-          "name": "Poulet (filet) sauté à la citronnelle",
-          "price": "11.50"
-        },
-        {
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t20_veniz0.jpg",
-          "name": "Poulet au curry Thaï au lait de coco KENG KARI KAI ",
-          "price": "11.80",
-          "description": "(au curry vert possible)"
-        },
-        {
           "showHr": true,
           "name": "Magret de canard sauce au caramel",
           "price": "14.90"
         },
         {
-          "name": "Canard à l'ananas (sauce aigre-douce)",
+          "name": "Canard à l'ananas",
           "price": "13.90",
-          "description": "Ananas"
+          "description": "Sauce aigre-douce"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/53_z0fstk.jpg",
@@ -118,18 +98,18 @@
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1610796543/Food/18b_ndopxm.jpg",
-          "name": "Magret de canard grillé du chef   ",
+          "name": "Magret de canard grillé du chef",
           "price": "14.90"
         },
         {
-          "name": "Magret de canard sauté sauce Thaï au basilic  ",
+          "name": "Magret de canard sauté sauce Thaï au basilic",
           "price": "14.90"
         },
         {
           "showHr": true,
-          "name": "Porc CHAR SIU sauce caramel  ",
+          "name": "Porc CHAR SIU sauce caramel",
           "price": "11.80",
-          "description": "Porc en tranche"
+          "description": "Porc laqué en tranche"
         },
         {
           "name": "Travers de porc grillé “sel et poivre”",
@@ -171,9 +151,9 @@
           "price": "12.90"
         },
         {
-          "name": "Crevettes à l'ananas (sauce aigre-douce)",
+          "name": "Crevettes à l'ananas",
           "price": "12.90",
-          "description": "Ananas"
+          "description": "Sauce aigre-douce"
         },
         {
           "name": "Crevettes sautées “sel et poivre”",
@@ -214,13 +194,15 @@
         {
           "name": "Riz nature",
           "price": "2.60",
-          "description": "Bol"
+          "description": "Bol",
+          "veganType": "vege"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618975/Food/81_wp42ih.jpg",
           "name": "Riz sauté cantonais (porc)",
           "price": "6.50",
-          "description": "Bol, porc"
+          "description": "Bol, dés de jambon de porc",
+          "veganType": "vege_possible"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618975/Food/81a_xlkhlo.jpg",
@@ -237,7 +219,7 @@
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t16_eryml1.jpg",
           "name": "Riz sauté à la thaïlandaise (poulet) KHAO PAD THAI",
           "price": "8.50",
-          "description": "Bol"
+          "description": "Bol, épicé"
         },
         {
           "showHr": true,
@@ -245,7 +227,7 @@
           "price": 9
         },
         {
-          "name": "Chou chinois sauté ",
+          "name": "Choux chinois sautés",
           "price": "8.80"
         },
         {
@@ -254,7 +236,7 @@
           "description": "Mélange de légumes"
         },
         {
-          "name": "Choux chinois aux champignons parfumés SHITAKE",
+          "name": "Choux chinois verts aux champignons parfumés SHITAKE",
           "price": "9.50"
         },
         {
@@ -277,33 +259,34 @@
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619142/Food/77_mdmzy7.jpg",
           "name": "Vermicelles aux légumes ",
-          "price": "11.80",
+          "price": "12.80",
           "description": "Vermicelles transparentes (de soja)"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/79b_dpttsk.jpg",
           "name": "Vermicelles de riz sautées Singapour",
           "price": "12.90",
-          "showHr": true
+          "showHr": true,
+          "description": "Viandes et crevette"
         },
         {
-          "name": "Nouilles sautées ou nature ",
+          "name": "Nouilles sautées ou natures",
           "price": "7.90",
           "description": "Bol"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617488/Food/76l_x3kef8.jpg",
           "name": "Nouilles sautées aux légumes",
-          "price": "10.80"
+          "price": "11.80"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/72_sjwizo.jpg",
           "name": "Nouilles sautées au poulet",
-          "price": "10.80"
+          "price": "11.80"
         },
         {
           "name": "Nouilles sautées aux crevettes",
-          "price": "12.90"
+          "price": "13.90"
         }
       ]
     },
@@ -328,7 +311,7 @@
           "name": "Soupe de nouilles et porc grillé CHAR SIU",
           "price": "12.90",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/c1_gxmpsb.jpg",
-          "description": "Porc en tranche"
+          "description": "Porc laqué en tranche"
         },
         {
           "name": "Soupe DAN DAN au hachis de porc piment",
