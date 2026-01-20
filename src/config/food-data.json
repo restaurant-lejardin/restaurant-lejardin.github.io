@@ -194,13 +194,15 @@
         {
           "name": "Riz nature",
           "price": "2.60",
-          "description": "Bol"
+          "description": "Bol",
+          "veganType": "vege"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618975/Food/81_wp42ih.jpg",
           "name": "Riz sauté cantonais (porc)",
           "price": "6.50",
-          "description": "Bol, dés de jambon de porc"
+          "description": "Bol, dés de jambon de porc",
+          "veganType": "vege_possible"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618975/Food/81a_xlkhlo.jpg",

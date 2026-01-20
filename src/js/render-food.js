@@ -82,13 +82,13 @@ document.addEventListener("DOMContentLoaded", () => {
             // Replace food-image with menu-OU-text for formules page
             if (jsonFilePath === "config/formules-data.json" && item["ou-highlight"]) {
               const ouTextDiv = document.createElement("div");
-              ouTextDiv.classList.add("col-md-3", "menu-OU-text");
+              ouTextDiv.classList.add("col-md-2", "menu-OU-text");
               ouTextDiv.innerHTML = "<u>OU</u>";
               row.appendChild(ouTextDiv);
             } else if (!isDrinksPage) {
               // Add eventual food image for non-drinks pages
               const imgCol = document.createElement("div");
-              imgCol.classList.add("col-md-3", "food-image");
+              imgCol.classList.add("col-md-2", "food-image");
               if (item.image) {
                 const img = document.createElement("img");
                 img.classList.add("rounded-circle", "lazyload");
@@ -99,17 +99,34 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
 
+            // Add vegan indicator column
+            const veganIndicatorCol = document.createElement("div");
+            veganIndicatorCol.classList.add("col-md-1", "vegan-indicator","text-right");
+            veganIndicatorCol.style.flex = "0 0 auto"; // Reduce space allocation
+            if (item.veganType) {
+              const veganLogo = document.createElement("img");
+              veganLogo.classList.add("vegan-logo");
+              veganLogo.src = item.veganType === "vege"
+                ? "media/vg.png"
+                : "media/vg_pos.png";
+              veganLogo.alt = item.veganType === "vege" ? "Végétarien" : "Végétarien Possible";
+              veganIndicatorCol.appendChild(veganLogo);
+            }
+            row.appendChild(veganIndicatorCol);
+
             // Food details
             const detailsCol = document.createElement("div");
             detailsCol.classList.add(isDrinksPage ? "col-md-12" : "col-md-9");
+
+            // Add a column for vegan/vegetarian indicator before food details
             const foodTitle = document.createElement("h3");
             // Use the correct class for formules
             const foodTitleClass = jsonFilePath === "config/formules-data.json" ? "formule-title" : "food-title";
             foodTitle.classList.add(foodTitleClass);
 
             foodTitle.innerHTML = `
-            <span class="food-name">${item.name}</span>
-            ${item.price ? `<span class="food-price float-right">${item.price}€</span>` : ""}
+              <span class="food-name">${item.name}</span>
+              ${item.price ? `<span class="food-price">${item.price}€</span>` : ""}
             `;
             detailsCol.appendChild(foodTitle);
 

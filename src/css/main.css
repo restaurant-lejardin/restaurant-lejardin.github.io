@@ -770,7 +770,9 @@ a, a:hover {
   position: relative;
   padding-left: 15px;
   background: #fff;
+  float: right;
 }
+
 
 .food-ingredients {
   margin-bottom: 0;
@@ -1204,3 +1206,12 @@ a, a:hover {
     max-width: 30px;
   }
 }
+
+/* CSS Styling for food menu */
+
+.vegan-logo {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
