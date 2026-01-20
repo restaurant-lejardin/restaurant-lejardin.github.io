@@ -112,10 +112,6 @@
           "price": "4"
         },
         {
-          "name": "Jus d'ananas",
-          "price": "4"
-        },
-        {
           "name": "Jus de pomme",
           "price": "4"
         },
@@ -142,7 +138,7 @@
       "title": "SPECIALITES (sans alcool)",
       "items": [
         {
-          "name": "Jus de coco",
+          "name": "Jus de coco (eau)",
           "price": "4.50"
         },
         {
@@ -322,11 +318,11 @@
         },
         {
           "name": "Vin rosé (Pays d'Oc)",
-          "price": "3.80€ / 5.80€ / 11.60"
+          "price": "3.80€ / 5.90€ / 11.80"
         },
         {
           "name": "Vin blanc",
-          "price": "3.80€ / 5.80€ / 11.60"
+          "price": "3.80€ / 5.90€ / 11.80"
         }
       ]
     }
