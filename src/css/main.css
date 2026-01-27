@@ -1215,3 +1215,7 @@ a, a:hover {
   object-fit: contain;
 }
 
+.food-jumbotron-bg {
+  width: 100vw;
+  max-width: 2560px;
+}
