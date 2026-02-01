@@ -2,29 +2,27 @@
   "name": "multi-language-website",
   "version": "0.0.1",
   "devDependencies": {
+    "glob": "^10.5.0",
     "grunt": "^1.6.1",
-    "grunt-autoprefixer": "latest",
-    "grunt-build-control": "latest",
-    "grunt-cli": "latest",
-    "grunt-contrib-clean": "latest",
-    "grunt-contrib-connect": "latest",
-    "grunt-contrib-copy": "latest",
-    "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-htmlmin": "latest",
-    "grunt-contrib-imagemin": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-critical": "latest",
-    "grunt-jekyll": "^1.0.1",
-    "grunt-purifycss": "latest",
-    "grunt-sass": "latest",
+    "grunt-cli": "^1.5.0",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^5.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-purifycss": "^0.1.2",
     "grunt-shell": "^4.0.0",
-    "grunt-svgmin": "latest",
-    "grunt-uncss": "latest",
-    "jit-grunt": "latest",
-    "time-grunt": "latest"
+    "html-minifier-terser": "^7.2.0",
+    "jit-grunt": "^0.10.0"
+  },
+  "overrides": {
+    "cross-spawn": "^7.0.3",
+    "mem": "^9.0.2",
+    "yargs-parser": "^21.1.1",
+    "execa": "^8.0.1",
+    "os-locale": "^6.0.2",
+    "yargs": "^17.7.2"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=16.0.0"
   }
 }

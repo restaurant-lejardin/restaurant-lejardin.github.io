@@ -85,19 +85,16 @@ module.exports = function(grunt) {
       }
     },
 
-    htmlmin: {                                    
-      t1: {                                     
-        options: {                                 
-          removeComments: true,
-          collapseWhitespace: true
-        },
+    // Custom HTML minification task
+    htmlmin: {
+      t1: {
         files: [{
           expand: true,
           cwd: 'dist/',
           src: '*.html',
           dest: 'dist/'
         }]
-      },
+      }
     }
 
   });
@@ -107,9 +104,56 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-purifycss');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-shell');
+  
+  // Custom task for HTML minification using html-minifier-terser
+  grunt.registerTask('htmlmin', 'Minify HTML files', async function() {
+    const minify = require('html-minifier-terser').minify;
+    const fs = require('fs').promises;
+    const path = require('path');
+    const { glob } = require('glob');
+    
+    const done = this.async();
+    
+    try {
+      const files = await glob('dist/*.html');
+      
+      if (files.length === 0) {
+        grunt.log.writeln('No HTML files found to minify');
+        done();
+        return;
+      }
+      
+      for (const file of files) {
+        try {
+          const data = await fs.readFile(file, 'utf8');
+          
+          const minified = await minify(data, {
+            removeComments: true,
+            collapseWhitespace: true,
+            removeRedundantAttributes: true,
+            removeEmptyAttributes: true,
+            minifyCSS: true,
+            minifyJS: true
+          });
+          
+          await fs.writeFile(file, minified);
+          grunt.log.writeln('✓ ' + path.relative(process.cwd(), file) + ' minified');
+        } catch (err) {
+          grunt.log.error('Error processing file: ' + file + ' - ' + err.message);
+          done(false);
+          return;
+        }
+      }
+      
+      grunt.log.writeln('Minified ' + files.length + ' HTML files');
+      done();
+    } catch (err) {
+      grunt.log.error('Error finding files: ' + err.message);
+      done(false);
+    }
+  });
   
   // Default task(s).
   grunt.registerTask('build', ['shell:jekyllBuild']);
