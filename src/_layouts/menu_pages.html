@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="{{ page.lang }}">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Restaurant Chinois Le Jardin</title>
+    <!-- Web app manifest -->
+    <link rel='manifest' href='manifest.json'>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    {% include css.html %}
+  </head>
+  <body id="{{ page.body_id | default: 'menu' }}">
+
+    <header class="page-header"></header>
+    <main>
+      <div id="jumbotron-placeholder"></div>
+      <div id="menu-icons-placeholder"></div>
+
+      <!-- FOOD: DESCRIPTIONS -->
+      <div class="food-descriptions container">
+        <div id="food-container" data-json="data/{{ page.body_id | default: 'menu' }}-data.json">
+          <!-- Dynamic food data will be rendered here -->
+        </div>
+
+        {% if page.show_legend %}
+        <div class="logo-index">
+          <h3 class="special-title-1">Légende</h3>
+          <ul>
+            <li>
+              <img src="media/vg.png" alt="Vegan" class="vegan-logo" title="This dish is completely vegan.">
+              Plat végétarien
+            </li>
+            <li>
+              <img src="media/vg_pos.png" alt="Vegan Possible" class="vegan-logo" title="This dish can be made vegan upon request.">
+              Ce plat peut être adapté en version végétarienne sur demande
+            </li>
+          </ul>
+        </div>
+        {% endif %}
+
+        <h3 class="special-title-1">Tarifs à titre indicatif</h3>
+
+        <div class="row-centered end-menu">
+          {% assign menu_pages = site.data.menu_navigation | sort: 'order' %}
+          {% for menu_item in menu_pages %}
+            {% unless menu_item.page == page.body_id %}
+              <a class="btn btn-outline-dark" href="{{ menu_item.url }}" role="button">{{ menu_item.title }}</a>
+            {% endunless %}
+          {% endfor %}
+          <br>
+        </div>
+
+      </div>
+
+      
+    </main>
+
+    <footer class="page-footer"></footer>
+
+    <a id="back-to-top" class="back-to-top smooth-scroll" href="#top">
+      <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+    </a>
+    <!-- lazySizes -->
+    <script src="js/lazysizes.min.js" async=""></script>
+    <script src="js/render-food.js"></script>
+    <script src="js/render-jumbotron.js"></script>
+    <script src="js/render-header-footer.js"></script>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <script 
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+      crossorigin="anonymous">
+    </script>
+    <script src="js/site.js"></script>
+    <script src="js/menu-animations.js"></script>
+  </body>
+</html>

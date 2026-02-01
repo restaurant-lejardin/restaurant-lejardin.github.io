@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   // Render header and footer
-  renderSection("header.html", "header.page-header", () => {
+  renderSection("components/header.html", "header.page-header", () => {
     // Set the active class for the current page
     const currentPage = window.location.pathname.split("/").pop();
     const navLinks = document.querySelectorAll("header.page-header .nav-link");
@@ -39,5 +39,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  renderSection("footer.html", "footer.page-footer");
+  renderSection("components/footer.html", "footer.page-footer");
 });

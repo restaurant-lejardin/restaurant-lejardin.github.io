@@ -1,12 +1,24 @@
 module.exports = function(grunt) {
 
   grunt.initConfig({
-    
+    shell: {
+      jekyllBuild: {
+        command: 'jekyll build'
+      },
+      jekyllServe: {
+        command: 'jekyll serve'
+      },
+      distServe: {
+        command: 'cd dist && python3 -m http.server 8080'
+      }
+    },
     purifycss: {
-      options: {},
+      options: {
+        whitelist: ['footer-logo-spacing']
+      },
       target: {
-        src: ['src/*.html', 'src/js/*.js'],
-        css: ['src/css/*.css'],
+        src: ['_site/*.html', '_site/js/*.js', '_site/components/*.html'],
+        css: ['_site/css/*.css'],
         dest: 'dist/css/purestyles.css'
       },
     },
@@ -27,7 +39,7 @@ module.exports = function(grunt) {
       t1: {
         files: [{
           expand: true,
-          cwd: 'src/js/',
+          cwd: '_site/js/',
           src: '*.js',
           dest: 'dist/js'
         }]
@@ -37,26 +49,38 @@ module.exports = function(grunt) {
     copy: {
       t1: {
         expand: true,
-        cwd: 'src/',
+        cwd: '_site/',
         src: '*.html',
         dest: 'dist/'
       },
       t2: {
         expand: true,
-        cwd: 'src/config',
-        src: '*.json',
-        dest: 'dist/config'
+        cwd: '_site/',
+        src: 'data/*.json',
+        dest: 'dist/'
       },
       t3: {
         expand: true,
-        cwd: 'src/',
+        cwd: '_site/',
         src: 'manifest.json',
         dest: 'dist/'
       },
       t4: {
         expand: true,
-        cwd: 'src/',
+        cwd: '_site/',
         src: 'service-worker.js',
+        dest: 'dist/'
+      },
+      t5: {
+        expand: true,
+        cwd: '_site/',
+        src: 'media/**',
+        dest: 'dist/'
+      },
+      t6: {
+        expand: true,
+        cwd: '_site/',
+        src: 'components/**',
         dest: 'dist/'
       }
     },
@@ -85,8 +109,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-shell');
   
   // Default task(s).
+  grunt.registerTask('build', ['shell:jekyllBuild']);
+  grunt.registerTask('serve', ['shell:jekyllServe']);
+  grunt.registerTask('serve-dist', ['shell:distServe']);
   //grunt.registerTask('default', ['clean']);
   //grunt.registerTask('default', ['purifycss']);
   //grunt.registerTask('default', ['cssmin']);

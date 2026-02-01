@@ -3,8 +3,20 @@ This real restaurant website has been done as a side project to work on HTML and
 
 ## Useful commands
 
-###
-Publish to website subtree
+## Deployment
+
+### Automatic Deployment (Recommended)
+Push to the main/master branch and GitHub Actions will automatically:
+1. Build the site using Jekyll and Grunt
+2. Deploy to GitHub Pages via the `gh-pages` branch
+
+```bash
+git add .
+git commit -m "Your commit message"
+git push origin main
+```
+
+### Manual Deployment (Legacy)
 ```
 bash script.sh
 git add .
@@ -14,9 +26,8 @@ git subtree push --prefix dist origin gh-pages
 ```
 
 Preview online
-Go to **src** during dev or **dist** before deploying folder, then
 ```
-browser-sync start --server --files "css/*.css"
+jekyll serve
 ```
 
 ## Installation prerequisites

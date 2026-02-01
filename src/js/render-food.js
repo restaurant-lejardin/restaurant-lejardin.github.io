@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Check if the data-json attribute corresponds to drinks
-  const isDrinksPage = jsonFilePath === "config/drinks-data.json";
+  const isDrinksPage = jsonFilePath === "data/drinks-data.json";
 
   // Fetch the food data
   fetch(jsonFilePath)
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
           row.classList.add("row", "align-items-center", "menu-item");
 
             // Replace food-image with menu-OU-text for formules page
-            if (jsonFilePath === "config/formules-data.json" && item["ou-highlight"]) {
+            if (jsonFilePath === "data/formules-data.json" && item["ou-highlight"]) {
               const ouTextDiv = document.createElement("div");
               ouTextDiv.classList.add("col-md-2", "menu-OU-text");
               ouTextDiv.innerHTML = "<u>OU</u>";
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Add a column for vegan/vegetarian indicator before food details
             const foodTitle = document.createElement("h3");
             // Use the correct class for formules
-            const foodTitleClass = jsonFilePath === "config/formules-data.json" ? "formule-title" : "food-title";
+            const foodTitleClass = jsonFilePath === "data/formules-data.json" ? "formule-title" : "food-title";
             foodTitle.classList.add(foodTitleClass);
 
             foodTitle.innerHTML = `

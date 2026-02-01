@@ -1,0 +1,25 @@
+- page: "entrees"
+  url: "entrees.html"
+  title: "Nos entrées"
+  order: 1
+  
+- page: "food"
+  url: "food.html"
+  title: "Nos plats"
+  order: 2
+  
+- page: "desserts"
+  url: "desserts.html"
+  title: "Nos desserts"
+  order: 3
+  
+- page: "formules"
+  url: "formules.html"
+  title: "Nos formules"
+  order: 4
+
+- page: "drinks"
+  url: "drinks.html"
+  title: "Nos boissons"
+  order: 5
+  

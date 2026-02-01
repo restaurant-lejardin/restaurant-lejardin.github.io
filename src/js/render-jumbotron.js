@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
   `;
 
   // Fetch the common sections JSON
-  fetch("config/jumbotron-sections.json")
+  fetch("data/jumbotron-sections.json")
     .then((response) => {
       console.log("Fetch response status:", response.status);
       if (!response.ok) {

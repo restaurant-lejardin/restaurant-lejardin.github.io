@@ -18,6 +18,7 @@
     "grunt-jekyll": "^1.0.1",
     "grunt-purifycss": "latest",
     "grunt-sass": "latest",
+    "grunt-shell": "^4.0.0",
     "grunt-svgmin": "latest",
     "grunt-uncss": "latest",
     "jit-grunt": "latest",

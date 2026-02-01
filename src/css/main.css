@@ -360,7 +360,7 @@ a, a:hover {
 
 .page-footer {  
   color: #E5E5E5;
-  padding-top: 1.5rem;
+  padding-top: 0rem;
   font-size: 0.75rem;
   text-align: center;
   background: #6b0101; /* Couleur du pied de page */
@@ -1218,4 +1218,9 @@ a, a:hover {
 .food-jumbotron-bg {
   width: 100vw;
   max-width: 2560px;
+}
+
+.page-footer .navbar-brand.footer-logo-spacing {
+  padding: 20px 0 !important;
+  margin: 20px 0 !important;
 }

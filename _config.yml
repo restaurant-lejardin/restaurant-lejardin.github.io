@@ -1,18 +1,35 @@
 name: Flex
 markdown: kramdown
 highlighter: pygments
-exclude: ["LICENSE", "README.md","script.sh","Gruntfile.js","manifest.json","package-lock.json","package.json","service-worker.js"]
+
+# Custom directory paths
+layouts_dir: src/_layouts
+data_dir: src/_data
+includes_dir: src/_includes
+
+exclude: 
+  - LICENSE
+  - README.md
+  - script.sh
+  - Gruntfile.js
+  - manifest.json
+  - package-lock.json
+  - package.json
+  - service-worker.js
+  - convert_food_data.py
+  - dist
+  - 404.html
 
 baseurl: ""
-permalink: /:title/
+permalink: /:basename.html
 
 
-plugins:
-  - jekyll-polyglot
+# plugins:
+#   - jekyll-polyglot
 
 
 # jekyll-multiple-languages-plugin settings:
-languages: ["fr", "en", "ch"]
+# languages: ["fr", "en", "ch"]
 default_lang: "fr"
 
 exclude_from_localization: ["docs", "node-modules", "css","src/media"]
