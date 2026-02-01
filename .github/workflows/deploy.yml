@@ -2,19 +2,26 @@ name: Build and Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main, master ]  # Trigger on pushes to main or master branch
+    branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0  # Fetch full history for git subtree
     
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
@@ -40,12 +47,24 @@ jobs:
       env:
         CI: true
     
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+    
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: dist
+    
+  deploy:
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    
+    steps:
     - name: Deploy to GitHub Pages
-      if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        git subtree push --prefix dist origin gh-pages || git push origin `git subtree split --prefix dist HEAD`:gh-pages --force
-      env:
+      id: deployment
+      uses: actions/deploy-pages@v4
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
