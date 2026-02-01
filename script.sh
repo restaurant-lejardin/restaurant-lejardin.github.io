@@ -2,7 +2,7 @@
 
 # Step 1: Build the Jekyll site for production
 echo "Building Jekyll site for production..."
-JEKYLL_ENV=${JEKYLL_ENV:-production} jekyll build --source src
+JEKYLL_ENV=${JEKYLL_ENV:-production} bundle exec jekyll build --source src
 
 # Step 2: Clean and prepare the dist directory
 echo "Cleaning and preparing dist directory..."
@@ -17,5 +17,9 @@ grunt uglify
 grunt copy
 grunt htmlmin
 
-grunt serve-dist
+# Optional: Start server (skip if port is already in use or in CI)
+if [ "$CI" != "true" ] && [ "$1" == "--serve" ]; then
+    echo "Starting development server..."
+    grunt serve-dist
+fi
 # http://localhost:8080

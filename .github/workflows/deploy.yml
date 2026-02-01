@@ -22,9 +22,6 @@ jobs:
         ruby-version: '3.2'
         bundler-cache: true
     
-    - name: Install Jekyll
-      run: gem install jekyll bundler
-    
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
@@ -33,12 +30,15 @@ jobs:
     
     - name: Install dependencies
       run: |
+        bundle config set path 'vendor/bundle'
         bundle install
         npm install
         npm install -g grunt-cli
     
     - name: Build site
       run: bash script.sh
+      env:
+        CI: true
     
     - name: Deploy to GitHub Pages
       if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
