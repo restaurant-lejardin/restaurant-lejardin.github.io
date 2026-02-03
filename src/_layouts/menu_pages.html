@@ -14,7 +14,7 @@
   </head>
   <body id="{{ page.body_id | default: 'menu' }}">
 
-    <header class="page-header"></header>
+    {% include header.html %}
     <main>
       <div id="jumbotron-placeholder"></div>
       <div id="menu-icons-placeholder"></div>
@@ -58,7 +58,7 @@
       
     </main>
 
-    <footer class="page-footer"></footer>
+    {% include footer.html %}
 
     <a id="back-to-top" class="back-to-top smooth-scroll" href="#top">
       <i class="fa fa-long-arrow-up" aria-hidden="true"></i>

@@ -1,10 +1,13 @@
 /* Food, Desserts and Drinks pages */
 
+document.addEventListener("DOMContentLoaded", () => {
+
 /* ======= Observer #1 logic ======= */
 var title1 = document.querySelector('#title-1');
 var menuIcons = document.querySelector('#menu-icons');
-title1.style.opacity = "0";
-menuIcons.style.opacity = "0";
+
+if (title1) title1.style.opacity = "0";
+if (menuIcons) menuIcons.style.opacity = "0";
 
 var options1 = {
   rootMargin: '0px',
@@ -16,16 +19,16 @@ function callback1(entries, observer1) {
     switch (entry.target.id) {
       case "title-1":
         if (entry.intersectionRatio > 0) {
-          title1.style.opacity = "1";
-          title1.className += " animated fadeInDown";
+          entry.target.style.opacity = "1";
+          entry.target.classList.add("animated", "fadeInDown");
           // Stop observing target
           observer1.unobserve(entry.target);
         }
         break;
       case "menu-icons":
         if (entry.intersectionRatio > 0) {
-          menuIcons.style.opacity = "1";
-          menuIcons.className += " animated fadeInUp";
+          entry.target.style.opacity = "1";
+          entry.target.classList.add("animated", "fadeInUp");
           // Stop observing target
           observer1.unobserve(entry.target);
         }
@@ -38,8 +41,8 @@ function callback1(entries, observer1) {
 var observer1 = new IntersectionObserver(callback1, options1);
 
 // Start observing
-observer1.observe(title1);
-observer1.observe(menuIcons);
+if (title1) observer1.observe(title1);
+if (menuIcons) observer1.observe(menuIcons);
 
 /* ======= Observer #2 logic ======= */
 var menuItems = document.querySelectorAll('.menu-item');
@@ -58,7 +61,7 @@ function callback2(entries, observer2) {
     if (entry.intersectionRatio > 0) {
       console.log('Animating:', entry.target);
       entry.target.style.opacity = "1";
-      entry.target.className += " animated fadeInUp";
+      entry.target.classList.add("animated", "fadeInUp");
       observer2.unobserve(entry.target);
     }
   });
@@ -116,13 +119,20 @@ const mutationObserver = new MutationObserver((mutations) => {
 });
 
 // Start observing the food container for changes
-mutationObserver.observe(document.getElementById("food-container"), {
-  childList: true,
-  subtree: true,
-});
+const foodContainer = document.getElementById("food-container");
+if (foodContainer) {
+  mutationObserver.observe(foodContainer, {
+    childList: true,
+    subtree: true,
+  });
+}
 
 const item = document.querySelector('.menu-item');
-console.log('Adding animation to item:', item);
-item.classList.add('animated', 'fadeInUp');
-item.style.opacity = "1";
+if (item) {
+  console.log('Adding animation to item:', item);
+  item.classList.add('animated', 'fadeInUp');
+  item.style.opacity = "1";
+}
+
+}); // End DOMContentLoaded
 

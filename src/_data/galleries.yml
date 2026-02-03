@@ -1,0 +1,155 @@
+food:
+  title: "Galerie photo des entrées et plats"
+  subtitle: "Des plats équilibrés et gourmands"
+  alt_type: "Food"
+  items:
+    - id: 0
+      title: "Raviolis crevettes vapeur"
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618678/Entrees/v1_edqlbj.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618678/Entrees/v1_edqlbj.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609618678/Entrees/v1_edqlbj.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618678/Entrees/v1_edqlbj.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618678/Entrees/v1_edqlbj.jpg"
+    - id: 1
+      title: "Salade chinoise aux crevettes"
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618679/Entrees/13_wdqelz.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618679/Entrees/13_wdqelz.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609618679/Entrees/13_wdqelz.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618679/Entrees/13_wdqelz.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618679/Entrees/13_wdqelz.jpg"
+    - id: 2
+      title: "Rouleau de printemps"
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618678/Entrees/12a_sg9vdr.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618678/Entrees/12a_sg9vdr.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609618678/Entrees/12a_sg9vdr.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618678/Entrees/12a_sg9vdr.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618678/Entrees/12a_sg9vdr.jpg"
+    - id: 3
+      title: "Wok de boeuf pimenté"
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619142/Food/k1_gafxld.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619142/Food/k1_gafxld.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619142/Food/k1_gafxld.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619142/Food/k1_gafxld.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619142/Food/k1_gafxld.jpg"
+    - id: 4
+      title: "Vermicelles de soja aux légumes"
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619142/Food/77_mdmzy7.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619142/Food/77_mdmzy7.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619142/Food/77_mdmzy7.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619142/Food/77_mdmzy7.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619142/Food/77_mdmzy7.jpg"
+    - id: 5
+      title: "Canard grillé du chef"
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1610796543/Food/18b_ndopxm.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1610796543/Food/18b_ndopxm.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1610796543/Food/18b_ndopxm.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1610796543/Food/18b_ndopxm.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1610796543/Food/18b_ndopxm.jpg"
+    - id: 6
+      title: "Boeuf au gingembre sur plat en fonte"
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609617486/Food/f1g_vhpoic.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609617486/Food/f1g_vhpoic.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609617486/Food/f1g_vhpoic.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609617486/Food/f1g_vhpoic.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609617486/Food/f1g_vhpoic.jpg"
+    - id: 7
+      title: "Crevettes grillées \"sel et poivre\""
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609617486/Food/27_ff5wvc.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609617486/Food/27_ff5wvc.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609617486/Food/27_ff5wvc.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609617486/Food/27_ff5wvc.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609617486/Food/27_ff5wvc.jpg"
+    - id: 8
+      title: "Riz sauté YangZhou"
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618975/Food/81a_xlkhlo.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618975/Food/81a_xlkhlo.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609618975/Food/81a_xlkhlo.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618975/Food/81a_xlkhlo.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618975/Food/81a_xlkhlo.jpg"
+  navigation:
+    - text: "Nos entrées"
+      href: "menu/entrees.html"
+    - text: "Nos plats"
+      href: "menu/food.html"
+    - text: "Galerie des desserts et boissons"
+      href: "gallery/gallery-desserts.html"
+    - text: "Galerie du lieu"
+      href: "gallery/gallery-location.html"
+
+desserts:
+  title: "GALLERIE DES DESSERTS ET BOISSONS"
+  subtitle: "Des plaisirs pour tous les goûts"
+  alt_type: "Dessert"
+  items:
+    - id: 0
+      title: "Assortiment maison <br>Gingembre, perles de coco, nougats chinois"
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/assortiment_maison_t7heqj.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/assortiment_maison_t7heqj.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/assortiment_maison_t7heqj.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/assortiment_maison_t7heqj.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/assortiment_maison_t7heqj.jpg"
+    - id: 1
+      title: "Raviolis frits <br> A la crème d'haricots rouges"
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/raviolis_frits_bxb3hh.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/raviolis_frits_bxb3hh.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/raviolis_frits_bxb3hh.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/raviolis_frits_bxb3hh.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/raviolis_frits_bxb3hh.jpg"
+    - id: 2
+      title: "Coupe Shanghai"
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg"
+    - id: 3
+      title: "Beignets de pomme"
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg"
+    - id: 4
+      title: "China Blue"
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/china_blue_b2xhob.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/china_blue_b2xhob.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/china_blue_b2xhob.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/china_blue_b2xhob.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/china_blue_b2xhob.jpg"
+  navigation:
+    - text: "Nos desserts"
+      href: "desserts.html"
+    - text: "Nos boissons"
+      href: "drinks.html"
+    - text: "Galerie des entrées et plats"
+      href: "gallery-food.html"
+    - text: "Galerie du lieu"
+      href: "gallery-location.html"
+
+location:
+  title: "GALLERIE DU RESTAURANT"
+  subtitle: "Une ambiance traditionnelle"
+  alt_type: "Location"
+  items:
+    - id: 0
+      title: null
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012268/Location/front.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012268/Location/front.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1605012268/Location/front.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012268/Location/front.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012268/Location/front.jpg"
+    - id: 1
+      title: null
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338868/Location/2017-09-06_19.09.36_ljpxbm.jpg"
+    - id: 2
+      title: null
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg"
+    - id: 3
+      title: null
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338860/Location/2017-09-06_19.08.19_bnjs0i.jpg"
+    - id: 4
+      title: null
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338855/Location/unnamed_j4hwby.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338855/Location/unnamed_j4hwby.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338855/Location/unnamed_j4hwby.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338855/Location/unnamed_j4hwby.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338855/Location/unnamed_j4hwby.jpg"
+    - id: 5
+      title: null
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338851/Location/IMG_20200911_195839_byeolb.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338851/Location/IMG_20200911_195839_byeolb.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338851/Location/IMG_20200911_195839_byeolb.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338851/Location/IMG_20200911_195839_byeolb.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338851/Location/IMG_20200911_195839_byeolb.jpg"
+    - id: 6
+      title: null
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338847/Location/2018-10-02_vt9gq4.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338847/Location/2018-10-02_vt9gq4.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338847/Location/2018-10-02_vt9gq4.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338847/Location/2018-10-02_vt9gq4.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338847/Location/2018-10-02_vt9gq4.jpg"
+    - id: 7
+      title: null
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609338844/Location/2017-09-06_19.09.55_mm6fnz.jpg"
+    - id: 8
+      title: null
+      src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012271/Location/back.jpg"
+      srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012271/Location/back.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1605012271/Location/back.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012271/Location/back.jpg 3x"
+      src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012271/Location/back.jpg"
+  navigation:
+    - text: "Galerie des entrées et plats"
+      href: "gallery-food.html"
+    - text: "Galerie des desserts et boissons"
+      href: "gallery-desserts.html"

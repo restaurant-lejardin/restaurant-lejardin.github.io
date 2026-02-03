@@ -1,0 +1,102 @@
+---
+---
+{% assign gallery = site.data.galleries[page.gallery_id] %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Restaurant Chinois Le Jardin</title>
+    <!-- Web app manifest -->
+    <link rel='manifest' href='manifest.json'>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    {% include css.html %}
+  </head>
+  <body id="top">
+    {% include header.html %}
+    <main>
+
+      <!-- GALLERY DESCRIPTION -->
+      <div class="gallery-description container-fluid bg-dark text-white">
+        <h1 id="title-1" class="special-title-1">{{ gallery.title }}</h1>
+        <h2 id="title-2" class="special-title-2">{{ gallery.subtitle }}</h2>
+      </div>
+
+      <!-- GALLERY LIGHTBOX -->
+      <div id="lightbox" class="lightbox">
+        <label id="close">✖</label>
+        <div class="lightbox-content">
+          <div id="galleryCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" id="carousel-items">
+              {% for item in gallery.items %}
+                <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                  <img class="d-block w-100" src="{{ item.src_lg }}" alt="Slide {{ forloop.index }}">
+                </div>
+              {% endfor %}
+            </div>
+            <a class="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- GALLERY THUMBNAILS -->
+      <div id="gallery-thumbnails" class="gallery-thumbnails bg-light">
+        <div class="container">
+          <div class="row" id="gallery-items">
+            {% for item in gallery.items %}
+              <div class="gallery-item col-md-4">
+                <a href="#" data-slide-number="{{ forloop.index0 }}">
+                  <img class="img-fluid rounded box-shadow border" 
+                  src="{{ item.src }}" 
+                  srcset="{{ item.srcset }}" 
+                  draggable="false" alt="{{ gallery.alt_type }}">
+                </a>
+                {% if item.title %}<div class="row-centered">{{ item.title }}</div>{% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <!-- NAVIGATION BUTTONS -->
+      <div class="row-centered end-menu" id="navigation-buttons">
+        {% for nav in gallery.navigation %}
+          <a class="btn btn-outline-dark" href="{{ nav.href }}" role="button">{{ nav.text }}</a>
+        {% endfor %}
+        <br>
+      </div>
+
+    </main>
+
+  {% include footer.html %}
+    <a id="back-to-top" class="back-to-top smooth-scroll" href="#top">
+      <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+    </a>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <script 
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+      crossorigin="anonymous">
+    </script>
+    <!-- Lightbox and Gallery Initialization -->
+    <script src="js/gallery-lightbox.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/render-header-footer.js"></script>
+    <script src="js/gallery-animations.js"></script>
+  </body>
+</html>

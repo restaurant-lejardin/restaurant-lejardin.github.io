@@ -1,10 +1,14 @@
 /* Gallery page */
 
+document.addEventListener("DOMContentLoaded", () => {
+
 /* ======= Observer #1 logic ======= */
 var title1 = document.querySelector('#title-1');
 var title2 = document.querySelector('#title-2');
-title1.style.opacity = "0";
-title2.style.opacity = "0";
+
+// Only proceed if elements exist
+if (title1) title1.style.opacity = "0";
+if (title2) title2.style.opacity = "0";
 
 var options1 = {
   rootMargin: '0px',
@@ -16,16 +20,16 @@ function callback1(entries, observer1) {
     switch (entry.target.id) {
       case "title-1":
         if (entry.intersectionRatio > 0) {
-          title1.style.opacity = "1";
-          title1.className += " animated fadeInDown";
+          entry.target.style.opacity = "1";
+          entry.target.classList.add("animated", "fadeInDown");
           // Stop observing target
           observer1.unobserve(entry.target);
         }
         break;
       case "title-2":
         if (entry.intersectionRatio > 0) {
-          title2.style.opacity = "1";
-          title2.className += " animated fadeInUp";
+          entry.target.style.opacity = "1";
+          entry.target.classList.add("animated", "fadeInUp");
           // Stop observing target
           observer1.unobserve(entry.target);
         }
@@ -37,14 +41,15 @@ function callback1(entries, observer1) {
 // Create an intersection observer
 var observer1 = new IntersectionObserver(callback1, options1);
 
-// Start observing 
-observer1.observe(title1);
-observer1.observe(title2);
+// Start observing only if elements exist
+if (title1) observer1.observe(title1);
+if (title2) observer1.observe(title2);
 
 /* ======= Observer #2 logic ======= */
 
 var galleryItems = document.querySelectorAll('.gallery-item');
 
+// Only set opacity if elements exist
 galleryItems.forEach(function(galleryItem) {
   galleryItem.style.opacity = "0";
 });
@@ -58,7 +63,7 @@ function callback2(entries, observer2) {
   entries.forEach(function(entry) {
     if (entry.intersectionRatio > 0) {
       entry.target.style.opacity = "1";
-      entry.target.className += " animated fadeInUp";
+      entry.target.classList.add("animated", "fadeInUp");
       // Stop observing target
       observer2.unobserve(entry.target);
     }
@@ -72,3 +77,5 @@ var observer2 = new IntersectionObserver(callback2, options2);
 galleryItems.forEach(function(galleryItem) {
   observer2.observe(galleryItem);
 });
+
+}); // End DOMContentLoaded

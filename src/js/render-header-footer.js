@@ -1,25 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const renderSection = (url, selector, callback) => {
-    fetch(url)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(`Failed to load ${url}`);
-        }
-        return response.text();
-      })
-      .then((html) => {
-        const element = document.querySelector(selector);
-        if (element) {
-          element.innerHTML = html;
-          if (callback) callback();
-        }
-      })
-      .catch((error) => console.error(`Error loading ${url}:`, error));
-  };
 
-  // Render header and footer
-  renderSection("components/header.html", "header.page-header", () => {
-    // Set the active class for the current page
     const currentPage = window.location.pathname.split("/").pop();
     const navLinks = document.querySelectorAll("header.page-header .nav-link");
 
@@ -37,7 +17,4 @@ document.addEventListener("DOMContentLoaded", () => {
         link.parentElement.classList.add("active");
       }
     });
-  });
-
-  renderSection("components/footer.html", "footer.page-footer");
 });
