@@ -1,25 +1,63 @@
 - page: "entrees"
-  url: "entrees.html"
-  title: "Nos entrées"
+  title: 
+    fr: "Nos entrées"
+    en: "Appetizers"
   order: 1
+  group: "Menu"
   
 - page: "food"
-  url: "food.html"
-  title: "Nos plats"
+  title: 
+    fr: "Nos plats"
+    en: "Main Dishes"
   order: 2
+  group: "Menu"
   
 - page: "desserts"
-  url: "desserts.html"
-  title: "Nos desserts"
+  title: 
+    fr: "Nos desserts"
+    en: "Desserts"
   order: 3
+  group: "Menu"
   
 - page: "formules"
-  url: "formules.html"
-  title: "Nos formules"
+  title: 
+    fr: "Nos formules"
+    en: "Set Menus"
   order: 4
+  group: "Menu"
 
 - page: "drinks"
-  url: "drinks.html"
-  title: "Nos boissons"
+  title: 
+    fr: "Nos boissons"
+    en: "Beverages"
   order: 5
+  group: "Menu"
+
+- page: "gallery"
+  title:
+    fr: "Album"
+    en: "Gallery"
+  order: 6
+  group: "Album"
+
+- page: "gallery-food"
+  title:
+    fr: "Entrées et plats"
+    en: "Appetizers and dishes"
+  order: 7
+  group: "Album"
+
+- page: "gallery-desserts"
+  title:
+    fr: "Desserts et boissons"
+    en: "Desserts and drinks"
+  order: 8
+  group: "Album"
+
+- page: "gallery-location"
+  title:
+    fr: "Lieu"
+    en: "Location"
+  order: 9
+  group: "Album"
   

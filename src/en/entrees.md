@@ -1,7 +1,7 @@
 ---
 layout: menu_pages
-title: "Our dishes"
+title: "Our starters"
 lang: "en"
-body_id: "food"
+body_id: "entrees"
 show_legend: true
 ---

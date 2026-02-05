@@ -18,29 +18,27 @@
           {% endif %}
         </li>
         <li class="nav-item dropdown">
+          {% assign menu_items = site.data.menu_navigation | where: 'group', 'Menu' | sort: 'order' %}
+          {% assign first_menu_item = menu_items | first %}
           {% if page.lang == 'en' %}
-            <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/en/food.html" id="navbarDropdown" role="button"
+            <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/en/{{ first_menu_item.page }}.html" id="navbarDropdown" role="button"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Menu
             </a>
             <div class="dropdown-menu text-center text-lg-left" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="{{ site.baseurl }}/en/entrees.html">Appetizers</a>
-              <a class="dropdown-item" href="{{ site.baseurl }}/en/food.html">Main Dishes</a>
-              <a class="dropdown-item" href="{{ site.baseurl }}/en/desserts.html">Desserts</a>
-              <a class="dropdown-item" href="{{ site.baseurl }}/en/formules.html">Set Menus</a>
-              <a class="dropdown-item" href="{{ site.baseurl }}/en/drinks.html">Beverages</a>
+              {% for item in menu_items %}
+                <a class="dropdown-item" href="{{ site.baseurl }}/en/{{ item.page }}.html">{{ item.title.en }}</a>
+              {% endfor %}
             </div>
           {% else %}
-            <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/food.html" id="navbarDropdown" role="button"
+            <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/{{ first_menu_item.page }}.html" id="navbarDropdown" role="button"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Menu
             </a>
             <div class="dropdown-menu text-center text-lg-left" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="{{ site.baseurl }}/entrees.html">Entrées</a>
-              <a class="dropdown-item" href="{{ site.baseurl }}/food.html">Plats</a>
-              <a class="dropdown-item" href="{{ site.baseurl }}/desserts.html">Desserts</a>
-              <a class="dropdown-item" href="{{ site.baseurl }}/formules.html">Formules</a>
-              <a class="dropdown-item" href="{{ site.baseurl }}/drinks.html">Boissons</a>
+              {% for item in menu_items %}
+                <a class="dropdown-item" href="{{ site.baseurl }}/{{ item.page }}.html">{{ item.title.fr }}</a>
+              {% endfor %}
             </div>
           {% endif %}
         </li>
@@ -68,14 +66,22 @@
       <div class="ml-auto d-flex align-items-center">
         <!-- Language switcher -->
         <div class="language-switcher d-flex mr-3">
-          {% assign current_page = page.url | remove: '/index.html' %}
+          {% assign current_page = page.url | remove: '/index.html' | remove: '.html' %}
           {% if page.lang == 'en' %}
-            {% capture fr_url %}{{ current_page | remove: '/en' }}{% if current_page == '/en' %}index.html{% else %}.html{% endif %}{% endcapture %}
-            <a href="{{ fr_url }}" class="nav-link px-2">🇫🇷 FR</a>
+            {% assign fr_page = current_page | remove: '/en' %}
+            {% if fr_page == '' or fr_page == '/' %}
+              <a href="{{ site.baseurl }}/index.html" class="nav-link px-2">🇫🇷 FR</a>
+            {% else %}
+              <a href="{{ site.baseurl }}{{ fr_page }}.html" class="nav-link px-2">🇫🇷 FR</a>
+            {% endif %}
             <span class="nav-link px-2 active">🇬🇧 EN</span>
           {% else %}
             <span class="nav-link px-2 active">🇫🇷 FR</span>
-            <a href="en{{ current_page }}{% if current_page == '' %}index{% endif %}.html" class="nav-link px-2">🇬🇧 EN</a>
+            {% if current_page == '' or current_page == '/' %}
+              <a href="{{ site.baseurl }}/en/index.html" class="nav-link px-2">🇬🇧 EN</a>
+            {% else %}
+              <a href="{{ site.baseurl }}/en{{ current_page }}.html" class="nav-link px-2">🇬🇧 EN</a>
+            {% endif %}
           {% endif %}
         </div>
         

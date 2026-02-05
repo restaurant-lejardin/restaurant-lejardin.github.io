@@ -53,6 +53,12 @@ module.exports = function(grunt) {
         src: '*.html',
         dest: 'dist/'
       },
+      t1_en: {
+        expand: true,
+        cwd: '_site/',
+        src: 'en/**/*.html',
+        dest: 'dist/'
+      },
       t2: {
         expand: true,
         cwd: '_site/',
@@ -92,6 +98,14 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'dist/',
           src: '*.html',
+          dest: 'dist/'
+        }]
+      },
+      t1_en: {
+        files: [{
+          expand: true,
+          cwd: 'dist/',
+          src: 'en/**/*.html',
           dest: 'dist/'
         }]
       }
