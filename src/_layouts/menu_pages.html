@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang | default: site.default_lang | default: 'fr' }}">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Restaurant Chinois Le Jardin</title>
     <!-- Web app manifest -->
-    <link rel='manifest' href='manifest.json'>
+    <link rel='manifest' href='{{ site.baseurl }}/manifest.json'>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
@@ -64,10 +64,10 @@
       <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
     </a>
     <!-- lazySizes -->
-    <script src="js/lazysizes.min.js" async=""></script>
-    <script src="js/render-food.js"></script>
-    <script src="js/render-jumbotron.js"></script>
-    <script src="js/render-header-footer.js"></script>
+    <script src="{{ site.baseurl }}/js/lazysizes.min.js" async=""></script>
+    <script src="{{ site.baseurl }}/js/render-food.js"></script>
+    <script src="{{ site.baseurl }}/js/render-jumbotron.js"></script>
+    <script src="{{ site.baseurl }}/js/render-header-footer.js"></script>
     <!-- jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -79,7 +79,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
       crossorigin="anonymous">
     </script>
-    <script src="js/site.js"></script>
-    <script src="js/menu-animations.js"></script>
+    <script src="{{ site.baseurl }}/js/site.js"></script>
+    <script src="{{ site.baseurl }}/js/menu-animations.js"></script>
   </body>
 </html>

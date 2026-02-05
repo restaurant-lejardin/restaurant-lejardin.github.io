@@ -2,7 +2,7 @@
 ---
 {% assign gallery = site.data.galleries[page.gallery_id] %}
 <!doctype html>
-<html lang="en">
+<html lang="{{ page.lang | default: site.default_lang | default: 'fr' }}">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
