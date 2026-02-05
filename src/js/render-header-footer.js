@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Define dropdown groups
     const dropdownGroups = {
-      "Menu": ["food.html", "entrees.html", "desserts.html", "drinks.html", "formules.html", "english-menu.html"],
+      "Menu": ["food.html", "entrees.html", "desserts.html", "drinks.html", "formules.html"],
       "Album": ["gallery.html", "gallery-food.html", "gallery-desserts.html", "gallery-location.html"]
     };
 

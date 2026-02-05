@@ -1,32 +1,53 @@
 {
   "categories": [
     {
-      "specialTitle": "PLATS A COMPOSER (riz non compris)",
+      "specialTitle": {
+        "fr": "PLATS A COMPOSER (riz non compris)",
+        "en": "DISHES TO COMPOSE (rice not included)"
+      },
       "id": "wok",
-      "title": "NOS MARMITES ET WOKS",
+      "title": {
+        "fr": "NOS MARMITES ET WOKS",
+        "en": "OUR HOTPOTS AND WOKS"
+      },
       "items": [
         {
-          "name": "Marmite aux fruits de mer",
+          "name": {
+            "fr": "Marmite aux fruits de mer",
+            "en": "Seafood hotpot"
+          },
           "price": "21.90",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/m1_ilwt2g.jpg"
         },
         {
-          "name": "Marmite de poisson piquant à la Sichuanaise",
+          "name": {
+            "fr": "Marmite de poisson piquant à la Sichuanaise",
+            "en": "Sichuan spicy fish hotpot"
+          },
           "price": "15.90",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/m4_mtvmcx.jpg"
         },
         {
-          "name": "Marmite de poisson Thaï au lait de coco",
+          "name": {
+            "fr": "Marmite de poisson Thaï au lait de coco",
+            "en": "Thai fish hotpot with coconut milk"
+          },
           "price": "15.90",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t34_jhhpzw.jpg"
         },
         {
-          "name": "Wok de bœuf pimenté du YunNan",
+          "name": {
+            "fr": "Wok de bœuf pimenté du YunNan",
+            "en": "YunNan spicy beef wok"
+          },
           "price": "14.90",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619142/Food/k1_gafxld.jpg"
         },
         {
-          "name": "Wok de légumes pimenté",
+          "name": {
+            "fr": "Wok de légumes pimenté",
+            "en": "Spicy vegetable wok"
+          },
           "price": "12.50",
           "veganType": "vege"
         }

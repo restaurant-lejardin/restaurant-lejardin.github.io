@@ -2,10 +2,13 @@ name: Flex
 markdown: kramdown
 highlighter: pygments
 
-# Custom directory paths
-layouts_dir: src/_layouts
-data_dir: src/_data
-includes_dir: src/_includes
+# Set source directory
+source: src
+
+# Custom directory paths (relative to source)
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
 
 exclude: 
   - LICENSE
@@ -23,17 +26,7 @@ exclude:
 baseurl: ""
 permalink: /:basename.html
 
-
-# plugins:
-#   - jekyll-polyglot
-
-
-# jekyll-multiple-languages-plugin settings:
-# languages: ["fr", "en", "ch"]
+# Language settings
+languages: ["fr", "en"]
 default_lang: "fr"
-
-exclude_from_localization: ["docs", "node-modules", "css","src/media"]
-
-parallel_localization: true
-
-lang_from_path: true
+exclude_from_localization: ["js", "css", "media", "data"]

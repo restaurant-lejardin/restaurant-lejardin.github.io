@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
   `;
 
   // Fetch the common sections JSON
-  fetch("data/jumbotron-sections.json")
+  fetch("/data/jumbotron-sections.json")
     .then((response) => {
       console.log("Fetch response status:", response.status);
       if (!response.ok) {
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
             (item) => `
               <div class="col">
                 <a href="#${item.id}" class="smooth-scroll">
-            <img class="menu-icon" src="${item.icon}" alt="${item.text}">
+            <img class="menu-icon" src="/${item.icon}" alt="${item.text}">
                 </a>
                 <h6 class="menu-icon-text mt-3 mb-0">${item.text}</h6>
               </div>
