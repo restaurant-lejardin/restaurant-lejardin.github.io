@@ -51,14 +51,12 @@ document.addEventListener("DOMContentLoaded", () => {
   // Fetch the common sections JSON
   fetch("/data/jumbotron-sections.json")
     .then((response) => {
-      console.log("Fetch response status:", response.status);
       if (!response.ok) {
         throw new Error(`Failed to fetch JSON: ${response.statusText}`);
       }
       return response.json();
     })
     .then((data) => {
-      console.log("Data fetched successfully:", data);
 
       const pageData = data.pages[pageId];
       if (!pageData) {
@@ -67,12 +65,9 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      console.log("Page data:", pageData);
-
       // Render the jumbotron
       if (jumbotronPlaceholder && pageData.jumbotron) {
         const { title, backgroundImage, srcset } = pageData.jumbotron;
-        console.log("Rendering jumbotron with title:", title);
         jumbotronPlaceholder.innerHTML = `
           <div class="food-jumbotron dark-overlay text-white">
             <img
@@ -91,7 +86,6 @@ document.addEventListener("DOMContentLoaded", () => {
         // Render the menu groups inside the jumbotron caption
         const menuIconsContainer = document.getElementById("menu-icons");
         if (menuIconsContainer && pageData.menuGroups) {
-          console.log("Rendering menu groups...");
           const menuGroupsHtml = pageData.menuGroups
             .map((group) => {
               const groupHtml = group.items

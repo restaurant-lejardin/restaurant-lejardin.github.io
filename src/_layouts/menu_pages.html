@@ -44,10 +44,17 @@
         <h3 class="special-title-1">Tarifs à titre indicatif</h3>
 
         <div class="row-centered end-menu">
-          {% assign menu_pages = site.data.menu_navigation | sort: 'order' %}
+          {% assign menu_pages = site.data.menu_navigation | where: 'group', 'Menu' | sort: 'order' %}
           {% for menu_item in menu_pages %}
             {% unless menu_item.page == page.body_id %}
-              <a class="btn btn-outline-dark" href="{{ menu_item.url }}" role="button">{{ menu_item.title }}</a>
+              {% if page.lang == 'en' %}
+                {% assign item_url = 'en/' | append: menu_item.page | append: '.html' %}
+                {% assign item_title = menu_item.title.en %}
+              {% else %}
+                {% assign item_url = menu_item.page | append: '.html' %}
+                {% assign item_title = menu_item.title.fr %}
+              {% endif %}
+              <a class="btn btn-outline-dark" href="{{ site.baseurl }}/{{ item_url }}" role="button">{{ item_title }}</a>
             {% endunless %}
           {% endfor %}
           <br>
@@ -65,6 +72,9 @@
     </a>
     <!-- lazySizes -->
     <script src="{{ site.baseurl }}/js/lazysizes.min.js" async=""></script>
+    <script>
+      window.menuNavigationData = {{ site.data.menu_navigation | jsonify }};
+    </script>
     <script src="{{ site.baseurl }}/js/render-food.js"></script>
     <script src="{{ site.baseurl }}/js/render-jumbotron.js"></script>
     <script src="{{ site.baseurl }}/js/render-header-footer.js"></script>
