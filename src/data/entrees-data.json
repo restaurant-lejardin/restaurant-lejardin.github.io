@@ -41,7 +41,7 @@
       ]
     },
     {
-      "id": "burgers",
+      "id": "hors-doeuvres",
       "title": "HORS D'OEUVRES",
       "items": [
         {
@@ -79,7 +79,8 @@
           "name": "Rouleau de printemps froid",
           "price": "6.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/12a_sg9vdr.jpg",
-          "description": "crevettes ou poulet"
+          "description": "crevettes ou poulet",
+          "veganType": "vege_possible"
         },
         {
           "name": "Salade chinoise aux crevettes",
@@ -107,15 +108,14 @@
       ]
     },
     {
-      "id": "flavours-of-cyprus",
+      "id": "raviolis",
       "title": "RAVIOLIS",
       "items": [
         {
           "specialTitle": "4 pièces, sauf indication contraire",
           "name": "Raviolis Pékinois grillés GYOZA au porc",
           "price": "7.80",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r2_xleer1.jpg",
-          "veganType": "vege_possible"
+          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r2_xleer1.jpg"
         },
         {
           "showHr": true,
@@ -137,8 +137,7 @@
         {
           "name": "Raviolis JI GUAN JIAO au poulet",
           "price": "6.80",
-          "image": "",
-          "veganType": "vege_possible"
+          "image": ""
         },
         {
           "name": "Raviolis SOU JIAO aux légumes",

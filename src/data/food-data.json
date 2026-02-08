@@ -278,7 +278,8 @@
           "name": "Vermicelles de riz sautées Singapour",
           "price": "12.90",
           "showHr": true,
-          "description": "Viandes et crevette"
+          "description": "Viandes et crevette",
+          "veganType": "vege_possible"
         },
         {
           "name": "Nouilles sautées ou natures",
@@ -344,7 +345,8 @@
         },
         {
           "name": "Soupe de nouilles au poulet, coriandre et curry",
-          "price": "12.90"
+          "price": "12.90",
+          "veganType": "vege_possible"
         },
         {
           "name": "Soupe de nouilles, légumes et poulet",

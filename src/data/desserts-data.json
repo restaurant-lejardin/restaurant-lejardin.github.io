@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "id": "cakes",
+      "id": "desserts",
       "title": "DESSERTS",
       "items": [
         {
@@ -61,24 +61,24 @@
       ]
     },
     {
-      "id": "cookies",
+      "id": "glaces",
       "title": "GLACES",
       "items": [
         {
           "name": "Chocolat Liégeois",
-          "price": "6.50",
+          "price": "7.50",
           "image": "",
           "description": "Glace chocolat, glace vanille, sauce chocolat"
         },
         {
           "name": "Café Liégeois",
-          "price": "6.50",
+          "price": "7.50",
           "image": "",
           "description": "Glace café, glace vanille, sauce café"
         },
         {
           "name": "Délice Menthe",
-          "price": "6.50",
+          "price": "7.50",
           "image": "",
           "description": "Glace menthe chocolat, glace chocolat, sirop de menthe"
         },

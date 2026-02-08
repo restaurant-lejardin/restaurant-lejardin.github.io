@@ -2,7 +2,7 @@
   "categories": [
     {
       "id": "gourmet",
-      "title": "FORMULE GOURMET à 15.90€",
+      "title": "FORMULE GOURMET à 16.90€",
       "items": [
         {
           "specialTitle": "Entrée au choix",
@@ -61,7 +61,7 @@
     },
     {
       "id": "express",
-      "title": "FORMULE EXPRESS à 13.90€",
+      "title": "FORMULE EXPRESS à 14.90€",
       "items": [
         {
           "showHr": true,
@@ -89,7 +89,7 @@
     },
     {
       "id": "vapeur",
-      "title": "FORMULE VAPEUR à 13.90€",
+      "title": "FORMULE VAPEUR à 14.90€",
       "items": [
         {
           "showHr": true,

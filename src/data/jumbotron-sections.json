@@ -55,17 +55,17 @@
         {
           "items": [
             {
-              "id": "wok",
+              "id": "soup",
               "icon": "media/menu/entrees/icons/soup.svg",
               "text": "POTAGES ET SOUPES"
             },
             {
-              "id": "meat",
+              "id": "hors-doeuvres",
               "icon": "media/menu/entrees/icons/salad.svg",
               "text": "HORS D'OEUVRES"
             },
             {
-              "id": "seafood",
+              "id": "raviolis",
               "icon": "media/menu/entrees/icons/dim-sum.svg",
               "text": "RAVIOLIS"
             }
@@ -248,17 +248,17 @@
             {
               "id": "gourmet",
               "icon": "media/menu/entrees/icons/soup.svg",
-              "text": "FORMULE GOURMET <br> à partir de 15.<sup>90</sup>€"
+              "text": "FORMULE GOURMET <br> à partir de 16.<sup>90</sup>€"
             },
             {
               "id": "express",
               "icon": "media/menu/entrees/icons/salad.svg",
-              "text": "FORMULE EXPRESS <br> à 13.<sup>90</sup>€"
+              "text": "FORMULE EXPRESS <br> à 14.<sup>90</sup>€"
             },
             {
               "id": "vapeur",
               "icon": "media/menu/entrees/icons/dim-sum.svg",
-              "text": "FORMULE VAPEUR <br> à partir de 13.<sup>90</sup>€"
+              "text": "FORMULE VAPEUR <br> à partir de 14.<sup>90</sup>€"
             }
           ]
         }
