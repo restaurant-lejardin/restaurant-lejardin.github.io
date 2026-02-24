@@ -68,7 +68,7 @@
         <div class="language-switcher d-flex mr-3">
           {% assign current_page = page.url | remove: '/index.html' | remove: '.html' %}
           {% if page.lang == 'en' %}
-            {% assign fr_page = current_page | remove: '/en' %}
+            {% assign fr_page = current_page | replace: '/en/', '/' %}
             {% if fr_page == '' or fr_page == '/' %}
               <a href="{{ site.baseurl }}/index.html" class="nav-link px-2">🇫🇷 FR</a>
             {% else %}
