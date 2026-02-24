@@ -53,108 +53,188 @@
         }
       ]
     },
-    {
+        {
       "id": "meat",
       "title": "VOLAILLES / VIANDES",
       "items": [
         {
-          "name": "Poulet aux amandes",
+          "name": {
+            "fr": "Poulet aux amandes",
+            "en": "Chicken with almonds",
+            "zh": "杏仁鸡"
+          },
           "price": "11.80"
         },
         {
-          "name": "Poulet KUNG PAO pimenté aux cacahuètes",
+          "name": {
+            "fr": "Poulet KUNG PAO pimenté aux cacahuètes",
+            "en": "Hot sauce chicken & peanuts",
+            "zh": "宫保鸡"
+          },
           "price": "12.50"
         },
         {
-          "name": "Poulet croustillant sauce caramel",
+          "name": {
+            "fr": "Poulet croustillant sauce caramel",
+            "en": "Crispy chicken caramelized",
+            "zh": "本店炸鸡腿"
+          },
           "price": "12.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/39_exhtno.jpg"
         },
         {
-          "name": "Poulet croustillant au piment frit",
+          "name": {
+            "fr": "Poulet croustillant au piment frit",
+            "en": "Crispy chicken with grilled chili",
+            "zh": "辣子鸡"
+          },
           "price": "12.50",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/39b_gjgmjv.jpg"
         },
         {
-          "name": "Poulet au curry",
+          "name": {
+            "fr": "Poulet au curry",
+            "en": "Curry chicken (breast)",
+            "zh": "咖喱鸡"
+          },
           "price": "10.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/40_lkg6mn.jpg",
           "description": "Filet de poulet"
         },
         {
-          "name": "Poulet à l'ananas",
+          "name": {
+            "fr": "Poulet à l'ananas",
+            "en": "Chicken sweet & sour sauce",
+            "zh": "糖醋鸡"
+          },
           "price": "10.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/46_sxcqku.jpg",
           "description": "Filet de poulet, sauce aigre-douce"
         },
         {
-          "name": "Poulet sauté sauce Thaï au basilic",
+          "name": {
+            "fr": "Poulet sauté sauce Thaï au basilic",
+            "en": "Chicken in Thai basilic sauce",
+            "zh": "金不换炒鸡"
+          },
           "price": "11.50"
         },
         {
-          "name": "Poulet sauté à la citronnelle",
+          "name": {
+            "fr": "Poulet sauté à la citronnelle",
+            "en": "Chicken breast & lemongrass",
+            "zh": "香芒鸡"
+          },
           "price": "11.50",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t10_ixwldi.jpg",
           "description": "Filet de poulet"
         },
         {
-          "name": "Poulet au curry Thaï au lait de coco KENG KARI KAI",
+          "name": {
+            "fr": "Poulet au curry Thaï au lait de coco KENG KARI KAI",
+            "en": "Thai style curry chicken",
+            "zh": "泰式咖喱鸡"
+          },
           "price": "11.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t20_veniz0.jpg",
           "description": "(au curry vert possible)"
         },
         {
           "showHr": true,
-          "name": "Magret de canard sauce au caramel",
+          "name": {
+            "fr": "Magret de canard sauce au caramel",
+            "en": "Duck (breast) in caramelized sauce",
+            "zh": "拔丝鸭片"
+          },
           "price": "14.90"
         },
         {
-          "name": "Canard à l'ananas",
+          "name": {
+            "fr": "Canard à l'ananas",
+            "en": "Duck in sweet and sour sauce",
+            "zh": "糖醋鸭"
+          },
           "price": "13.90",
           "description": "Sauce aigre-douce"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/53_z0fstk.jpg",
-          "name": "Canard aux champignons noirs ",
+          "name": {
+            "fr": "Canard aux champignons noirs ",
+            "en": "Duck & black mushrooms",
+            "zh": "木耳鸭"
+          },
           "price": "13.90"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1610796543/Food/18b_ndopxm.jpg",
-          "name": "Magret de canard grillé du chef",
+          "name": {
+            "fr": "Magret de canard grillé du chef",
+            "en": "Roast duck grilled (breast)",
+            "zh": "香酥鸭片"
+          },
           "price": "14.90"
         },
         {
-          "name": "Magret de canard sauté sauce Thaï au basilic",
+          "name": {
+            "fr": "Magret de canard sauté sauce Thaï au basilic",
+            "en": "Duck with Thai basilic sauce",
+            "zh": "金不换炒鸭"
+          },
           "price": "14.90"
         },
         {
           "showHr": true,
-          "name": "Porc CHAR SIU sauce caramel",
+          "name": {
+            "fr": "Porc CHAR SIU sauce caramel",
+            "en": "Caramel sauce roast pork CHAR SIU",
+            "zh": "拔丝叉烧肉"
+          },
           "price": "11.80",
           "description": "Porc laqué en tranche"
         },
         {
-          "name": "Travers de porc grillé “sel et poivre”",
+          "name": {
+            "fr": "Travers de porc grillé “sel et poivre”",
+            "en": "Crispy spear ribs",
+            "zh": "椒盐排骨"
+          },
           "price": "12.50"
         },
         {
           "showHr": true,
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619141/Food/54_pd3fxh.jpg",
-          "name": "Bœuf aux oignons",
+          "name": {
+            "fr": "Bœuf aux oignons",
+            "en": "Beef with onions",
+            "zh": "洋葱牛肉"
+          },
           "price": "11.20"
         },
         {
-          "name": "Bœuf aux champignons noirs",
+          "name": {
+            "fr": "Bœuf aux champignons noirs",
+            "en": "Beef with black mushrooms",
+            "zh": "木耳牛肉"
+          },
           "price": "11.50"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/60_xqiidq.jpg",
-          "name": "Bœuf CHOP SUEY",
+          "name": {
+            "fr": "Bœuf CHOP SUEY",
+            "en": "Beef & vegetables CHOP SUEY",
+            "zh": "牛肉什碎"
+          },
           "price": "11.80",
           "description": "Mélange de légumes"
         },
         {
-          "name": "Bœuf sauté sauce Thaï au basilic KAPAO NEUA ",
+          "name": {
+            "fr": "Bœuf sauté sauce Thaï au basilic KAPAO NEUA ",
+            "en": "Beef with Thai basilic sauce",
+            "zh": "金不换炒牛肉"
+          },
           "price": "11.80"
         }
       ]
@@ -164,30 +244,54 @@
       "title": "FRUITS DE MER",
       "items": [
         {
-          "name": "Crevettes aux légumes",
+          "name": {
+            "fr": "Crevettes aux légumes",
+            "en": "Prawns & vegetables (shrimps)",
+            "zh": "素炒虾"
+          },
           "price": "12.90",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/22_gfiyea.jpg"
         },
         {
-          "name": "Crevettes à la sauce piquante",
+          "name": {
+            "fr": "Crevettes à la sauce piquante",
+            "en": "Prawns in hot sauce",
+            "zh": "辣汁虾"
+          },
           "price": "12.90"
         },
         {
-          "name": "Crevettes à l'ananas",
+          "name": {
+            "fr": "Crevettes à l'ananas",
+            "en": "Prawns sweet & sour sauce",
+            "zh": "糖醋虾"
+          },
           "price": "12.90",
           "description": "Sauce aigre-douce"
         },
         {
-          "name": "Crevettes sautées “sel et poivre”",
+          "name": {
+            "fr": "Crevettes sautées “sel et poivre”",
+            "en": "Prawns fritter",
+            "zh": "炸虾"
+          },
           "price": "14.90",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617486/Food/27_ff5wvc.jpg"
         },
         {
-          "name": "Crevettes sautées sauce Thaï au basilic KAPAO KUNG",
+          "name": {
+            "fr": "Crevettes sautées sauce Thaï au basilic KAPAO KUNG",
+            "en": "Prawns in Thai basilic sauce",
+            "zh": "金不换炒虾"
+          },
           "price": "13.90"
         },
         {
-          "name": "Crevettes au curry au lait de coco",
+          "name": {
+            "fr": "Crevettes au curry au lait de coco",
+            "en": "Thai style curry prawns",
+            "zh": "泰式咖喱虾"
+          },
           "price": "13.90",
           "description": "(au curry vert possible)"
         },
@@ -195,15 +299,27 @@
           "showHr": true,
           "specialTitle": "Poisson selon arrivage (cabillaud ou colin)",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/31_dkwwp7.jpg",
-          "name": "Filet de poisson grillé à la façon du chef  ",
+          "name": {
+            "fr": "Filet de poisson grillé à la façon du chef  ",
+            "en": "Lemongrass grilled fish fillet",
+            "zh": "香芒煎鱼"
+          },
           "price": "12.90"
         },
         {
-          "name": "Poisson à la sauce piquante sur plat en fonte  ",
+          "name": {
+            "fr": "Poisson à la sauce piquante sur plat en fonte  ",
+            "en": "Sizzling fish with hot sauce",
+            "zh": "铁板辣汁鱼"
+          },
           "price": "15.90"
         },
         {
-          "name": "Poisson au gingembre sur plat en fonte  ",
+          "name": {
+            "fr": "Poisson au gingembre sur plat en fonte",
+            "en": "Ginger fish on sizzling plate",
+            "zh": ""
+          },
           "price": "15.90"
         }
       ]
@@ -214,67 +330,111 @@
       "title": "RIZ, LEGUMES ET NOUILLES",
       "items": [
         {
-          "name": "Riz nature",
+          "name": {
+            "fr": "Riz nature",
+            "en": "Bowl of plain rice",
+            "zh": "香米白饭"
+          },
           "price": "2.60",
           "description": "Bol",
           "veganType": "vege"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618975/Food/81_wp42ih.jpg",
-          "name": "Riz sauté cantonais (porc)",
+          "name": {
+            "fr": "Riz sauté cantonais (porc)",
+            "en": "Bowl of cantonaise fried rice (pork)",
+            "zh": "广东炒饭"
+          },
           "price": "6.50",
           "description": "Bol, dés de jambon de porc",
           "veganType": "vege_possible"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618975/Food/81a_xlkhlo.jpg",
-          "name": "Riz sauté du YangZhou",
+          "name": {
+            "fr": "Riz sauté du YangZhou",
+            "en": "Special fried rice (meat and prawns)",
+            "zh": "扬州炒饭"
+          },
           "price": "11.90",
           "description": "Viandes et crevettes"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/v8_upzagu.jpg",
-          "name": "Riz GLUANT nature dans la feuille de lotus KHAO NIAO",
+          "name": {
+            "fr": "Riz GLUANT nature dans la feuille de lotus KHAO NIAO",
+            "en": "Steamed sticky rice",
+            "zh": "荷叶糯米饭"
+          },
           "price": "4.50",
           "veganType": "vege"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t16_eryml1.jpg",
-          "name": "Riz sauté à la thaïlandaise (poulet) KHAO PAD THAI",
+          "name": {
+            "fr": "Riz sauté à la thaïlandaise (poulet) KHAO PAD THAI",
+            "en": "Thai style fried rice  (chicken)",
+            "zh": "泰式炒饭"
+          },
           "price": "8.50",
           "description": "Bol, épicé",
           "veganType": "vege_possible"
         },
         {
           "showHr": true,
-          "name": "Germes de soja sautés aux champignons noirs",
+          "name": {
+            "fr": "Germes de soja sautés aux champignons noirs",
+            "en": "Beans sprouts & black mushrooms",
+            "zh": "木耳炒豆芽"
+          },
           "price": 9,
           "veganType": "vege"
         },
         {
-          "name": "Choux chinois sautés",
+          "name": {
+            "fr": "Choux chinois sautés",
+            "en": "",
+            "zh": ""
+          },
           "price": "8.80",
           "veganType": "vege"
         },
         {
-          "name": "CHOP SUEY sauté",
+          "name": {
+            "fr": "CHOP SUEY sauté",
+            "en": "Stir fried vegetables CHOP SUEY",
+            "zh": "素炒什碎"
+          },
           "price": "9.50",
           "description": "Mélange de légumes",
           "veganType": "vege"
         },
         {
-          "name": "Choux chinois verts aux champignons parfumés SHITAKE",
+          "name": {
+            "fr": "Choux chinois verts aux champignons parfumés SHITAKE",
+            "en": "Chinese cabbage & shitake mushrooms",
+            "zh": "香菇炒菜"
+          },
           "price": "9.50",
           "veganType": "vege"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/86_ulhlt3.jpg",
-          "name": "Brocolis sautés",
+          "name": {
+            "fr": "Brocolis sautés",
+            "en": "Stir fried broccoli",
+            "zh": "炒芥兰花菜"
+          },
           "price": "9",
           "veganType": "vege"
         },
         {
-          "name": "Légumes sautés au curry au lait de coco",
+          "name": {
+            "fr": "Légumes sautés au curry au lait de coco",
+            "en": "Thai style curry vegetables",
+            "zh": "泰式咖喱菜"
+          },
           "price": "11.80",
           "description": "(au curry vert possible)",
           "veganType": "vege"
@@ -289,38 +449,62 @@
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619142/Food/77_mdmzy7.jpg",
-          "name": "Vermicelles aux légumes",
+          "name": {
+            "fr": "Vermicelles aux légumes",
+            "en": "Vermicelli of mung beans & vegetables",
+            "zh": "素粉丝"
+          },
           "price": "12.80",
           "description": "Vermicelles transparentes (de soja)",
           "veganType": "vege"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/79b_dpttsk.jpg",
-          "name": "Vermicelles de riz sautées Singapour",
+          "name": {
+            "fr": "Vermicelles de riz sautées Singapour",
+            "en": "Singapore fried ricenoodles (curry)",
+            "zh": "新加坡炒米粉"
+          },
           "price": "12.90",
           "showHr": true,
           "description": "Viandes et crevette",
           "veganType": "vege_possible"
         },
-        {
-          "name": "Nouilles sautées ou natures",
+                {
+          "name": {
+            "fr": "Nouilles sautées ou natures",
+            "en": "Bowl of fried noodles (or plain)",
+            "zh": "清炒面"
+          },
           "price": "7.90",
           "description": "Bol",
           "veganType": "vege"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617488/Food/76l_x3kef8.jpg",
-          "name": "Nouilles sautées aux légumes",
+          "name": {
+            "fr": "Nouilles sautées aux légumes",
+            "en": "Stir fried noodles with vegetables",
+            "zh": "素炒面"
+          },
           "price": "11.80",
           "veganType": "vege"
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/72_sjwizo.jpg",
-          "name": "Nouilles sautées au poulet",
+          "name": {
+            "fr": "Nouilles sautées au poulet",
+            "en": "Stir fried noodles with chicken",
+            "zh": "鸡丝炒面"
+          },
           "price": "11.80"
         },
         {
-          "name": "Nouilles sautées aux crevettes",
+          "name": {
+            "fr": "Nouilles sautées aux crevettes",
+            "en": "Stir fried noodles with prawns",
+            "zh": "虾炒面"
+          },
           "price": "13.90"
         }
       ]
@@ -331,7 +515,11 @@
       "items": [
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t17_rtb7fg.jpg",
-          "name": "BO BÙN CHÀ GIO (avec nems)",
+          "name": {
+            "fr": "BO BÙN CHÀ GIO (avec nems)",
+            "en": "BO BÙN CHÀ GIO (with spring rolls)",
+            "zh": ""
+          },
           "price": "14.90",
           "description": "Au bœuf sauté (possible au poulet ou végétarien)",
           "veganType": "vege_possible"
@@ -344,37 +532,65 @@
       "description": "Grand Bol<br>Nouilles fines de blé <u>ou</u> vermicelles de riz<br><u>ou</u> pâtes de riz <b>(+1)</b>",
       "items": [
         {
-          "name": "Soupe de nouilles et porc grillé CHAR SIU",
+          "name": {
+            "fr": "Soupe de nouilles et porc grillé CHAR SIU",
+            "en": "Roast pork CHA SIU noodles soup",
+            "zh": "叉烧肉汤面"
+          },
           "price": "12.90",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/c1_gxmpsb.jpg",
           "description": "Porc laqué en tranche"
         },
         {
-          "name": "Soupe DAN DAN au hachis de porc piment",
+          "name": {
+            "fr": "Soupe DAN DAN au hachis de porc piment",
+            "en": "Pork meat noodles soup DAN DAN",
+            "zh": "担担面"
+          },
           "price": "12.50",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/c4_rvg1rj.jpg"
         },
         {
-          "name": "Soupe de nouilles et légumes",
+          "name": {
+            "fr": "Soupe de nouilles et légumes",
+            "en": "Mixed vegetables and noodles soup",
+            "zh": "素菜汤面"
+          },
           "price": "12.50",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/c6_t2xj3m.jpg",
           "veganType": "vege"
         },
         {
-          "name": "Soupe de nouilles et crevettes",
+          "name": {
+            "fr": "Soupe de nouilles et crevettes",
+            "en": "Prawns noodles and soup",
+            "zh": "虾汤面"
+          },
           "price": "13.50"
         },
         {
-          "name": "Soupe de nouilles au poulet, coriandre et curry",
+          "name": {
+            "fr": "Soupe de nouilles au poulet, coriandre et curry",
+            "en": "Noodles and curry chicken soup",
+            "zh": "鸡丝咖喱汤面"
+          },
           "price": "12.90",
           "veganType": "vege_possible"
         },
         {
-          "name": "Soupe de nouilles, légumes et poulet",
+          "name": {
+            "fr": "Soupe de nouilles, légumes et poulet",
+            "en": "Noodles chicken & vegetables soup",
+            "zh": "素菜鸡丝汤面"
+          },
           "price": "13.90"
         },
         {
-          "name": "Soupe de nouilles et raviolis aux crevettes",
+          "name": {
+            "fr": "Soupe de nouilles et raviolis aux crevettes",
+            "en": "Noodles and shrimps wantan soup",
+            "zh": "虾云吞汤面"
+          },
           "price": "13.50"
         }
       ]
