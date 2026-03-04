@@ -1,8 +1,7 @@
 ---
 ---
 <!doctype html>
-<html lang="fr">
-
+<html lang="{{ page.lang | default: 'fr' }}">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -15,17 +14,14 @@
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     {% include css.html %}
   </head>
-
 <body id="top">
   {% include header.html %}
   <main>
-
     <!-- ALBUM DESCRIPTION -->
     <div class="album-description container-fluid text-white">
-      <h1 id="title-1" class="special-title-1">ALBUM</h1>
-      <h2 id="title-2" class="special-title-2">Découvrez notre restaurant avec cet album photo</h2>
+      <h1 id="title-1" class="special-title-1">{{ site.data.translations[page.lang].gallery.title }}</h1>
+      <h2 id="title-2" class="special-title-2">{{ site.data.translations[page.lang].gallery.subtitle }}</h2>
     </div>
-
     <!-- ALBUM CONTENT -->
     <div class="album-content">
       <div class="container">
@@ -36,8 +32,8 @@
                 src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1608405084/Entrees/11_oc07di.png"
                 alt="Entree image">
               <div class="card-body">
-                <h5 class="card-title font-weight-bold">ENTREES et PLATS</h5>
-                <a href="gallery-food.html" class="btn btn-outline-dark" role="button">Voir</a>
+                <h5 class="card-title font-weight-bold">{{ site.data.translations[page.lang].gallery.food_title }}</h5>
+                <a href="gallery-food.html" class="btn btn-outline-dark" role="button">{{ site.data.translations[page.lang].gallery.see_button }}</a>
               </div>
             </div>
           </div>
@@ -47,8 +43,8 @@
                 src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1609619308/desserts/assortiment_maison_t7heqj.jpg"
                 alt="Food image">
               <div class="card-body">
-                <h5 class="card-title font-weight-bold">DESSERTS et BOISSONS</h5>
-                <a href="gallery-desserts.html" class="btn btn-outline-dark" role="button">Voir</a>
+                <h5 class="card-title font-weight-bold">{{ site.data.translations[page.lang].gallery.desserts_title }}</h5>
+                <a href="gallery-desserts.html" class="btn btn-outline-dark" role="button">{{ site.data.translations[page.lang].gallery.see_button }}</a>
               </div>
             </div>
           </div>
@@ -58,8 +54,8 @@
                 src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg"
                 alt="Dessert image">
               <div class="card-body">
-                <h5 class="card-title font-weight-bold">LIEU</h5>
-                <a href="gallery-location.html" class="btn btn-outline-dark" role="button">Voir</a>
+                <h5 class="card-title font-weight-bold">{{ site.data.translations[page.lang].gallery.location_title }}</h5>
+                <a href="gallery-location.html" class="btn btn-outline-dark" role="button">{{ site.data.translations[page.lang].gallery.see_button }}</a>
               </div>
             </div>
           </div>
@@ -67,8 +63,7 @@
       </div>
     </div>
   </main>
-
-{% include footer.html %}
+  {% include footer.html %}
   <a id="back-to-top" class="back-to-top smooth-scroll" href="#top">
     <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
   </a>
@@ -84,5 +79,4 @@
   <script src="js/site.js"></script>
   <script src="js/album-animations.js"></script>
 </body>
-
 </html>

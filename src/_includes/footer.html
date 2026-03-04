@@ -1,5 +1,5 @@
 <footer class="page-footer">
-  <script>console.log("Jekyll lang variable footer:", "{{ include.lang }}");</script>
+  <script>console.log("Jekyll lang variable footer:", "{{ page.lang }}");</script>
   <div id="googleMapContainer" class="homepage-google-map">
     <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=4%20rue%20Meslay+(Restaurant%20Le%20Jardin)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameborder="0">
     </iframe>
@@ -11,15 +11,15 @@
     </a>
     <div class="row">
       <div class="col-md-4">
-        <h5 class="page-footer-title">{{ site.data.translations[include.lang].footer.opening_hours_title }}</h5>
-        <p class="mb-0">{{ site.data.translations[include.lang].footer.opening_hours_desc }}</p>
-        <p class="mb-0">{{ site.data.translations[include.lang].footer.lunch }}</p>
-        <p>{{ site.data.translations[include.lang].footer.dinner }}</p>
+        <h5 class="page-footer-title">{{ site.data.translations[page.lang].footer.opening_hours_title }}</h5>
+        <p class="mb-0">{{ site.data.translations[page.lang].footer.opening_hours_desc }}</p>
+        <p class="mb-0">{{ site.data.translations[page.lang].footer.lunch }}</p>
+        <p>{{ site.data.translations[page.lang].footer.dinner }}</p>
       </div>
       <div class="col-md-4 h-100 border-left-custom">
-        <h5 class="page-footer-title mt-3 mt-md-0">{{ site.data.translations[include.lang].footer.location_title }}</h5>
+        <h5 class="page-footer-title mt-3 mt-md-0">{{ site.data.translations[page.lang].footer.location_title }}</h5>
         <address>
-          {{ site.data.translations[include.lang].footer.restaurant_name }}<br>
+          {{ site.data.translations[page.lang].footer.restaurant_name }}<br>
           4 rue Meslay<br>
           75003 Paris<br>
           <abbr title="Phone">T :</abbr> (+33) 01 48 87 89 71<br>
@@ -27,7 +27,7 @@
         </address>
       </div>
       <div class="col-md-4 h-100 border-left-custom">
-        <h5 class="page-footer-title mt-3 mt-md-0">{{ site.data.translations[include.lang].footer.follow_us }}</h5>
+        <h5 class="page-footer-title mt-3 mt-md-0">{{ site.data.translations[page.lang].footer.follow_us }}</h5>
         <div class="mb-3">
           <a class="footer-social" href="https://www.facebook.com/restaurantchinois.lejardin/" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a class="footer-social" href="https://www.tripadvisor.com/Restaurant_Review-g187147-d1957719-Reviews-Restaurant_chinois_Le_Jardin-Paris_Ile_de_France.html" aria-label="tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
@@ -44,6 +44,6 @@
     </div>
   </div>
   <div class="page-footer-copyright container-fluid text-center">
-    {{ site.data.translations[include.lang].footer.footer }}
+    {{ site.data.translations[page.lang].footer.footer }}
   </div>
 </footer>

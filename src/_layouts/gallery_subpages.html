@@ -1,6 +1,6 @@
 ---
----
-{% assign gallery = site.data.galleries[page.gallery_id] %}
+{% assign gallery_trans = site.data.translations[page.lang].galleries[page.gallery_id] %}
+{% assign gallery_pictures = site.data.galleries[page.gallery_id] %}
 <!doctype html>
 <html lang="{{ page.lang | default: site.default_lang | default: 'fr' }}">
   <head>
@@ -21,8 +21,8 @@
 
       <!-- GALLERY DESCRIPTION -->
       <div class="gallery-description container-fluid bg-dark text-white">
-        <h1 id="title-1" class="special-title-1">{{ gallery.title }}</h1>
-        <h2 id="title-2" class="special-title-2">{{ gallery.subtitle }}</h2>
+        <h1 id="title-1" class="special-title-1">{{ gallery_trans.title }}</h1>
+        <h2 id="title-2" class="special-title-2">{{ gallery_trans.subtitle }}</h2>
       </div>
 
       <!-- GALLERY LIGHTBOX -->
@@ -31,9 +31,9 @@
         <div class="lightbox-content">
           <div id="galleryCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" id="carousel-items">
-              {% for item in gallery.items %}
+              {% for item in gallery_pictures.items %}
                 <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                  <img class="d-block w-100" src="{{ item.src_lg }}" alt="Slide {{ forloop.index }}">
+                  <img class="d-block w-100" src="{% if item.src_lg %}{{ item.src_lg }}{% else %}{{ item.src }}{% endif %}" alt="Slide {{ forloop.index }}">
                 </div>
               {% endfor %}
             </div>
@@ -53,15 +53,19 @@
       <div id="gallery-thumbnails" class="gallery-thumbnails bg-light">
         <div class="container">
           <div class="row" id="gallery-items">
-            {% for item in gallery.items %}
+            {% for item in gallery_pictures.items %}
               <div class="gallery-item col-md-4">
                 <a href="#" data-slide-number="{{ forloop.index0 }}">
                   <img class="img-fluid rounded box-shadow border" 
                   src="{{ item.src }}" 
                   srcset="{{ item.srcset }}" 
-                  draggable="false" alt="{{ gallery.alt_type }}">
+                  draggable="false" alt="{{ gallery_trans.alt_type }}">
                 </a>
-                {% if item.title %}<div class="row-centered">{{ item.title }}</div>{% endif %}
+                {% if item.title %}
+                  <div class="row-centered">
+                    {% if item.title[page.lang] %}{{ item.title[page.lang] }}{% else %}{{ item.title }}{% endif %}
+                  </div>
+                {% endif %}
               </div>
             {% endfor %}
           </div>
@@ -94,9 +98,9 @@
       crossorigin="anonymous">
     </script>
     <!-- Lightbox and Gallery Initialization -->
-    <script src="js/gallery-lightbox.js"></script>
-    <script src="js/site.js"></script>
-    <script src="js/render-header-footer.js"></script>
-    <script src="js/gallery-animations.js"></script>
+    <script src="{{ site.baseurl }}/js/gallery-lightbox.js"></script>
+    <script src="{{ site.baseurl }}/js/site.js"></script>
+    <script src="{{ site.baseurl }}/js/render-header-footer.js"></script>
+    <script src="{{ site.baseurl }}/js/gallery-animations.js"></script>
   </body>
 </html>

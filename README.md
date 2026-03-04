@@ -166,3 +166,19 @@ https://stackoverflow.com/questions/13925916/what-is-causing-this-error-fatal-er
 - Multi-language website
 - Food data in an excel instead of json
 - jumbotron-section fused with each json
+
+# Multilingual Page Handling
+
+This site uses a hybrid approach for multilingual support:
+
+- **One page per language:** Each content page (e.g., about, gallery, menu) exists as a separate file for each language (e.g., `about.md` for French, `en/about.md` for English). This is required because Jekyll is a static site generator and cannot switch languages dynamically at runtime.
+- **Centralized translations:** All static labels, navigation, and repeated text are stored in `_data/translations.yml`. Templates and layouts use `{{ site.data.translations[page.lang].key }}` to insert the correct translation based on the page's `lang` front matter.
+
+**Why both?**
+- Jekyll builds each page statically, so every language needs its own file for unique content.
+- Using `translations.yml` avoids duplication of common UI text and makes it easy to update or add languages.
+
+**Summary:**
+- Use per-language markdown files for unique content.
+- Use `translations.yml` for all repeated/static text.
+- Set `lang` in the front matter of every page for correct language selection in templates and navigation.
