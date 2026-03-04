@@ -14,7 +14,11 @@
   </head>
   <body id="{{ page.body_id | default: 'menu' }}">
 
-    {% include header.html %}
+    {% assign lang_param = page.lang %}
+    {% if request.query.lang %}
+      {% assign lang_param = request.query.lang %}
+    {% endif %}
+    {% include header.html lang=lang_param %}
     <main>
       <div id="jumbotron-placeholder"></div>
       <div id="menu-icons-placeholder"></div>
@@ -65,7 +69,7 @@
       
     </main>
 
-    {% include footer.html %}
+    {% include footer.html lang=lang_param %}
 
     <a id="back-to-top" class="back-to-top smooth-scroll" href="#top">
       <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
