@@ -99,7 +99,10 @@
           },
           "price": "10.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/40_lkg6mn.jpg",
-          "description": "Filet de poulet"
+          "description": {
+            "fr": "Filet de poulet",
+            "en": "Chicken filet"
+          }
         },
         {
           "name": {
@@ -109,7 +112,10 @@
           },
           "price": "10.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/46_sxcqku.jpg",
-          "description": "Filet de poulet, sauce aigre-douce"
+          "description": {
+            "fr": "Filet de poulet, sauce aigre-douce",
+            "en": "Chicken filet with sweet and sour sauce"
+          }
         },
         {
           "name": {
@@ -127,7 +133,10 @@
           },
           "price": "11.50",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t10_ixwldi.jpg",
-          "description": "Filet de poulet"
+          "description": {
+            "fr": "Filet de poulet",
+            "en": "Chicken filet"
+          }
         },
         {
           "name": {
@@ -137,7 +146,10 @@
           },
           "price": "11.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t20_veniz0.jpg",
-          "description": "(au curry vert possible)"
+          "description": {
+            "fr": "(au curry vert possible)",
+            "en": "(green curry possible)"
+          }
         },
         {
           "showHr": true,
@@ -155,7 +167,10 @@
             "zh": "糖醋鸭"
           },
           "price": "13.90",
-          "description": "Sauce aigre-douce"
+          "description": {
+            "fr": "Sauce aigre-douce",
+            "en": "Sweet and sour sauce"
+          }
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/53_z0fstk.jpg",
@@ -191,7 +206,10 @@
             "zh": "拔丝叉烧肉"
           },
           "price": "11.80",
-          "description": "Porc laqué en tranche"
+          "description": {
+            "fr": "Porc laqué en tranche",
+            "en": "Sliced lacquered pork"
+          }
         },
         {
           "name": {
@@ -227,7 +245,10 @@
             "zh": "牛肉什碎"
           },
           "price": "11.80",
-          "description": "Mélange de légumes"
+          "description": {
+            "fr": "Mélange de légumes",
+            "en": "Mix of vegetables"
+          }
         },
         {
           "name": {
@@ -267,7 +288,10 @@
             "zh": "糖醋虾"
           },
           "price": "12.90",
-          "description": "Sauce aigre-douce"
+          "description": {
+            "fr": "Sauce aigre-douce",
+            "en": "Sweet and sour sauce"
+          }
         },
         {
           "name": {
@@ -293,7 +317,10 @@
             "zh": "泰式咖喱虾"
           },
           "price": "13.90",
-          "description": "(au curry vert possible)"
+          "description": {
+            "fr": "(au curry vert possible)",
+            "en": "(green curry possible)"
+          }
         },
         {
           "showHr": true,
@@ -336,7 +363,10 @@
             "zh": "香米白饭"
           },
           "price": "2.60",
-          "description": "Bol",
+          "description": {
+            "fr": "Bol",
+            "en": "Bowl"
+          },
           "veganType": "vege"
         },
         {
@@ -347,7 +377,10 @@
             "zh": "广东炒饭"
           },
           "price": "6.50",
-          "description": "Bol, dés de jambon de porc",
+          "description": {
+            "fr": "Bol, dés de jambon de porc",
+            "en": "Bowl, diced pork ham"
+          },
           "veganType": "vege_possible"
         },
         {
@@ -358,7 +391,10 @@
             "zh": "扬州炒饭"
           },
           "price": "11.90",
-          "description": "Viandes et crevettes"
+          "description": {
+            "fr": "Viandes et crevettes",
+            "en": "Meat and prawns"
+          }
         },
         {
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/v8_upzagu.jpg",
@@ -378,7 +414,10 @@
             "zh": "泰式炒饭"
           },
           "price": "8.50",
-          "description": "Bol, épicé",
+          "description": {
+            "fr": "Bol, épicé",
+            "en": "Bowl, spicy"
+          },
           "veganType": "vege_possible"
         },
         {
@@ -407,7 +446,10 @@
             "zh": "素炒什碎"
           },
           "price": "9.50",
-          "description": "Mélange de légumes",
+          "description": {
+            "fr": "Mélange de légumes",
+            "en": "Mix of vegetables"
+          },
           "veganType": "vege"
         },
         {
@@ -436,15 +478,26 @@
             "zh": "泰式咖喱菜"
           },
           "price": "11.80",
-          "description": "(au curry vert possible)",
+          "description": {
+            "fr": "(au curry vert possible)",
+            "en": "(green curry possible)"
+          },
           "veganType": "vege"
         },
         {
           "showHr": true,
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609617485/Food/88_pip3ac.jpg",
-          "name": "MAPO TOFU sauce piquante",
+          "name": {
+            "fr": "MAPO TOFU sauce piquante",
+            "en": "MAPO TOFU spicy sauce",
+            "zh": "麻婆豆腐"
+
+          },
           "price": "11.80",
-          "description": "Porc",
+          "description": {
+            "fr": "Porc",
+            "en": "Pork"
+          },
           "veganType": "vege_possible"
         },
         {
@@ -455,7 +508,10 @@
             "zh": "素粉丝"
           },
           "price": "12.80",
-          "description": "Vermicelles transparentes (de soja)",
+          "description": {
+            "fr": "Vermicelles transparentes (de soja)",
+            "en": "Transparent vermicelli (soy)"
+          },
           "veganType": "vege"
         },
         {
@@ -467,7 +523,10 @@
           },
           "price": "12.90",
           "showHr": true,
-          "description": "Viandes et crevette",
+          "description": {
+            "fr": "Viandes et crevette",
+            "en": "Meat and prawns"
+          },
           "veganType": "vege_possible"
         },
                 {
@@ -477,7 +536,10 @@
             "zh": "清炒面"
           },
           "price": "7.90",
-          "description": "Bol",
+          "description": {
+            "fr": "Bol",
+            "en": "Bowl"
+          },
           "veganType": "vege"
         },
         {
@@ -521,7 +583,10 @@
             "zh": ""
           },
           "price": "14.90",
-          "description": "Au bœuf sauté (possible au poulet ou végétarien)",
+          "description": {
+            "fr": "Au bœuf sauté (possible au poulet ou végétarien)",
+            "en": "With sautéed beef (possible with chicken or vegetarian)"
+          },
           "veganType": "vege_possible"
         }
       ]
@@ -529,7 +594,10 @@
     {
       "id": "noodles",
       "title": "SOUPES DE NOUILLES",
-      "description": "Grand Bol<br>Nouilles fines de blé <u>ou</u> vermicelles de riz<br><u>ou</u> pâtes de riz <b>(+1)</b>",
+      "description": {
+            "fr": "Grand Bol<br>Nouilles fines de blé <u>ou</u> vermicelles de riz<br><u>ou</u> pâtes de riz <b>(+1)</b>",
+            "en": "Large Bowl<br>Thin wheat noodles <u>or</u> rice vermicelli<br><u>or</u> rice noodles <b>(+1)</b>"
+          },
       "items": [
         {
           "name": {
@@ -539,7 +607,10 @@
           },
           "price": "12.90",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/c1_gxmpsb.jpg",
-          "description": "Porc laqué en tranche"
+          "description": {
+            "fr": "Porc laqué en tranche",
+            "en": "Sliced lacquered pork"
+          }
         },
         {
           "name": {

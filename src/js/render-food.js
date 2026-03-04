@@ -12,7 +12,7 @@ function detectLanguage() {
 // Helper function to get localized text
 function getLocalizedText(textObj, lang) {
   if (typeof textObj === 'string') return textObj; // Legacy support
-  return textObj[lang] || textObj['fr'] || textObj; // Fallback to French then original
+  return textObj[lang] || textObj['fr'] || ""; // Fallback to French then empty string
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -119,7 +119,12 @@ function processFoodContainer(foodContainer, currentLang) {
             if (jsonFilePath.includes("formules-data") && item["ou-highlight"]) {
               const ouTextDiv = document.createElement("div");
               ouTextDiv.classList.add("col-md-2", "menu-OU-text");
-              ouTextDiv.innerHTML = "<u>OU</u>";
+                const ouText = {
+                fr: "<u>OU</u>",
+                en: "<u>OR</u>",
+                zh: "<u>或</u>"
+                };
+                ouTextDiv.innerHTML = ouText[currentLang] || ouText['fr'];
               row.appendChild(ouTextDiv);
             } else if (!isDrinksPage) {
               // Add eventual food image for non-drinks pages

@@ -5,58 +5,122 @@
       "title": "DESSERTS",
       "items": [
         {
-          "name": "Beignets de pommes",
+          "name": {
+            "fr": "Beignets de pommes",
+            "en": "Apple fritters",
+            "zh": ""
+          },
           "price": "5.20",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg",
-          "description": "Supp. boule de glace vanille 2.50"
+          "description": {
+            "fr": "Supp. boule de glace vanille 2.50",
+            "en": "Additional vanilla ice cream scoop 2.50"
+          }
         },
         {
-          "name": "Beignets de pomme flambés",
+          "name": {
+            "fr": "Beignets de pomme flambés",
+            "en": "Flambéed apple fritters",
+            "zh": ""
+          },
           "price": "8.50",
           "image": "",
-          "description": "Avec alcool"
+          "description": {
+            "fr": "Avec alcool",
+            "en": "With alcohol"
+          }
         },
         {
-          "name": "Boules de coco farcies à la vapeur",
+          "name": {
+            "fr": "Boules de coco farcies à la vapeur",
+            "en": "Steamed coconut balls",
+
+            "zh": ""
+          },
           "price": "4.50",
           "image": "",
-          "description": "2 pièces. Contient de l'œuf"
+          "description": {
+            "fr": "2 pièces. Contient de l'œuf",
+            "en": "2 pieces. Contains egg"
+          }
         },
         {
-          "name": "Brioches farcies à la vapeur Baozi",
+          "name": {
+            "fr": "Brioches farcies à la vapeur Baozi",
+            "en": "Steamed stuffed Baozi buns",
+            "zh": ""
+          },
           "price": "5",
           "image": "",
-          "description": ""
+          "description": {
+            "fr": "",
+            "en": ""
+          }
         },
         {
-          "name": "Gingembre confit (ou kumkat)",
+          "name": {
+            "fr": "Gingembre confit (ou kumkat)",
+            "en": "Candied ginger (or kumquat)",
+            "zh": ""
+          },
           "price": "4.50",
           "image": "",
-          "description": ""
+          "description": {
+            "fr": "",
+            "en": ""
+          }
         },
         {
-          "name": "Assortiment maison",
+          "name": {
+            "fr": "Assortiment maison",
+            "en": "House assortment",
+            "zh": ""
+          },
           "price": "5.50",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619308/desserts/assortiment_maison_t7heqj.jpg",
-          "description": "Nougats, gingembre, perles coco"
+          "description": {
+            "fr": "Nougats, gingembre, perles coco",
+            "en": "Nougats, ginger, coconut pearls"
+          }
         },
         {
-          "name": "Litchis au sirop léger",
+          "name": {
+            "fr": "Litchis au sirop léger",
+            "en": "Lychees in light syrup²",
+            "zh": ""
+          },
           "price": "4.20",
           "image": "",
-          "description": ""
+          "description": {
+            "fr": "",
+            "en": ""
+          } 
         },
         {
-          "name": "Fondant moelleux au chocolat et sa glace vanille",
+          "name": {
+            "fr": "Fondant moelleux au chocolat et sa glace vanille",
+            "en": "Chocolate fondant with vanilla ice cream",
+            "zh": ""
+          },
           "price": "7.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619308/desserts/raviolis_frits_bxb3hh.jpg",
-          "description": ""
+          "description": {
+            "fr": "",
+            "en": ""
+          }
         },
         {
-          "name": "Profiteroles classiques ou originales",
+          "name": {
+            "fr": "Profiteroles classiques ou originales",
+            "en": "Classic or original profiteroles",
+            "zh": ""
+          },
           "price": "8.80",
           "image": "",
-          "description": "Classiques avec glace vanille et sauce chocolat"
+          "description": {
+            "fr": "Classiques avec glace vanille et sauce chocolat",
+            "en": "Classic with vanilla ice cream and chocolate sauce"
+          }
         }
       ]
     },
@@ -65,52 +129,108 @@
       "title": "GLACES",
       "items": [
         {
-          "name": "Chocolat Liégeois",
+          "name": {
+            "fr": "Chocolat Liégeois",
+            "en": "Chocolate Liégeois",
+            "zh": ""
+          },
           "price": "7.50",
           "image": "",
-          "description": "Glace chocolat, glace vanille, sauce chocolat"
+          "description": {
+            "fr": "Glace chocolat, glace vanille, sauce chocolat",
+            "en": "Chocolate ice cream, vanilla ice cream, chocolate sauce"
+          }
         },
         {
-          "name": "Café Liégeois",
+          "name": {
+            "fr": "Café Liégeois",
+            "en": "Coffee Liégeois",
+            "zh": ""
+          },
           "price": "7.50",
           "image": "",
-          "description": "Glace café, glace vanille, sauce café"
+          "description": {
+            "fr": "Glace café, glace vanille, sauce café",
+            "en": "Coffee ice cream, vanilla ice cream, coffee sauce"
+          }
         },
         {
-          "name": "Délice Menthe",
+          "name": {
+            "fr": "Délice Menthe",
+            "en": "Mint Delight",
+            "zh": ""
+          },
           "price": "7.50",
           "image": "",
-          "description": "Glace menthe chocolat, glace chocolat, sirop de menthe"
+          "description": {
+            "fr": "Glace menthe chocolat, glace chocolat, sirop de menthe",
+            "en": "Chocolate mint ice cream, chocolate ice cream, mint syrup"
+          }
         },
         {
-          "name": "Coupe Dame Blanche",
+          "name": {
+            "fr": "Coupe Dame Blanche",
+            "en": "Dame Blanche Sundae",
+            "zh": ""
+          },
           "price": "7.50",
           "image": "",
-          "description": "Glace vanille, sauche chocolat"
+          "description": {
+            "fr": "Glace vanille, sauce chocolat",
+            "en": "Vanilla ice cream, chocolate sauce"
+          }
         },
         {
-          "name": "Coupe Bourguignonne",
+          "name": {
+            "fr": "Coupe Bourguignonne",
+            "en": "Burgundy Sundae",
+            "zh": ""
+          },
           "price": "8.50",
           "image": "",
-          "description": "Sorbet cassis, glace vanille, crème de cassis"
+          "description": {
+            "fr": "Sorbet cassis, glace vanille, crème de cassis",
+            "en": "Blackcurrant sorbet, vanilla ice cream, blackcurrant cream"
+          }
         },
         {
-          "name": "Coupe Shanghai",
+          "name": {
+            "fr": "Coupe Shanghai",
+            "en": "Shanghai Sundae",
+            "zh": ""
+          },
           "price": "8.50",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1613499933/desserts/coupe_Shanghai_iz7zv9_cmxb0d.jpg",
-          "description": "Glace vanille et fraise, litchis, sauce fraise et crème fouettée"
+          "description": {
+            "fr": "Glace vanille et fraise, litchis, sauce fraise et crème fouettée",
+            "en": "Vanilla and strawberry ice cream, lychees, strawberry sauce and whipped cream"
+          }
         },
         {
-          "name": "Boules de glace - 3 boules / 2 boules",
+          "name": {
+            "fr": "Boules de glace - 3 boules / 2 boules",
+            "en": "Ice cream scoops - 3 scoops / 2 scoops",
+            "zh": ""
+          },
           "price": "6.50€ / 5.50",
           "image": "",
-          "description": "Au choix parmi: vanille, fraise, chocolat, thé vert, noix de coco, café, citron blanc, mangue, cassis,<br>menthe chocolat, litchis<br>Supplément Crème fouettée 1.80€<br>Supplément Sauce 1€ "
+          "description": {
+            "fr": "Au choix parmi: vanille, fraise, chocolat, thé vert, noix de coco, café, citron blanc, mangue, cassis,<br>menthe chocolat, litchis<br>Supplément Crème fouettée 1.80€<br>Supplément Sauce 1€ ",
+            "en": "Choice of: vanilla, strawberry, chocolate, green tea, coconut, coffee, white lemon, mango, blackcurrant,<br>chocolate mint, lychees<br>Extra Whipped Cream 1.80€<br>Extra Sauce 1€ "
+          }
         },
         {
-          "name": "Extrême MYSTERE® Vanille",
+          "name": {
+            "fr": "Extrême MYSTERE® Vanille",
+            "en": "Extreme MYSTERE® Vanilla",
+            "zh": ""
+          },
           "price": "5.50",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609619956/desserts/mystere_xllffp.jpg",
-          "description": "Glave vanille enrobée de praliné et son coeur de meringue"
+          "description": {
+            "fr": "Glace vanille enrobée de praliné et son coeur de meringue",
+            "en": "Vanilla ice cream coated with praline and its meringue center"
+          }
         }
       ]
     }
