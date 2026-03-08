@@ -12,7 +12,7 @@ function detectLanguage() {
 // Helper function to get localized text
 function getLocalizedText(textObj, lang) {
   if (typeof textObj === 'string') return textObj; // Legacy support
-  return textObj[lang] || textObj['fr'] || ""; // Fallback to French then empty string
+  return textObj[lang] ||  ""; // Fallback to empty string
 }
 
 document.addEventListener("DOMContentLoaded", () => {

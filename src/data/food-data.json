@@ -68,7 +68,7 @@
         {
           "name": {
             "fr": "Poulet KUNG PAO pimenté aux cacahuètes",
-            "en": "Hot sauce chicken & peanuts",
+            "en": "Hot sauce chicken & peanuts KUNG PAO",
             "zh": "宫保鸡"
           },
           "price": "12.50"
@@ -107,14 +107,14 @@
         {
           "name": {
             "fr": "Poulet à l'ananas",
-            "en": "Chicken sweet & sour sauce",
+            "en": "Chicken filet with sweet and sour sauce",
             "zh": "糖醋鸡"
           },
           "price": "10.80",
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/46_sxcqku.jpg",
           "description": {
             "fr": "Filet de poulet, sauce aigre-douce",
-            "en": "Chicken filet with sweet and sour sauce"
+            "en": "With pineapple"
           }
         },
         {
@@ -169,7 +169,7 @@
           "price": "13.90",
           "description": {
             "fr": "Sauce aigre-douce",
-            "en": "Sweet and sour sauce"
+            "en": "With pineapple"
           }
         },
         {
@@ -290,13 +290,13 @@
           "price": "12.90",
           "description": {
             "fr": "Sauce aigre-douce",
-            "en": "Sweet and sour sauce"
+            "en": "With pineapple"
           }
         },
         {
           "name": {
             "fr": "Crevettes sautées “sel et poivre”",
-            "en": "Prawns fritter",
+            "en": "Prawns salt & pepper",
             "zh": "炸虾"
           },
           "price": "14.90",
@@ -335,8 +335,8 @@
         },
         {
           "name": {
-            "fr": "Poisson à la sauce piquante sur plat en fonte  ",
-            "en": "Sizzling fish with hot sauce",
+            "fr": "Poisson à la sauce piquante sur plat en fonte",
+            "en": "Fish with hot sauce on sizzling plate",
             "zh": "铁板辣汁鱼"
           },
           "price": "15.90"
@@ -344,7 +344,7 @@
         {
           "name": {
             "fr": "Poisson au gingembre sur plat en fonte",
-            "en": "Ginger fish on sizzling plate",
+            "en": "Fish with ginger sauce on sizzling plate",
             "zh": ""
           },
           "price": "15.90"
@@ -365,7 +365,7 @@
           "price": "2.60",
           "description": {
             "fr": "Bol",
-            "en": "Bowl"
+            "en": ""
           },
           "veganType": "vege"
         },
@@ -373,13 +373,13 @@
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618975/Food/81_wp42ih.jpg",
           "name": {
             "fr": "Riz sauté cantonais (porc)",
-            "en": "Bowl of cantonaise fried rice (pork)",
+            "en": "Bowl of cantonese fried rice (pork)",
             "zh": "广东炒饭"
           },
           "price": "6.50",
           "description": {
             "fr": "Bol, dés de jambon de porc",
-            "en": "Bowl, diced pork ham"
+            "en": "Diced pork ham"
           },
           "veganType": "vege_possible"
         },
@@ -387,7 +387,7 @@
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618975/Food/81a_xlkhlo.jpg",
           "name": {
             "fr": "Riz sauté du YangZhou",
-            "en": "Special fried rice (meat and prawns)",
+            "en": "Special fried rice of YangZhou",
             "zh": "扬州炒饭"
           },
           "price": "11.90",
@@ -404,6 +404,10 @@
             "zh": "荷叶糯米饭"
           },
           "price": "4.50",
+          "description": {
+            "fr": "",
+            "en": "In lotus leaf"
+          },
           "veganType": "vege"
         },
         {
@@ -433,8 +437,8 @@
         {
           "name": {
             "fr": "Choux chinois sautés",
-            "en": "",
-            "zh": ""
+            "en": "Chinese cabbage stir fried",
+            "zh": "炒小白菜"
           },
           "price": "8.80",
           "veganType": "vege"
@@ -510,7 +514,7 @@
           "price": "12.80",
           "description": {
             "fr": "Vermicelles transparentes (de soja)",
-            "en": "Transparent vermicelli (soy)"
+            "en": "Glass noodles (soy)"
           },
           "veganType": "vege"
         },
@@ -538,7 +542,7 @@
           "price": "7.90",
           "description": {
             "fr": "Bol",
-            "en": "Bowl"
+            "en": ""
           },
           "veganType": "vege"
         },
@@ -579,7 +583,7 @@
           "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609323150/Food/t17_rtb7fg.jpg",
           "name": {
             "fr": "BO BÙN CHÀ GIO (avec nems)",
-            "en": "BO BÙN CHÀ GIO (with spring rolls)",
+            "en": "BO BÙN CHÀ GIO (with Vietnamese spring rolls)",
             "zh": ""
           },
           "price": "14.90",
@@ -602,7 +606,7 @@
         {
           "name": {
             "fr": "Soupe de nouilles et porc grillé CHAR SIU",
-            "en": "Roast pork CHA SIU noodles soup",
+            "en": "Roast pork CHA SIU noodle soup",
             "zh": "叉烧肉汤面"
           },
           "price": "12.90",
@@ -615,7 +619,7 @@
         {
           "name": {
             "fr": "Soupe DAN DAN au hachis de porc piment",
-            "en": "Pork meat noodles soup DAN DAN",
+            "en": "Pork meat DAN DAN noodle soup",
             "zh": "担担面"
           },
           "price": "12.50",
@@ -624,7 +628,7 @@
         {
           "name": {
             "fr": "Soupe de nouilles et légumes",
-            "en": "Mixed vegetables and noodles soup",
+            "en": "Mixed vegetable noodle soup",
             "zh": "素菜汤面"
           },
           "price": "12.50",
@@ -634,7 +638,7 @@
         {
           "name": {
             "fr": "Soupe de nouilles et crevettes",
-            "en": "Prawns noodles and soup",
+            "en": "Prawn noodle soup",
             "zh": "虾汤面"
           },
           "price": "13.50"
@@ -642,16 +646,20 @@
         {
           "name": {
             "fr": "Soupe de nouilles au poulet, coriandre et curry",
-            "en": "Noodles and curry chicken soup",
+            "en": "Noodle and chicken curry soup",
             "zh": "鸡丝咖喱汤面"
           },
           "price": "12.90",
-          "veganType": "vege_possible"
+          "veganType": "vege_possible",
+          "description": {
+            "fr": "",
+            "en": "With coriander"
+          }
         },
         {
           "name": {
             "fr": "Soupe de nouilles, légumes et poulet",
-            "en": "Noodles chicken & vegetables soup",
+            "en": "Chicken & vegetable noodle soup",
             "zh": "素菜鸡丝汤面"
           },
           "price": "13.90"
@@ -659,7 +667,7 @@
         {
           "name": {
             "fr": "Soupe de nouilles et raviolis aux crevettes",
-            "en": "Noodles and shrimps wantan soup",
+            "en": "Noodle and shrimp WANTAN soup",
             "zh": "虾云吞汤面"
           },
           "price": "13.50"

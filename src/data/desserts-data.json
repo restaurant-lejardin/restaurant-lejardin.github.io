@@ -46,15 +46,15 @@
         },
         {
           "name": {
-            "fr": "Brioches farcies à la vapeur Baozi",
-            "en": "Steamed stuffed Baozi buns",
+            "fr": "Brioches farcies BAOZI, cuites à la vapeur",
+            "en": "Sweet stuffed BAOZI buns",
             "zh": ""
           },
           "price": "5",
           "image": "",
           "description": {
             "fr": "",
-            "en": ""
+            "en": "Steamed"
           }
         },
         {
@@ -86,7 +86,7 @@
         {
           "name": {
             "fr": "Litchis au sirop léger",
-            "en": "Lychees in light syrup²",
+            "en": "Lychees in light syrup",
             "zh": ""
           },
           "price": "4.20",
