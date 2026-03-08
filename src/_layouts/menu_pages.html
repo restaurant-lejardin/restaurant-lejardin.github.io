@@ -48,13 +48,13 @@
           {% for menu_item in menu_pages %}
             {% unless menu_item.page == page.body_id %}
               {% if page.lang == 'en' %}
-                {% assign item_url = 'en/' | append: menu_item.page | append: '.html' %}
+                {% assign item_url = site.baseurl | append: '/en/' | append: menu_item.page | append: '.html' %}
                 {% assign item_title = menu_item.title.en %}
               {% else %}
-                {% assign item_url = menu_item.page | append: '.html' %}
+                {% assign item_url = site.baseurl | append: '/' | append: menu_item.page | append: '.html' %}
                 {% assign item_title = menu_item.title.fr %}
               {% endif %}
-              <a class="btn btn-outline-dark" href="{{ site.baseurl }}/{{ item_url }}" role="button">{{ item_title }}</a>
+              <a class="btn btn-outline-dark" href="{{ item_url | replace: '//', '/' }}" role="button">{{ item_title }}</a>
             {% endunless %}
           {% endfor %}
           <br>

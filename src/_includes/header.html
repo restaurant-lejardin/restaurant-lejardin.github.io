@@ -53,22 +53,20 @@
         <div class="page.language-switcher d-flex mr-3">
           {% assign current_page = page.url | remove: '/index.html' | remove: '.html' %}
           {% if page.lang == 'en' %}
-            {%- assign fr_page = current_page | remove: '/en' -%}
-            {%- if fr_page == '' or fr_page == '/' -%}
-              {% assign fr_url = site.baseurl | append: '/index.html' %}
-            {%- else -%}
-              {% assign fr_url = site.baseurl | append: fr_page | append: '.html' %}
-            {%- endif -%}
-            <a href="{{ fr_url }}" class="nav-link px-2">🇫🇷 FR</a>
+            {% assign fr_page = current_page | replace: '/en/', '/' %}
+            {% if fr_page == '' or fr_page == '/' %}
+              <a href="{{ site.baseurl }}/index.html" class="nav-link px-2">🇫🇷 FR</a>
+            {% else %}
+              <a href="{{ site.baseurl }}{{ fr_page }}.html" class="nav-link px-2">🇫🇷 FR</a>
+            {% endif %}
             <span class="nav-link px-2 active">🇬🇧 EN</span>
           {% else %}
             <span class="nav-link px-2 active">🇫🇷 FR</span>
-            {%- if current_page == '' or current_page == '/' -%}
-              {% assign en_url = site.baseurl | append: '/en/index.html' %}
-            {%- else -%}
-              {% assign en_url = site.baseurl | append: '/en' | append: current_page | append: '.html' %}
-            {%- endif -%}
-            <a href="{{ en_url }}" class="nav-link px-2">🇬🇧 EN</a>
+            {% if current_page == '' or current_page == '/' %}
+              <a href="{{ site.baseurl }}/en/index.html" class="nav-link px-2">🇬🇧 EN</a>
+            {% else %}
+              <a href="{{ site.baseurl }}/en{{ current_page }}.html" class="nav-link px-2">🇬🇧 EN</a>
+            {% endif %}
           {% endif %}
         </div>
         

@@ -1,0 +1,15 @@
+<div class="col-md-4">
+  <div class="card box-shadow homepage-animate">
+    {% if card.html %}
+      {{ card.html | raw }}
+    {% elsif card.image %}
+      <img sizes="(max-width: 1016px) 100vw, 1016px"
+        data-src="{{ card.image }}"
+        alt="Special offer" class="card-img-top border-bottom border-dark lazyload">
+    {% endif %}
+    <div class="card-body">
+      <h5 class="card-title font-weight-bold">{{ card.title }}</h5>
+      <p class="card-text">{{ card.text }}</p>
+    </div>
+  </div>
+</div>
