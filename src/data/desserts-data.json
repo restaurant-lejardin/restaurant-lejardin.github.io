@@ -1,4 +1,7 @@
 {
+  "jumbotron": {
+    "title": "Desserts"
+  },
   "categories": [
     {
       "id": "desserts",

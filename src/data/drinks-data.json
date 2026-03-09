@@ -1,4 +1,7 @@
 {
+  "jumbotron": {
+    "title": "Boissons"
+  },
   "categories": [
     {
       "id": "aperitifs",

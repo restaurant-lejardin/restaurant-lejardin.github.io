@@ -1,4 +1,7 @@
 {
+  "jumbotron": {
+    "title": "Plats"
+  },
   "categories": [
     {
       "specialTitle": {
