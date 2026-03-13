@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang | default: site.default_lang | default: 'fr' }}">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Restaurant Chinois Le Jardin</title>
     <!-- Web app manifest -->
-    <link rel='manifest' href='manifest.json'>
+    <link rel='manifest' href='{{ site.baseurl }}/manifest.json'>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
@@ -27,27 +27,33 @@
 
         {% if page.show_legend %}
         <div class="logo-index">
-          <h3 class="special-title-1">Légende</h3>
+          <h3 class="special-title-1">{{ site.data.translations[page.lang].menuLegend.title }}</h3>
           <ul>
             <li>
-              <img src="media/vg.png" alt="Vegan" class="vegan-logo" title="This dish is completely vegan.">
-              Plat végétarien
+              <img src="{{ site.baseurl }}/media/vg.png" alt="Vegan" class="vegan-logo" title="This dish is completely vegan.">
+              {{ site.data.translations[page.lang].menuLegend.vegan }}
             </li>
             <li>
-              <img src="media/vg_pos.png" alt="Vegan Possible" class="vegan-logo" title="This dish can be made vegan upon request.">
-              Ce plat peut être adapté en version végétarienne sur demande
+              <img src="{{ site.baseurl }}/media/vg_pos.png" alt="Vegan Possible" class="vegan-logo" title="This dish can be made vegan upon request.">
+              {{ site.data.translations[page.lang].menuLegend.vegan_possible }}
             </li>
           </ul>
         </div>
         {% endif %}
 
-        <h3 class="special-title-1">Tarifs à titre indicatif</h3>
+        <h3 class="special-title-1">{{ site.data.translations[page.lang].menuLegend.priceNote }}</h3>
 
         <div class="row-centered end-menu">
-          {% assign menu_pages = site.data.menu_navigation | sort: 'order' %}
+          {% assign menu_pages = site.data.menu_navigation | where: 'group', 'Menu' | sort: 'order' %}
           {% for menu_item in menu_pages %}
             {% unless menu_item.page == page.body_id %}
-              <a class="btn btn-outline-dark" href="{{ menu_item.url }}" role="button">{{ menu_item.title }}</a>
+              {% assign lang_prefix = '' %}
+              {% if page.lang and page.lang != 'fr' %}
+                {% assign lang_prefix = '/' | append: page.lang %}
+              {% endif %}
+              {% assign item_url = site.baseurl | append: lang_prefix | append: menu_item.page | append: '.html' %}
+              {% assign item_title = menu_item.title[page.lang] %}
+              <a class="btn btn-outline-dark" href="{{ item_url | replace: '//', '/' }}" role="button">{{ item_title }}</a>
             {% endunless %}
           {% endfor %}
           <br>
@@ -58,16 +64,19 @@
       
     </main>
 
-    {% include footer.html %}
+    {% include footer.html%}
 
     <a id="back-to-top" class="back-to-top smooth-scroll" href="#top">
       <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
     </a>
     <!-- lazySizes -->
-    <script src="js/lazysizes.min.js" async=""></script>
-    <script src="js/render-food.js"></script>
-    <script src="js/render-jumbotron.js"></script>
-    <script src="js/render-header-footer.js"></script>
+    <script src="{{ site.baseurl }}/js/lazysizes.min.js" async=""></script>
+    <script>
+      window.menuNavigationData = {{ site.data.menu_navigation | jsonify }};
+    </script>
+    <script src="{{ site.baseurl }}/js/render-food.js"></script>
+    <script src="{{ site.baseurl }}/js/render-jumbotron.js"></script>
+    <script src="{{ site.baseurl }}/js/render-header-footer.js"></script>
     <!-- jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -79,7 +88,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
       crossorigin="anonymous">
     </script>
-    <script src="js/site.js"></script>
-    <script src="js/menu-animations.js"></script>
+    <script src="{{ site.baseurl }}/js/site.js"></script>
+    <script src="{{ site.baseurl }}/js/menu-animations.js"></script>
   </body>
 </html>

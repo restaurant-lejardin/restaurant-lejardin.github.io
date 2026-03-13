@@ -1,149 +1,283 @@
 {
+  "id": "entrees",
+  "title": {
+    "fr": "Entrées",
+    "en": "Starters"
+  },
   "categories": [
     {
-      "id": "soup",
-      "title": "POTAGES ET SOUPES",
-      "items": [
+      "subTitle": {
+        "fr": "",
+        "en": ""
+      },
+      "subcategories": [
         {
-          "name": "Soupe aux vermicelles et poulet (ou légumes)",
-          "price": "6.80",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404955/Entrees/6_myf21o.png",
-          "veganType": "vege_possible"
+          "id": "soup",
+          "icon": "media/menu/entrees/icons/soup.svg",
+          "title": {
+            "fr":"POTAGES ET SOUPES",
+            "en":"SOUPS AND BROTHS"
+          },
+          "items": [
+            {
+              "name": {
+                "fr": "Soupe aux vermicelles et poulet (ou légumes)",
+                "en": "Glass noodles and chicken soup",
+                "zh": "鸡丝粉丝汤"
+              },
+              "price": "6.80",
+              "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404955/Entrees/6_myf21o.png",
+              "veganType": "vege_possible"
+            },
+            {
+              "name": {
+                "fr": "Potage au maïs et poulet",
+                "en": "Corn and chicken soup",
+                "zh": "玉米鸡汤"
+              },
+              "price": "6.80",
+              "image": "",
+              "veganType": "vege_possible"
+            },
+            {
+              "name": {
+                "fr": "Potage pékinois piquant",
+                "en": "Hot and sour soup",
+                "zh": "酸辣汤"
+              },
+              "price": "6.80",
+              "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/10_klhddm.jpg",
+              "veganType": "vege_possible"
+            },
+            {
+              "name": {
+                "fr": "Soupe Thaï de poulet au lait de coco épicée TOM KHA KAI",
+                "en": "Hot Thai coconut chicken soup",
+                "zh": "泰式鸡汤"
+              },
+              "price": "9.50",
+              "image": "",
+              "veganType": "vege_possible"
+            },
+            {
+              "name": {
+                "fr": "Soupe Thaï de crevettes à la citronnelle aigre TOM YUM",
+                "en": "Hot and sour Thai prawns soup",
+                "zh": "酸虾汤"
+              },
+              "price": "9.80",
+              "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/t1_yntkqo.jpg"
+            },
+            {
+              "name": {
+                "fr": "Soupe de raviolis aux crevettes",
+                "en": "Prawns WAN TAN soup",
+                "zh": "虾云吞汤"
+              },
+              "price": "9.50",
+              "image": ""
+            }
+          ]
         },
         {
-          "name": "Potage au maïs et poulet",
-          "price": "6.80",
-          "image": "",
-          "veganType": "vege_possible"
+          "id": "hors-doeuvres",
+          "icon": "media/menu/entrees/icons/salad.svg",
+          "title": {
+            "fr": "HORS D'OEUVRES",
+            "en": "APPETIZERS"
+          },
+          "items": [
+            {
+              "name": {
+                "fr": "Nems vietnamiens au poulet",
+                "en": "Vietnamese little spring rolls",
+                "zh": "越南小春卷"
+              },
+              "price": "7.20",
+              "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/11_oc07di.png",
+              "description":{
+                "fr":"4 pièces",
+                "en":"4 pieces"
+              }
+            },
+            {
+              "name": {
+                "fr": "Nems vietnamiens aux crevettes",
+                "en": "Prawns little spring rolls",
+                "zh": "虾小春卷"
+              },
+              "price": "8.20",
+              "image": "",
+              "description": {
+                "fr":"4 pièces",
+                "en":"4 pieces"
+              }
+            },
+            {
+              "name": {
+                "fr": "Nems végétarien",
+                "en": "Vegetarian little spring rolls",
+                "zh": "素小春卷"
+              },
+              "price": "7.20",
+              "image": "",
+              "description": {
+                "fr":"4 pièces",
+                "en":"4 pieces"
+              },
+              "veganType": "vege"
+            },
+            {
+              "name": {
+                "fr": "Pâtés Impériaux chinois",
+                "en": "Chinese spring rolls",
+                "zh": "中国春卷"
+              },
+              "price": "6.80",
+              "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/12_hhvrv1.jpg",
+              "description": {
+                "fr":"poulet, 2 pièces",
+                "en":"chicken, 2 pieces"
+              }
+            },
+            {
+              "name": {
+                "fr": "Beignets de crevettes",
+                "en": "Prawn fritter",
+                "zh": "炸虾"
+              },
+              "price": "7.80",
+              "image": ""
+            },
+            {
+              "showHr": true,
+              "name": {
+                "fr": "Rouleau de printemps froid",
+                "en": "Vietnamese cold spring roll",
+                "zh": "越南冷春卷"
+              },
+              "price": "6.80",
+              "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/12a_sg9vdr.jpg",
+              "description": {
+                "fr":"crevettes ou poulet",
+                "en":"prawns or chicken"
+              },
+              "veganType": "vege_possible"
+            },
+            {
+              "name": {
+                "fr": "Salade chinoise aux crevettes",
+                "en": "Chinese salad with prawns",
+                "zh": "虾沙拉"
+              },
+              "price": "6.80",
+              "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/13_wdqelz.jpg",
+              "description": {
+                "fr":"petite",
+                "en":"small"
+              }
+            },
+            {
+              "name": {
+                "fr": "Salade chinoise au poulet ou nature",
+                "en": "Chinese salad with chicken",
+                "zh": "鸡丝沙拉"
+              },
+              "price": "6.80",
+              "image": "",
+              "veganType": "vege_possible"
+            },
+            {
+              "name": {
+                "fr": "Salade Thaï de crevettes à la citronnelle YAM KUNG",
+                "en": "Thai lemongrass prawns salad",
+                "zh": "泰式虾沙拉"
+              },
+              "price": "11.90",
+              "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/t3_cydjya.jpg"
+            },
+            {
+              "name": {
+                "fr": "Salade Thaï de bœuf à la citronnelle YAM NEUA",
+                "en": "Thai lemongrass beef salad",
+                "zh": "泰式牛肉沙拉"
+              },
+              "price": "9.80",
+              "image": "",
+              "veganType": "vege_possible"
+            }
+          ]
         },
         {
-          "name": "Potage pékinois piquant",
-          "price": "6.80",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/10_klhddm.jpg",
-          "veganType": "vege_possible"
-        },
-        {
-          "name": "Soupe Thaï de poulet au lait de coco épicée TOM KHA KAI",
-          "price": "9.50",
-          "image": "",
-          "veganType": "vege_possible"
-        },
-        {
-          "name": "Soupe Thaï de crevettes à la citronnelle aigre TOM YUM",
-          "price": "9.80",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/t1_yntkqo.jpg"
-        },
-        {
-          "name": "Soupe de raviolis aux crevettes",
-          "price": "9.50",
-          "image": ""
-        }
-      ]
-    },
-    {
-      "id": "hors-doeuvres",
-      "title": "HORS D'OEUVRES",
-      "items": [
-        {
-          "name": "Nems vietnamiens au poulet",
-          "price": "7.20",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/11_oc07di.png",
-          "description": "4 pièces"
-        },
-        {
-          "name": "Nems vietnamiens aux crevettes",
-          "price": "8.20",
-          "image": "",
-          "description": "4 pièces"
-        },
-        {
-          "name": "Nems végétarien",
-          "price": "7.20",
-          "image": "",
-          "description": "4 pièces",
-          "veganType": "vege"
-        },
-        {
-          "name": "Pâtés Impériaux chinois",
-          "price": "6.80",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/12_hhvrv1.jpg",
-          "description": "poulet, 2 pièces"
-        },
-        {
-          "name": "Beignets de crevettes",
-          "price": "7.80",
-          "image": ""
-        },
-        {
-          "showHr": true,
-          "name": "Rouleau de printemps froid",
-          "price": "6.80",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/12a_sg9vdr.jpg",
-          "description": "crevettes ou poulet",
-          "veganType": "vege_possible"
-        },
-        {
-          "name": "Salade chinoise aux crevettes",
-          "price": "6.80",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/13_wdqelz.jpg",
-          "description": "petite"
-        },
-        {
-          "name": "Salade chinoise au poulet ou nature",
-          "price": "6.80",
-          "image": "",
-          "veganType": "vege_possible"
-        },
-        {
-          "name": "Salade Thaï de crevettes à la citronnelle YAM KUNG",
-          "price": "11.90",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608405084/Entrees/t3_cydjya.jpg"
-        },
-        {
-          "name": "Salade Thaï de bœuf à la citronnelle YAM NEUA",
-          "price": "9.80",
-          "image": "",
-          "veganType": "vege_possible"
-        }
-      ]
-    },
-    {
-      "id": "raviolis",
-      "title": "RAVIOLIS",
-      "items": [
-        {
-          "specialTitle": "4 pièces, sauf indication contraire",
-          "name": "Raviolis Pékinois grillés GYOZA au porc",
-          "price": "7.80",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r2_xleer1.jpg"
-        },
-        {
-          "showHr": true,
-          "name": "Assortiment de raviolis cuit à la vapeur",
-          "price": "8.80",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/v0_jxwp8y.jpg",
-          "description": "6 pièces"
-        },
-        {
-          "name": "Raviolis HA CAO aux crevettes",
-          "price": "7.50",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/v1_edqlbj.jpg"
-        },
-        {
-          "name": "Raviolis XAO MAI bouchées au porc",
-          "price": "6.80",
-          "image": ""
-        },
-        {
-          "name": "Raviolis JI GUAN JIAO au poulet",
-          "price": "6.80",
-          "image": ""
-        },
-        {
-          "name": "Raviolis SOU JIAO aux légumes",
-          "price": "6.80",
-          "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/v7_lxrtwx.jpg",
-          "veganType": "vege"
+          "id": "raviolis",
+          "icon": "media/menu/entrees/icons/dim-sum.svg",
+          "title": {
+            "fr": "RAVIOLIS",
+            "en": "DUMPLINGS"
+          },
+          "items": [
+            {
+              "specialTitle": "4 pièces, sauf indication contraire",
+              "name": {
+                "fr": "Raviolis Pékinois grillés GYOZA au porc",
+                "en": "Pork grilled dumplings GYOZA",
+                "zh": "锅贴"
+              },
+              "price": "7.80",
+              "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/r2_xleer1.jpg"
+            },
+            {
+              "showHr": true,
+              "name": {
+                "fr": "Assortiment de raviolis cuit à la vapeur",
+                "en": "Combi. 6 steamed dumplings",
+                "zh": "什锦蒸饺"
+              },
+              "price": "8.80",
+              "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1608404079/Entrees/v0_jxwp8y.jpg",
+              "description":{
+                "fr":"6 pièces",
+                "en":"6 pieces"
+              }
+            },
+            {
+              "name": {
+                "fr": "Raviolis HA CAO aux crevettes",
+                "en": "Prawns dumplings HA CAO",
+                "zh": "虾饺"
+              },
+              "price": "7.50",
+              "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618678/Entrees/v1_edqlbj.jpg"
+            },
+            {
+              "name": {
+                "fr": "Raviolis XAO MAI bouchées au porc",
+                "en": "Pork dumplings XAO MAI (4)",
+                "zh": "烧麦"
+              },
+              "price": "6.80",
+              "image": ""
+            },
+            {
+              "name": {
+                "fr": "Raviolis JI GUAN JIAO au poulet",
+                "en": "Chicken dumplings JI GUAN JIAO",
+                "zh": "鸡冠脚"
+              },
+              "price": "6.80",
+              "image": ""
+            },
+            {
+              "name": {
+                "fr": "Raviolis SOU JIAO aux légumes",
+                "en": "Veggie dumplings SOU JIAO",
+                "zh": "素冠脚"
+              },
+              "price": "6.80",
+              "image": "https://res.cloudinary.com/lejardin/image/upload/c_lfill,f_auto,h_150,q_auto,w_150/v1609618679/Entrees/v7_lxrtwx.jpg",
+              "veganType": "vege"
+            }
+          ]
         }
       ]
     }
