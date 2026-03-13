@@ -209,16 +209,11 @@ function renderJumbotron(foodContainer, data, currentLang) {
     https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg 2500w
   `;
   const jumbotronPlaceholder = document.getElementById("jumbotron-placeholder");
-  let jumbotronData = data.jumbotron || {};
-  if (!data.jumbotron) {
-    jumbotronData = {
-      title: getLocalizedText(data.title, currentLang) || data.title || data.id || "",
-      backgroundImage: data.backgroundImage,
-      srcset: (Array.isArray(data.srcset) && data.srcset.length > 0) ? data.srcset.join(",") : data.srcset
-    };
-  } else {
-    jumbotronData.title = getLocalizedText(jumbotronData.title, currentLang) || jumbotronData.title || "";
-  }
+  jumbotronData = {
+    title: getLocalizedText(data.title, currentLang) || data.title || data.id || "",
+    backgroundImage: data.backgroundImage,
+    srcset: (Array.isArray(data.srcset) && data.srcset.length > 0) ? data.srcset.join(",") : data.srcset
+  };
   if (jumbotronPlaceholder) {
     const { title, backgroundImage, srcset } = jumbotronData;
     jumbotronPlaceholder.innerHTML = `

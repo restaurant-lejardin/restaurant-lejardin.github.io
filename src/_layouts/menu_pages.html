@@ -27,21 +27,21 @@
 
         {% if page.show_legend %}
         <div class="logo-index">
-          <h3 class="special-title-1">Légende</h3>
+          <h3 class="special-title-1">{{ site.data.translations[page.lang].menuLegend.title }}</h3>
           <ul>
             <li>
               <img src="{{ site.baseurl }}/media/vg.png" alt="Vegan" class="vegan-logo" title="This dish is completely vegan.">
-              Plat végétarien
+              {{ site.data.translations[page.lang].menuLegend.vegan }}
             </li>
             <li>
               <img src="{{ site.baseurl }}/media/vg_pos.png" alt="Vegan Possible" class="vegan-logo" title="This dish can be made vegan upon request.">
-              Ce plat peut être adapté en version végétarienne sur demande
+              {{ site.data.translations[page.lang].menuLegend.vegan_possible }}
             </li>
           </ul>
         </div>
         {% endif %}
 
-        <h3 class="special-title-1">Tarifs à titre indicatif</h3>
+        <h3 class="special-title-1">{{ site.data.translations[page.lang].menuLegend.priceNote }}</h3>
 
         <div class="row-centered end-menu">
           {% assign menu_pages = site.data.menu_navigation | where: 'group', 'Menu' | sort: 'order' %}

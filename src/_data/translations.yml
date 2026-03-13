@@ -49,6 +49,11 @@ en:
     history_paragraph1: "Our family restaurant has been open since 1975 in a former French billiard hall from the early 20th century. The original ceiling and mirrors blend with the 1930s Shanghai decor, bringing the comfort of a traditional restaurant to authentic cuisine. We have been cooking Chinese cuisine on site for 48 years and Thai cuisine for 30 years. We can adapt dishes to tastes and dietary restrictions on request. Our dishes are <b>homemade</b>."
     history_paragraph2: "Ideally located between BNP and Société Générale near Place de la République, the restaurant is welcoming for everyone, for business meals, meetings with friends, and family meals. You can feel both conviviality and discretion in the general atmosphere."
     site_notice: "This website presents the restaurant's know-how and is non-commercial. The site was developed as part of a personal technical portfolio."
+  menuLegend:
+    title: "Legend"
+    vegan: "Vegetarian dish"
+    vegan_possible: "This dish can be made vegetarian upon request"
+    priceNote: "Prices are indicative only"
 fr:
   galleries:
     food:
@@ -100,3 +105,8 @@ fr:
     nav_album_food: "Entrées et plats"
     nav_album_desserts: "Desserts et boissons"
     nav_album_location: "Lieu"
+  menuLegend:
+    title: "Légende"
+    vegan: "Plat végétarien"
+    vegan_possible: "Ce plat peut être adapté en version végétarienne sur demande"
+    priceNote: "Tarifs à titre indicatif"

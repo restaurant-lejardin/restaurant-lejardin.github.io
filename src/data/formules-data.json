@@ -1,241 +1,266 @@
 {
-  "jumbotron": {
-    "title": "Formules"
+  "id": "formules",
+  "title": {
+    "fr": "Formules",
+    "en": "SET MENUS",
+    "zh": "套餐"
   },
   "categories": [
     {
-      "id": "gourmet",
-      "title": "FORMULE GOURMET à 16.90€",
-      "items": [
+      "subTitle": {
+        "fr": "",
+        "en": ""
+      },
+      "subcategories": [
         {
-          "specialTitle": "Entrée au choix",
-          "name": {
-            "fr": "Nems vietnamiens (poulet ou végétarien) / 4 pièces",
-            "en": "Vietnamese little spring rolls (chicken or vegetarian) / 4 pieces",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Pâtés impériaux chinois (au poulet)",
-            "en": "Chinese imperial pastries (with chicken)",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Salade chinoise aux crevettes",
-            "en": "Chinese shrimp salad",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Potage Pékinois piquant",
-            "en": "Spicy Peking soup",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Raviolis gyoza",
-            "en": "Gyoza dumplings",
-            "zh": ""
+          "id": "gourmet",
+          "icon": "media/menu/entrees/icons/soup.svg",
+          "title": {
+            "fr": "FORMULE GOURMET  <br> à partir de 16.90€",
+            "en": "GOURMET SET MENU  <br> from 16.90€",
+            "zh": "美食套餐 16.90€"
           },
-          "price": "+ 1.30"
+          "items": [
+            {
+              "specialTitle": "Entrée au choix",
+              "name": {
+                "fr": "Nems vietnamiens (poulet ou végétarien) / 4 pièces",
+                "en": "Vietnamese little spring rolls (chicken or vegetarian) / 4 pieces",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Pâtés impériaux chinois (au poulet)",
+                "en": "Chinese imperial pastries (with chicken)",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Salade chinoise aux crevettes",
+                "en": "Chinese shrimp salad",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Potage Pékinois piquant",
+                "en": "Spicy Peking soup",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Raviolis gyoza",
+                "en": "Gyoza dumplings",
+                "zh": ""
+              },
+              "price": "+ 1.30"
+            },
+            {
+              "showHr": true,
+              "specialTitle": "Plat au choix",
+              "name": {
+                "fr": "Bœuf aux oignons",
+                "en": "Beef with onions",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Poulet au curry",
+                "en": "Chicken curry",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Poulet Thaï au basilic",
+                "en": "Thai chicken with basil",
+                "zh": ""
+              },
+              "price": "+ 1.30"
+            },
+            {
+              "name": {
+                "fr": "Poulet à la sauce aigre-douce (ananas)",
+                "en": "Chicken with sweet and sour sauce (pineapple)",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Légumes sautés",
+                "en": "Stir-fried vegetables",
+                "zh": ""
+              }
+            },
+            {
+              "showHr": true,
+              "specialTitle": "Accompagnement au choix",
+              "name": {
+                "fr": "Riz nature",
+                "en": "Plain rice",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Riz gluant dans la feuille de lotus",
+                "en": "Sticky rice in lotus leaf",
+                "zh": ""
+              },
+              "price": "+ 1.80",
+              "ou-highlight": true
+            },
+            {
+              "name": {
+                "fr": "Riz sauté cantonais",
+                "en": "Cantonese fried rice",
+                "zh": ""
+              },
+              "price": "+ 2.30"
+            },
+            {
+              "name": {
+                "fr": "Nouilles sautées",
+                "en": "Stir-fried noodles",
+                "zh": ""
+              },
+              "price": "+ 2.80"
+            }
+          ]
         },
         {
-          "showHr": true,
-          "specialTitle": "Plat au choix",
-          "name": {
-            "fr": "Bœuf aux oignons",
-            "en": "Beef with onions",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Poulet au curry",
-            "en": "Chicken curry",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Poulet Thaï au basilic",
-            "en": "Thai chicken with basil",
-            "zh": ""
+          "id": "express",
+          "icon": "media/menu/entrees/icons/salad.svg",
+          "title": {
+            "fr":"FORMULE EXPRESS  <br> à 14.90€",
+            "en":"EXPRESS SET MENU  <br> at 14.90€"
           },
-          "price": "+ 1.30"
+          "items": [
+            {
+              "showHr": true,
+              "specialTitle": "Entrée au choix",
+              "name": {
+                "fr": "Nems vietnamiens (poulet ou végétarien) / 3 pièces",
+                "en": "Vietnamese little spring rolls (chicken or vegetarian) / 3 pieces",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Soupe aux vermicelles et légumes",
+                "en": "Vermicelli and vegetable soup",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Salade chinoise au poulet",
+                "en": "Chinese chicken salad",
+                "zh": ""
+              }
+            },
+            {
+              "showHr": true,
+              "specialTitle": "Plat au choix",
+              "name": {
+                "fr": "Nouilles sautées au poulet",
+                "en": "Stir-fried noodles with chicken",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Nouilles sautées au bœuf",
+                "en": "Stir-fried noodles with beef",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Riz sauté Singapour au poulet",
+                "en": "Singapore fried rice with chicken",
+                "zh": ""
+              }
+            }
+          ]
         },
         {
-          "name": {
-            "fr": "Poulet à la sauce aigre-douce (ananas)",
-            "en": "Chicken with sweet and sour sauce (pineapple)",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Légumes sautés",
-            "en": "Stir-fried vegetables",
-            "zh": ""
-          }
-        },
-        {
-          "showHr": true,
-          "specialTitle": "Accompagnement au choix",
-          "name": {
-            "fr": "Riz nature",
-            "en": "Plain rice",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Riz gluant dans la feuille de lotus",
-            "en": "Sticky rice in lotus leaf",
-            "zh": ""
+          "id": "vapeur",
+          "icon": "media/menu/entrees/icons/dim-sum.svg",
+          "title": {
+            "fr": "FORMULE VAPEUR  <br> à partir de 14.90€",
+            "en": "STEAM SET MENU  <br> from 14.90€",
+            "zh": "蒸汽套餐 14.90€"
           },
-          "price": "+ 1.80",
-          "ou-highlight": true
-        },
-        {
-          "name": {
-            "fr": "Riz sauté cantonais",
-            "en": "Cantonese fried rice",
-            "zh": ""
-          },
-          "price": "+ 2.30"
-        },
-        {
-          "name": {
-            "fr": "Nouilles sautées",
-            "en": "Stir-fried noodles",
-            "zh": ""
-          },
-          "price": "+ 2.80"
+          "items": [
+            {
+              "showHr": true,
+              "specialTitle": "Entrée au choix",
+              "name": {
+                "fr": "Salade chinoise au poulet",
+                "en": "Chinese chicken salad",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Nems vietnamiens (poulet) / 3 pièces",
+                "en": "Vietnamese little spring rolls (chicken) / 3 pieces",
+                "zh": ""
+              }
+            },
+            {
+              "showHr": true,
+              "specialTitle": "Plat",
+              "name": {
+                "fr": "Assortiment de 6 RAVIOLIS vapeur",
+                "en": "Assortment of 6 steamed dumplings",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Assortiment de 8 RAVIOLIS vapeur",
+                "en": "Assortment of 8 steamed dumplings",
+                "zh": ""
+              },
+              "price": "+ 2",
+              "ou-highlight": true
+            },
+            {
+              "showHr": true,
+              "specialTitle": "Accompagnement au choix",
+              "name": {
+                "fr": "Bol de Riz nature",
+                "en": "Bowl of plain rice",
+                "zh": ""
+              }
+            },
+            {
+              "name": {
+                "fr": "Riz sauté cantonais",
+                "en": "Cantonese fried rice",
+                "zh": ""
+              },
+              "price": "+ 2.30",
+              "ou-highlight": true
+            },
+            {
+              "name": {
+                "fr": "Riz gluant dans la feuille de lotus",
+                "en": "Sticky rice in lotus leaf",
+                "zh": ""
+              },
+              "price": "+ 1.80",
+              "ou-highlight": true
+            }
+          ]
         }
       ]
-    },
-    {
-      "id": "express",
-      "title": "FORMULE EXPRESS à 14.90€",
-      "items": [
-        {
-          "showHr": true,
-          "specialTitle": "Entrée au choix",
-          "name": {
-            "fr": "Nems vietnamiens (poulet ou végétarien) / 3 pièces",
-            "en": "Vietnamese little spring rolls (chicken or vegetarian) / 3 pieces",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Soupe aux vermicelles et légumes",
-            "en": "Vermicelli and vegetable soup",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Salade chinoise au poulet",
-            "en": "Chinese chicken salad",
-            "zh": ""
-          }
-        },
-        {
-          "showHr": true,
-          "specialTitle": "Plat au choix",
-          "name": {
-            "fr": "Nouilles sautées au poulet",
-            "en": "Stir-fried noodles with chicken",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Nouilles sautées au bœuf",
-            "en": "Stir-fried noodles with beef",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Riz sauté Singapour au poulet",
-            "en": "Singapore fried rice with chicken",
-            "zh": ""
-          }
-        }
-      ]
-    },
-    {
-      "id": "vapeur",
-      "title": "FORMULE VAPEUR à 14.90€",
-      "items": [
-        {
-          "showHr": true,
-          "specialTitle": "Entrée au choix",
-          "name": {
-            "fr": "Salade chinoise au poulet",
-            "en": "Chinese chicken salad",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Nems vietnamiens (poulet) / 3 pièces",
-            "en": "Vietnamese little spring rolls (chicken) / 3 pieces",
-            "zh": ""
-          }
-        },
-        {
-          "showHr": true,
-          "specialTitle": "Plat",
-          "name": {
-            "fr": "Assortiment de 6 RAVIOLIS vapeur",
-            "en": "Assortment of 6 steamed dumplings",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Assortiment de 8 RAVIOLIS vapeur",
-            "en": "Assortment of 8 steamed dumplings",
-            "zh": ""
-          },
-          "price": "+ 2",
-          "ou-highlight": true
-        },
-        {
-          "showHr": true,
-          "specialTitle": "Accompagnement au choix",
-          "name": {
-            "fr": "Bol de Riz nature",
-            "en": "Bowl of plain rice",
-            "zh": ""
-          }
-        },
-        {
-          "name": {
-            "fr": "Riz sauté cantonais",
-            "en": "Cantonese fried rice",
-            "zh": ""
-          },
-          "price": "+ 2.30",
-          "ou-highlight": true
-        },
-        {
-          "name": {
-            "fr": "Riz gluant dans la feuille de lotus",
-            "en": "Sticky rice in lotus leaf",
-            "zh": ""
-          },
-          "price": "+ 1.80",
-          "ou-highlight": true
-        }
-      ]
-    }
+  }
   ]
 }

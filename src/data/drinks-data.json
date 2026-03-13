@@ -1,561 +1,615 @@
 {
-  "jumbotron": {
-    "title": "Boissons"
+  "id": "drinks",
+  "title": {
+    "fr": "Boissons",
+    "en": "Drinks",
+    "zh": "饮料"
   },
+  "backgroundImage": "https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1536008791/website-template-3/cover-drinks-menu.jpg",
+  "srcset":[
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 300w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_400/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 400w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 600w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 700w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_800/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 800w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 900w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1000w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1100w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1100w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1200/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1200w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1300/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1300w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1400w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1400w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1500w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1600/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1600w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1600/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1600w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1700w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1800w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1800w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1900w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 1900w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2000/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2000w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2100w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2100w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2200w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2200w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2300w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2300w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2400/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2400w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2400/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2400w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2500w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2500w",
+      "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 2500w"
+  ],
   "categories": [
     {
-      "id": "aperitifs",
-      "title": "APERITIFS",
-      "items": [
+      "subTitle":"",
+      "subcategories": [
         {
-          "name": {
-            "fr": "Chips de crevettes",
-            "en": "Shrimp chips",
-            "zh": ""
+          "id": "aperitifs",
+          "icon": "media/menu/drinks/icons/aperitifs.svg",
+          "title": {
+              "fr": "APERITIFS",
+              "en": "APERITIFS"
           },
-          "price": "1.50",
-          "description": {
-            "fr": "Offerts avec l'apéritif",
-            "en": "Offered with the aperitif"
-          }
+          "items": [
+            {
+              "name": {
+                "fr": "Chips de crevettes",
+                "en": "Shrimp chips",
+                "zh": ""
+              },
+              "price": "1.50",
+              "description": {
+                "fr": "Offerts avec l'apéritif",
+                "en": "Offered with the aperitif"
+              }
+            },
+            {
+              "name": {
+                "fr": "Cocktail Chinois (12 cl)",
+                "en": "Chinese Cocktail (12 cl)",
+                "zh": ""
+              },
+              "price": "4.80"
+            },
+            {
+              "name": {
+                "fr": "China Blue (20 cl)",
+                "en": "China Blue (20 cl)",
+                "zh": ""
+              },
+              "price": "6.80"
+            },
+            {
+              "name": {
+                "fr": "Shanghai Orange (20 cl)",
+                "en": "Shanghai Orange (20 cl)",
+                "zh": ""
+              },
+              "price": "6.80"
+            },
+            {
+              "name": {
+                "fr": "Kir (12 cl)",
+                "en": "Kir (12 cl)",
+                "zh": ""
+              },
+              "price": "4.80"
+            },
+            {
+              "name": {
+                "fr": "Martini rosso ou bianco",
+                "en": "Martini rosso or bianco",
+                "zh": ""
+              },
+              "price": "4.80"
+            },
+            {
+              "name": {
+                "fr": "Suze",
+                "en": "Suze",
+                "zh": ""
+              },
+              "price": "4.80"
+            },
+            {
+              "name": {
+                "fr": "Porto",
+                "en": "Porto",
+                "zh": ""
+              },
+              "price": "4.80"
+            },
+            {
+              "name": {
+                "fr": "Ricard (2 cl)",
+                "en": "Ricard (2 cl)",
+                "zh": ""
+              },
+              "price": "4.50"
+            },
+            {
+              "name": {
+                "fr": "Whisky (4 cl)",
+                "en": "Whisky (4 cl)",
+                "zh": ""
+              },
+              "price": "à partir de 7"
+            }
+          ]
         },
         {
-          "name": {
-            "fr": "Cocktail Chinois (12 cl)",
-            "en": "Chinese Cocktail (12 cl)",
-            "zh": ""
+          "id": "brandies",
+          "icon": "media/menu/drinks/icons/spirits.svg",
+          "title": {
+              "fr": "DIGESTIFS",
+              "en": "DIGESTIFS"
           },
-          "price": "4.80"
+          "items": [
+            {
+              "name": {
+                "fr": "MEI KUEI LU (alcool de riz)",
+                "en": "MEI KUEI LU (rice alcohol)",
+                "zh": ""
+              },
+              "price": "4.20"
+            },
+            {
+              "name": {
+                "fr": "Calvados, Gin",
+                "en": "Calvados, Gin",
+                "zh": ""
+              },
+              "price": "5.20"
+            },
+            {
+              "name": {
+                "fr": "Vodka (2,5 cl)",
+                "en": "Vodka (2.5 cl)",
+                "zh": ""
+              },
+              "price": "5.20"
+            },
+            {
+              "name": {
+                "fr": "Poire Williams",
+                "en": "Poire Williams",
+                "zh": ""
+              },
+              "price": "5.20"
+            },
+            {
+              "name": {
+                "fr": "Cointreau",
+                "en": "Cointreau",
+                "zh": ""
+              },
+              "price": "5.20"
+            },
+            {
+              "name": {
+                "fr": "Cognac V.S. (4 cl)",
+                "en": "Cognac V.S. (4 cl)",
+                "zh": ""
+              },
+              "price": "8.50"
+            }
+          ]
         },
         {
-          "name": {
-            "fr": "China Blue (20 cl)",
-            "en": "China Blue (20 cl)",
-            "zh": ""
+          "id": "beers",
+          "icon": "media/menu/drinks/icons/beers.svg",
+          "title": {
+              "fr": "BIERES",
+              "en": "BEERS"
           },
-          "price": "6.80"
-        },
-        {
-          "name": {
-            "fr": "Shanghai Orange (20 cl)",
-            "en": "Shanghai Orange (20 cl)",
-            "zh": ""
-          },
-          "price": "6.80"
-        },
-        {
-          "name": {
-            "fr": "Kir (12 cl)",
-            "en": "Kir (12 cl)",
-            "zh": ""
-          },
-          "price": "4.80"
-        },
-        {
-          "name": {
-            "fr": "Martini rosso ou bianco",
-            "en": "Martini rosso or bianco",
-            "zh": ""
-          },
-          "price": "4.80"
-        },
-        {
-          "name": {
-            "fr": "Suze",
-            "en": "Suze",
-            "zh": ""
-          },
-          "price": "4.80"
-        },
-        {
-          "name": {
-            "fr": "Porto",
-            "en": "Porto",
-            "zh": ""
-          },
-          "price": "4.80"
-        },
-        {
-          "name": {
-            "fr": "Ricard (2 cl)",
-            "en": "Ricard (2 cl)",
-            "zh": ""
-          },
-          "price": "4.50"
-        },
-        {
-          "name": {
-            "fr": "Whisky (4 cl)",
-            "en": "Whisky (4 cl)",
-            "zh": ""
-          },
-          "price": "à partir de 7"
+          "items": [
+            {
+              "name": {
+                "fr": "HEINEKEN (25 cl)",
+                "en": "HEINEKEN (25 cl)",
+                "zh": ""
+              },
+              "price": "4"
+            },
+            {
+              "name": {
+                "fr": "TSING TAO (33 cl / 64 cl)",
+                "en": "TSING TAO (33 cl / 64 cl)",
+                "zh": ""
+              },
+              "price": "4.50€ / 8"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "brandies",
-      "title": "DIGESTIFS",
-      "items": [
+      "subTitle":"",
+      "subcategories": [
         {
-          "name": {
-            "fr": "MEI KUEI LU (alcool de riz)",
-            "en": "MEI KUEI LU (rice alcohol)",
-            "zh": ""
+          "id": "cold-beverages",
+          "icon": "media/menu/drinks/icons/cold-beverages.svg",
+          "title": {
+              "fr": "EAUX & SODAS",
+              "en": "WATERS & SODAS"
           },
-          "price": "4.20"
+          "items": [
+            {
+              "name": {
+                "fr": "Vittel (50 cl / 100 cl)",
+                "en": "Vittel (50 cl / 100 cl)",
+                "zh": ""
+              },
+              "price": "4€ / 6.50"
+            },
+            {
+              "name": {
+                "fr": "Badoit, San Pellegrino (50 cl / 100 cl)",
+                "en": "Badoit, San Pellegrino (50 cl / 100 cl)",
+                "zh": ""
+              },
+              "price": "4€ / 6.50"
+            },
+            {
+              "name": {
+                "fr": "Perrier (33 cl)",
+                "en": "Perrier (33 cl)",
+                "zh": ""
+              },
+              "price": "4"
+            },
+            {
+              "name": {
+                "fr": "Jus d'orange",
+                "en": "Orange juice",
+                "zh": ""
+              },
+              "price": "4"
+            },
+            {
+              "name": {
+                "fr": "Jus de pomme",
+                "en": "Apple juice",
+                "zh": ""
+              },
+              "price": "4"
+            },
+            {
+              "name": {
+                "fr": "Coca-Cola (33 cl)",
+                "en": "Coca-Cola (33 cl)",
+                "zh": ""
+              },
+              "price": "4"
+            },
+            {
+              "name": {
+                "fr": "Coca-Cola Zero (33 cl)",
+                "en": "Coca-Cola Zero (33 cl)",
+                "zh": ""
+              },
+              "price": "4"
+            },
+            {
+              "name": {
+                "fr": "Ice Tea, Orangina",
+                "en": "Ice Tea, Orangina",
+                "zh": ""
+              },
+              "price": "4"
+            },
+            {
+              "name": {
+                "fr": "Limonade (soda)",
+                "en": "Lemonade (soda)",
+                "zh": ""
+              },
+              "price": "4"
+            }
+          ]
         },
         {
-          "name": {
-            "fr": "Calvados, Gin",
-            "en": "Calvados, Gin",
-            "zh": ""
+          "id": "liqueurs",
+          "icon": "media/menu/drinks/icons/liqueurs.svg",
+          "title": {
+              "fr": "SPECIALITES (sans alcool)",
+              "en": "SPECIALTIES (non-alcoholic)"
           },
-          "price": "5.20"
+          "items": [
+            {
+              "name": {
+                "fr": "Jus de coco (eau)",
+                "en": "Coconut juice (water)",
+                "zh": ""
+              },
+              "price": "4.50"
+            },
+            {
+              "name": {
+                "fr": "Jus de mangue",
+                "en": "Mango juice",
+                "zh": ""
+              },
+              "price": "4"
+            },
+            {
+              "name": {
+                "fr": "Jus de litchis",
+                "en": "Lychee juice",
+                "zh": ""
+              },
+              "price": "4"
+            },
+            {
+              "name": {
+                "fr": "Cocktail de fruits (avec gingembre)",
+                "en": "Fruit cocktail (with ginger)",
+                "zh": ""
+              },
+              "price": "5.80"
+            }
+          ]
         },
         {
-          "name": {
-            "fr": "Vodka (2,5 cl)",
-            "en": "Vodka (2.5 cl)",
-            "zh": ""
+          "id": "hot-beverages",
+          "icon": "media/menu/drinks/icons/hot-beverages.svg",
+          "title": {
+              "fr": "CAFES & THES",
+              "en": "COFFEES & TEAS"
           },
-          "price": "5.20"
-        },
-        {
-          "name": {
-            "fr": "Poire Williams",
-            "en": "Poire Williams",
-            "zh": ""
-          },
-          "price": "5.20"
-        },
-        {
-          "name": {
-            "fr": "Cointreau",
-            "en": "Cointreau",
-            "zh": ""
-          },
-          "price": "5.20"
-        },
-        {
-          "name": {
-            "fr": "Cognac V.S. (4 cl)",
-            "en": "Cognac V.S. (4 cl)",
-            "zh": ""
-          },
-          "price": "8.50"
+          "items": [
+            {
+              "name": {
+                "fr": "Expresso",
+                "en": "Espresso",
+                "zh": ""
+              },
+              "price": "2.50"
+            },
+            {
+              "name": {
+                "fr": "Cafe long, décaféiné",
+                "en": "Long coffee, decaffeinated",
+                "zh": ""
+              },
+              "price": "3"
+            },
+            {
+              "name": {
+                "fr": "Cappuccino",
+                "en": "Cappuccino",
+                "zh": ""
+              },
+              "price": "4.80"
+            },
+            {
+              "name": {
+                "fr": "Café au lait",
+                "en": "Coffee with milk",
+                "zh": ""
+              },
+              "price": "4.80"
+            },
+            {
+              "name": {
+                "fr": "Thé au jasmin",
+                "en": "Jasmine tea",
+                "zh": ""
+              },
+              "price": "3.30"
+            },
+            {
+              "name": {
+                "fr": "Thé vert",
+                "en": "Green tea",
+                "zh": ""
+              },
+              "price": "3.30"
+            },
+            {
+              "name": {
+                "fr": "Thé vert Xi hu long jing",
+                "en": "Xi Hu Long Jing green tea",
+                "zh": ""
+              },
+              "price": "3.80"
+            },
+            {
+              "name": {
+                "fr": "Thé Oolong Tie guan yin",
+                "en": "Tie Guan Yin Oolong tea",
+                "zh": ""
+              },
+              "price": "3.30"
+            },
+            {
+              "name": {
+                "fr": "Thé Oolong Da hong pao",
+                "en": "Da Hong Pao Oolong tea",
+                "zh": ""
+              },
+              "price": "3.80"
+            },
+            {
+              "name": {
+                "fr": "Thé noir Yunnan puer",
+                "en": "Yunnan Puer black tea",
+                "zh": ""
+              },
+              "price": "3.80"
+            },
+            {
+              "name": {
+                "fr": "Thé blanc An ji bai cha",
+                "en": "An Ji Bai Cha white tea",
+                "zh": ""
+              },
+              "price": "3.30"
+            },
+            {
+              "name": {
+                "fr": "Thé vert à la menthe fraîche",
+                "en": "Fresh mint green tea",
+                "zh": ""
+              },
+              "price": "3.80"
+            },
+            {
+              "name": {
+                "fr": "Infusion de chrysanthème",
+                "en": "Chrysanthemum infusion",
+                "zh": ""
+              },
+              "price": "3.30"
+            },
+            {
+              "name": {
+                "fr": "Infusion de rose",
+                "en": "Rose infusion",
+                "zh": ""
+              },
+              "price": "3.30"
+            },
+            {
+              "name": {
+                "fr": "Infusion (verveine, tilleul, lipton)",
+                "en": "Infusion (verbena, linden, lipton)",
+                "zh": ""
+              },
+              "price": "3.30",
+              "description": {
+                "fr": "Suppl. eau chaude 1€<br>Suppl. citron <u>ou</u> lait 0.50€",
+                "en": "Extra hot water 1€<br>Extra lemon <u>or</u> milk 0.50€"
+              }
+            }
+          ]
         }
       ]
     },
     {
-      "id": "beers",
-      "title": "BIERES",
-      "items": [
+      "subTitle":"",
+      "subcategories": [
         {
-          "name": {
-            "fr": "HEINEKEN (25 cl)",
-            "en": "HEINEKEN (25 cl)",
-            "zh": ""
+          "id": "vins-rouges",
+          "icon": "media/menu/drinks/icons/wines.svg",
+          "title": {
+              "fr": "VINS ROUGES en bouteille",
+              "en": "RED WINES by the bottle"
           },
-          "price": "4"
+          "items": [
+            {
+              "name": "Rhône - Côtes du Rhone",
+              "price": "22€ / 13"
+            },
+            {
+              "name": "Loire - Touraine Gamay",
+              "price": "22€ / 13"
+            },
+            {
+              "name": "Beaujolais - Brouilly",
+              "price": "28€ / 16"
+            },
+            {
+              "name": "Bourgogne - Hautes Côtes de Beaune",
+              "price": "36€ / -"
+            },
+            {
+              "name": "Bordeaux - Bordeaux Supérieur",
+              "price": "26€ / -"
+            },
+            {
+              "name": "Bordeaux - Médoc",
+              "price": "28€ / 16"
+            },
+            {
+              "name": "Bordeaux - Saint-Emilion",
+              "price": "32€ / 18"
+            },
+            {
+              "name": "Bordeaux - Saint-Emilion Grand Cru",
+              "price": "39€ / -"
+            },
+            {
+              "name": "Bordeaux - Pomerol",
+              "price": "45€ / -"
+            }
+          ]
         },
         {
-          "name": {
-            "fr": "TSING TAO (33 cl / 64 cl)",
-            "en": "TSING TAO (33 cl / 64 cl)",
-            "zh": ""
+          "id": "roses",
+          "icon": "media/menu/drinks/icons/wines.svg",
+          "title": {
+              "fr": "VINS ROSES en bouteille",
+              "en": "ROSÉ WINES by the bottle"
           },
-          "price": "4.50€ / 8"
-        }
-      ]
-    },
-    {
-      "id": "cold-beverages",
-      "title": "EAUX & SODAS",
-      "items": [
-        {
-          "name": {
-            "fr": "Vittel (50 cl / 100 cl)",
-            "en": "Vittel (50 cl / 100 cl)",
-            "zh": ""
-          },
-          "price": "4€ / 6.50"
+          "items": [
+            {
+              "name": "Provence - Côtes de Provence",
+              "price": "26€ / 14"
+            },
+            {
+              "name": "Provence - Bandol",
+              "price": "28€ / -"
+            },
+            {
+              "name": "Loire - Cabernet d'Anjou (demi-sec)",
+              "price": "24€ / -"
+            }
+          ]
         },
         {
-          "name": {
-            "fr": "Badoit, San Pellegrino (50 cl / 100 cl)",
-            "en": "Badoit, San Pellegrino (50 cl / 100 cl)",
-            "zh": ""
+          "id": "vins-blancs",
+          "icon": "media/menu/drinks/icons/wines.svg",
+          "title": {
+              "fr": "VINS BLANCS en bouteille",
+              "en": "WHITE WINES by the bottle"
           },
-          "price": "4€ / 6.50"
+          "items": [
+            {
+              "name": "Pays d'Oc - Chardonnay (fruité)",
+              "price": "22€ / -"
+            },
+            {
+              "name": "Alsace - Riesling",
+              "price": "24€ / 14"
+            },
+            {
+              "name": "Bourgogne - Chablis",
+              "price": "39€ / 27"
+            },
+            {
+              "name": "Champagne - Moet et Chandon",
+              "price": "75€ / -"
+            }
+          ]
         },
         {
-          "name": {
-            "fr": "Perrier (33 cl)",
-            "en": "Perrier (33 cl)",
-            "zh": ""
+          "id": "pichets",
+          "icon": "media/menu/drinks/icons/jug2.svg",
+          "title": {
+              "fr": "Pichets de vin",
+              "en": "WINE PITCHERS"
           },
-          "price": "4"
-        },
-        {
-          "name": {
-            "fr": "Jus d'orange",
-            "en": "Orange juice",
-            "zh": ""
-          },
-          "price": "4"
-        },
-        {
-          "name": {
-            "fr": "Jus de pomme",
-            "en": "Apple juice",
-            "zh": ""
-          },
-          "price": "4"
-        },
-        {
-          "name": {
-            "fr": "Coca-Cola (33 cl)",
-            "en": "Coca-Cola (33 cl)",
-            "zh": ""
-          },
-          "price": "4"
-        },
-        {
-          "name": {
-            "fr": "Coca-Cola Zero (33 cl)",
-            "en": "Coca-Cola Zero (33 cl)",
-            "zh": ""
-          },
-          "price": "4"
-        },
-        {
-          "name": {
-            "fr": "Ice Tea, Orangina",
-            "en": "Ice Tea, Orangina",
-            "zh": ""
-          },
-          "price": "4"
-        },
-        {
-          "name": {
-            "fr": "Limonade (soda)",
-            "en": "Lemonade (soda)",
-            "zh": ""
-          },
-          "price": "4"
-        }
-      ]
-    },
-    {
-      "id": "liqueurs",
-      "title": "SPECIALITES (sans alcool)",
-      "items": [
-        {
-          "name": {
-            "fr": "Jus de coco (eau)",
-            "en": "Coconut juice (water)",
-            "zh": ""
-          },
-          "price": "4.50"
-        },
-        {
-          "name": {
-            "fr": "Jus de mangue",
-            "en": "Mango juice",
-            "zh": ""
-          },
-          "price": "4"
-        },
-        {
-          "name": {
-            "fr": "Jus de litchis",
-            "en": "Lychee juice",
-            "zh": ""
-          },
-          "price": "4"
-        },
-        {
-          "name": {
-            "fr": "Cocktail de fruits (avec gingembre)",
-            "en": "Fruit cocktail (with ginger)",
-            "zh": ""
-          },
-          "price": "5.80"
-        }
-      ]
-    },
-    {
-      "id": "hot-beverages",
-      "title": "CAFES & THES",
-      "items": [
-        {
-          "name": {
-            "fr": "Expresso",
-            "en": "Espresso",
-            "zh": ""
-          },
-          "price": "2.50"
-        },
-        {
-          "name": {
-            "fr": "Cafe long, décaféiné",
-            "en": "Long coffee, decaffeinated",
-            "zh": ""
-          },
-          "price": "3"
-        },
-        {
-          "name": {
-            "fr": "Cappuccino",
-            "en": "Cappuccino",
-            "zh": ""
-          },
-          "price": "4.80"
-        },
-        {
-          "name": {
-            "fr": "Café au lait",
-            "en": "Coffee with milk",
-            "zh": ""
-          },
-          "price": "4.80"
-        },
-        {
-          "name": {
-            "fr": "Thé au jasmin",
-            "en": "Jasmine tea",
-            "zh": ""
-          },
-          "price": "3.30"
-        },
-        {
-          "name": {
-            "fr": "Thé vert",
-            "en": "Green tea",
-            "zh": ""
-          },
-          "price": "3.30"
-        },
-        {
-          "name": {
-            "fr": "Thé vert Xi hu long jing",
-            "en": "Xi Hu Long Jing green tea",
-            "zh": ""
-          },
-          "price": "3.80"
-        },
-        {
-          "name": {
-            "fr": "Thé Oolong Tie guan yin",
-            "en": "Tie Guan Yin Oolong tea",
-            "zh": ""
-          },
-          "price": "3.30"
-        },
-        {
-          "name": {
-            "fr": "Thé Oolong Da hong pao",
-            "en": "Da Hong Pao Oolong tea",
-            "zh": ""
-          },
-          "price": "3.80"
-        },
-        {
-          "name": {
-            "fr": "Thé noir Yunnan puer",
-            "en": "Yunnan Puer black tea",
-            "zh": ""
-          },
-          "price": "3.80"
-        },
-        {
-          "name": {
-            "fr": "Thé blanc An ji bai cha",
-            "en": "An Ji Bai Cha white tea",
-            "zh": ""
-          },
-          "price": "3.30"
-        },
-        {
-          "name": {
-            "fr": "Thé vert à la menthe fraîche",
-            "en": "Fresh mint green tea",
-            "zh": ""
-          },
-          "price": "3.80"
-        },
-        {
-          "name": {
-            "fr": "Infusion de chrysanthème",
-            "en": "Chrysanthemum infusion",
-            "zh": ""
-          },
-          "price": "3.30"
-        },
-        {
-          "name": {
-            "fr": "Infusion de rose",
-            "en": "Rose infusion",
-            "zh": ""
-          },
-          "price": "3.30"
-        },
-        {
-          "name": {
-            "fr": "Infusion (verveine, tilleul, lipton)",
-            "en": "Infusion (verbena, linden, lipton)",
-            "zh": ""
-          },
-          "price": "3.30",
-          "description": {
-            "fr": "Suppl. eau chaude 1€<br>Suppl. citron <u>ou</u> lait 0.50€",
-            "en": "Extra hot water 1€<br>Extra lemon <u>or</u> milk 0.50€"
-          }
-        }
-      ]
-    },
-    {
-      "id": "milkshakes",
-      "title": "VINS ROUGES en bouteille",
-      "items": [
-        {
-          "name": {
-            "fr": "Rhône - Côtes du Rhone"
-          },
-          "price": "22€ / 13"
-        },
-        {
-          "name": {
-            "fr": "Loire - Touraine Gamay"
-          },
-          "price": "22€ / 13"
-        },
-        {
-          "name": {
-            "fr": "Beaujolais - Brouilly"
-          },
-          "price": "28€ / 16"
-        },
-        {
-          "name": {
-            "fr": "Bourgogne - Hautes Côtes de Beaune"
-          },
-          "price": "36€ / -"
-        },
-        {
-          "name": {
-            "fr": "Bordeaux - Bordeaux Supérieur"
-          },
-          "price": "26€ / -"
-        },
-        {
-          "name": {
-            "fr": "Bordeaux - Médoc"
-          },
-          "price": "28€ / 16"
-        },
-        {
-          "name": {
-            "fr": "Bordeaux - Saint-Emilion"
-          },
-          "price": "32€ / 18"
-        },
-        {
-          "name": {
-            "fr": "Bordeaux - Saint-Emilion Grand Cru"
-          },
-          "price": "39€ / -"
-        },
-        {
-          "name": {
-            "fr": "Bordeaux - Pomerol"
-          },
-          "price": "45€ / -"
-        }
-      ]
-    },
-    {
-      "id": "roses",
-      "title": "VINS ROSES en bouteille",
-      "items": [
-        {
-          "name": {
-            "fr": "Provence - Côtes de Provence"
-          },
-          "price": "26€ / 14"
-        },
-        {
-          "name": {
-            "fr": "Provence - Bandol"
-          },
-          "price": "28€ / -"
-        },
-        {
-          "name": {
-            "fr": "Loire - Cabernet d'Anjou (demi-sec)"
-          },
-          "price": "24€ / -"
-        }
-      ]
-    },
-    {
-      "id": "vins-blancs",
-      "title": "VINS BLANCS en bouteille",
-      "items": [
-        {
-          "name": {
-            "fr": "Pays d'Oc - Chardonnay (fruité)"
-          },
-          "price": "22€ / -"
-        },
-        {
-          "name": {
-            "fr": "Alsace - Riesling"
-          },
-          "price": "24€ / 14"
-        },
-        {
-          "name": {
-            "fr": "Bourgogne - Chablis"
-          },
-          "price": "39€ / 27"
-        },
-        {
-          "name": {
-            "fr": "Champagne - Moet et Chandon"
-          },
-          "price": "75€ / -"
-        }
-      ]
-    },
-    {
-      "id": "pichets",
-      "title": "Pichets de vin",
-      "items": [
-        {
-          "name": {
-            "fr": "Côtes du Rhône"
-          },
-          "price": "4.20€ / 6.90€ / 13.80"
-        },
-        {
-          "name": {
-            "fr": "Bordeaux"
-          },
-          "price": "4.20€ / 6.90€ / 13.80"
-        },
-        {
-          "name": {
-            "fr": "Vin rosé (Pays d'Oc)"
-          },
-          "price": "3.80€ / 5.90€ / 11.80"
-        },
-        {
-          "name": {
-            "fr": "Vin blanc"
-          },
-          "price": "3.80€ / 5.90€ / 11.80"
+          "items": [
+            {
+              "name": "Côtes du Rhône",
+              "price": "4.20€ / 6.90€ / 13.80"
+            },
+            {
+              "name": "Bordeaux",
+              "price": "4.20€ / 6.90€ / 13.80"
+            },
+            {
+              "name": "Vin rosé (Pays d'Oc)",
+              "price": "3.80€ / 5.90€ / 11.80"
+            },
+            {
+              "name": "Vin blanc",
+              "price": "3.80€ / 5.90€ / 11.80"
+            }
+          ]
         }
       ]
     }
