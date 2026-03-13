@@ -162,10 +162,7 @@ https://stackoverflow.com/questions/13925916/what-is-causing-this-error-fatal-er
 - Remove node_modules
 - If can't push to gh-pages, https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase then https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site or https://stackoverflow.com/questions/52087783/git-push-to-gh-pages-updates-were-rejected
 
-# Todo
-- Multi-language website
-- Food data in an excel instead of json
-- jumbotron-section fused with each json
+
 
 # Multilingual Page Handling
 
@@ -182,3 +179,12 @@ This site uses a hybrid approach for multilingual support:
 - Use per-language markdown files for unique content.
 - Use `translations.yml` for all repeated/static text.
 - Set `lang` in the front matter of every page for correct language selection in templates and navigation.
+
+
+# Todo
+- ✅ Improved CI/CD
+- ✅ Multi-language website
+- ✅ jumbotron-section fused with each json
+- Food data in an excel instead of json
+- Add Chinese
+- Refactor js code using classes instead of ids. Clean corresponding HTML code

@@ -47,11 +47,10 @@
           {% assign menu_pages = site.data.menu_navigation | where: 'group', 'Menu' | sort: 'order' %}
           {% for menu_item in menu_pages %}
             {% unless menu_item.page == page.body_id %}
-              {% if page.lang == 'en' %}
-                {% assign lang_prefix = '/en/' %}
-              {% else %}
-                {% assign lang_prefix = '/' %}
-                {% endif %}
+              {% assign lang_prefix = '' %}
+              {% if page.lang and page.lang != 'fr' %}
+                {% assign lang_prefix = '/' | append: page.lang %}
+              {% endif %}
               {% assign item_url = site.baseurl | append: lang_prefix | append: menu_item.page | append: '.html' %}
               {% assign item_title = menu_item.title[page.lang] %}
               <a class="btn btn-outline-dark" href="{{ item_url | replace: '//', '/' }}" role="button">{{ item_title }}</a>
