@@ -34,12 +34,16 @@ function getLocalizedText(textObj, lang) {
   return textObj[lang] ||  "";
 }
 
-function createEl(tag, classList = [], content = null) {
+function createEl(tag, classList = [], content = null, attrs = {}) {
   const el = document.createElement(tag);
   if (Array.isArray(classList)) el.classList.add(...classList);
   if (content !== null) el.innerHTML = content;
+  for (const [key, value] of Object.entries(attrs)) {
+    el.setAttribute(key, value);
+  }
   return el;
 }
+
 
 function createVeganIndicator(veganType) {
   const veganIndicatorCol = createEl('div', ['col-md-1', 'vegan-indicator', 'text-right']);
@@ -75,7 +79,7 @@ function createFoodTitle(item, currentLang, isFormule) {
 }
 
 function renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage) {
-  const row = createEl('div', ['row', 'align-items-center', 'menu-item']);
+  const row = createEl('div', ['row', 'align-items-center', 'menu-item', 'animate-on-scroll'], null, { 'data-animate': 'fadeInUp' });
   if (jsonFilePath.includes('formules-data') && item['ou-highlight']) {
     const ouTextDiv = createEl('div', ['col-md-2', 'menu-OU-text']);
     const ouText = { fr: '<u>OU</u>', en: '<u>OR</u>', zh: '<u>或</u>' };
@@ -225,8 +229,8 @@ function renderJumbotron(foodContainer, data, currentLang) {
           class="food-jumbotron-bg"
         >
         <div class="food-jumbotron-caption container">
-          <h1 id="title-1" class="special-title-2">${title}</h1>
-          <div id="menu-icons"></div>
+          <h1 id="title-1" class="special-title-2 animate-on-scroll" data-animate="fadeInDown">${title}</h1>
+          <div id="menu-icons" class="animate-on-scroll" data-animate="fadeInUp"></div>
         </div>
       </div>
     `;
@@ -274,3 +278,5 @@ function renderJumbotron(foodContainer, data, currentLang) {
     }
   }
 }
+
+if (window.initAnimations) window.initAnimations();

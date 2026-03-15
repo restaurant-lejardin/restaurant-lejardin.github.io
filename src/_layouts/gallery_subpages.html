@@ -20,8 +20,8 @@
 
       <!-- GALLERY DESCRIPTION -->
       <div class="gallery-description container-fluid bg-dark text-white">
-        <h1 id="title-1" class="special-title-1">{{ gallery_trans.title }}</h1>
-        <h2 id="title-2" class="special-title-2">{{ gallery_trans.subtitle }}</h2>
+        <h1 id="title-1" class="special-title-1 animate-on-scroll" data-animate="fadeInDown">{{ gallery_trans.title }}</h1>
+        <h2 id="title-2" class="special-title-2 animate-on-scroll" data-animate="fadeInUp">{{ gallery_trans.subtitle }}</h2>
       </div>
 
       <!-- GALLERY LIGHTBOX -->
@@ -53,7 +53,7 @@
         <div class="container">
           <div class="row" id="gallery-items">
             {% for item in gallery_pictures.items %}
-              <div class="gallery-item col-md-4">
+              <div class="gallery-item col-md-4 animate-on-scroll" data-animate="fadeInUp">
                 <a href="#" data-slide-number="{{ forloop.index0 }}">
                   <img class="img-fluid rounded box-shadow border" 
                   src="{{ item.src }}" 
@@ -100,6 +100,6 @@
     <script src="{{ site.baseurl }}/js/gallery-lightbox.js"></script>
     <script src="{{ site.baseurl }}/js/site.js"></script>
     <script src="{{ site.baseurl }}/js/render-header-footer.js"></script>
-    <script src="{{ site.baseurl }}/js/gallery-animations.js"></script>
+    <script src="{{ site.baseurl }}/js/animations.js"></script>
   </body>
 </html>

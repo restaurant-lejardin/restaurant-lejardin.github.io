@@ -46,15 +46,15 @@
           alt=""
           class="about-jumbotron-bg">
         <div class="about-jumbotron-caption">
-          <h1 id="title-1" class="special-title-1">{{ site.data.translations[page.lang].about.title }}</h1>
-          <h2 id="title-2" class="special-title-2">{{ site.data.translations[page.lang].about.subtitle }}</h2>
+          <h1 id="title-1" class="special-title-1 animate-on-scroll" data-animate="fadeInDown">{{ site.data.translations[page.lang].about.title }}</h1>
+          <h2 id="title-2" class="special-title-2 animate-on-scroll" data-animate="fadeInUp">{{ site.data.translations[page.lang].about.subtitle }}</h2>
           <a class="about-arrow animated bounce smooth-scroll" href="#about-history" aria-label="our history"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
         </div>
       </div>
       <!-- DIRECTIONS -->
       <div class="contact-directions container">
-        <h1 id="title-1-directions" class="special-title-1">{{ site.data.translations[page.lang].about.directions_title }}</h1>
-        <h2 id="title-2-directions" class="special-title-2">{{ site.data.translations[page.lang].about.directions_subtitle }}</h2>
+        <h1 id="title-1-directions" class="special-title-1 animate-on-scroll" data-animate="fadeInDown">{{ site.data.translations[page.lang].about.directions_title }}</h1>
+        <h2 id="title-2-directions" class="special-title-2 animate-on-scroll" data-animate="fadeInUp">{{ site.data.translations[page.lang].about.directions_subtitle }}</h2>
         <address>{{ site.data.translations[page.lang].restaurant_name }}<br>
           4 rue Meslay<br>
           75003 Paris<br>
@@ -97,10 +97,10 @@
       </div>
       <div id="about-history" class="container about-history">
         <div class="row d-flex align-items-center">
-          <div class="col-md-4 about-history-title">
+          <div class="col-md-4 about-history-title animate-on-scroll" data-animate="fadeInLeft">
             <h3>{{ site.data.translations[page.lang].about.history_title }}</h3>
           </div>
-          <div id="history-description" class="col-md-8">
+          <div id="history-description" class="col-md-8 animate-on-scroll" data-animate="fadeInRight">
             <p>{{ site.data.translations[page.lang].about.history_paragraph1 }}</p>
             <p>{{ site.data.translations[page.lang].about.history_paragraph2 }}</p>
             <div class="gallery-item">
@@ -136,6 +136,6 @@
       crossorigin="anonymous">
     </script>
     <script src="{{ site.baseurl }}/js/site.js"></script>
-    <script src="{{ site.baseurl }}/js/about-animations.js"></script>
+    <script src="{{ site.baseurl }}/js/animations.js"></script>
   </body>
 </html>
