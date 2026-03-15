@@ -49,7 +49,7 @@
             {% unless menu_item.page == page.body_id %}
               {% assign lang_prefix = '' %}
               {% if page.lang and page.lang != 'fr' %}
-                {% assign lang_prefix = '/' | append: page.lang %}
+                {% assign lang_prefix = '/' | append: page.lang | append : '/' %}
               {% endif %}
               {% assign item_url = site.baseurl | append: lang_prefix | append: menu_item.page | append: '.html' %}
               {% assign item_title = menu_item.title[page.lang] %}

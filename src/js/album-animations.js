@@ -1,18 +1,12 @@
 /* Album page */
 var title1 = document.querySelector('#title-1');
 var title2 = document.querySelector('#title-2');
-var cardFood = document.querySelector('#card-food');
-var cardDesserts = document.querySelector('#card-desserts');
-// var cardDrinks = document.querySelector('#card-drinks');
-var cardLocation = document.querySelector('#card-location');
-// var cardStaff = document.querySelector('#card-entree');
+var cards = document.querySelectorAll('.gallery-card');
 title1.style.opacity = "0";
 title2.style.opacity = "0";
-cardFood.style.opacity = "0";
-cardDesserts.style.opacity = "0";
-// cardDrinks.style.opacity = "0";
-cardLocation.style.opacity = "0";
-// cardStaff.style.opacity = "0";
+cards.forEach(function(card) {
+  card.style.opacity = "0";
+});
 
 var options = {
   rootMargin: '0px',
@@ -21,47 +15,18 @@ var options = {
 
 function callback(entries, observer) {
   entries.forEach(function(entry) {
-    switch (entry.target.id) {
-      case "title-1":
-        if (entry.intersectionRatio > 0) {
-          title1.style.opacity = "1";
-          title1.className += " animated fadeInDown";
-          // Stop observing target
-          observer.unobserve(entry.target);
-        }
-        break;
-      case "title-2":
-        if (entry.intersectionRatio > 0) {
-          title2.style.opacity = "1";
-          title2.className += " animated fadeInUp";
-          // Stop observing target
-          observer.unobserve(entry.target);
-        }
-        break;
-      case "card-food":
-        if (entry.intersectionRatio > 0) {
-          cardFood.style.opacity = "1";
-          cardFood.className += " animated slideInUp";
-          // Stop observing target
-          observer.unobserve(entry.target);
-        }
-        break;
-      case "card-desserts":
-        if (entry.intersectionRatio > 0) {
-          cardDesserts.style.opacity = "1";
-          cardDesserts.className += " animated slideInUp";
-          // Stop observing target
-          observer.unobserve(entry.target);
-        }
-        break;
-      case "card-location":
-        if (entry.intersectionRatio > 0) {
-          cardLocation.style.opacity = "1";
-          cardLocation.className += " animated slideInUp";
-          // Stop observing target
-          observer.unobserve(entry.target);
-        }
-        break;
+    if (entry.target.id === "title-1" && entry.intersectionRatio > 0) {
+      title1.style.opacity = "1";
+      title1.className += " animated fadeInDown";
+      observer.unobserve(entry.target);
+    } else if (entry.target.id === "title-2" && entry.intersectionRatio > 0) {
+      title2.style.opacity = "1";
+      title2.className += " animated fadeInUp";
+      observer.unobserve(entry.target);
+    } else if (entry.target.classList.contains('gallery-card') && entry.intersectionRatio > 0) {
+      entry.target.style.opacity = "1";
+      entry.target.className += " animated slideInUp";
+      observer.unobserve(entry.target);
     }
   });
 }
@@ -72,8 +37,6 @@ var observer = new IntersectionObserver(callback, options);
 // Start observing 
 observer.observe(title1);
 observer.observe(title2);
-observer.observe(cardFood);
-observer.observe(cardDesserts);
-// observer.observe(cardDrinks);
-observer.observe(cardLocation);
-// observer.observe(cardStaff);
+cards.forEach(function(card) {
+  observer.observe(card);
+});
