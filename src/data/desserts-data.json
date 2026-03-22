@@ -51,7 +51,7 @@
       },
       "subcategories": [
         {
-          "id": "desserts",
+          "id": "nos-desserts",
           "icon": "media/menu/desserts/icons/cakes.svg",
           "title": {
             "fr": "DESSERTS",
