@@ -18,7 +18,7 @@ window.initAnimations = function() {
     entries.forEach(function(entry) {
       if (entry.intersectionRatio > 0) {
         var anim = entry.target.getAttribute('data-animate') || 'slideInUp';
-        console.log('[animations.js] Animating:', entry.target, 'with:', anim);
+        // console.log('[animations.js] Animating:', entry.target, 'with:', anim);
         entry.target.style.opacity = "1";
         entry.target.classList.add('animated', anim);
         observer.unobserve(entry.target);
@@ -30,7 +30,7 @@ window.initAnimations = function() {
 
   // Animate existing elements
   var animatedElements = document.querySelectorAll('.animate-on-scroll');
-  console.log('[animations.js] Found', animatedElements.length, 'elements to animate');
+  // console.log('[animations.js] Found', animatedElements.length, 'elements to animate');
   animatedElements.forEach(function(el) {
     animateElement(el, observer);
   });

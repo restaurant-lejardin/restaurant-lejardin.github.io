@@ -236,45 +236,33 @@ function renderJumbotron(foodContainer, data, currentLang) {
     `;
     // Render menu icons if present
     const menuIconsContainer = document.getElementById("menu-icons");
-    let groups = data.menuGroups || data.subCategories;
-    if (!groups && Array.isArray(data.categories)) groups = data.categories;
-    if (menuIconsContainer && Array.isArray(groups) && groups.length > 0) {
-      const groupsHtml = groups.map(group => {
-        const subtitle = getLocalizedText(group.subTitle, currentLang) || "";
-        let groupHtml = '';
-        if (Array.isArray(group.subcategories)) {
-          groupHtml = group.subcategories.map(subcat => {
+    let categories = data.subCategories;
+    if (!categories && Array.isArray(data.categories)) categories = data.categories;
+    if (menuIconsContainer && Array.isArray(categories) && categories.length > 0) {
+      const categoriesHtml = categories.map(category => {
+        const subtitle = getLocalizedText(category.subTitle, currentLang) || "";
+        let categoryHtml = '';
+        if (Array.isArray(category.subcategories)) {
+          categoryHtml = category.subcategories.map(subcat => {
             const text = getLocalizedText(subcat.title, currentLang) || subcat.id || "";
             return `
               <div class="col">
                 <a href="#${subcat.id}" class="smooth-scroll">
                   <img class="menu-icon" src="/${subcat.icon}" alt="${text}">
+                  <h6 class="menu-icon-text mt-3 mb-0">${text}</h6>
                 </a>
-                <h6 class="menu-icon-text mt-3 mb-0">${text}</h6>
               </div>
             `;
           }).join("");
-        } else if (Array.isArray(group.items)) {
-          groupHtml = group.items.map(item => {
-            const text = getLocalizedText(item.text, currentLang) || item.id || "";
-            return `
-              <div class="col">
-                <a href="#${item.id}" class="smooth-scroll">
-                  <img class="menu-icon" src="/${item.icon}" alt="${text}">
-                </a>
-                <h6 class="menu-icon-text mt-3 mb-0">${text}</h6>
-              </div>
-            `;
-          }).join("");
-        }
+        } 
         return `
           ${subtitle ? `<h2 class=\"special-title-3\">${subtitle}</h2>` : ""}
           <div class="row">
-            ${groupHtml}
+            ${categoryHtml}
           </div><br>
         `;
       }).join("");
-      menuIconsContainer.innerHTML = groupsHtml;
+      menuIconsContainer.innerHTML = categoriesHtml;
     }
   }
 }

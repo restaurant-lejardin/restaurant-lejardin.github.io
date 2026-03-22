@@ -1224,3 +1224,7 @@ a, a:hover {
   padding: 20px 0 !important;
   margin: 20px 0 !important;
 }
+
+.food-subcategory {
+  scroll-margin-top: 70px; /* Navbar height + padding */
+}
