@@ -151,6 +151,7 @@ function buildLocalizedField(row, field) {
 }
 
 function mapSheetRowToItem(row) {
+  // Required field: subcategory_id and name (at least in one language)
   const subcategoryId = getRowValue(row, ['subcategory_id', 'subcategory', 'subcat_id']);
   if (!subcategoryId) return null;
 
@@ -159,6 +160,7 @@ function mapSheetRowToItem(row) {
 
   const item = { name };
 
+  // Optional fields:
   const specialTitle = buildLocalizedField(row, 'special_title');
   if (specialTitle) item.specialTitle = specialTitle;
 
@@ -251,8 +253,21 @@ async function loadSheetMappedItems(sheetUrl) {
 }
 
 function mergeSheetItemsIntoData(data, mappedItems) {
-  if (!Array.isArray(mappedItems) || mappedItems.length === 0) return data;
-  if (!Array.isArray(data.categories)) return data;
+  if (!Array.isArray(data.categories)) {
+    return { totalItems: 0, unknownSubcategories: [] };
+  }
+
+  // Sheet-first mode: once a sheet is configured and fetched, JSON items are ignored.
+  data.categories.forEach(category => {
+    if (!Array.isArray(category.subcategories)) return;
+    category.subcategories.forEach(subcat => {
+      subcat.items = [];
+    });
+  });
+
+  if (!Array.isArray(mappedItems) || mappedItems.length === 0) {
+    return { totalItems: 0, unknownSubcategories: [] };
+  }
 
   const itemsBySubcategory = new Map();
   mappedItems.forEach(({ subcategoryId, item }) => {
@@ -279,11 +294,8 @@ function mergeSheetItemsIntoData(data, mappedItems) {
   itemsBySubcategory.forEach((_, subcatId) => {
     if (!seenSubcategories.has(subcatId)) unknownSubcategories.push(subcatId);
   });
-  if (unknownSubcategories.length > 0) {
-    console.warn('[render-food] Sheet contains unknown subcategory_id values:', unknownSubcategories.join(', '));
-  }
 
-  return data;
+  return { totalItems: mappedItems.length, unknownSubcategories };
 }
 
 
@@ -409,7 +421,13 @@ function renderFoodAndJumbotron(foodContainer, currentLang) {
       if (googleSheetUrl) {
         try {
           const mappedItems = await loadSheetMappedItems(googleSheetUrl);
-          mergeSheetItemsIntoData(data, mappedItems);
+          const mergeResult = mergeSheetItemsIntoData(data, mappedItems);
+          if (mergeResult.totalItems === 0) {
+            console.warn('[render-food] Sheet loaded but no valid item rows found. All subcategory items are empty.');
+          }
+          if (mergeResult.unknownSubcategories.length > 0) {
+            console.warn('[render-food] Sheet contains unknown subcategory_id values:', mergeResult.unknownSubcategories.join(', '));
+          }
         } catch (sheetError) {
           console.warn('[render-food] Failed to load Google Sheet items, falling back to JSON items:', sheetError);
         }

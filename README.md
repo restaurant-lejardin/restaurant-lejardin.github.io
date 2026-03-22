@@ -181,13 +181,6 @@ This site uses a hybrid approach for multilingual support:
 - Set `lang` in the front matter of every page for correct language selection in templates and navigation.
 
 
-# Todo
-- ✅ Improved CI/CD
-- ✅ Multi-language website
-- ✅ jumbotron-section fused with each json
-- ✅ Hybrid menu data: JSON structure + Google Sheet items
-- Add Chinese
-- Refactor js code using classes instead of ids. Clean corresponding HTML code
 
 ## Hybrid Menu Data (JSON + Google Sheets)
 
@@ -225,3 +218,13 @@ Notes:
 - Row order in the Google Sheet is preserved in rendering (no `sort_order` needed).
 - All rows are considered active (no `active` column).
 - Each menu page points to its own sheet/tab URL, so no `page_id` column is required.
+
+# Todo
+- ✅ Improved CI/CD
+- ✅ Multi-language website
+- ✅ jumbotron-section fused with each json
+- ✅ Hybrid menu data: JSON structure + Google Sheet items
+- ✅ Optimise CSS
+- Add Chinese
+- Refactor js code using classes instead of ids. Clean corresponding HTML code
+- Fix errors shown in console

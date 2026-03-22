@@ -24,7 +24,7 @@
         <div
           id="food-container"
           data-json="data/{{ page.body_id | default: 'menu' }}-data.json"
-          data-google-sheet-url="{{ page.google_sheet_url | default: '' }}"
+          data-google-sheet-url="{{ site.data.google_sheets[page.body_id] | default: '' }}"
         >
           <!-- Dynamic food data will be rendered here -->
         </div>
