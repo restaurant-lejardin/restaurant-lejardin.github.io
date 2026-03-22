@@ -181,10 +181,41 @@ This site uses a hybrid approach for multilingual support:
 - Set `lang` in the front matter of every page for correct language selection in templates and navigation.
 
 
+
+## Hybrid Menu Data (JSON + Google Sheets)
+
+Menu pages now support a hybrid model:
+- Static structure stays in `src/data/*-data.json` (page id/title, jumbotron, categories/subcategories, icons).
+- Dynamic items come from one Google Sheet URL per page (`google_sheet_url` in page front matter).
+
+Example front matter on menu pages:
+
+```yaml
+layout: menu_pages
+body_id: "formules"
+```
+
+### Google Sheet Columns (one row = one item)
+
+Required columns:
+- `subcategory_id`
+- At least one of `name_fr`, `name_en`, `name_zh`
+
+Optional columns:
+- `show_hr`
+- `special_title_fr`, `special_title_en`, `special_title_zh`
+- `description_fr`, `description_en`, `description_zh`
+- `price`
+- `image`
+- `vegan_type` (`vege` or `vege_possible`)
+- `ou_highlight`
+
 # Todo
 - ✅ Improved CI/CD
 - ✅ Multi-language website
 - ✅ jumbotron-section fused with each json
-- Food data in an excel instead of json
+- ✅ Hybrid menu data: JSON structure + Google Sheet items
+- ✅ Optimise CSS
 - Add Chinese
 - Refactor js code using classes instead of ids. Clean corresponding HTML code
+- Fix errors shown in console

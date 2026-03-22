@@ -42,6 +42,13 @@ jobs:
         bundle install
         npm install
         npm install -g grunt-cli
+
+    - name: Generate Google Sheets config from secrets
+      run: |
+        mkdir -p src/_data
+        printf "%s" "$GOOGLE_SHEETS_YAML" > src/_data/google_sheets.yml
+      env:
+        GOOGLE_SHEETS_YAML: ${{ secrets.GOOGLE_SHEETS_YAML }}
     
     - name: Build site
       run: bash script.sh

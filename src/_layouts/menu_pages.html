@@ -21,7 +21,11 @@
 
       <!-- FOOD: DESCRIPTIONS -->
       <div class="food-descriptions container">
-        <div id="food-container" data-json="data/{{ page.body_id | default: 'menu' }}-data.json">
+        <div
+          id="food-container"
+          data-json="data/{{ page.body_id | default: 'menu' }}-data.json"
+          data-google-sheet-url="{{ site.data.google_sheets[page.body_id] | default: '' }}"
+        >
           <!-- Dynamic food data will be rendered here -->
         </div>
 
