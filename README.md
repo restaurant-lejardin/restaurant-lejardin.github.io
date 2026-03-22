@@ -185,6 +185,43 @@ This site uses a hybrid approach for multilingual support:
 - ✅ Improved CI/CD
 - ✅ Multi-language website
 - ✅ jumbotron-section fused with each json
-- Food data in an excel instead of json
+- ✅ Hybrid menu data: JSON structure + Google Sheet items
 - Add Chinese
 - Refactor js code using classes instead of ids. Clean corresponding HTML code
+
+## Hybrid Menu Data (JSON + Google Sheets)
+
+Menu pages now support a hybrid model:
+- Static structure stays in `src/data/*-data.json` (page id/title, jumbotron, categories/subcategories, icons).
+- Dynamic items can come from one Google Sheet URL per page (`google_sheet_url` in page front matter).
+
+Example front matter on menu pages:
+
+```yaml
+layout: menu_pages
+body_id: "formules"
+google_sheet_url: "https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/edit?gid=<TAB_GID>#gid=<TAB_GID>"
+```
+
+If `google_sheet_url` is empty, JSON items are used.
+If the sheet fails to load, the renderer falls back to JSON items.
+
+### Google Sheet Columns (one row = one item)
+
+Required columns:
+- `subcategory_id`
+- At least one of `name_fr`, `name_en`, `name_zh`
+
+Optional columns:
+- `show_hr`
+- `special_title_fr`, `special_title_en`, `special_title_zh`
+- `description_fr`, `description_en`, `description_zh`
+- `price`
+- `image`
+- `vegan_type` (`vege` or `vege_possible`)
+- `ou_highlight`
+
+Notes:
+- Row order in the Google Sheet is preserved in rendering (no `sort_order` needed).
+- All rows are considered active (no `active` column).
+- Each menu page points to its own sheet/tab URL, so no `page_id` column is required.
