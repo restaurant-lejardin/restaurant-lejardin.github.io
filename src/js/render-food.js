@@ -3,23 +3,38 @@
  *
  * DOMContentLoaded
  *   └─ renderFoodAndJumbotron(container, lang)
+ *        ├─ detect page mode from data-json
+ *        │    └─ isDrinksPage = jsonFilePath.includes('drinks-data')
  *        ├─ fetch(jsonFilePath)
  *        └─ (on data)
  *             ├─ renderJumbotron(container, data, lang)
  *             └─ for each category in data.categories:
  *                   ├─ createEl (for specialTitle, etc)
  *                   └─ renderCategory(category, lang, jsonFilePath, isDrinksPage)
- *                         ├─ for each subcategory in category.subcategories:
- *                         │     └─ renderSubcategory(subcat, lang, jsonFilePath, isDrinksPage)
- *                         │           └─ for each item in subcat.items:
- *                         │                 └─ renderFoodItem(item, lang, jsonFilePath, isDrinksPage)
- *                         │                       ├─ createFoodImageCol
- *                         │                       ├─ createVeganIndicator
- *                         │                       └─ createFoodTitle
- *                         └─ for each item in category.items:
- *                               └─ renderFoodItem(...)
+ *                         ├─ append category description when present
+ *                         └─ for each subcategory in category.subcategories:
+ *                               └─ renderSubcategory(subcat, lang, jsonFilePath, isDrinksPage)
+ *                                     ├─ render banner title + separator
+ *                                     └─ for each item in subcat.items:
+ *                                           ├─ append item separator when item.showHr
+ *                                           ├─ append item.specialTitle when present
+ *                                           └─ renderFoodItem(item, lang, jsonFilePath, isDrinksPage)
+ *                                                 ├─ if formules-data and item['ou-highlight']:
+ *                                                 │    └─ render OU / OR / 或 label
+ *                                                 ├─ else if not drinks page:
+ *                                                 │    └─ createFoodImageCol(item.image)
+ *                                                 ├─ createVeganIndicator(item.veganType)
+ *                                                 ├─ create details column
+ *                                                 │    └─ createFoodTitle(item, lang, isFormule)
+ *                                                 │         └─ uses food-title or formule-title
+ *                                                 └─ append description when item.description
  *
- * Helper functions: detectLanguage, getLocalizedText, createEl
+ * Notes:
+ *   - Drinks pages reuse the same food-title / food-name / food-price classes.
+ *   - The drinks exception is layout only: no image column and details take col-md-12.
+ *   - Formules pages reuse the same renderer with OU highlight handling and formule-title.
+ *
+ * Helper functions: detectLanguage, getLocalizedText, createEl, createFoodImageCol, createVeganIndicator, createFoodTitle
  */
 
 function detectLanguage() {
@@ -122,17 +137,9 @@ function renderCategory(category, currentLang, jsonFilePath, isDrinksPage) {
   if (category.description) {
     categoryDiv.appendChild(createEl('p', ['category-description'], getLocalizedText(category.description, currentLang)));
   }
-  if (Array.isArray(category.subcategories)) {
-    category.subcategories.forEach(subcat => {
-      categoryDiv.appendChild(renderSubcategory(subcat, currentLang, jsonFilePath, isDrinksPage));
-    });
-  } else if (Array.isArray(category.items)) {
-    category.items.forEach(item => {
-      if (item.showHr) categoryDiv.appendChild(createEl('hr', ['food-horizontal-rule']));
-      if (item.specialTitle) categoryDiv.appendChild(createEl('h3', ['special-title-4'], getLocalizedText(item.specialTitle, currentLang)));
-      categoryDiv.appendChild(renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage));
-    });
-  }
+  category.subcategories.forEach(subcat => {
+    categoryDiv.appendChild(renderSubcategory(subcat, currentLang, jsonFilePath, isDrinksPage));
+  });
   return categoryDiv;
 }
 

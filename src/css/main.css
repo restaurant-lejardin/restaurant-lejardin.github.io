@@ -679,7 +679,9 @@ a, a:hover {
  * FOOD MENU
  */
 
-.food-jumbotron {
+.food-jumbotron,
+.drinks-jumbotron,
+.desserts-jumbotron {
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -688,7 +690,9 @@ a, a:hover {
   height:  calc(100vh - 62px);
 }
 
-.food-jumbotron-bg {
+.food-jumbotron-bg,
+.drinks-jumbotron-bg,
+.desserts-jumbotron-bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -697,7 +701,9 @@ a, a:hover {
   height: 100%;
 }
 
-.food-jumbotron-caption {
+.food-jumbotron-caption,
+.drinks-jumbotron-caption,
+.desserts-jumbotron-caption {
   position: absolute;
   z-index: 1;
   top: 50%;
@@ -715,7 +721,9 @@ a, a:hover {
   font-size: 1.2rem;
 }
 
-.food-jumbotron h1 {
+.food-jumbotron h1,
+.drinks-jumbotron h1,
+.desserts-jumbotron h1 {
   margin-bottom: 2.8rem;
 }
 
@@ -731,21 +739,21 @@ a, a:hover {
   padding: 0.5rem 0;
 }
 
-.food-image {
+.food-image,
+.dessert-image {
   margin-bottom: 2.8rem;
   text-align: center;
 }
 
 
-.food-title {
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-}
-
+.food-title,
 .formule-title {
   font-size: 1rem;
   font-weight: 700;
+}
+
+.food-title,
+.formule-title {
   margin-bottom: 0.5rem;
 }
 
@@ -770,6 +778,9 @@ a, a:hover {
   position: relative;
   padding-left: 15px;
   background: #fff;
+}
+
+.food-price {
   float: right;
 }
 
@@ -792,38 +803,8 @@ a, a:hover {
  * DRINKS MENU
  */
 
-.drinks-jumbotron {
-  text-align: center;
-  overflow: hidden;
-  position: relative;
-  background-color: #50000b;
-  border-radius: 0%;
-  height:  calc(100vh - 62px);
-}
-
-.drinks-jumbotron-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  object-fit: cover;
-  height: 100%;
-}
-
-.drinks-jumbotron-caption {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-.drinks-jumbotron h1 {
-  margin-bottom: 2.8rem;
-}
-
-.drinks-descriptions {
+.drinks-descriptions,
+.desserts-descriptions {
   max-width: 50em;
 }
 
@@ -831,149 +812,17 @@ a, a:hover {
   padding-top: 8rem;
 }
 
-.drink-category h2 {
-  margin-bottom: 2.8rem;
-}
-
-.drink-title {
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  position: relative;
-}
-
-.drink-title:before {
-  position: absolute;
-  top: 12px;
-  left: 20px;
-  right: 20px;
-  height: 1px;
-  border-top: 2px dotted rgba(0,0,0,1);
-  display: block;
-  content: '';
-}
-
-.drink-name {
-  position: relative;
-  padding-right: 15px;
-  background: #fff;
-}
-
-.drink-name2 {
-  position: relative;
-  font-weight: lighter;
-  padding-right: 15px;
-  background: #fff;
-}
-
-.drink-price {
-  position: relative;
-  padding-left: 15px;
-  background: #fff;
-}
-
-.drink-price2 {
-  position: relative;
-  font-weight: lighter;
-  padding-left: 15px;
-  background: #fff;
-}
-
-.drink-ingredients {
-  margin-bottom: 0;
-}
-
-.drink-horizontal-rule {
-  margin: 0;
-}
-
 /*
  * DESSERTS MENU
  */
-
-.desserts-jumbotron {
-  text-align: center;
-  overflow: hidden;
-  position: relative;
-  background-color: #50000b;
-  border-radius: 0%;
-  height:  calc(100vh - 62px);
-}
-
-.desserts-jumbotron-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  object-fit: cover;
-  height: 100%;
-}
-
-.desserts-jumbotron-caption {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-.desserts-jumbotron h1 {
-  margin-bottom: 2.8rem;
-}
-
-.desserts-descriptions {
-  max-width: 50em;
-}
 
 .dessert-category {
   padding-top: 8rem;
 }
 
+.drink-category h2,
 .dessert-category h2 {
   margin-bottom: 2.8rem;
-}
-
-.dessert-image {
-  margin-bottom: 2.8rem;
-  text-align: center;
-}
-
-.dessert-title {
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-}
-
-.dessert-title:before {
-  position: absolute;
-  top: 12px;
-  left: 20px;
-  right: 20px;
-  height: 1px;
-  border-top: 2px dotted rgba(0,0,0,1);
-  display: block;
-  content: '';
-}
-
-.dessert-name {
-  position: relative;
-  padding-right: 15px;
-  background: #fff;
-}
-
-.dessert-price {
-  position: relative;
-  padding-left: 15px;
-  background: #fff;
-}
-
-.dessert-ingredients {
-  margin-bottom: 0;
-}
-
-.dessert-horizontal-rule {
-  margin: 0;
 }
 
 /*
