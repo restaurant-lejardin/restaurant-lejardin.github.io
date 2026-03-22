@@ -259,13 +259,19 @@ a, a:hover {
  * HOMEPAGE-ABOUT-US
  */
 
-.homepage-about-us {
+.homepage-about-us,
+.homepage-testimonials,
+.reservations-form,
+.contact-information-wrapper {
   overflow: hidden;
   position: relative;
+}
+
+.homepage-about-us {
   background-color: #6b0101;
 }
 
-.homepage-about-us-bg {
+.section-bg-cover {
   position: absolute;
   top: 0;
   left: 0;
@@ -274,11 +280,15 @@ a, a:hover {
   height: 100%;
 }
 
-.homepage-about-us-caption {
-  text-align: center;
+.homepage-about-us-caption,
+.homepage-testimonials-caption {
   position: relative;
   margin: 8rem 1rem;
   z-index: 1;
+}
+
+.homepage-about-us-caption {
+  text-align: center;
 }
 
 .homepage-about-us-description {
@@ -310,25 +320,12 @@ a, a:hover {
  */
 
 .homepage-testimonials {
-  overflow: hidden;
-  position: relative;
   background-color: #001F40;
   color: #fff;
 }
 
-.homepage-testimonials-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  object-fit: cover;
-  height: 100%;
-}
-
 .homepage-testimonials-caption {
-  position: relative;
-  margin: 8rem 1rem;
-  z-index: 1;
+  text-align: left;
 }
 
 .homepage-testimonials blockquote {
@@ -482,25 +479,25 @@ a, a:hover {
  * ABOUT
  */
 
- .about-jumbotron {
+.about-jumbotron,
+.food-jumbotron,
+.drinks-jumbotron,
+.desserts-jumbotron {
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-color: #001F40;
   border-radius: 0%;
   height:  calc(100vh - 62px);
 }
 
-.about-jumbotron-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  object-fit: cover;
-  height: 100%;
+.about-jumbotron {
+  background-color: #001F40;
 }
 
-.about-jumbotron-caption {
+.about-jumbotron-caption,
+.food-jumbotron-caption,
+.drinks-jumbotron-caption,
+.desserts-jumbotron-caption {
   position: absolute;
   z-index: 1;
   top: 50%;
@@ -560,18 +557,7 @@ a, a:hover {
 }
 
 .reservations-form {
-  overflow: hidden;
-  position: relative;
   background-color: #001F40;
-}
-
-.reservations-form-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  object-fit: cover;
-  height: 100%;
 }
 
 .reservations-form > form {
@@ -624,18 +610,7 @@ a, a:hover {
 }
 
 .contact-information-wrapper {
-  overflow: hidden;
-  position: relative;
   background-color: #001F40;
-}
-
-.contact-information-wrapper-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  object-fit: cover;
-  height: 100%;
 }
 
 .contact-information {
@@ -682,34 +657,7 @@ a, a:hover {
 .food-jumbotron,
 .drinks-jumbotron,
 .desserts-jumbotron {
-  text-align: center;
-  overflow: hidden;
-  position: relative;
   background-color: #50000b;
-  border-radius: 0%;
-  height:  calc(100vh - 62px);
-}
-
-.food-jumbotron-bg,
-.drinks-jumbotron-bg,
-.desserts-jumbotron-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  object-fit: cover;
-  height: 100%;
-}
-
-.food-jumbotron-caption,
-.drinks-jumbotron-caption,
-.desserts-jumbotron-caption {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
 }
 
 .menu-icon {
@@ -1074,6 +1022,7 @@ a, a:hover {
   margin: 20px 0 !important;
 }
 
-.food-subcategory {
+.food-subcategory,
+#menu-legend {
   scroll-margin-top: 70px; /* Navbar height + padding */
 }

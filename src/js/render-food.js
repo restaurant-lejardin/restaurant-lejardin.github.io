@@ -61,7 +61,12 @@ function createEl(tag, classList = [], content = null, attrs = {}) {
 
 
 function createVeganIndicator(veganType) {
-  const veganIndicatorCol = createEl('div', ['col-md-1', 'vegan-indicator', 'text-right']);
+  const indicatorTag = veganType ? 'a' : 'div';
+  const indicatorAttrs = veganType ? {
+    href: '#menu-legend',
+    'aria-label': 'Go to menu legend'
+  } : {};
+  const veganIndicatorCol = createEl(indicatorTag, ['col-md-1', 'vegan-indicator', 'text-right'], null, indicatorAttrs);
   veganIndicatorCol.style.flex = "0 0 auto";
   if (veganType) {
     const veganLogo = document.createElement('img');
@@ -233,7 +238,7 @@ function renderJumbotron(foodContainer, data, currentLang) {
           src="${backgroundImage || defaultBackgroundImage}"
           srcset="${srcset || defaultSrcset}"
           alt=""
-          class="food-jumbotron-bg"
+          class="food-jumbotron-bg section-bg-cover"
         >
         <div class="food-jumbotron-caption container">
           <h1 id="title-1" class="special-title-2 animate-on-scroll" data-animate="fadeInDown">${title}</h1>
