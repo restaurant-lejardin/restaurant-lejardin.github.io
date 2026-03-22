@@ -873,14 +873,41 @@ a, a:hover {
 }
 
 .lightbox-content {
-  max-width: 800px;
-  width: 80%;
+  max-width: 1100px;
+  width: min(92vw, 1100px);
+  max-height: 82vh;
   /* Horizontal & Vertical Centering */
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+}
+
+/* Fix gallery carousel height to prevent layout shift when sliding next or previous image */
+#galleryCarousel,
+#galleryCarousel .carousel-inner {
+  height: min(82vh, 900px);
+}
+
+#galleryCarousel .carousel-item {
+  height: 100%;
+  background: black;
+}
+
+#galleryCarousel .carousel-item.active,
+#galleryCarousel .carousel-item-next,
+#galleryCarousel .carousel-item-prev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#galleryCarousel .carousel-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .gallery-thumbnails {
@@ -926,6 +953,18 @@ a, a:hover {
 
   .menu-OU-text {
     text-align: left; /*TODO: change to left when smartphone*/
+  }
+}
+
+@media (max-width: 575.98px) {
+  .lightbox-content {
+    width: 94vw;
+    max-height: 76vh;
+  }
+
+  #galleryCarousel,
+  #galleryCarousel .carousel-inner {
+    height: 76vh;
   }
 }
 
