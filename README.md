@@ -186,18 +186,14 @@ This site uses a hybrid approach for multilingual support:
 
 Menu pages now support a hybrid model:
 - Static structure stays in `src/data/*-data.json` (page id/title, jumbotron, categories/subcategories, icons).
-- Dynamic items can come from one Google Sheet URL per page (`google_sheet_url` in page front matter).
+- Dynamic items come from one Google Sheet URL per page (`google_sheet_url` in page front matter).
 
 Example front matter on menu pages:
 
 ```yaml
 layout: menu_pages
 body_id: "formules"
-google_sheet_url: "https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/edit?gid=<TAB_GID>#gid=<TAB_GID>"
 ```
-
-If `google_sheet_url` is empty, JSON items are used.
-If the sheet fails to load, the renderer falls back to JSON items.
 
 ### Google Sheet Columns (one row = one item)
 
@@ -213,11 +209,6 @@ Optional columns:
 - `image`
 - `vegan_type` (`vege` or `vege_possible`)
 - `ou_highlight`
-
-Notes:
-- Row order in the Google Sheet is preserved in rendering (no `sort_order` needed).
-- All rows are considered active (no `active` column).
-- Each menu page points to its own sheet/tab URL, so no `page_id` column is required.
 
 # Todo
 - ✅ Improved CI/CD
