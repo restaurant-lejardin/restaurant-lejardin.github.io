@@ -73,8 +73,8 @@
 
       <!-- NAVIGATION BUTTONS -->
       <div class="row-centered end-menu" id="navigation-buttons">
-        {% for nav in gallery.navigation %}
-          <a class="btn btn-outline-dark" href="{{ nav.href }}" role="button">{{ nav.text }}</a>
+        {% for nav in gallery_pictures.navigation %}
+          <a class="btn btn-outline-dark" href="{{ nav.href }}" role="button">{{ nav.text[page.lang] }}</a>
         {% endfor %}
         <br>
       </div>
