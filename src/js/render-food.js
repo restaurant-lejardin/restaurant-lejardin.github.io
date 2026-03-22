@@ -3,23 +3,38 @@
  *
  * DOMContentLoaded
  *   └─ renderFoodAndJumbotron(container, lang)
+ *        ├─ detect page mode from data-json
+ *        │    └─ isDrinksPage = jsonFilePath.includes('drinks-data')
  *        ├─ fetch(jsonFilePath)
  *        └─ (on data)
  *             ├─ renderJumbotron(container, data, lang)
  *             └─ for each category in data.categories:
  *                   ├─ createEl (for specialTitle, etc)
  *                   └─ renderCategory(category, lang, jsonFilePath, isDrinksPage)
- *                         ├─ for each subcategory in category.subcategories:
- *                         │     └─ renderSubcategory(subcat, lang, jsonFilePath, isDrinksPage)
- *                         │           └─ for each item in subcat.items:
- *                         │                 └─ renderFoodItem(item, lang, jsonFilePath, isDrinksPage)
- *                         │                       ├─ createFoodImageCol
- *                         │                       ├─ createVeganIndicator
- *                         │                       └─ createFoodTitle
- *                         └─ for each item in category.items:
- *                               └─ renderFoodItem(...)
+ *                         ├─ append category description when present
+ *                         └─ for each subcategory in category.subcategories:
+ *                               └─ renderSubcategory(subcat, lang, jsonFilePath, isDrinksPage)
+ *                                     ├─ render banner title + separator
+ *                                     └─ for each item in subcat.items:
+ *                                           ├─ append item separator when item.showHr
+ *                                           ├─ append item.specialTitle when present
+ *                                           └─ renderFoodItem(item, lang, jsonFilePath, isDrinksPage)
+ *                                                 ├─ if formules-data and item['ou-highlight']:
+ *                                                 │    └─ render OU / OR / 或 label
+ *                                                 ├─ else if not drinks page:
+ *                                                 │    └─ createFoodImageCol(item.image)
+ *                                                 ├─ createVeganIndicator(item.veganType)
+ *                                                 ├─ create details column
+ *                                                 │    └─ createFoodTitle(item, lang, isFormule)
+ *                                                 │         └─ uses food-title or formule-title
+ *                                                 └─ append description when item.description
  *
- * Helper functions: detectLanguage, getLocalizedText, createEl
+ * Notes:
+ *   - Drinks pages reuse the same food-title / food-name / food-price classes.
+ *   - The drinks exception is layout only: no image column and details take col-md-12.
+ *   - Formules pages reuse the same renderer with OU highlight handling and formule-title.
+ *
+ * Helper functions: detectLanguage, getLocalizedText, createEl, createFoodImageCol, createVeganIndicator, createFoodTitle
  */
 
 function detectLanguage() {
@@ -34,15 +49,24 @@ function getLocalizedText(textObj, lang) {
   return textObj[lang] ||  "";
 }
 
-function createEl(tag, classList = [], content = null) {
+function createEl(tag, classList = [], content = null, attrs = {}) {
   const el = document.createElement(tag);
   if (Array.isArray(classList)) el.classList.add(...classList);
   if (content !== null) el.innerHTML = content;
+  for (const [key, value] of Object.entries(attrs)) {
+    el.setAttribute(key, value);
+  }
   return el;
 }
 
+
 function createVeganIndicator(veganType) {
-  const veganIndicatorCol = createEl('div', ['col-md-1', 'vegan-indicator', 'text-right']);
+  const indicatorTag = veganType ? 'a' : 'div';
+  const indicatorAttrs = veganType ? {
+    href: '#menu-legend',
+    'aria-label': 'Go to menu legend'
+  } : {};
+  const veganIndicatorCol = createEl(indicatorTag, ['col-md-1', 'vegan-indicator', 'text-right'], null, indicatorAttrs);
   veganIndicatorCol.style.flex = "0 0 auto";
   if (veganType) {
     const veganLogo = document.createElement('img');
@@ -75,7 +99,7 @@ function createFoodTitle(item, currentLang, isFormule) {
 }
 
 function renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage) {
-  const row = createEl('div', ['row', 'align-items-center', 'menu-item']);
+  const row = createEl('div', ['row', 'align-items-center', 'menu-item', 'animate-on-scroll'], null, { 'data-animate': 'fadeInUp' });
   if (jsonFilePath.includes('formules-data') && item['ou-highlight']) {
     const ouTextDiv = createEl('div', ['col-md-2', 'menu-OU-text']);
     const ouText = { fr: '<u>OU</u>', en: '<u>OR</u>', zh: '<u>或</u>' };
@@ -118,17 +142,9 @@ function renderCategory(category, currentLang, jsonFilePath, isDrinksPage) {
   if (category.description) {
     categoryDiv.appendChild(createEl('p', ['category-description'], getLocalizedText(category.description, currentLang)));
   }
-  if (Array.isArray(category.subcategories)) {
-    category.subcategories.forEach(subcat => {
-      categoryDiv.appendChild(renderSubcategory(subcat, currentLang, jsonFilePath, isDrinksPage));
-    });
-  } else if (Array.isArray(category.items)) {
-    category.items.forEach(item => {
-      if (item.showHr) categoryDiv.appendChild(createEl('hr', ['food-horizontal-rule']));
-      if (item.specialTitle) categoryDiv.appendChild(createEl('h3', ['special-title-4'], getLocalizedText(item.specialTitle, currentLang)));
-      categoryDiv.appendChild(renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage));
-    });
-  }
+  category.subcategories.forEach(subcat => {
+    categoryDiv.appendChild(renderSubcategory(subcat, currentLang, jsonFilePath, isDrinksPage));
+  });
   return categoryDiv;
 }
 
@@ -222,55 +238,45 @@ function renderJumbotron(foodContainer, data, currentLang) {
           src="${backgroundImage || defaultBackgroundImage}"
           srcset="${srcset || defaultSrcset}"
           alt=""
-          class="food-jumbotron-bg"
+          class="food-jumbotron-bg section-bg-cover"
         >
         <div class="food-jumbotron-caption container">
-          <h1 id="title-1" class="special-title-2">${title}</h1>
-          <div id="menu-icons"></div>
+          <h1 id="title-1" class="special-title-2 animate-on-scroll" data-animate="fadeInDown">${title}</h1>
+          <div id="menu-icons" class="animate-on-scroll" data-animate="fadeInUp"></div>
         </div>
       </div>
     `;
     // Render menu icons if present
     const menuIconsContainer = document.getElementById("menu-icons");
-    let groups = data.menuGroups || data.subCategories;
-    if (!groups && Array.isArray(data.categories)) groups = data.categories;
-    if (menuIconsContainer && Array.isArray(groups) && groups.length > 0) {
-      const groupsHtml = groups.map(group => {
-        const subtitle = getLocalizedText(group.subTitle, currentLang) || "";
-        let groupHtml = '';
-        if (Array.isArray(group.subcategories)) {
-          groupHtml = group.subcategories.map(subcat => {
+    let categories = data.subCategories;
+    if (!categories && Array.isArray(data.categories)) categories = data.categories;
+    if (menuIconsContainer && Array.isArray(categories) && categories.length > 0) {
+      const categoriesHtml = categories.map(category => {
+        const subtitle = getLocalizedText(category.subTitle, currentLang) || "";
+        let categoryHtml = '';
+        if (Array.isArray(category.subcategories)) {
+          categoryHtml = category.subcategories.map(subcat => {
             const text = getLocalizedText(subcat.title, currentLang) || subcat.id || "";
             return `
               <div class="col">
                 <a href="#${subcat.id}" class="smooth-scroll">
                   <img class="menu-icon" src="/${subcat.icon}" alt="${text}">
+                  <h6 class="menu-icon-text mt-3 mb-0">${text}</h6>
                 </a>
-                <h6 class="menu-icon-text mt-3 mb-0">${text}</h6>
               </div>
             `;
           }).join("");
-        } else if (Array.isArray(group.items)) {
-          groupHtml = group.items.map(item => {
-            const text = getLocalizedText(item.text, currentLang) || item.id || "";
-            return `
-              <div class="col">
-                <a href="#${item.id}" class="smooth-scroll">
-                  <img class="menu-icon" src="/${item.icon}" alt="${text}">
-                </a>
-                <h6 class="menu-icon-text mt-3 mb-0">${text}</h6>
-              </div>
-            `;
-          }).join("");
-        }
+        } 
         return `
           ${subtitle ? `<h2 class=\"special-title-3\">${subtitle}</h2>` : ""}
           <div class="row">
-            ${groupHtml}
+            ${categoryHtml}
           </div><br>
         `;
       }).join("");
-      menuIconsContainer.innerHTML = groupsHtml;
+      menuIconsContainer.innerHTML = categoriesHtml;
     }
   }
 }
+
+if (window.initAnimations) window.initAnimations();

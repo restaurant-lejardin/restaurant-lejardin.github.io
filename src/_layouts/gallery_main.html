@@ -19,14 +19,14 @@
   <main>
     <!-- ALBUM DESCRIPTION -->
     <div class="album-description container-fluid text-white">
-      <h1 id="title-1" class="special-title-1">{{ site.data.translations[page.lang].gallery.title }}</h1>
-      <h2 id="title-2" class="special-title-2">{{ site.data.translations[page.lang].gallery.subtitle }}</h2>
+      <h1 id="title-1" class="special-title-1 animate-on-scroll" data-animate="fadeInDown">{{ site.data.translations[page.lang].gallery.title }}</h1>
+      <h2 id="title-2" class="special-title-2 animate-on-scroll" data-animate="fadeInUp">{{ site.data.translations[page.lang].gallery.subtitle }}</h2>
     </div>
     <!-- ALBUM CONTENT -->
     <div class="album-content">
       <div class="container">
         <div class="row">
-          <div id="card-food" class="col-md-4">
+          <div id="card-food" class="col-md-4 gallery-card animate-on-scroll" data-animate="slideInUp">
             <div class="card box-shadow">
               <img class="card-img-top"
                 src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1608405084/Entrees/11_oc07di.png"
@@ -37,7 +37,7 @@
               </div>
             </div>
           </div>
-          <div id="card-desserts" class="col-md-4">
+          <div id="card-desserts" class="col-md-4 gallery-card animate-on-scroll" data-animate="slideInUp">
             <div class="card box-shadow">
               <img class="card-img-top"
                 src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1609619308/desserts/assortiment_maison_t7heqj.jpg"
@@ -48,7 +48,7 @@
               </div>
             </div>
           </div>
-          <div id="card-location" class="col-md-4">
+          <div id="card-location" class="col-md-4 gallery-card animate-on-scroll" data-animate="slideInUp">
             <div class="card box-shadow">
               <img class="card-img-top"
                 src="https://res.cloudinary.com/lejardin/image/upload/c_fill,h_200,q_auto:best,w_300/v1609338864/Location/2017-09-06_19.08.35_wdow9g.jpg"
@@ -76,7 +76,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
-  <script src="js/site.js"></script>
-  <script src="js/album-animations.js"></script>
+  <script src="{{ site.baseurl }}/js/site.js"></script>
+  <script src="{{ site.baseurl }}/js/animations.js"></script>
 </body>
 </html>
