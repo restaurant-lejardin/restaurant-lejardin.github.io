@@ -1,4 +1,28 @@
 /*
+ * main.css structure
+ *
+ * 1. Global
+ * 2. Helper classes
+ * 3. Navbar
+ * 4. Cover
+ * 5. Homepage menu
+ * 6. Homepage about us
+ * 7. Homepage specials and events
+ * 8. Homepage testimonials
+ * 9. Footer
+ * 10. Social links
+ * 11. About page
+ * 12. Reservations
+ * 13. Contact
+ * 14. Food, drinks, and desserts menus
+ * 15. Album
+ * 16. Gallery
+ * 17. Animations
+ * 18. Media queries
+ * 19. Menu-specific utilities
+ */
+
+/*
  * GLOBAL
  */
 
@@ -6,13 +30,31 @@ html {
   font-size: 1rem;
 }
 
+:root {
+  --header-height: 62px;
+  --section-space: 8rem;
+  --content-gap: 2.8rem;
+  --anchor-offset: 70px;
+  --color-text: #404040;
+  --color-white: #fff;
+  --color-brand-blue: #007bff;
+  --color-brand-blue-dark: #0069d9;
+  --color-brand-red: #6b0101;
+  --color-brand-red-dark: #5a0000;
+  --color-brand-red-darker: #460000;
+  --color-footer-red: #b10000;
+  --color-footer-red-dark: #970000;
+  --color-navy: #001F40;
+  --color-menu-bg: #50000b;
+}
+
 body {
   font-size: 1rem;
-  color: #404040;
+  color: var(--color-text);
   line-height: 1.75;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: 400;
-  padding-top: 62px;
+  padding-top: var(--header-height);
 }
 
 label {
@@ -40,7 +82,7 @@ label {
 
 /* Google map sidebar */
 #featurecardPanel > div > div > div.qqvbed-tJHJj {
-  background-color: #007bff !important;
+  background-color: var(--color-brand-blue) !important;
 }
 
 input, textarea {
@@ -60,7 +102,7 @@ a, a:hover {
   margin: 0 auto;
   width: 40px;
   height: 40px;
-  background-color: #007bff;
+  background-color: var(--color-brand-blue);
   transition: all 0.3s ease-in-out;
   opacity: 0.5;
   text-align: center;
@@ -68,12 +110,12 @@ a, a:hover {
 }
 
 .back-to-top:hover {
-  background-color: #0069d9;
+  background-color: var(--color-brand-blue-dark);
   opacity: 1;
 }
 
 .back-to-top i {
-  color: #fff;
+  color: var(--color-white);
   font-size: 20px;
 }
 
@@ -133,17 +175,17 @@ a, a:hover {
 .banner {
   font-size: 18px;
   font-weight: 700;
-  color: #fff;
+  color: var(--color-white);
   line-height: 60px;
   position: relative;
   margin: 0 auto;
   display: block;
   width: 300px; /*TODO: adapt size depending on device*/
   height: 60px;
-  border: 1px solid #5a0000;
+  border: 1px solid var(--color-brand-red-dark);
   text-align: center;
-  color: #fff;
-  background: #6b0101;
+  color: var(--color-white);
+  background: var(--color-brand-red);
   border-radius: 4px;
   box-shadow: 0 0 30px rgba(0,0,0,.15) inset, 0 6px 10px rgba(0,0,0,.15);
 }
@@ -157,9 +199,9 @@ a, a:hover {
   display: block;
   width: 60px;
   height: 0px;
-  border: 30px solid #6b0101;
-  border-right: 20px solid #460000;
-  border-bottom-color: #5a0000;
+  border: 30px solid var(--color-brand-red);
+  border-right: 20px solid var(--color-brand-red-darker);
+  border-bottom-color: var(--color-brand-red-dark);
   border-left-color: transparent;
   transform: rotate(-5deg);
 }
@@ -167,7 +209,7 @@ a, a:hover {
 .banner::after {
   left: auto;
   right: -37px;
-  border-left: 20px solid #460000;
+  border-left: 20px solid var(--color-brand-red-darker);
   border-right: 30px solid transparent;
   transform: rotate(5deg);
 }
@@ -194,7 +236,7 @@ a, a:hover {
 
  .cover .carousel-item > img {
   min-width: 100%;
-  height: calc(100vh - 62px);
+  height: calc(100vh - var(--header-height));
   object-fit: cover;
   object-position: center;
   width:100%; 
@@ -204,7 +246,7 @@ a, a:hover {
   bottom: initial;
   top: 50%;
   transform: translateY(-50%);
-  color: #fff;
+  color: var(--color-white);
 }
 
 .cover .carousel-caption > a {
@@ -237,8 +279,8 @@ a, a:hover {
  * HOMEPAGE-MENU
  */
 .homepage-menu {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: var(--section-space);
+  padding-bottom: var(--section-space);
   margin: 0 ;
   margin-left: auto;
   margin-right: auto
@@ -268,7 +310,7 @@ a, a:hover {
 }
 
 .homepage-about-us {
-  background-color: #6b0101;
+  background-color: var(--color-brand-red);
 }
 
 .section-bg-cover {
@@ -293,7 +335,7 @@ a, a:hover {
 
 .homepage-about-us-description {
   max-width: 50em;
-  margin: 0 auto 2.8rem;
+  margin: 0 auto var(--content-gap);
 }
 
 /* 
@@ -301,12 +343,12 @@ a, a:hover {
  */
 
 .homepage-special-offers {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: var(--section-space);
+  padding-bottom: var(--section-space);
 }
 
 .card-2, .card-3 {
-  margin-top: 2.8rem;
+  margin-top: var(--content-gap);
 }
 
 .top-right {
@@ -320,8 +362,8 @@ a, a:hover {
  */
 
 .homepage-testimonials {
-  background-color: #001F40;
-  color: #fff;
+  background-color: var(--color-navy);
+  color: var(--color-white);
 }
 
 .homepage-testimonials-caption {
@@ -330,7 +372,7 @@ a, a:hover {
 
 .homepage-testimonials blockquote {
   max-width: 55em; /* Changé pour garder les avis sur 3 lignes */
-  margin: 2.8rem auto 0 auto;
+  margin: var(--content-gap) auto 0 auto;
 }
 
 .homepage-testimonials blockquote footer {
@@ -338,7 +380,7 @@ a, a:hover {
 }
 
 .homepage-testimonials blockquote footer a {
-  color: #fff;
+  color: var(--color-white);
   text-decoration: underline;
 }
 
@@ -360,7 +402,7 @@ a, a:hover {
   padding-top: 0rem;
   font-size: 0.75rem;
   text-align: center;
-  background: #6b0101; /* Couleur du pied de page */
+  background: var(--color-brand-red); /* Couleur du pied de page */
   line-height: 1.75;
 }
 
@@ -376,7 +418,7 @@ a, a:hover {
 .page-footer-title {
   font-size: 1rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--color-white);
   margin-bottom: 1rem;
 }
 
@@ -387,7 +429,7 @@ a, a:hover {
 .page-footer-copyright {
   position: relative;
   z-index: 2;
-  background: #b10000; /* Couleur du pied de page */
+  background: var(--color-footer-red); /* Couleur du pied de page */
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
@@ -404,11 +446,11 @@ a, a:hover {
  * NAVBAR SOCIAL
  */
 
-.nav-social {
+.nav-social,
+.footer-social,
+.contact-social {
   display: inline-block;
   width: 40px;
-  /* height: 40px; */
-  line-height: 43px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -416,9 +458,22 @@ a, a:hover {
   transform: scale(1.1) rotate(360deg);
 }
 
-.nav-social i {
+.nav-social i,
+.footer-social i,
+.contact-social i {
   font-size: 20px;
+}
+
+.nav-social i,
+.contact-social i {
   transition: all 0.3s ease-in-out;
+}
+
+.nav-social {
+  line-height: 43px;
+}
+
+.nav-social i {
   color: rgba(0, 0, 0, .5);
 }
 
@@ -430,24 +485,20 @@ a, a:hover {
  * FOOTER SOCIAL
  */
 .footer-social {
-  display: inline-block;
-  width: 40px;
   height: 40px;
-  background-color: #b10000;
-  transition: all 0.3s ease-in-out;
+  background-color: var(--color-footer-red);
   text-align: center;
   line-height: 47px;
   border-radius: 50%;
 }
 
 .footer-social:hover {
-  background-color: #970000;
+  background-color: var(--color-footer-red-dark);
   transform: scale(1.1) rotate(360deg);
 }
 
 .footer-social i {
-  color: #fff;
-  font-size: 20px;
+  color: var(--color-white);
 }
 
 .footer-social:not(:first-child) {
@@ -459,16 +510,12 @@ a, a:hover {
  */
 
  .contact-social {
-  display: inline-block;
-  width: 40px;
   height: 40px;
   line-height: 43px;
 }
 
 .contact-social i {
-  font-size: 20px;
   color: rgba(255, 255, 255, 1);
-  transition: all 0.3s ease-in-out;
 }
 
 .contact-social i:hover {
@@ -487,11 +534,11 @@ a, a:hover {
   overflow: hidden;
   position: relative;
   border-radius: 0%;
-  height:  calc(100vh - 62px);
+  height:  calc(100vh - var(--header-height));
 }
 
 .about-jumbotron {
-  background-color: #001F40;
+  background-color: var(--color-navy);
 }
 
 .about-jumbotron-caption,
@@ -532,7 +579,7 @@ a, a:hover {
 .about-history-title h3 {
   font-family: 'Fredericka the Great', cursive;
   margin-bottom: 1rem;
-  color: #007bff;
+  color: var(--color-brand-blue);
   font-size: 1.8rem;
 }
 
@@ -551,13 +598,13 @@ a, a:hover {
 
 .reservations-description {
   text-align: center;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: var(--section-space);
+  padding-bottom: var(--section-space);
   max-width: 50em;
 }
 
 .reservations-form {
-  background-color: #001F40;
+  background-color: var(--color-navy);
 }
 
 .reservations-form > form {
@@ -566,8 +613,8 @@ a, a:hover {
   color: #fff;
   max-width: 50em;
   margin-top: 0;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: var(--section-space);
+  padding-bottom: var(--section-space);
 }
 
 .reservations-form ::placeholder {
@@ -596,12 +643,12 @@ a, a:hover {
 .contact-directions {
   text-align: center;
   padding-top: 4rem;
-  padding-bottom: 8rem;
+  padding-bottom: var(--section-space);
   max-width: 50em;
 }
 
 .contact-directions > dl > dt:nth-child(3) {
-  margin-top: 2.8rem;
+  margin-top: var(--content-gap);
 }
 
 .contact-horizontal-rule {
@@ -610,7 +657,7 @@ a, a:hover {
 }
 
 .contact-information-wrapper {
-  background-color: #001F40;
+  background-color: var(--color-navy);
 }
 
 .contact-information {
@@ -619,8 +666,8 @@ a, a:hover {
   color: #fff;
   max-width: 50em;
   margin-top: 0;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: var(--section-space);
+  padding-bottom: var(--section-space);
 }
 
 .contact-form ::placeholder {
@@ -643,7 +690,7 @@ a, a:hover {
 
 .contact-details {
   border: none;
-  margin-top: 2.8rem;
+  margin-top: var(--content-gap);
 }
 
 .contact-details h6 {
@@ -657,7 +704,7 @@ a, a:hover {
 .food-jumbotron,
 .drinks-jumbotron,
 .desserts-jumbotron {
-  background-color: #50000b;
+  background-color: var(--color-menu-bg);
 }
 
 .menu-icon {
@@ -672,7 +719,7 @@ a, a:hover {
 .food-jumbotron h1,
 .drinks-jumbotron h1,
 .desserts-jumbotron h1 {
-  margin-bottom: 2.8rem;
+  margin-bottom: var(--content-gap);
 }
 
 .food-category {
@@ -680,7 +727,7 @@ a, a:hover {
 }
 
 .food-category h2 {
-  margin-bottom: 2.8rem;
+  margin-bottom: var(--content-gap);
 }
 
 .menu-item {
@@ -689,7 +736,7 @@ a, a:hover {
 
 .food-image,
 .dessert-image {
-  margin-bottom: 2.8rem;
+  margin-bottom: var(--content-gap);
   text-align: center;
 }
 
@@ -698,10 +745,6 @@ a, a:hover {
 .formule-title {
   font-size: 1rem;
   font-weight: 700;
-}
-
-.food-title,
-.formule-title {
   margin-bottom: 0.5rem;
 }
 
@@ -726,9 +769,6 @@ a, a:hover {
   position: relative;
   padding-left: 15px;
   background: #fff;
-}
-
-.food-price {
   float: right;
 }
 
@@ -757,7 +797,7 @@ a, a:hover {
 }
 
 .drink-category {
-  padding-top: 8rem;
+  padding-top: var(--section-space);
 }
 
 /*
@@ -765,12 +805,12 @@ a, a:hover {
  */
 
 .dessert-category {
-  padding-top: 8rem;
+  padding-top: var(--section-space);
 }
 
 .drink-category h2,
 .dessert-category h2 {
-  margin-bottom: 2.8rem;
+  margin-bottom: var(--content-gap);
 }
 
 /*
@@ -779,8 +819,8 @@ a, a:hover {
 
 .album-description {
   background: #5c0101;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: var(--section-space);
+  padding-bottom: var(--section-space);
   text-align: center;
 }
 
@@ -789,12 +829,12 @@ a, a:hover {
 }
 
 .album-content {
-  padding-top: 8rem;
-  padding-bottom: 2.8rem;
+  padding-top: var(--section-space);
+  padding-bottom: var(--content-gap);
 }
 
 .album-content .card {
-  margin-bottom: 2.8rem;
+  margin-bottom: var(--content-gap);
 }
 
 /*
@@ -802,8 +842,8 @@ a, a:hover {
  */
 
 .gallery-description {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: var(--section-space);
+  padding-bottom: var(--section-space);
   text-align: center;
   background: white;
 }
@@ -844,12 +884,12 @@ a, a:hover {
 }
 
 .gallery-thumbnails {
-  padding-top: 8rem;
-  padding-bottom: 2.8rem;
+  padding-top: var(--section-space);
+  padding-bottom: var(--content-gap);
 }
 
 .gallery-thumbnails .col-md-4 {
-  margin-bottom: 2.8rem;
+  margin-bottom: var(--content-gap);
 }
 
 /* CSS ANIMATIONS */
@@ -892,10 +932,7 @@ a, a:hover {
 
 /* Small devices (phones, 576px and up) */
 @media (min-width: 576px) {
-  .menu-icon-text {
-    display: block;
-    /* font-size: 1.2rem; */
-  }
+  /* reserved for future menu icon typography tweaks */
 }
 
 
@@ -935,7 +972,7 @@ a, a:hover {
   .page-footer-title::before {
     content: '';
     width: 30px;
-    border-top: #b10000;
+    border-top: var(--color-footer-red);
     border-top-style: solid;
     border-top-width: 3px;
     display: block;
@@ -946,7 +983,7 @@ a, a:hover {
     content: '';
     display: block;
     width: 30px;
-    border-top: 3px solid #b10000;
+    border-top: 3px solid var(--color-footer-red);
     margin-bottom: .8rem;
   }
 
@@ -1024,5 +1061,5 @@ a, a:hover {
 
 .food-subcategory,
 #menu-legend {
-  scroll-margin-top: 70px; /* Navbar height + padding */
+  scroll-margin-top: var(--anchor-offset); /* Navbar height + padding */
 }
