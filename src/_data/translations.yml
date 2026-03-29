@@ -57,15 +57,15 @@ en:
 fr:
   galleries:
     food:
-      title: "Galerie photo des entrées et plats"
+      title: "GALERIE PHOTO DES ENTRÉES ET PLATS"
       subtitle: "Des plats équilibrés et gourmands"
       alt_type: "Food"
     desserts:
-      title: "GALLERIE DES DESSERTS ET BOISSONS"
+      title: "GALERIE DES DESSERTS ET BOISSONS"
       subtitle: "Des plaisirs pour tous les goûts"
       alt_type: "Dessert"
     location:
-      title: "GALLERIE DU RESTAURANT"
+      title: "GALERIE DU RESTAURANT"
       subtitle: "Une ambiance traditionnelle"
       alt_type: "Location"
   gallery:

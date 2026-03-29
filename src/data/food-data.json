@@ -32,7 +32,8 @@
           "icon": "media/menu/food/seafood.svg",
           "title": {
               "fr": "FRUITS DE MER",
-              "en": "SEAFOOD"
+              "en": "SEAFOOD",
+              "zh": "海鲜"
             }
         }
       ]
@@ -49,7 +50,8 @@
           "icon": "media/menu/food/pasta.svg",
           "title": {
               "fr": "RIZ, LEGUMES ET NOUILLES",
-              "en": "RICE, VEGETABLES AND NOODLES"
+              "en": "RICE, VEGETABLES AND NOODLES",
+              "zh": "米饭、蔬菜和面条"
             }
         },
         {
@@ -57,7 +59,9 @@
           "icon": "media/menu/food/bobun.svg",
           "title": {
               "fr": "NOS BO BUN",
-              "en": "OUR BO BUN"
+              "en": "OUR BO BUN",
+              "zh": "我们的越南粉"
+
             }
         },
         {
@@ -65,11 +69,13 @@
           "icon": "media/menu/food/noodle.svg",
           "title": {
               "fr": "SOUPES DE NOUILLES",
-              "en": "NOODLE SOUPS"
+              "en": "NOODLE SOUPS",
+              "zh": "汤面"
             },
           "description": {
                 "fr": "Grand Bol<br>Nouilles fines de blé <u>ou</u> vermicelles de riz<br><u>ou</u> pâtes de riz <b>(+1)</b>",
-                "en": "Large Bowl<br>Thin wheat noodles <u>or</u> rice vermicelli<br><u>or</u> rice noodles <b>(+1)</b>"
+                "en": "Large Bowl<br>Thin wheat noodles <u>or</u> rice vermicelli<br><u>or</u> rice noodles <b>(+1)</b>",
+                "zh": "大碗<br>细小麦面条 <u>或</u> 米粉<br><u>或</u> 米面 <b>(+1)</b>"
               }
         }
       ]

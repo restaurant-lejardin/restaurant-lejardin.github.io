@@ -50,7 +50,8 @@
           "icon": "media/menu/drinks/aperitifs.svg",
           "title": {
               "fr": "APERITIFS",
-              "en": "APERITIFS"
+              "en": "APERITIFS",
+              "zh": "开胃酒"
           }
         },
         {
@@ -58,7 +59,8 @@
           "icon": "media/menu/drinks/spirits.svg",
           "title": {
               "fr": "DIGESTIFS",
-              "en": "DIGESTIFS"
+              "en": "DIGESTIFS",
+              "zh": "餐后酒"
           }
         },
         {
@@ -66,7 +68,8 @@
           "icon": "media/menu/drinks/beers.svg",
           "title": {
               "fr": "BIERES",
-              "en": "BEERS"
+              "en": "BEERS",
+              "zh": "啤酒"
           }
         }
       ]
@@ -79,7 +82,8 @@
           "icon": "media/menu/drinks/cold-beverages.svg",
           "title": {
               "fr": "EAUX & SODAS",
-              "en": "WATERS & SODAS"
+              "en": "WATERS & SODAS",
+              "zh": "水和苏打水"
           }
         },
         {
@@ -87,7 +91,8 @@
           "icon": "media/menu/drinks/liqueurs.svg",
           "title": {
               "fr": "SPECIALITES (sans alcool)",
-              "en": "SPECIALTIES (non-alcoholic)"
+              "en": "SPECIALTIES (non-alcoholic)",
+              "zh": "特色饮品（无酒精）"
           }
         },
         {
@@ -95,7 +100,8 @@
           "icon": "media/menu/drinks/hot-beverages.svg",
           "title": {
               "fr": "CAFES & THES",
-              "en": "COFFEES & TEAS"
+              "en": "COFFEES & TEAS",
+              "zh": "咖啡和茶"
           }
         }
       ]
@@ -108,7 +114,8 @@
           "icon": "media/menu/drinks/wines.svg",
           "title": {
               "fr": "VINS ROUGES en bouteille",
-              "en": "RED WINES by the bottle"
+              "en": "RED WINES by the bottle",
+              "zh": "红葡萄酒（瓶装）"
           }
         },
         {
@@ -116,7 +123,8 @@
           "icon": "media/menu/drinks/wines.svg",
           "title": {
               "fr": "VINS ROSES en bouteille",
-              "en": "ROSÉ WINES by the bottle"
+              "en": "ROSÉ WINES by the bottle",
+              "zh": "桃红葡萄酒（瓶装）"
           }
         },
         {
@@ -124,7 +132,8 @@
           "icon": "media/menu/drinks/wines.svg",
           "title": {
               "fr": "VINS BLANCS en bouteille",
-              "en": "WHITE WINES by the bottle"
+              "en": "WHITE WINES by the bottle",
+              "zh": "白葡萄酒（瓶装）"
           }
         },
         {
@@ -132,7 +141,8 @@
           "icon": "media/menu/drinks/jug2.svg",
           "title": {
               "fr": "Pichets de vin",
-              "en": "WINE PITCHERS"
+              "en": "WINE PITCHERS",
+              "zh": "葡萄酒壶"
           }
         }
       ]

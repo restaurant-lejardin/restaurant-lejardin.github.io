@@ -1,7 +1,4 @@
 food:
-  title: "Galerie photo des entrées et plats"
-  subtitle: "Des plats équilibrés et gourmands"
-  alt_type: "Food"
   items:
     - id: 0
       title:
@@ -70,24 +67,25 @@ food:
     - text: 
         fr: "Nos entrées"
         en: "Our starters"
+        zh: "我们的前菜"
       href: "entrees.html"
     - text: 
         fr: "Nos plats"
         en: "Our main courses"
+        zh: "我们的主菜"
       href: "food.html"
     - text: 
         fr: "Galerie des desserts et boissons"
         en: "Gallery of desserts and drinks"
+        zh: "甜点和饮料画廊"
       href: "gallery/gallery-desserts.html"
     - text: 
         fr: "Galerie du lieu"
         en: "Gallery of the location"
+        zh: "地点画廊"
       href: "gallery/gallery-location.html"
 
 desserts:
-  title: "GALLERIE DES DESSERTS ET BOISSONS"
-  subtitle: "Des plaisirs pour tous les goûts"
-  alt_type: "Dessert"
   items:
     - id: 0
       title:
@@ -143,9 +141,6 @@ desserts:
       href: "gallery-location.html"
 
 location:
-  title: "GALLERIE DU RESTAURANT"
-  subtitle: "Une ambiance traditionnelle"
-  alt_type: "Location"
   items:
     - id: 0
       title: null
