@@ -13,7 +13,7 @@
       "subcategories": [
         {
           "id": "wok",
-          "icon": "media/menu/food/icons/wok.svg",
+          "icon": "media/menu/food/wok.svg",
           "title": {
             "fr": "NOS MARMITES ET WOKS",
             "en": "OUR HOTPOTS AND WOKS"
@@ -21,7 +21,7 @@
         },
         {
           "id": "meat",
-          "icon": "media/menu/food/icons/meat.svg",
+          "icon": "media/menu/food/meat.svg",
           "title": {
               "fr": "VOLAILLES / VIANDES",
               "en": "POULTRY / MEAT"
@@ -29,7 +29,7 @@
         },
         {
           "id": "seafood",
-          "icon": "media/menu/food/icons/seafood.svg",
+          "icon": "media/menu/food/seafood.svg",
           "title": {
               "fr": "FRUITS DE MER",
               "en": "SEAFOOD"
@@ -46,7 +46,7 @@
         {
           "specialTitle": "ACCOMPAGNEMENT",
           "id": "rice",
-          "icon": "media/menu/food/icons/pasta.svg",
+          "icon": "media/menu/food/pasta.svg",
           "title": {
               "fr": "RIZ, LEGUMES ET NOUILLES",
               "en": "RICE, VEGETABLES AND NOODLES"
@@ -54,7 +54,7 @@
         },
         {
           "id": "bobun",
-          "icon": "media/menu/food/icons/bobun.svg",
+          "icon": "media/menu/food/bobun.svg",
           "title": {
               "fr": "NOS BO BUN",
               "en": "OUR BO BUN"
@@ -62,7 +62,7 @@
         },
         {
           "id": "noodles",
-          "icon": "media/menu/food/icons/noodle.svg",
+          "icon": "media/menu/food/noodle.svg",
           "title": {
               "fr": "SOUPES DE NOUILLES",
               "en": "NOODLE SOUPS"

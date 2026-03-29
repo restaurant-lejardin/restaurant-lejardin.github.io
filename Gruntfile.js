@@ -74,19 +74,7 @@ module.exports = function(grunt) {
       t4: {
         expand: true,
         cwd: '_site/',
-        src: 'service-worker.js',
-        dest: 'dist/'
-      },
-      t5: {
-        expand: true,
-        cwd: '_site/',
         src: 'media/**',
-        dest: 'dist/'
-      },
-      t6: {
-        expand: true,
-        cwd: '_site/',
-        src: 'components/**',
         dest: 'dist/'
       }
     },

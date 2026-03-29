@@ -14,7 +14,7 @@
       "subcategories": [
         {
           "id": "gourmet",
-          "icon": "media/menu/entrees/icons/soup.svg",
+          "icon": "media/menu/entrees/soup.svg",
           "title": {
             "fr": "FORMULE GOURMET  <br> à partir de 16.90€",
             "en": "GOURMET SET MENU  <br> from 16.90€",
@@ -23,7 +23,7 @@
         },
         {
           "id": "express",
-          "icon": "media/menu/entrees/icons/salad.svg",
+          "icon": "media/menu/entrees/salad.svg",
           "title": {
             "fr":"FORMULE EXPRESS  <br> à 14.90€",
             "en":"EXPRESS SET MENU  <br> at 14.90€"
@@ -31,7 +31,7 @@
         },
         {
           "id": "vapeur",
-          "icon": "media/menu/entrees/icons/dim-sum.svg",
+          "icon": "media/menu/entrees/dim-sum.svg",
           "title": {
             "fr": "FORMULE VAPEUR  <br> à partir de 14.90€",
             "en": "STEAM SET MENU  <br> from 14.90€",

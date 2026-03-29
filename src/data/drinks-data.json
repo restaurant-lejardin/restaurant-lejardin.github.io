@@ -47,7 +47,7 @@
       "subcategories": [
         {
           "id": "aperitifs",
-          "icon": "media/menu/drinks/icons/aperitifs.svg",
+          "icon": "media/menu/drinks/aperitifs.svg",
           "title": {
               "fr": "APERITIFS",
               "en": "APERITIFS"
@@ -55,7 +55,7 @@
         },
         {
           "id": "brandies",
-          "icon": "media/menu/drinks/icons/spirits.svg",
+          "icon": "media/menu/drinks/spirits.svg",
           "title": {
               "fr": "DIGESTIFS",
               "en": "DIGESTIFS"
@@ -63,7 +63,7 @@
         },
         {
           "id": "beers",
-          "icon": "media/menu/drinks/icons/beers.svg",
+          "icon": "media/menu/drinks/beers.svg",
           "title": {
               "fr": "BIERES",
               "en": "BEERS"
@@ -76,7 +76,7 @@
       "subcategories": [
         {
           "id": "cold-beverages",
-          "icon": "media/menu/drinks/icons/cold-beverages.svg",
+          "icon": "media/menu/drinks/cold-beverages.svg",
           "title": {
               "fr": "EAUX & SODAS",
               "en": "WATERS & SODAS"
@@ -84,7 +84,7 @@
         },
         {
           "id": "liqueurs",
-          "icon": "media/menu/drinks/icons/liqueurs.svg",
+          "icon": "media/menu/drinks/liqueurs.svg",
           "title": {
               "fr": "SPECIALITES (sans alcool)",
               "en": "SPECIALTIES (non-alcoholic)"
@@ -92,7 +92,7 @@
         },
         {
           "id": "hot-beverages",
-          "icon": "media/menu/drinks/icons/hot-beverages.svg",
+          "icon": "media/menu/drinks/hot-beverages.svg",
           "title": {
               "fr": "CAFES & THES",
               "en": "COFFEES & TEAS"
@@ -105,7 +105,7 @@
       "subcategories": [
         {
           "id": "vins-rouges",
-          "icon": "media/menu/drinks/icons/wines.svg",
+          "icon": "media/menu/drinks/wines.svg",
           "title": {
               "fr": "VINS ROUGES en bouteille",
               "en": "RED WINES by the bottle"
@@ -113,7 +113,7 @@
         },
         {
           "id": "roses",
-          "icon": "media/menu/drinks/icons/wines.svg",
+          "icon": "media/menu/drinks/wines.svg",
           "title": {
               "fr": "VINS ROSES en bouteille",
               "en": "ROSÉ WINES by the bottle"
@@ -121,7 +121,7 @@
         },
         {
           "id": "vins-blancs",
-          "icon": "media/menu/drinks/icons/wines.svg",
+          "icon": "media/menu/drinks/wines.svg",
           "title": {
               "fr": "VINS BLANCS en bouteille",
               "en": "WHITE WINES by the bottle"
@@ -129,7 +129,7 @@
         },
         {
           "id": "pichets",
-          "icon": "media/menu/drinks/icons/jug2.svg",
+          "icon": "media/menu/drinks/jug2.svg",
           "title": {
               "fr": "Pichets de vin",
               "en": "WINE PITCHERS"

@@ -13,7 +13,7 @@
       "subcategories": [
         {
           "id": "soup",
-          "icon": "media/menu/entrees/icons/soup.svg",
+          "icon": "media/menu/entrees/soup.svg",
           "title": {
             "fr":"POTAGES ET SOUPES",
             "en":"SOUPS AND BROTHS"
@@ -21,7 +21,7 @@
         },
         {
           "id": "hors-doeuvres",
-          "icon": "media/menu/entrees/icons/salad.svg",
+          "icon": "media/menu/entrees/salad.svg",
           "title": {
             "fr": "HORS D'OEUVRES",
             "en": "APPETIZERS"
@@ -29,7 +29,7 @@
         },
         {
           "id": "raviolis",
-          "icon": "media/menu/entrees/icons/dim-sum.svg",
+          "icon": "media/menu/entrees/dim-sum.svg",
           "title": {
             "fr": "RAVIOLIS",
             "en": "DUMPLINGS"
