@@ -1,14 +1,14 @@
 en:
   galleries:
-    food:
+    gallery-food:
       title: "Starters & Main Dishes Gallery"
       subtitle: "Balanced and delicious dishes"
       alt_type: "Food"
-    desserts:
+    gallery-desserts:
       title: "Desserts & Drinks Gallery"
       subtitle: "Treats for every taste"
       alt_type: "Dessert"
-    location:
+    gallery-location:
       title: "Restaurant Gallery"
       subtitle: "A traditional atmosphere"
       alt_type: "Location"
@@ -19,23 +19,6 @@ en:
     desserts_title: "DESSERTS & DRINKS"
     location_title: "LOCATION"
     see_button: "See"
-  footer:
-    opening_hours_title: "OPENING HOURS"
-    opening_hours_desc: "Open Monday to Friday (please call to check opening on public holidays)"
-    lunch: "Lunch: 12pm - 2pm"
-    dinner: "Dinner: 7pm - 10pm"
-    location_title: "LOCATION"
-    restaurant_name: "Le Jardin Chinese Restaurant"
-    follow_us: "FOLLOW US"
-    footer: "© 2019 Marios Sofokleous (<a href=\"https://pictureelement.github.io/portfolio-2/\">PictureElement</a>).<br>Design by <a href=\"https://github.com/catherning\">Catherning</a> (Catherine Xu)."
-  header:
-    nav_home: "Home"
-    nav_menu: "Menu"
-    nav_about: "About"
-    nav_album: "Gallery"
-    nav_album_food: "Starters & Main Dishes"
-    nav_album_desserts: "Desserts & Drinks"
-    nav_album_location: "Location"
   about:
     title: "ABOUT THE RESTAURANT"
     subtitle: "Tradition & Passion"
@@ -49,6 +32,23 @@ en:
     history_paragraph1: "Our family restaurant has been open since 1975 in a former French billiard hall from the early 20th century. The original ceiling and mirrors blend with the 1930s Shanghai decor, bringing the comfort of a traditional restaurant to authentic cuisine. We have been cooking Chinese cuisine on site for 48 years and Thai cuisine for 30 years. We can adapt dishes to tastes and dietary restrictions on request. Our dishes are <b>homemade</b>."
     history_paragraph2: "Ideally located between BNP and Société Générale near Place de la République, the restaurant is welcoming for everyone, for business meals, meetings with friends, and family meals. You can feel both conviviality and discretion in the general atmosphere."
     site_notice: "This website presents the restaurant's know-how and is non-commercial. The site was developed as part of a personal technical portfolio."
+  header:
+    nav_home: "Home"
+    nav_menu: "Menu"
+    nav_about: "About"
+    nav_album: "Gallery"
+    nav_album_food: "Starters & Main Dishes"
+    nav_album_desserts: "Desserts & Drinks"
+    nav_album_location: "Location"
+  footer:
+    opening_hours_title: "OPENING HOURS"
+    opening_hours_desc: "Open Monday to Friday (please call to check opening on public holidays)"
+    lunch: "Lunch: 12pm - 2pm"
+    dinner: "Dinner: 7pm - 10pm"
+    location_title: "LOCATION"
+    restaurant_name: "Le Jardin Chinese Restaurant"
+    follow_us: "FOLLOW US"
+    footer: "© 2019 Marios Sofokleous (<a href=\"https://pictureelement.github.io/portfolio-2/\">PictureElement</a>).<br>Design by <a href=\"https://github.com/catherning\">Catherning</a> (Catherine Xu)."
   menuLegend:
     title: "Legend"
     vegan: "Vegetarian dish"
@@ -57,15 +57,15 @@ en:
 fr:
   galleries:
     food:
-      title: "Galerie photo des entrées et plats"
+      title: "GALERIE PHOTO DES ENTRÉES ET PLATS"
       subtitle: "Des plats équilibrés et gourmands"
       alt_type: "Food"
     desserts:
-      title: "GALLERIE DES DESSERTS ET BOISSONS"
+      title: "GALERIE DES DESSERTS ET BOISSONS"
       subtitle: "Des plaisirs pour tous les goûts"
       alt_type: "Dessert"
     location:
-      title: "GALLERIE DU RESTAURANT"
+      title: "GALERIE DU RESTAURANT"
       subtitle: "Une ambiance traditionnelle"
       alt_type: "Location"
   gallery:
@@ -75,15 +75,6 @@ fr:
     desserts_title: "DESSERTS et BOISSONS"
     location_title: "LIEU"
     see_button: "Voir"
-  footer:
-    opening_hours_title: "HEURES D'OUVERTURE"
-    opening_hours_desc: "Ouvert du Lundi au Vendredi (veuillez appeler pour vérifier l'ouverture les jours fériés)"
-    follow_us: "SUIVEZ-NOUS"
-    lunch: "Déjeuner: 12h - 14h"
-    dinner: "Diner: 19h - 22h"
-    location_title: "LOCALISATION"
-    restaurant_name: "Restaurant Chinois Le Jardin"
-    footer: "© 2019 Marios Sofokleous (<a href=\"https://pictureelement.github.io/portfolio-2/\">PictureElement</a>).<br>Design par <a href=\"https://github.com/catherning\">Catherning</a> (Catherine Xu)."
   about:
     title: "A PROPOS DU RESTAURANT"
     subtitle: "Tradition & Passion"
@@ -105,6 +96,15 @@ fr:
     nav_album_food: "Entrées et plats"
     nav_album_desserts: "Desserts et boissons"
     nav_album_location: "Lieu"
+  footer:
+    opening_hours_title: "HEURES D'OUVERTURE"
+    opening_hours_desc: "Ouvert du Lundi au Vendredi (veuillez appeler pour vérifier l'ouverture les jours fériés)"
+    follow_us: "SUIVEZ-NOUS"
+    lunch: "Déjeuner: 12h - 14h"
+    dinner: "Diner: 19h - 22h"
+    location_title: "LOCALISATION"
+    restaurant_name: "Restaurant Chinois Le Jardin"
+    footer: "© 2019 Marios Sofokleous (<a href=\"https://pictureelement.github.io/portfolio-2/\">PictureElement</a>).<br>Design par <a href=\"https://github.com/catherning\">Catherning</a> (Catherine Xu)."
   menuLegend:
     title: "Légende"
     vegan: "Plat végétarien"

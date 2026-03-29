@@ -1,6 +1,6 @@
 ---
 layout: gallery_main
-gallery_id: main
+id: gallery-main
 lang: en
 title: Gallery
 permalink: /en/gallery.html

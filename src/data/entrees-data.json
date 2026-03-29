@@ -13,26 +13,29 @@
       "subcategories": [
         {
           "id": "soup",
-          "icon": "media/menu/entrees/icons/soup.svg",
+          "icon": "media/menu/entrees/soup.svg",
           "title": {
             "fr":"POTAGES ET SOUPES",
-            "en":"SOUPS AND BROTHS"
+            "en":"SOUPS AND BROTHS",
+            "zh":"汤和高汤"
           }
         },
         {
           "id": "hors-doeuvres",
-          "icon": "media/menu/entrees/icons/salad.svg",
+          "icon": "media/menu/entrees/salad.svg",
           "title": {
             "fr": "HORS D'OEUVRES",
-            "en": "APPETIZERS"
+            "en": "APPETIZERS",
+            "zh": "开胃菜"
           }
         },
         {
           "id": "raviolis",
-          "icon": "media/menu/entrees/icons/dim-sum.svg",
+          "icon": "media/menu/entrees/dim-sum.svg",
           "title": {
             "fr": "RAVIOLIS",
-            "en": "DUMPLINGS"
+            "en": "DUMPLINGS",
+            "zh": "饺子"
           }
         }
       ]

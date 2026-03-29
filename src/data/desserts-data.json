@@ -52,7 +52,7 @@
       "subcategories": [
         {
           "id": "nos-desserts",
-          "icon": "media/menu/desserts/icons/cakes.svg",
+          "icon": "media/menu/desserts/cakes.svg",
           "title": {
             "fr": "DESSERTS",
             "en": "DESSERTS",
@@ -66,7 +66,7 @@
             "en": "ICE CREAM",
             "zh": "冰淇淋"
           },
-          "icon": "media/menu/desserts/icons/cookies.svg"
+          "icon": "media/menu/desserts/cookies.svg"
         }
       ]
     }

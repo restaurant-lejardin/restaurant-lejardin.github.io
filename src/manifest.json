@@ -1,0 +1,26 @@
+{
+  "name": "Restaurant Chinois Le Jardin",
+  "short_name": "Le Jardin",
+  "description": "Site officiel du Restaurant Chinois Le Jardin a Paris.",
+  "lang": "fr",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#9ed1dd",
+  "icons": [
+    {
+      "src": "/media/brand/logo-dark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/media/brand/logo-light.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

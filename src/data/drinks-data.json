@@ -47,26 +47,29 @@
       "subcategories": [
         {
           "id": "aperitifs",
-          "icon": "media/menu/drinks/icons/aperitifs.svg",
+          "icon": "media/menu/drinks/aperitifs.svg",
           "title": {
               "fr": "APERITIFS",
-              "en": "APERITIFS"
+              "en": "APERITIFS",
+              "zh": "开胃酒"
           }
         },
         {
           "id": "brandies",
-          "icon": "media/menu/drinks/icons/spirits.svg",
+          "icon": "media/menu/drinks/spirits.svg",
           "title": {
               "fr": "DIGESTIFS",
-              "en": "DIGESTIFS"
+              "en": "DIGESTIFS",
+              "zh": "餐后酒"
           }
         },
         {
           "id": "beers",
-          "icon": "media/menu/drinks/icons/beers.svg",
+          "icon": "media/menu/drinks/beers.svg",
           "title": {
               "fr": "BIERES",
-              "en": "BEERS"
+              "en": "BEERS",
+              "zh": "啤酒"
           }
         }
       ]
@@ -76,26 +79,29 @@
       "subcategories": [
         {
           "id": "cold-beverages",
-          "icon": "media/menu/drinks/icons/cold-beverages.svg",
+          "icon": "media/menu/drinks/cold-beverages.svg",
           "title": {
               "fr": "EAUX & SODAS",
-              "en": "WATERS & SODAS"
+              "en": "WATERS & SODAS",
+              "zh": "水和苏打水"
           }
         },
         {
           "id": "liqueurs",
-          "icon": "media/menu/drinks/icons/liqueurs.svg",
+          "icon": "media/menu/drinks/liqueurs.svg",
           "title": {
               "fr": "SPECIALITES (sans alcool)",
-              "en": "SPECIALTIES (non-alcoholic)"
+              "en": "SPECIALTIES (non-alcoholic)",
+              "zh": "特色饮品（无酒精）"
           }
         },
         {
           "id": "hot-beverages",
-          "icon": "media/menu/drinks/icons/hot-beverages.svg",
+          "icon": "media/menu/drinks/hot-beverages.svg",
           "title": {
               "fr": "CAFES & THES",
-              "en": "COFFEES & TEAS"
+              "en": "COFFEES & TEAS",
+              "zh": "咖啡和茶"
           }
         }
       ]
@@ -105,34 +111,38 @@
       "subcategories": [
         {
           "id": "vins-rouges",
-          "icon": "media/menu/drinks/icons/wines.svg",
+          "icon": "media/menu/drinks/wines.svg",
           "title": {
               "fr": "VINS ROUGES en bouteille",
-              "en": "RED WINES by the bottle"
+              "en": "RED WINES by the bottle",
+              "zh": "红葡萄酒（瓶装）"
           }
         },
         {
           "id": "roses",
-          "icon": "media/menu/drinks/icons/wines.svg",
+          "icon": "media/menu/drinks/wines.svg",
           "title": {
               "fr": "VINS ROSES en bouteille",
-              "en": "ROSÉ WINES by the bottle"
+              "en": "ROSÉ WINES by the bottle",
+              "zh": "桃红葡萄酒（瓶装）"
           }
         },
         {
           "id": "vins-blancs",
-          "icon": "media/menu/drinks/icons/wines.svg",
+          "icon": "media/menu/drinks/wines.svg",
           "title": {
               "fr": "VINS BLANCS en bouteille",
-              "en": "WHITE WINES by the bottle"
+              "en": "WHITE WINES by the bottle",
+              "zh": "白葡萄酒（瓶装）"
           }
         },
         {
           "id": "pichets",
-          "icon": "media/menu/drinks/icons/jug2.svg",
+          "icon": "media/menu/drinks/jug2.svg",
           "title": {
               "fr": "Pichets de vin",
-              "en": "WINE PITCHERS"
+              "en": "WINE PITCHERS",
+              "zh": "葡萄酒壶"
           }
         }
       ]

@@ -1,7 +1,5 @@
 ---
 layout: gallery_subpages
 lang: fr
-gallery_id: location
-gallery_title: "GALLERIE DU RESTAURANT"
-gallery_subtitle: "Une ambiance traditionnelle"
+id: gallery-location
 ---
