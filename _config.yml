@@ -15,13 +15,10 @@ exclude:
   - README.md
   - script.sh
   - Gruntfile.js
-  - manifest.json
   - package-lock.json
   - package.json
   - service-worker.js
-  - convert_food_data.py
   - dist
-  - 404.html
 
 baseurl: ""
 permalink: /:basename.html
