@@ -1,35 +1,39 @@
 - page: "entrees"
   title: 
     fr: "Nos entrées"
-    en: "Appetizers"
+    en: "Our appetizers"
+  show_in_gallery_subpages: gallery-food
   order: 1
   group: "Menu"
   
 - page: "food"
   title: 
     fr: "Nos plats"
-    en: "Main Dishes"
+    en: "Our main dishes"
+  show_in_gallery_subpages: gallery-food
   order: 2
   group: "Menu"
   
 - page: "desserts"
   title: 
     fr: "Nos desserts"
-    en: "Desserts"
+    en: "Our Desserts"
+  show_in_gallery_subpages: gallery-desserts
   order: 3
   group: "Menu"
   
 - page: "formules"
   title: 
     fr: "Nos formules"
-    en: "Set Menus"
+    en: "Our Set Menus"
   order: 4
   group: "Menu"
 
 - page: "drinks"
   title: 
     fr: "Nos boissons"
-    en: "Beverages"
+    en: "Our Beverages"
+  show_in_gallery_subpages: gallery-desserts
   order: 5
   group: "Menu"
 
@@ -37,27 +41,46 @@
   title:
     fr: "Album"
     en: "Gallery"
+  title_long:
+    fr: "Notre galerie photo"
+    en: "Our photo gallery"
+  id: gallery-main # Need to keep this id for the gallery main page to avoid showing it in its own subpages {% unless nav_item.id == page.id %} compared to id in md files
   order: 6
   group: "Album"
 
 - page: "gallery-food"
-  title:
+  title: 
     fr: "Entrées et plats"
     en: "Appetizers and dishes"
+  title_long:
+    fr: "Galerie des entrées et plats"
+    en: "Gallery of starters and main courses"
+  id: gallery-food
+  show_in_gallery_subpages: all
   order: 7
   group: "Album"
 
 - page: "gallery-desserts"
-  title:
+  title: 
     fr: "Desserts et boissons"
     en: "Desserts and drinks"
+  title_long:
+    fr: "Galerie des desserts et boissons"
+    en: "Gallery of desserts and drinks"
+  id: gallery-desserts
+  show_in_gallery_subpages: all
   order: 8
   group: "Album"
 
 - page: "gallery-location"
-  title:
+  title: 
     fr: "Lieu"
     en: "Location"
+  title_long:
+    fr: "Galerie du lieu"
+    en: "Gallery of the location"
+  id: gallery-location
+  show_in_gallery_subpages: all
   order: 9
   group: "Album"
   

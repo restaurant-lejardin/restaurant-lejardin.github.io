@@ -1,5 +1,5 @@
 ---
 layout: gallery_subpages
-gallery_id: desserts
+id: gallery-desserts
 lang: en
 ---

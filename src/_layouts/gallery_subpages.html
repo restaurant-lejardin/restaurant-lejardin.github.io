@@ -1,5 +1,5 @@
-{% assign gallery_trans = site.data.translations[page.lang].galleries[page.gallery_id] %}
-{% assign gallery_pictures = site.data.galleries[page.gallery_id] %}
+{% assign gallery_trans = site.data.translations[page.lang].galleries[page.id] %}
+{% assign gallery_pictures = site.data.galleries[page.id] %}
 <!doctype html>
 <html lang="{{ page.lang | default: site.default_lang | default: 'fr' }}">
   <head>
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Restaurant Chinois Le Jardin</title>
     <!-- Web app manifest -->
-    <link rel='manifest' href='manifest.json'>
+    <link rel='manifest' href='{{ site.baseurl }}/manifest.json'>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
@@ -23,7 +23,6 @@
         <h1 id="title-1" class="special-title-1 animate-on-scroll" data-animate="fadeInDown">{{ gallery_trans.title }}</h1>
         <h2 id="title-2" class="special-title-2 animate-on-scroll" data-animate="fadeInUp">{{ gallery_trans.subtitle }}</h2>
       </div>
-
       <!-- GALLERY LIGHTBOX -->
       <div id="lightbox" class="lightbox">
         <label id="close">✖</label>
@@ -73,8 +72,18 @@
 
       <!-- NAVIGATION BUTTONS -->
       <div class="row-centered end-menu" id="navigation-buttons">
-        {% for nav in gallery_pictures.navigation %}
-          <a class="btn btn-outline-dark" href="{{ nav.href }}" role="button">{{ nav.text[page.lang] }}</a>
+        {% assign nav_pages = site.data.menu_navigation | sort: 'order' %}
+        {% assign lang_prefix = '' %}
+        {% if page.lang and page.lang != 'fr' %}
+          {% assign lang_prefix = '/' | append: page.lang | append: '/' %}
+        {% endif %}
+        {% for nav_item in nav_pages %}
+          {% if nav_item.show_in_gallery_subpages == 'all' or nav_item.show_in_gallery_subpages == page.id %}
+          {% unless nav_item.id == page.id %}
+            {% assign nav_url = site.baseurl | append: lang_prefix | append: nav_item.page | append: '.html' %}
+            <a class="btn btn-outline-dark" href="{{ nav_url | replace: '//', '/' }}" role="button">{{ nav_item.title_long[page.lang] | default: nav_item.title[page.lang] }}</a>
+            {% endunless %}
+          {% endif %}
         {% endfor %}
         <br>
       </div>

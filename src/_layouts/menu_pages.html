@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     {% include css.html %}
   </head>
-  <body id="{{ page.body_id | default: 'menu' }}">
+  <body id="{{ page.id | default: 'menu' }}">
 
     {% include header.html %}
     <main>
@@ -23,8 +23,8 @@
       <div class="food-descriptions container">
         <div
           id="food-container"
-          data-json="data/{{ page.body_id | default: 'menu' }}-data.json"
-          data-google-sheet-url="{{ site.data.google_sheets[page.body_id] | default: '' }}"
+          data-json="data/{{ page.id | default: 'menu' }}-data.json"
+          data-google-sheet-url="{{ site.data.google_sheets[page.id] | default: '' }}"
         >
           <!-- Dynamic food data will be rendered here -->
         </div>
@@ -50,7 +50,7 @@
         <div class="row-centered end-menu">
           {% assign menu_pages = site.data.menu_navigation | where: 'group', 'Menu' | sort: 'order' %}
           {% for menu_item in menu_pages %}
-            {% unless menu_item.page == page.body_id %}
+            {% unless menu_item.page == page.id %}
               {% assign lang_prefix = '' %}
               {% if page.lang and page.lang != 'fr' %}
                 {% assign lang_prefix = '/' | append: page.lang | append : '/' %}

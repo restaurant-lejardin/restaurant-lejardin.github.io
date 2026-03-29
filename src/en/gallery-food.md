@@ -1,5 +1,5 @@
 ---
 layout: gallery_subpages
-gallery_id: food
+id: gallery-food
 lang: en
 ---

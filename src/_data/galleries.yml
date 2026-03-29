@@ -1,4 +1,4 @@
-food:
+gallery-food:
   items:
     - id: 0
       title:
@@ -63,29 +63,8 @@ food:
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618975/Food/81a_xlkhlo.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618975/Food/81a_xlkhlo.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609618975/Food/81a_xlkhlo.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618975/Food/81a_xlkhlo.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618975/Food/81a_xlkhlo.jpg"
-  navigation:
-    - text: 
-        fr: "Nos entrées"
-        en: "Our starters"
-        zh: "我们的前菜"
-      href: "entrees.html"
-    - text: 
-        fr: "Nos plats"
-        en: "Our main courses"
-        zh: "我们的主菜"
-      href: "food.html"
-    - text: 
-        fr: "Galerie des desserts et boissons"
-        en: "Gallery of desserts and drinks"
-        zh: "甜点和饮料画廊"
-      href: "gallery/gallery-desserts.html"
-    - text: 
-        fr: "Galerie du lieu"
-        en: "Gallery of the location"
-        zh: "地点画廊"
-      href: "gallery/gallery-location.html"
 
-desserts:
+gallery-desserts:
   items:
     - id: 0
       title:
@@ -122,25 +101,8 @@ desserts:
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/china_blue_b2xhob.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/china_blue_b2xhob.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/china_blue_b2xhob.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/china_blue_b2xhob.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/china_blue_b2xhob.jpg"
-  navigation:
-    - text: 
-        fr: "Nos desserts"
-        en: "Our desserts"
-      href: "desserts.html"
-    - text: 
-        fr: "Nos boissons"
-        en: "Our drinks"
-      href: "drinks.html"
-    - text: 
-        fr: "Galerie des entrées et plats"
-        en: "Gallery of starters and main courses"
-      href: "gallery-food.html"
-    - text: 
-        fr: "Galerie du lieu"
-        en: "Gallery of the location"
-      href: "gallery-location.html"
 
-location:
+gallery-location:
   items:
     - id: 0
       title: null
@@ -187,12 +149,3 @@ location:
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012271/Location/back.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1605012271/Location/back.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1605012271/Location/back.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012271/Location/back.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1605012271/Location/back.jpg"
-  navigation:
-    - text: 
-        fr: "Galerie des entrées et plats"
-        en: "Gallery of starters and main courses"
-      href: "gallery-food.html"
-    - text: 
-        fr: "Galerie des desserts et boissons"
-        en: "Gallery of desserts and drinks"
-      href: "gallery-desserts.html"

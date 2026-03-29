@@ -2,6 +2,6 @@
 layout: menu_pages
 title: "Our starters"
 lang: "en"
-body_id: "entrees"
+id: "entrees"
 show_legend: true
 ---
