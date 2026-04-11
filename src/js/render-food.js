@@ -15,18 +15,21 @@
  *        │    └─ mergeSheetItemsIntoData(data, mappedItems)
  *        │         └─ replace category.subcategories[*].items with sheet items
  *        └─ (on merged data)
- *             ├─ renderJumbotron(container, data, lang)
+ *             ├─ renderJumbotron(data, lang)
+ *             │    ├─ clone #jumbotron-template and populate title/background
+ *             │    └─ iterate categories/subcategories to clone #menu-icon-template
  *             └─ for each category in data.categories:
- *                   ├─ createEl (for specialTitle, etc)
+ *                   ├─ clone #category-special-title-template when specialTitle exists
  *                   └─ renderCategory(category, lang, jsonFilePath, isDrinksPage)
- *                         ├─ append category description when present
+ *                         ├─ clone #food-category-template and populate id/description
  *                         └─ for each subcategory in category.subcategories:
  *                               └─ renderSubcategory(subcat, lang, jsonFilePath, isDrinksPage)
- *                                     ├─ render banner title + separator
+ *                                     ├─ clone #food-subcategory-template and populate title/id
  *                                     └─ for each item in subcat.items:
  *                                           ├─ append item separator when item.showHr
  *                                           ├─ append item.specialTitle when present
  *                                           └─ renderFoodItem(item, lang, jsonFilePath, isDrinksPage)
+ *                                                 ├─ clone #food-item-template row shell
  *                                                 ├─ if formules-data and item['ou-highlight']:
  *                                                 │    └─ render OU / OR / 或 label
  *                                                 ├─ else if not drinks page:
@@ -329,19 +332,21 @@ function createFoodImageCol(image) {
 }
 
 function createFoodTitle(item, currentLang, isFormule) {
-  const foodTitle = createEl('h3', [isFormule ? 'formule-title' : 'food-title']);
-  const nameSpan = createEl('span', ['food-name'], getLocalizedText(item.name, currentLang));
-  foodTitle.appendChild(nameSpan);
+  const titleNode = document.querySelector('#food-title-template').content.cloneNode(true).querySelector('h3');
+  titleNode.className = isFormule ? 'formule-title' : 'food-title';
+  titleNode.querySelector('.food-name').textContent = getLocalizedText(item.name, currentLang);
+  const priceNode = titleNode.querySelector('.food-price');
   if (item.price) {
-    const priceSpan = createEl('span', ['food-price'], `${item.price}€`);
-    foodTitle.appendChild(priceSpan);
+    priceNode.textContent = `${item.price}€`;
+  } else {
+    priceNode.remove();
   }
-  return foodTitle;
+  return titleNode;
 }
 
 function renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage) {
   const isFormulesPage = jsonFilePath.includes(FORMULES_DATA_KEY);
-  const row = createEl('div', ['row', 'align-items-center', 'menu-item', 'animate-on-scroll'], null, { 'data-animate': 'fadeInUp' });
+  const row = document.querySelector('#food-item-template').content.cloneNode(true).querySelector('.menu-item');
   if (isFormulesPage && item['ou-highlight']) {
     const ouTextDiv = createEl('div', ['col-md-2', 'menu-OU-text']);
     ouTextDiv.innerHTML = OU_TEXT_BY_LANG[currentLang] || OU_TEXT_BY_LANG.fr;
@@ -360,11 +365,9 @@ function renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage) {
 }
 
 function renderSubcategory(subcat, currentLang, jsonFilePath, isDrinksPage) {
-  const subcatDiv = createEl('div', ['food-subcategory']);
+  const subcatDiv = document.querySelector('#food-subcategory-template').content.cloneNode(true).querySelector('.food-subcategory');
   subcatDiv.id = subcat.id;
-  const subcatTitle = createEl('h2', ['banner', 'subcategory-title'], getLocalizedText(subcat.title, currentLang));
-  subcatDiv.appendChild(subcatTitle);
-  subcatDiv.appendChild(createEl('hr', ['food-horizontal-rule']));
+  subcatDiv.querySelector('.subcategory-title').textContent = getLocalizedText(subcat.title, currentLang);
   if (Array.isArray(subcat.items)) {
     subcat.items.forEach(item => {
       if (item.showHr) subcatDiv.appendChild(createEl('hr', ['food-horizontal-rule']));
@@ -376,11 +379,11 @@ function renderSubcategory(subcat, currentLang, jsonFilePath, isDrinksPage) {
 }
 
 function renderCategory(category, currentLang, jsonFilePath, isDrinksPage) {
-  const categoryDiv = createEl('div', ['food-category']);
+  const categoryDiv = document.querySelector('#food-category-template').content.cloneNode(true).querySelector('.food-category');
   categoryDiv.id = category.id;
-  if (category.description) {
-    categoryDiv.appendChild(createEl('p', ['category-description'], getLocalizedText(category.description, currentLang)));
-  }
+  const description = categoryDiv.querySelector('.category-description');
+  if (category.description) description.textContent = getLocalizedText(category.description, currentLang);
+  else description.remove();
   category.subcategories.forEach(subcat => {
     categoryDiv.appendChild(renderSubcategory(subcat, currentLang, jsonFilePath, isDrinksPage));
   });
@@ -436,10 +439,12 @@ async function renderFoodAndJumbotron(foodContainer, currentLang) {
       return;
     }
 
+    const categorySpecialTitleTemplate = document.querySelector('#category-special-title-template');
     data.categories.forEach(category => {
       if (category.specialTitle) {
-        foodContainer.appendChild(createEl('hr', ['food-horizontal-separation']));
-        foodContainer.appendChild(createEl('h2', ['special-title-3'], getLocalizedText(category.specialTitle, currentLang)));
+        const specialBlock = categorySpecialTitleTemplate.content.cloneNode(true);
+        specialBlock.querySelector('.special-title-3').textContent = getLocalizedText(category.specialTitle, currentLang);
+        foodContainer.appendChild(specialBlock);
       }
       foodContainer.appendChild(renderCategory(category, currentLang, jsonFilePath, isDrinksPage));
     });
@@ -450,11 +455,12 @@ async function renderFoodAndJumbotron(foodContainer, currentLang) {
 
 
 function renderJumbotron(data, currentLang) {
+  // Template lookup and guards
   const jumbotronPlaceholder = document.getElementById("jumbotron-placeholder");
   const jumbotronTemplate = document.querySelector('#jumbotron-template');
   if (!jumbotronPlaceholder || !jumbotronTemplate) return;
 
-  // Get default srcset from template data attributes
+  // Default image/srcset config from template attributes
   const templateAttrs = jumbotronTemplate.dataset;
   const defaultBackgroundImage = templateAttrs.defaultBg || "";
   const defaultSrcsetBase = templateAttrs.defaultSrcsetBase || "";
@@ -467,12 +473,14 @@ function renderJumbotron(data, currentLang) {
     .map(w => `${defaultSrcsetBase},w_${w}/${defaultSrcsetId} ${w}w`)
     .join(',');
 
-  // Clone template and set data
+  // Clone templates and resolve target nodes
   const jumbotron = jumbotronTemplate.content.cloneNode(true);
   const img = jumbotron.querySelector('img');
   const h1 = jumbotron.querySelector('h1');
   const menuIconsContainer = jumbotron.querySelector('#menu-icons');
+  const iconTemplate = document.querySelector('#menu-icon-template');
 
+  // Populate top-level jumbotron data
   const titleText = getLocalizedText(data.title, currentLang) || data.title || data.id || "";
   const backgroundImage = data.backgroundImage;
   const srcset = (Array.isArray(data.srcset) && data.srcset.length > 0) ? data.srcset.join(",") : data.srcset;
@@ -481,9 +489,9 @@ function renderJumbotron(data, currentLang) {
   img.srcset = srcset || defaultSrcset;
   h1.textContent = titleText;
 
-  // Populate menu icons from data
+  // Populate menu icons from category/subcategory lists
   const categories = data.subCategories || (Array.isArray(data.categories) ? data.categories : null);
-  if (Array.isArray(categories) && categories.length > 0) {
+  if (iconTemplate && Array.isArray(categories) && categories.length > 0) {
     categories.forEach(category => {
       const subtitle = getLocalizedText(category.subTitle || category.subtitle, currentLang) || "";
       if (subtitle) {
@@ -495,26 +503,31 @@ function renderJumbotron(data, currentLang) {
 
       const row = document.createElement('div');
       row.className = 'row';
-      if (Array.isArray(category.subcategories)) {
-        category.subcategories.forEach(subcat => {
-          const iconTemplate = document.querySelector('#menu-icon-template');
-          const icon = iconTemplate.content.cloneNode(true);
-          const link = icon.querySelector('a');
-          const iconImg = icon.querySelector('img');
-          const h6 = icon.querySelector('h6');
-          const text = getLocalizedText(subcat.title, currentLang) || subcat.id || "";
-          link.href = `#${subcat.id}`;
-          iconImg.src = `/${subcat.icon}`;
-          iconImg.alt = text;
-          h6.textContent = text;
-          row.appendChild(icon);
-        });
+      if (!Array.isArray(category.subcategories)) {
+        menuIconsContainer.appendChild(row);
+        menuIconsContainer.appendChild(document.createElement('br'));
+        return;
       }
+
+      category.subcategories.forEach(subcat => {
+        const icon = iconTemplate.content.cloneNode(true);
+        const link = icon.querySelector('a');
+        const iconImg = icon.querySelector('img');
+        const h6 = icon.querySelector('h6');
+        const text = getLocalizedText(subcat.title, currentLang) || subcat.id || "";
+        link.href = `#${subcat.id}`;
+        iconImg.src = `/${subcat.icon}`;
+        iconImg.alt = text;
+        h6.textContent = text;
+        row.appendChild(icon);
+      });
+
       menuIconsContainer.appendChild(row);
       menuIconsContainer.appendChild(document.createElement('br'));
     });
   }
 
+  // Mount jumbotron in DOM
   jumbotronPlaceholder.appendChild(jumbotron);
 }
 
