@@ -1,6 +1,10 @@
 /**
  * Function call tree for render-food-data.js
  *
+ * Role:
+ *   - Data source and normalization layer for menu pages.
+ *   - Builds final item lists from Google Sheet rows when sheet URL is configured.
+ *
  * initRenderFoodDataUtils(window)
  *   ├─ defines helpers: parseBoolean, normalizeColumnName, parseCsv,
  *   │                  getRowValue, buildLocalizedField, mapSheetRowToItem,
@@ -22,6 +26,14 @@
  *   │    ├─ group mapped items by subcategoryId
  *   │    └─ assign grouped items to matching category.subcategories[*]
  *   └─ registers public API at window.renderFoodDataUtils
+ *
+ * Public contract:
+ *   - loadMenuData(...) resolves to:
+ *       {
+ *         data,
+ *         sheetApplied: boolean,
+ *         sheetResult: { totalItems: number, unknownSubcategories: string[] }
+ *       }
  */
 
 (function initRenderFoodDataUtils(global) {
