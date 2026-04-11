@@ -4,13 +4,20 @@
  * initRenderFoodDataUtils(window)
  *   ├─ defines helpers: parseBoolean, normalizeColumnName, parseCsv,
  *   │                  getRowValue, buildLocalizedField, mapSheetRowToItem,
- *   │                  buildGoogleSheetCsvUrl
+ *   │                  buildGoogleSheetCsvUrl, fetchJsonData
  *   ├─ exposes loadSheetMappedItems(sheetUrl)
  *   │    ├─ buildGoogleSheetCsvUrl(sheetUrl)
  *   │    ├─ fetch(csvUrl, cache: 'no-store')
  *   │    ├─ parseCsv(csvText) → rows
  *   │    └─ for each row: mapSheetRowToItem(rowObj)
- *   ├─ exposes mergeSheetItemsIntoData(data, mappedItems)
+ *   ├─ exposes loadMenuData({ jsonFilePath, googleSheetUrl })
+ *   │    ├─ fetchJsonData(jsonFilePath)
+ *   │    ├─ normalizeMenuDataShape(data)
+ *   │    ├─ if googleSheetUrl: loadSheetMappedItems(sheetUrl)
+ *   │    └─ build final menu data from sheet rows
+ *   ├─ defines normalizeMenuDataShape(data)
+ *   │    └─ guarantee categories/subcategories/items arrays
+ *   ├─ defines buildMenuDataFromSheet(data, mappedItems)
  *   │    ├─ clear existing subcategory items (sheet-first mode)
  *   │    ├─ group mapped items by subcategoryId
  *   │    └─ assign grouped items to matching category.subcategories[*]
@@ -162,6 +169,14 @@
     return csvUrl.toString();
   }
 
+  async function fetchJsonData(jsonFilePath) {
+    const response = await fetch(jsonFilePath);
+    if (!response.ok) {
+      throw new Error('[render-food] HTTP error! status: ' + response.status);
+    }
+    return response.json();
+  }
+
   async function loadSheetMappedItems(sheetUrl) {
     if (!sheetUrl) return [];
     const csvUrl = buildGoogleSheetCsvUrl(sheetUrl);
@@ -196,7 +211,27 @@
     return mapped;
   }
 
-  function mergeSheetItemsIntoData(data, mappedItems) {
+  function normalizeMenuDataShape(data) {
+    const normalized = data && typeof data === 'object' ? data : {};
+    const categories = Array.isArray(normalized.categories) ? normalized.categories : [];
+
+    normalized.categories = categories.map(function(category) {
+      const safeCategory = category && typeof category === 'object' ? category : {};
+      const subcategories = Array.isArray(safeCategory.subcategories) ? safeCategory.subcategories : [];
+
+      safeCategory.subcategories = subcategories.map(function(subcat) {
+        const safeSubcat = subcat && typeof subcat === 'object' ? subcat : {};
+        safeSubcat.items = Array.isArray(safeSubcat.items) ? safeSubcat.items : [];
+        return safeSubcat;
+      });
+
+      return safeCategory;
+    });
+
+    return normalized;
+  }
+
+  function buildMenuDataFromSheet(data, mappedItems) {
     if (!Array.isArray(data.categories)) {
       return { totalItems: 0, unknownSubcategories: [] };
     }
@@ -241,8 +276,32 @@
     return { totalItems: mappedItems.length, unknownSubcategories };
   }
 
+  async function loadMenuData(options) {
+    const jsonFilePath = options && options.jsonFilePath ? options.jsonFilePath : '';
+    const googleSheetUrl = options && options.googleSheetUrl ? options.googleSheetUrl : '';
+    const data = normalizeMenuDataShape(await fetchJsonData(jsonFilePath));
+
+    if (!googleSheetUrl) {
+      return {
+        data,
+        sheetApplied: false,
+        sheetResult: { totalItems: 0, unknownSubcategories: [] }
+      };
+    }
+
+    const mappedItems = await loadSheetMappedItems(googleSheetUrl);
+    const sheetResult = buildMenuDataFromSheet(data, mappedItems);
+    return {
+      data,
+      sheetApplied: true,
+      sheetResult
+    };
+  }
+
   global.renderFoodDataUtils = {
+    loadMenuData,
     loadSheetMappedItems,
-    mergeSheetItemsIntoData
+    normalizeMenuDataShape,
+    buildMenuDataFromSheet
   };
 })(window);

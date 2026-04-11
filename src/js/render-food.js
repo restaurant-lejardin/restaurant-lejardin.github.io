@@ -3,31 +3,33 @@
  *
  * DOMContentLoaded
  *   └─ renderFoodAndJumbotron(container, lang)
- *        ├─ detect page mode from data-json
- *        │    └─ isDrinksPage = jsonFilePath.includes('drinks-data')
- *        ├─ fetch(jsonFilePath) → JSON structure
- *        ├─ if googleSheetUrl (via render-food-data.js):
- *        │    ├─ loadSheetMappedItems(sheetUrl)
- *        │    └─ mergeSheetItemsIntoData(data, mappedItems)
- *        └─ (on merged data)
+ *        ├─ resolvePageContext(container)
+ *        │    ├─ normalize jsonFilePath from data-json
+ *        │    ├─ read googleSheetUrl from data-google-sheet-url
+ *        │    └─ compute isDrinksPage / isFormulesPage flags
+ *        ├─ loadMenuData({ jsonFilePath, googleSheetUrl }) via render-food-data.js
+ *        │    ├─ fetchJsonData(jsonFilePath)
+ *        │    ├─ if googleSheetUrl: loadSheetMappedItems(sheetUrl)
+ *        │    └─ return final render data + sheetResult status
+ *        └─ (on final data)
  *             ├─ renderJumbotron(data, lang)
  *             │    ├─ clone #jumbotron-template and populate title/background
  *             │    └─ iterate categories/subcategories to createMenuIcon(...)
  *             └─ for each category in data.categories:
  *                   ├─ clone #category-special-title-template when specialTitle exists
- *                   └─ renderCategory(category, lang, jsonFilePath, isDrinksPage)
+ *                   └─ renderCategory(category, lang, pageContext)
  *                         ├─ clone #food-category-template and populate id/description
  *                         └─ for each subcategory in category.subcategories:
- *                               └─ renderSubcategory(subcat, lang, jsonFilePath, isDrinksPage)
+ *                               └─ renderSubcategory(subcat, lang, pageContext)
  *                                     ├─ clone #food-subcategory-template and populate title/id
  *                                     └─ for each item in subcat.items:
  *                                           ├─ append item separator when item.showHr
  *                                           ├─ append item.specialTitle when present
- *                                           └─ renderFoodItem(item, lang, jsonFilePath, isDrinksPage)
+ *                                           └─ renderFoodItem(item, lang, pageContext)
  *                                                 ├─ clone #food-item-template row shell
- *                                                 ├─ if formules-data and item['ou-highlight']:
+ *                                                 ├─ if pageContext.isFormulesPage and item['ou-highlight']:
  *                                                 │    └─ render OU / OR / 或 label
- *                                                 ├─ else if not drinks page:
+ *                                                 ├─ else if not pageContext.isDrinksPage:
  *                                                 │    └─ createFoodImageCol(item.image)
  *                                                 ├─ createVeganIndicator(item.veganType)
  *                                                 ├─ create details column
@@ -36,8 +38,8 @@
  *                                                 └─ append description when item.description
  *
  * Notes:
- *   - Hybrid data model: static JSON structure + optional dynamic Google Sheet items
- *   - Sheet items replace JSON items for given subcategories (preserves row order)
+ *   - Data loading is delegated to render-food-data.js via loadMenuData().
+ *   - Sheet mode builds final subcategory items from Google Sheet rows.
  *   - If sheet fetch fails, falls back to JSON items (non-blocking)
  *   - Drinks pages reuse the same food-title / food-name / food-price classes.
  *   - The drinks exception is layout only: no image column and details take col-md-12.
@@ -91,11 +93,10 @@ function createEl(tag, classList = [], content = null, attrs = {}) {
 }
 
 const {
-  loadSheetMappedItems,
-  mergeSheetItemsIntoData
+  loadMenuData
 } = window.renderFoodDataUtils || {};
 
-if (!loadSheetMappedItems || !mergeSheetItemsIntoData) {
+if (!loadMenuData) {
   console.error('[render-food] Missing data utils. Ensure /js/render-food-data.js is loaded before /js/render-food.js');
 }
 
@@ -152,22 +153,34 @@ function createMenuIcon(iconTemplate, subcat, currentLang) {
   return icon;
 }
 
-function renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage) {
-  const isFormulesPage = jsonFilePath.includes(FORMULES_DATA_KEY);
+function resolvePageContext(foodContainer) {
+  let jsonFilePath = foodContainer.getAttribute('data-json');
+  if (!jsonFilePath) return null;
+
+  jsonFilePath = jsonFilePath.startsWith('/') ? jsonFilePath : `/${jsonFilePath}`;
+  return {
+    jsonFilePath,
+    googleSheetUrl: foodContainer.getAttribute('data-google-sheet-url') || '',
+    isDrinksPage: jsonFilePath.includes(DRINKS_DATA_KEY),
+    isFormulesPage: jsonFilePath.includes(FORMULES_DATA_KEY)
+  };
+}
+
+function renderFoodItem(item, currentLang, pageContext) {
   const { foodItem } = getTemplateRefs();
   const row = foodItem.content.cloneNode(true).querySelector('.menu-item');
-  if (isFormulesPage && item['ou-highlight']) {
+  if (pageContext.isFormulesPage && item['ou-highlight']) {
     const ouTextDiv = createEl('div', ['col-md-2', 'menu-OU-text']);
     const underlined = document.createElement('u');
     underlined.textContent = OU_TEXT_BY_LANG[currentLang] || OU_TEXT_BY_LANG.fr;
     ouTextDiv.appendChild(underlined);
     row.appendChild(ouTextDiv);
-  } else if (!isDrinksPage) {
+  } else if (!pageContext.isDrinksPage) {
     row.appendChild(createFoodImageCol(item.image));
   }
   row.appendChild(createVeganIndicator(item.veganType));
-  const detailsCol = createEl('div', [isDrinksPage ? 'col-md-12' : 'col-md-9']);
-  detailsCol.appendChild(createFoodTitle(item, currentLang, isFormulesPage));
+  const detailsCol = createEl('div', [pageContext.isDrinksPage ? 'col-md-12' : 'col-md-9']);
+  detailsCol.appendChild(createFoodTitle(item, currentLang, pageContext.isFormulesPage));
   if (item.description) {
     detailsCol.appendChild(createEl('p', ['food-ingredients'], getLocalizedText(item.description, currentLang)));
   }
@@ -175,7 +188,7 @@ function renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage) {
   return row;
 }
 
-function renderSubcategory(subcat, currentLang, jsonFilePath, isDrinksPage) {
+function renderSubcategory(subcat, currentLang, pageContext) {
   const { foodSubcategory } = getTemplateRefs();
   const subcatDiv = foodSubcategory.content.cloneNode(true).querySelector('.food-subcategory');
   subcatDiv.id = subcat.id;
@@ -184,13 +197,13 @@ function renderSubcategory(subcat, currentLang, jsonFilePath, isDrinksPage) {
     subcat.items.forEach(item => {
       if (item.showHr) subcatDiv.appendChild(createEl('hr', ['food-horizontal-rule']));
       if (item.specialTitle) subcatDiv.appendChild(createEl('h3', ['special-title-4'], getLocalizedText(item.specialTitle, currentLang)));
-      subcatDiv.appendChild(renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage));
+      subcatDiv.appendChild(renderFoodItem(item, currentLang, pageContext));
     });
   }
   return subcatDiv;
 }
 
-function renderCategory(category, currentLang, jsonFilePath, isDrinksPage) {
+function renderCategory(category, currentLang, pageContext) {
   const { foodCategory } = getTemplateRefs();
   const categoryDiv = foodCategory.content.cloneNode(true).querySelector('.food-category');
   categoryDiv.id = category.id;
@@ -198,7 +211,7 @@ function renderCategory(category, currentLang, jsonFilePath, isDrinksPage) {
   if (category.description) description.textContent = getLocalizedText(category.description, currentLang);
   else description.remove();
   category.subcategories.forEach(subcat => {
-    categoryDiv.appendChild(renderSubcategory(subcat, currentLang, jsonFilePath, isDrinksPage));
+    categoryDiv.appendChild(renderSubcategory(subcat, currentLang, pageContext));
   });
   return categoryDiv;
 }
@@ -217,32 +230,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 async function renderFoodAndJumbotron(foodContainer, currentLang) {
-  let jsonFilePath = foodContainer.getAttribute("data-json");
-  if (!jsonFilePath) {
+  const pageContext = resolvePageContext(foodContainer);
+  if (!pageContext) {
     console.error("Error: data-json attribute not set on container:", foodContainer.id);
     return;
   }
-  jsonFilePath = jsonFilePath.startsWith('/') ? jsonFilePath : `/${jsonFilePath}`;
-  const isDrinksPage = jsonFilePath.includes(DRINKS_DATA_KEY);
-  const googleSheetUrl = foodContainer.getAttribute("data-google-sheet-url") || '';
 
   try {
-    const response = await fetch(jsonFilePath);
-    if (!response.ok) throw new Error(`[render-food] HTTP error! status: ${response.status}`);
-    const data = await response.json();
+    const { data, sheetApplied, sheetResult } = await loadMenuData({
+      jsonFilePath: pageContext.jsonFilePath,
+      googleSheetUrl: pageContext.googleSheetUrl
+    });
 
-    if (googleSheetUrl) {
-      try {
-        const mappedItems = await loadSheetMappedItems(googleSheetUrl);
-        const mergeResult = mergeSheetItemsIntoData(data, mappedItems);
-        if (mergeResult.totalItems === 0) {
-          console.warn('[render-food] Sheet loaded but no valid item rows found. All subcategory items are empty.');
-        }
-        if (mergeResult.unknownSubcategories.length > 0) {
-          console.warn('[render-food] Sheet contains unknown subcategory_id values:', mergeResult.unknownSubcategories.join(', '));
-        }
-      } catch (sheetError) {
-        console.warn('[render-food] Failed to load Google Sheet items, falling back to JSON items:', sheetError);
+    if (sheetApplied) {
+      if (sheetResult.totalItems === 0) {
+        console.warn('[render-food] Sheet loaded but no valid item rows found. All subcategory items are empty.');
+      }
+      if (sheetResult.unknownSubcategories.length > 0) {
+        console.warn('[render-food] Sheet contains unknown subcategory_id values:', sheetResult.unknownSubcategories.join(', '));
       }
     }
 
@@ -259,7 +264,7 @@ async function renderFoodAndJumbotron(foodContainer, currentLang) {
         specialBlock.querySelector('.special-title-3').textContent = getLocalizedText(category.specialTitle, currentLang);
         foodContainer.appendChild(specialBlock);
       }
-      foodContainer.appendChild(renderCategory(category, currentLang, jsonFilePath, isDrinksPage));
+      foodContainer.appendChild(renderCategory(category, currentLang, pageContext));
     });
   } catch (error) {
     console.error("Error loading food data:", error);
