@@ -6,18 +6,13 @@
  *        ├─ detect page mode from data-json
  *        │    └─ isDrinksPage = jsonFilePath.includes('drinks-data')
  *        ├─ fetch(jsonFilePath) → JSON structure
- *        ├─ if googleSheetUrl:
- *        │    ├─ buildGoogleSheetCsvUrl(googleSheetUrl) → CSV export URL
- *        │    ├─ loadSheetMappedItems(csvUrl)
- *        │    │    ├─ fetch(csvUrl, cache: 'no-store')
- *        │    │    ├─ parseCsv(csvText) → rows
- *        │    │    └─ for each row: mapSheetRowToItem(row) → (subcategoryId, item)
+ *        ├─ if googleSheetUrl (via render-food-data.js):
+ *        │    ├─ loadSheetMappedItems(sheetUrl)
  *        │    └─ mergeSheetItemsIntoData(data, mappedItems)
- *        │         └─ replace category.subcategories[*].items with sheet items
  *        └─ (on merged data)
  *             ├─ renderJumbotron(data, lang)
  *             │    ├─ clone #jumbotron-template and populate title/background
- *             │    └─ iterate categories/subcategories to clone #menu-icon-template
+ *             │    └─ iterate categories/subcategories to createMenuIcon(...)
  *             └─ for each category in data.categories:
  *                   ├─ clone #category-special-title-template when specialTitle exists
  *                   └─ renderCategory(category, lang, jsonFilePath, isDrinksPage)
@@ -48,7 +43,8 @@
  *   - The drinks exception is layout only: no image column and details take col-md-12.
  *   - Formules pages reuse the same renderer with OU highlight handling and formule-title.
  *
- * Helper functions: detectLanguage, getLocalizedText, createEl, getTemplateRefs, createFoodImageCol, createVeganIndicator, createFoodTitle.
+ * Helper functions: detectLanguage, getLocalizedText, createEl, getTemplateRefs,
+ *                   createFoodImageCol, createVeganIndicator, createFoodTitle, createMenuIcon.
  * Data parsing/sheet mapping helpers are provided by render-food-data.js.
  */
 
@@ -141,6 +137,19 @@ function createFoodTitle(item, currentLang, isFormule) {
     priceNode.remove();
   }
   return titleNode;
+}
+
+function createMenuIcon(iconTemplate, subcat, currentLang) {
+  const icon = iconTemplate.content.cloneNode(true);
+  const link = icon.querySelector('a');
+  const iconImg = icon.querySelector('img');
+  const h6 = icon.querySelector('h6');
+  const text = getLocalizedText(subcat.title, currentLang) || subcat.id || "";
+  link.href = `#${subcat.id}`;
+  iconImg.src = `/${subcat.icon}`;
+  iconImg.alt = text;
+  h6.textContent = text;
+  return icon;
 }
 
 function renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage) {
@@ -313,16 +322,7 @@ function renderJumbotron(data, currentLang) {
       }
 
       category.subcategories.forEach(subcat => {
-        const icon = iconTemplate.content.cloneNode(true);
-        const link = icon.querySelector('a');
-        const iconImg = icon.querySelector('img');
-        const h6 = icon.querySelector('h6');
-        const text = getLocalizedText(subcat.title, currentLang) || subcat.id || "";
-        link.href = `#${subcat.id}`;
-        iconImg.src = `/${subcat.icon}`;
-        iconImg.alt = text;
-        h6.textContent = text;
-        row.appendChild(icon);
+        row.appendChild(createMenuIcon(iconTemplate, subcat, currentLang));
       });
 
       menuIconsContainer.appendChild(row);

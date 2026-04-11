@@ -1,3 +1,22 @@
+/**
+ * Function call tree for render-food-data.js
+ *
+ * initRenderFoodDataUtils(window)
+ *   ├─ defines helpers: parseBoolean, normalizeColumnName, parseCsv,
+ *   │                  getRowValue, buildLocalizedField, mapSheetRowToItem,
+ *   │                  buildGoogleSheetCsvUrl
+ *   ├─ exposes loadSheetMappedItems(sheetUrl)
+ *   │    ├─ buildGoogleSheetCsvUrl(sheetUrl)
+ *   │    ├─ fetch(csvUrl, cache: 'no-store')
+ *   │    ├─ parseCsv(csvText) → rows
+ *   │    └─ for each row: mapSheetRowToItem(rowObj)
+ *   ├─ exposes mergeSheetItemsIntoData(data, mappedItems)
+ *   │    ├─ clear existing subcategory items (sheet-first mode)
+ *   │    ├─ group mapped items by subcategoryId
+ *   │    └─ assign grouped items to matching category.subcategories[*]
+ *   └─ registers public API at window.renderFoodDataUtils
+ */
+
 (function initRenderFoodDataUtils(global) {
   function parseBoolean(value) {
     if (typeof value === 'boolean') return value;
