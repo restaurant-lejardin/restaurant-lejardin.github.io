@@ -50,6 +50,10 @@
  *                   parseBoolean, normalizeColumnName, getRowValue, buildLocalizedField
  */
 
+const DRINKS_DATA_KEY = 'drinks-data';
+const FORMULES_DATA_KEY = 'formules-data';
+const OU_TEXT_BY_LANG = { fr: '<u>OU</u>', en: '<u>OR</u>', zh: '<u>或</u>' };
+
 function detectLanguage() {
   if (window.location.pathname.includes('/en/')) return 'en';
   if (document.documentElement.lang === 'en') return 'en';
@@ -337,11 +341,11 @@ function createFoodTitle(item, currentLang, isFormule) {
 }
 
 function renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage) {
+  const isFormulesPage = jsonFilePath.includes(FORMULES_DATA_KEY);
   const row = createEl('div', ['row', 'align-items-center', 'menu-item', 'animate-on-scroll'], null, { 'data-animate': 'fadeInUp' });
-  if (jsonFilePath.includes('formules-data') && item['ou-highlight']) {
+  if (isFormulesPage && item['ou-highlight']) {
     const ouTextDiv = createEl('div', ['col-md-2', 'menu-OU-text']);
-    const ouText = { fr: '<u>OU</u>', en: '<u>OR</u>', zh: '<u>或</u>' };
-    ouTextDiv.innerHTML = ouText[currentLang] || ouText['fr'];
+    ouTextDiv.innerHTML = OU_TEXT_BY_LANG[currentLang] || OU_TEXT_BY_LANG.fr;
     row.appendChild(ouTextDiv);
   } else if (!isDrinksPage) {
     row.appendChild(createFoodImageCol(item.image));
@@ -349,7 +353,7 @@ function renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage) {
   const veganIndicatorCol = createVeganIndicator(item.veganType);
   if (veganIndicatorCol) row.appendChild(veganIndicatorCol);
   const detailsCol = createEl('div', [isDrinksPage ? 'col-md-12' : 'col-md-9']);
-  detailsCol.appendChild(createFoodTitle(item, currentLang, jsonFilePath.includes('formules-data')));
+  detailsCol.appendChild(createFoodTitle(item, currentLang, isFormulesPage));
   if (item.description) {
     const description = createEl('p', ['food-ingredients'], getLocalizedText(item.description, currentLang));
     detailsCol.appendChild(description);
@@ -399,94 +403,72 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-function renderFoodAndJumbotron(foodContainer, currentLang) {
+async function renderFoodAndJumbotron(foodContainer, currentLang) {
   let jsonFilePath = foodContainer.getAttribute("data-json");
   if (!jsonFilePath) {
     console.error("Error: data-json attribute not set on container:", foodContainer.id);
     return;
   }
-  if (!jsonFilePath.startsWith('/')) {
-    jsonFilePath = '/' + jsonFilePath;
-  }
-  const isDrinksPage = jsonFilePath.includes("drinks-data");
+  jsonFilePath = jsonFilePath.startsWith('/') ? jsonFilePath : `/${jsonFilePath}`;
+  const isDrinksPage = jsonFilePath.includes(DRINKS_DATA_KEY);
   const googleSheetUrl = foodContainer.getAttribute("data-google-sheet-url") || '';
 
-  fetch(jsonFilePath)
-    .then((response) => {
-      if (!response.ok) throw new Error(`[render-food] HTTP error! status: ${response.status}`);
-      return response.json();
-    })
-    .then(async (data) => {
-      if (googleSheetUrl) {
-        try {
-          const mappedItems = await loadSheetMappedItems(googleSheetUrl);
-          const mergeResult = mergeSheetItemsIntoData(data, mappedItems);
-          if (mergeResult.totalItems === 0) {
-            console.warn('[render-food] Sheet loaded but no valid item rows found. All subcategory items are empty.');
-          }
-          if (mergeResult.unknownSubcategories.length > 0) {
-            console.warn('[render-food] Sheet contains unknown subcategory_id values:', mergeResult.unknownSubcategories.join(', '));
-          }
-        } catch (sheetError) {
-          console.warn('[render-food] Failed to load Google Sheet items, falling back to JSON items:', sheetError);
-        }
-      }
+  try {
+    const response = await fetch(jsonFilePath);
+    if (!response.ok) throw new Error(`[render-food] HTTP error! status: ${response.status}`);
+    const data = await response.json();
 
-      // Render jumbotron
-      renderJumbotron(foodContainer, data, currentLang);
-      // Render food categories
-      if (!data.categories) {
-        console.error("[render-food] No categories found in data:", data);
-        return;
-      }
-      data.categories.forEach(category => {
-        if (category.specialTitle) {
-          foodContainer.appendChild(createEl('hr', ['food-horizontal-separation']));
-          foodContainer.appendChild(createEl('h2', ['special-title-3'], getLocalizedText(category.specialTitle, currentLang)));
+    if (googleSheetUrl) {
+      try {
+        const mappedItems = await loadSheetMappedItems(googleSheetUrl);
+        const mergeResult = mergeSheetItemsIntoData(data, mappedItems);
+        if (mergeResult.totalItems === 0) {
+          console.warn('[render-food] Sheet loaded but no valid item rows found. All subcategory items are empty.');
         }
-        foodContainer.appendChild(renderCategory(category, currentLang, jsonFilePath, isDrinksPage));
-      });
-    })
-    .catch((error) => console.error("Error loading food data:", error));
+        if (mergeResult.unknownSubcategories.length > 0) {
+          console.warn('[render-food] Sheet contains unknown subcategory_id values:', mergeResult.unknownSubcategories.join(', '));
+        }
+      } catch (sheetError) {
+        console.warn('[render-food] Failed to load Google Sheet items, falling back to JSON items:', sheetError);
+      }
+    }
+
+    renderJumbotron(foodContainer, data, currentLang);
+    if (!data.categories) {
+      console.error("[render-food] No categories found in data:", data);
+      return;
+    }
+
+    data.categories.forEach(category => {
+      if (category.specialTitle) {
+        foodContainer.appendChild(createEl('hr', ['food-horizontal-separation']));
+        foodContainer.appendChild(createEl('h2', ['special-title-3'], getLocalizedText(category.specialTitle, currentLang)));
+      }
+      foodContainer.appendChild(renderCategory(category, currentLang, jsonFilePath, isDrinksPage));
+    });
+  } catch (error) {
+    console.error("Error loading food data:", error);
+  }
 }
 
 
-
-
 function renderJumbotron(foodContainer, data, currentLang) {
-  const defaultBackgroundImage = "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg";
-  const defaultSrcset = `
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1609326356/Autres/bamboo2_iaabt7.jpg 300w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_400/v1609326356/Autres/bamboo2_iaabt7.jpg 400w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609326356/Autres/bamboo2_iaabt7.jpg 600w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_700/v1609326356/Autres/bamboo2_iaabt7.jpg 700w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_800/v1609326356/Autres/bamboo2_iaabt7.jpg 800w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_900/v1609326356/Autres/bamboo2_iaabt7.jpg 900w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609326356/Autres/bamboo2_iaabt7.jpg 1000w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1100/v1609326356/Autres/bamboo2_iaabt7.jpg 1100w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1200/v1609326356/Autres/bamboo2_iaabt7.jpg 1200w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1300/v1609326356/Autres/bamboo2_iaabt7.jpg 1300w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1400/v1609326356/Autres/bamboo2_iaabt7.jpg 1400w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609326356/Autres/bamboo2_iaabt7.jpg 1500w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1600/v1609326356/Autres/bamboo2_iaabt7.jpg 1600w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1700/v1609326356/Autres/bamboo2_iaabt7.jpg 1700w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1800/v1609326356/Autres/bamboo2_iaabt7.jpg 1800w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1900/v1609326356/Autres/bamboo2_iaabt7.jpg 1900w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2000/v1609326356/Autres/bamboo2_iaabt7.jpg 2000w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2100/v1609326356/Autres/bamboo2_iaabt7.jpg 2100w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2200/v1609326356/Autres/bamboo2_iaabt7.jpg 2200w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2300/v1609326356/Autres/bamboo2_iaabt7.jpg 2300w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2400/v1609326356/Autres/bamboo2_iaabt7.jpg 2400w,
-    https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg 2500w
-  `;
   const jumbotronPlaceholder = document.getElementById("jumbotron-placeholder");
-  jumbotronData = {
-    title: getLocalizedText(data.title, currentLang) || data.title || data.id || "",
-    backgroundImage: data.backgroundImage,
-    srcset: (Array.isArray(data.srcset) && data.srcset.length > 0) ? data.srcset.join(",") : data.srcset
-  };
+  const defaultBackgroundImage = jumbotronPlaceholder?.dataset.defaultBg || "";
+  const defaultSrcsetBase = jumbotronPlaceholder?.dataset.defaultSrcsetBase || "";
+  const defaultSrcsetId = jumbotronPlaceholder?.dataset.defaultSrcsetId || "";
+  const defaultSrcsetWidths = (jumbotronPlaceholder?.dataset.defaultSrcsetWidths || "")
+    .split(',')
+    .map(w => w.trim())
+    .filter(Boolean);
+  const defaultSrcset = defaultSrcsetWidths
+    .map(w => `${defaultSrcsetBase},w_${w}/${defaultSrcsetId} ${w}w`)
+    .join(',');
+
+  const title = getLocalizedText(data.title, currentLang) || data.title || data.id || "";
+  const backgroundImage = data.backgroundImage;
+  const srcset = (Array.isArray(data.srcset) && data.srcset.length > 0) ? data.srcset.join(",") : data.srcset;
   if (jumbotronPlaceholder) {
-    const { title, backgroundImage, srcset } = jumbotronData;
     jumbotronPlaceholder.innerHTML = `
       <div class="food-jumbotron dark-overlay text-white">
         <img
@@ -503,16 +485,14 @@ function renderJumbotron(foodContainer, data, currentLang) {
     `;
     // Render menu icons if present
     const menuIconsContainer = document.getElementById("menu-icons");
-    let categories = data.subCategories;
-    if (!categories && Array.isArray(data.categories)) categories = data.categories;
+    const categories = data.subCategories || (Array.isArray(data.categories) ? data.categories : null);
     if (menuIconsContainer && Array.isArray(categories) && categories.length > 0) {
       const categoriesHtml = categories.map(category => {
         const subtitle = getLocalizedText(category.subTitle || category.subtitle, currentLang) || "";
-        let categoryHtml = '';
-        if (Array.isArray(category.subcategories)) {
-          categoryHtml = category.subcategories.map(subcat => {
-            const text = getLocalizedText(subcat.title, currentLang) || subcat.id || "";
-            return `
+        const categoryHtml = Array.isArray(category.subcategories)
+          ? category.subcategories.map(subcat => {
+              const text = getLocalizedText(subcat.title, currentLang) || subcat.id || "";
+              return `
               <div class="col">
                 <a href="#${subcat.id}" class="smooth-scroll">
                   <img class="menu-icon" src="/${subcat.icon}" alt="${text}">
@@ -520,8 +500,8 @@ function renderJumbotron(foodContainer, data, currentLang) {
                 </a>
               </div>
             `;
-          }).join("");
-        } 
+            }).join("")
+          : "";
         return `
           ${subtitle ? `<h2 class=\"special-title-3\">${subtitle}</h2>` : ""}
           <div class="row">
