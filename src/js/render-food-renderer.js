@@ -44,6 +44,7 @@
       buildJumbotronViewModel,
       buildMenuCategoriesViewModel
     } = deps || {};
+    const ouLabels = ouTextByLang || {};
 
     function createVeganIndicator(veganType) {
       if (!veganType) return createEl('div', ['col-md-1', 'vegan-indicator', 'text-right']);
@@ -103,7 +104,7 @@
       if (item.showOuHighlight || (pageContext.isFormulesPage && item['ou-highlight'])) {
         const ouTextDiv = createEl('div', ['col-md-2', 'menu-OU-text']);
         const underlined = document.createElement('u');
-        underlined.textContent = item.ouLabelText || ouTextByLang[currentLang] || ouTextByLang.fr;
+        underlined.textContent = item.ouLabelText || ouLabels[currentLang] || ouLabels.fr || 'OU';
         ouTextDiv.appendChild(underlined);
         row.appendChild(ouTextDiv);
       } else if (!pageContext.isDrinksPage) {

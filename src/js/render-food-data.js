@@ -22,7 +22,6 @@
  *   ├─ defines normalizeMenuDataShape(data)
  *   │    └─ guarantee categories/subcategories/items arrays
  *   ├─ defines buildMenuDataFromSheet(data, mappedItems)
- *   │    ├─ clear existing subcategory items (sheet-first mode)
  *   │    ├─ group mapped items by subcategoryId
  *   │    └─ assign grouped items to matching category.subcategories[*]
  *   └─ registers public API at window.renderFoodDataUtils
@@ -248,13 +247,6 @@
       return { totalItems: 0, unknownSubcategories: [] };
     }
 
-    data.categories.forEach(category => {
-      if (!Array.isArray(category.subcategories)) return;
-      category.subcategories.forEach(subcat => {
-        subcat.items = [];
-      });
-    });
-
     if (!Array.isArray(mappedItems) || mappedItems.length === 0) {
       return { totalItems: 0, unknownSubcategories: [] };
     }
@@ -294,11 +286,7 @@
     const data = normalizeMenuDataShape(await fetchJsonData(jsonFilePath));
 
     if (!googleSheetUrl) {
-      return {
-        data,
-        sheetApplied: false,
-        sheetResult: { totalItems: 0, unknownSubcategories: [] }
-      };
+      throw new Error('[render-food] Missing googleSheetUrl. data-google-sheet-url is required.');
     }
 
     const mappedItems = await loadSheetMappedItems(googleSheetUrl);

@@ -53,38 +53,46 @@
  *                                                 │         └─ uses food-title or formule-title
  *                                                 └─ append description when item.description
  *
- * Notes:
- *   - Data loading is delegated to render-food-data.js via loadMenuData().
- *   - Shared constants/context are delegated to render-food-config.js.
- *   - View-model shaping is delegated to render-food-viewmodel.js.
- *   - DOM rendering is delegated to render-food-renderer.js via createMenuRenderer().
- *   - Sheet mode builds final subcategory items from Google Sheet rows.
- *   - If sheet fetch fails, falls back to JSON items (non-blocking)
+ * Architecture schema:
+ *
+ *   [render-food-config.js]
+ *      - createPageContext
+ *      - templateSelectors / labels
+ *                 |
+ *                 v
+ *   [render-food.js] (orchestrator)
+ *      - DOMContentLoaded
+ *      - detectLanguage
+ *      - reportSheetLoadWarnings
+ *      - wires dependencies into renderer
+ *        |                     |
+ *        |                     v
+ *        |          [render-food-renderer.js]
+ *        |             - DOM creation only
+ *        |             - renderJumbotron / categories / items
+ *        v
+ *   [render-food-data.js]
+ *      - loadMenuData(JSON structure + Google Sheet items)
+ *      - loadSheetMappedItems
+ *      - buildMenuDataFromSheet
+ *                 |
+ *                 v
+ *   [render-food-viewmodel.js]
+ *      - buildJumbotronViewModel
+ *      - buildMenuCategoriesViewModel
+ *
+ * Key behavior:
+ *   - Google Sheet URL is required as item source.
+ *   - Drinks and formules reuse the same renderer with page flags.
  *   - Drinks pages reuse the same food-title / food-name / food-price classes.
  *   - The drinks exception is layout only: no image column and details take col-md-12.
  *   - Formules pages reuse the same renderer with OU highlight handling and formule-title.
- *
- * Local helpers in this file: detectLanguage, getLocalizedText, createEl,
- *                             getTemplateRefs,
- *                             reportSheetLoadWarnings.
- * Data parsing/sheet mapping helpers are provided by render-food-data.js.
- * Shared config/page-context helpers are provided by render-food-config.js.
- * View-model builders are provided by render-food-viewmodel.js.
- * DOM tree construction helpers are provided by render-food-renderer.js.
  */
 
 const {
   createPageContext,
-  ouTextByLang = { fr: 'OU', en: 'OR', zh: '或' },
-  templateSelectors = {
-    foodTitle: '#food-title-template',
-    foodItem: '#food-item-template',
-    foodSubcategory: '#food-subcategory-template',
-    foodCategory: '#food-category-template',
-    categorySpecialTitle: '#category-special-title-template',
-    jumbotron: '#jumbotron-template',
-    menuIcon: '#menu-icon-template'
-  }
+  ouTextByLang,
+  templateSelectors
 } = window.renderFoodConfig || {};
 
 const {
@@ -142,6 +150,14 @@ if (!createPageContext) {
   console.error('[render-food] Missing config utils. Ensure /js/render-food-config.js is loaded before /js/render-food.js');
 }
 
+if (!templateSelectors) {
+  console.error('[render-food] Missing template selectors in config. Ensure render-food-config.js exports templateSelectors.');
+}
+
+if (!ouTextByLang) {
+  console.error('[render-food] Missing ouTextByLang in config. Ensure render-food-config.js exports localized OU labels.');
+}
+
 const { createMenuRenderer } = window;
 
 if (!createMenuRenderer) {
@@ -166,15 +182,14 @@ const menuRenderer = createMenuRenderer
     };
 
 document.addEventListener("DOMContentLoaded", () => {
-  const foodContainers = document.querySelectorAll('[id^="food-container"]');
-  if (foodContainers.length === 0) {
-    console.error("Error: No food container elements found.");
+  const foodContainer = document.querySelector('[id^="food-container"]');
+  if (!foodContainer) {
+    console.error("Error: No food container element found.");
     return;
   }
+
   const currentLang = detectLanguage();
-  foodContainers.forEach(container => {
-    renderFoodAndJumbotron(container, currentLang);
-  });
+  renderFoodAndJumbotron(foodContainer, currentLang);
 });
 
 
@@ -182,6 +197,11 @@ async function renderFoodAndJumbotron(foodContainer, currentLang) {
   const pageContext = createPageContext ? createPageContext(foodContainer) : null;
   if (!pageContext) {
     console.error("Error: data-json attribute not set on container:", foodContainer.id);
+    return;
+  }
+
+  if (!pageContext.googleSheetUrl) {
+    console.error("Error: data-google-sheet-url attribute not set on container:", foodContainer.id);
     return;
   }
 
