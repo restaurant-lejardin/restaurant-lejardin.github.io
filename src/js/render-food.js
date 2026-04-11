@@ -7,8 +7,10 @@
  *
  * Dependencies (load order):
  *   1) render-food-data.js
- *   2) render-food-renderer.js
- *   3) render-food.js (this file)
+ *   2) render-food-config.js
+ *   3) render-food-viewmodel.js
+ *   4) render-food-renderer.js
+ *   5) render-food.js (this file)
  *
  * DOMContentLoaded
  *   └─ renderFoodAndJumbotron(container, lang)
@@ -23,11 +25,13 @@
  *        └─ (on final data)
  *             ├─ reportSheetLoadWarnings(sheetApplied, sheetResult)
  *             ├─ menuRenderer.renderJumbotron(data, lang)
- *             │    ├─ prepareJumbotronViewModel(data, lang, template)
+ *             │    ├─ buildJumbotronViewModel(...) via render-food-viewmodel.js
  *             │    ├─ clone #jumbotron-template and populate title/background
  *             │    └─ iterate categories/subcategories to createMenuIcon(...)
  *             └─ menuRenderer.renderMenuCategories(container, data, lang, pageContext)
- *                   └─ for each category in data.categories:
+ *                   ├─ buildMenuCategoriesViewModel(...) via render-food-viewmodel.js
+ *                   │    └─ includes pre-localized item fields (name/description/special title/price/ou)
+ *                   └─ for each category in categories view model:
  *                         ├─ clone #category-special-title-template when specialTitle exists
  *                         └─ menuRenderer.renderCategory(category, lang, pageContext)
  *                         ├─ clone #food-category-template and populate id/description
@@ -51,6 +55,8 @@
  *
  * Notes:
  *   - Data loading is delegated to render-food-data.js via loadMenuData().
+ *   - Shared constants/context are delegated to render-food-config.js.
+ *   - View-model shaping is delegated to render-food-viewmodel.js.
  *   - DOM rendering is delegated to render-food-renderer.js via createMenuRenderer().
  *   - Sheet mode builds final subcategory items from Google Sheet rows.
  *   - If sheet fetch fails, falls back to JSON items (non-blocking)
@@ -59,28 +65,45 @@
  *   - Formules pages reuse the same renderer with OU highlight handling and formule-title.
  *
  * Local helpers in this file: detectLanguage, getLocalizedText, createEl,
- *                             getTemplateRefs, resolvePageContext,
+ *                             getTemplateRefs,
  *                             reportSheetLoadWarnings.
  * Data parsing/sheet mapping helpers are provided by render-food-data.js.
+ * Shared config/page-context helpers are provided by render-food-config.js.
+ * View-model builders are provided by render-food-viewmodel.js.
  * DOM tree construction helpers are provided by render-food-renderer.js.
  */
 
-const DRINKS_DATA_KEY = 'drinks-data';
-const FORMULES_DATA_KEY = 'formules-data';
-const OU_TEXT_BY_LANG = { fr: 'OU', en: 'OR', zh: '或' };
+const {
+  createPageContext,
+  ouTextByLang = { fr: 'OU', en: 'OR', zh: '或' },
+  templateSelectors = {
+    foodTitle: '#food-title-template',
+    foodItem: '#food-item-template',
+    foodSubcategory: '#food-subcategory-template',
+    foodCategory: '#food-category-template',
+    categorySpecialTitle: '#category-special-title-template',
+    jumbotron: '#jumbotron-template',
+    menuIcon: '#menu-icon-template'
+  }
+} = window.renderFoodConfig || {};
+
+const {
+  buildJumbotronViewModel,
+  buildMenuCategoriesViewModel
+} = window.renderFoodViewModelUtils || {};
 
 let templateRefsCache = null;
 
 function getTemplateRefs() {
   if (templateRefsCache) return templateRefsCache;
   templateRefsCache = {
-    foodTitle: document.querySelector('#food-title-template'),
-    foodItem: document.querySelector('#food-item-template'),
-    foodSubcategory: document.querySelector('#food-subcategory-template'),
-    foodCategory: document.querySelector('#food-category-template'),
-    categorySpecialTitle: document.querySelector('#category-special-title-template'),
-    jumbotron: document.querySelector('#jumbotron-template'),
-    menuIcon: document.querySelector('#menu-icon-template')
+    foodTitle: document.querySelector(templateSelectors.foodTitle),
+    foodItem: document.querySelector(templateSelectors.foodItem),
+    foodSubcategory: document.querySelector(templateSelectors.foodSubcategory),
+    foodCategory: document.querySelector(templateSelectors.foodCategory),
+    categorySpecialTitle: document.querySelector(templateSelectors.categorySpecialTitle),
+    jumbotron: document.querySelector(templateSelectors.jumbotron),
+    menuIcon: document.querySelector(templateSelectors.menuIcon)
   };
   return templateRefsCache;
 }
@@ -115,17 +138,8 @@ if (!loadMenuData) {
   console.error('[render-food] Missing data utils. Ensure /js/render-food-data.js is loaded before /js/render-food.js');
 }
 
-function resolvePageContext(foodContainer) {
-  let jsonFilePath = foodContainer.getAttribute('data-json');
-  if (!jsonFilePath) return null;
-
-  jsonFilePath = jsonFilePath.startsWith('/') ? jsonFilePath : `/${jsonFilePath}`;
-  return {
-    jsonFilePath,
-    googleSheetUrl: foodContainer.getAttribute('data-google-sheet-url') || '',
-    isDrinksPage: jsonFilePath.includes(DRINKS_DATA_KEY),
-    isFormulesPage: jsonFilePath.includes(FORMULES_DATA_KEY)
-  };
+if (!createPageContext) {
+  console.error('[render-food] Missing config utils. Ensure /js/render-food-config.js is loaded before /js/render-food.js');
 }
 
 const { createMenuRenderer } = window;
@@ -139,7 +153,9 @@ const menuRenderer = createMenuRenderer
       getTemplateRefs,
       getLocalizedText,
       createEl,
-      ouTextByLang: OU_TEXT_BY_LANG
+      ouTextByLang,
+      buildJumbotronViewModel,
+      buildMenuCategoriesViewModel
     })
   : {
       renderFoodItem: () => document.createElement('div'),
@@ -163,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 async function renderFoodAndJumbotron(foodContainer, currentLang) {
-  const pageContext = resolvePageContext(foodContainer);
+  const pageContext = createPageContext ? createPageContext(foodContainer) : null;
   if (!pageContext) {
     console.error("Error: data-json attribute not set on container:", foodContainer.id);
     return;

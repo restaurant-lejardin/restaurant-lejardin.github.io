@@ -16,7 +16,8 @@
  *        ├─ renderSubcategory(subcat, lang, pageContext)
  *        ├─ renderCategory(category, lang, pageContext)
  *        ├─ renderMenuCategories(container, data, lang, pageContext)
- *        ├─ prepareJumbotronViewModel(data, lang, jumbotronTemplate)
+ *        │    └─ buildMenuCategoriesViewModel({ data, currentLang, getLocalizedText, pageContext, ouTextByLang })
+ *        ├─ buildJumbotronViewModel({ data, currentLang, getLocalizedText, templateDataset })
  *        └─ renderJumbotron(data, lang)
  *
  * Public API:
@@ -29,6 +30,8 @@
  *   - getLocalizedText(textObj, lang): resolves localized strings
  *   - createEl(tag, classList, content, attrs): shared element helper
  *   - ouTextByLang: localized labels for OU/OR/或
+ *   - buildJumbotronViewModel(...): optional view-model helper from render-food-viewmodel.js
+ *   - buildMenuCategoriesViewModel(...): optional view-model helper from render-food-viewmodel.js
  */
 
 (function initRenderFoodRenderer(global) {
@@ -37,7 +40,9 @@
       getTemplateRefs,
       getLocalizedText,
       createEl,
-      ouTextByLang
+      ouTextByLang,
+      buildJumbotronViewModel,
+      buildMenuCategoriesViewModel
     } = deps || {};
 
     function createVeganIndicator(veganType) {
@@ -69,10 +74,10 @@
       const { foodTitle } = getTemplateRefs();
       const titleNode = foodTitle.content.cloneNode(true).querySelector('h3');
       titleNode.className = isFormule ? 'formule-title' : 'food-title';
-      titleNode.querySelector('.food-name').textContent = getLocalizedText(item.name, currentLang);
+      titleNode.querySelector('.food-name').textContent = item.nameText || getLocalizedText(item.name, currentLang);
       const priceNode = titleNode.querySelector('.food-price');
-      if (item.price) {
-        priceNode.textContent = `${item.price}€`;
+      if (item.priceText || item.price) {
+        priceNode.textContent = item.priceText || `${item.price}€`;
       } else {
         priceNode.remove();
       }
@@ -95,10 +100,10 @@
     function renderFoodItem(item, currentLang, pageContext) {
       const { foodItem } = getTemplateRefs();
       const row = foodItem.content.cloneNode(true).querySelector('.menu-item');
-      if (pageContext.isFormulesPage && item['ou-highlight']) {
+      if (item.showOuHighlight || (pageContext.isFormulesPage && item['ou-highlight'])) {
         const ouTextDiv = createEl('div', ['col-md-2', 'menu-OU-text']);
         const underlined = document.createElement('u');
-        underlined.textContent = ouTextByLang[currentLang] || ouTextByLang.fr;
+        underlined.textContent = item.ouLabelText || ouTextByLang[currentLang] || ouTextByLang.fr;
         ouTextDiv.appendChild(underlined);
         row.appendChild(ouTextDiv);
       } else if (!pageContext.isDrinksPage) {
@@ -107,8 +112,8 @@
       row.appendChild(createVeganIndicator(item.veganType));
       const detailsCol = createEl('div', [pageContext.isDrinksPage ? 'col-md-12' : 'col-md-9']);
       detailsCol.appendChild(createFoodTitle(item, currentLang, pageContext.isFormulesPage));
-      if (item.description) {
-        detailsCol.appendChild(createEl('p', ['food-ingredients'], getLocalizedText(item.description, currentLang)));
+      if (item.descriptionText || item.description) {
+        detailsCol.appendChild(createEl('p', ['food-ingredients'], item.descriptionText || getLocalizedText(item.description, currentLang)));
       }
       row.appendChild(detailsCol);
       return row;
@@ -118,11 +123,13 @@
       const { foodSubcategory } = getTemplateRefs();
       const subcatDiv = foodSubcategory.content.cloneNode(true).querySelector('.food-subcategory');
       subcatDiv.id = subcat.id;
-      subcatDiv.querySelector('.subcategory-title').textContent = getLocalizedText(subcat.title, currentLang);
+      subcatDiv.querySelector('.subcategory-title').textContent = subcat.titleText || getLocalizedText(subcat.title, currentLang);
       if (Array.isArray(subcat.items)) {
         subcat.items.forEach(item => {
           if (item.showHr) subcatDiv.appendChild(createEl('hr', ['food-horizontal-rule']));
-          if (item.specialTitle) subcatDiv.appendChild(createEl('h3', ['special-title-4'], getLocalizedText(item.specialTitle, currentLang)));
+          if (item.specialTitleText || item.specialTitle) {
+            subcatDiv.appendChild(createEl('h3', ['special-title-4'], item.specialTitleText || getLocalizedText(item.specialTitle, currentLang)));
+          }
           subcatDiv.appendChild(renderFoodItem(item, currentLang, pageContext));
         });
       }
@@ -134,7 +141,9 @@
       const categoryDiv = foodCategory.content.cloneNode(true).querySelector('.food-category');
       categoryDiv.id = category.id;
       const description = categoryDiv.querySelector('.category-description');
-      if (category.description) description.textContent = getLocalizedText(category.description, currentLang);
+      if (category.descriptionText || category.description) {
+        description.textContent = category.descriptionText || getLocalizedText(category.description, currentLang);
+      }
       else description.remove();
       category.subcategories.forEach(subcat => {
         categoryDiv.appendChild(renderSubcategory(subcat, currentLang, pageContext));
@@ -144,40 +153,18 @@
 
     function renderMenuCategories(foodContainer, data, currentLang, pageContext) {
       const { categorySpecialTitle } = getTemplateRefs();
-      data.categories.forEach(category => {
-        if (category.specialTitle) {
+      const categories = buildMenuCategoriesViewModel
+        ? buildMenuCategoriesViewModel({ data, currentLang, getLocalizedText, pageContext, ouTextByLang })
+        : (Array.isArray(data.categories) ? data.categories : []);
+
+      categories.forEach(category => {
+        if (category.specialTitleText || category.specialTitle) {
           const specialBlock = categorySpecialTitle.content.cloneNode(true);
-          specialBlock.querySelector('.special-title-3').textContent = getLocalizedText(category.specialTitle, currentLang);
+          specialBlock.querySelector('.special-title-3').textContent = category.specialTitleText || getLocalizedText(category.specialTitle, currentLang);
           foodContainer.appendChild(specialBlock);
         }
         foodContainer.appendChild(renderCategory(category, currentLang, pageContext));
       });
-    }
-
-    function prepareJumbotronViewModel(data, currentLang, jumbotronTemplate) {
-      const templateAttrs = jumbotronTemplate.dataset;
-      const defaultBackgroundImage = templateAttrs.defaultBg || '';
-      const defaultSrcsetBase = templateAttrs.defaultSrcsetBase || '';
-      const defaultSrcsetId = templateAttrs.defaultSrcsetId || '';
-      const defaultSrcsetWidths = (templateAttrs.defaultSrcsetWidths || '')
-        .split(',')
-        .map(w => w.trim())
-        .filter(Boolean);
-      const defaultSrcset = defaultSrcsetWidths
-        .map(w => `${defaultSrcsetBase},w_${w}/${defaultSrcsetId} ${w}w`)
-        .join(',');
-
-      const source = data && typeof data === 'object' ? data : {};
-      const srcsetValue = (Array.isArray(source.srcset) && source.srcset.length > 0)
-        ? source.srcset.join(',')
-        : source.srcset;
-
-      return {
-        titleText: getLocalizedText(source.title, currentLang) || source.title || source.id || '',
-        backgroundImage: source.backgroundImage || defaultBackgroundImage,
-        srcset: srcsetValue || defaultSrcset,
-        categories: source.subCategories || (Array.isArray(source.categories) ? source.categories : [])
-      };
     }
 
     function renderJumbotron(data, currentLang) {
@@ -185,7 +172,14 @@
       const { jumbotron: jumbotronTemplate, menuIcon: iconTemplate } = getTemplateRefs();
       if (!jumbotronPlaceholder || !jumbotronTemplate) return;
 
-      const viewModel = prepareJumbotronViewModel(data, currentLang, jumbotronTemplate);
+      const viewModel = buildJumbotronViewModel
+        ? buildJumbotronViewModel({
+            data,
+            currentLang,
+            getLocalizedText,
+            templateDataset: jumbotronTemplate.dataset
+          })
+        : { titleText: '', backgroundImage: '', srcset: '', categories: [] };
       const jumbotron = jumbotronTemplate.content.cloneNode(true);
       const img = jumbotron.querySelector('img');
       const h1 = jumbotron.querySelector('h1');
