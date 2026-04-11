@@ -330,10 +330,12 @@ function createFoodImageCol(image) {
 
 function createFoodTitle(item, currentLang, isFormule) {
   const foodTitle = createEl('h3', [isFormule ? 'formule-title' : 'food-title']);
-  foodTitle.innerHTML = `
-    <span class="food-name">${getLocalizedText(item.name, currentLang)}</span>
-    ${item.price ? `<span class="food-price">${item.price}€</span>` : ""}
-  `;
+  const nameSpan = createEl('span', ['food-name'], getLocalizedText(item.name, currentLang));
+  foodTitle.appendChild(nameSpan);
+  if (item.price) {
+    const priceSpan = createEl('span', ['food-price'], `${item.price}€`);
+    foodTitle.appendChild(priceSpan);
+  }
   return foodTitle;
 }
 
@@ -428,7 +430,7 @@ async function renderFoodAndJumbotron(foodContainer, currentLang) {
       }
     }
 
-    renderJumbotron(foodContainer, data, currentLang);
+    renderJumbotron(data, currentLang);
     if (!data.categories) {
       console.error("[render-food] No categories found in data:", data);
       return;
@@ -449,10 +451,15 @@ async function renderFoodAndJumbotron(foodContainer, currentLang) {
 
 function renderJumbotron(data, currentLang) {
   const jumbotronPlaceholder = document.getElementById("jumbotron-placeholder");
-  const defaultBackgroundImage = jumbotronPlaceholder?.dataset.defaultBg || "";
-  const defaultSrcsetBase = jumbotronPlaceholder?.dataset.defaultSrcsetBase || "";
-  const defaultSrcsetId = jumbotronPlaceholder?.dataset.defaultSrcsetId || "";
-  const defaultSrcsetWidths = (jumbotronPlaceholder?.dataset.defaultSrcsetWidths || "")
+  const jumbotronTemplate = document.querySelector('#jumbotron-template');
+  if (!jumbotronPlaceholder || !jumbotronTemplate) return;
+
+  // Get default srcset from template data attributes
+  const templateAttrs = jumbotronTemplate.dataset;
+  const defaultBackgroundImage = templateAttrs.defaultBg || "";
+  const defaultSrcsetBase = templateAttrs.defaultSrcsetBase || "";
+  const defaultSrcsetId = templateAttrs.defaultSrcsetId || "";
+  const defaultSrcsetWidths = (templateAttrs.defaultSrcsetWidths || "")
     .split(',')
     .map(w => w.trim())
     .filter(Boolean);
@@ -460,53 +467,55 @@ function renderJumbotron(data, currentLang) {
     .map(w => `${defaultSrcsetBase},w_${w}/${defaultSrcsetId} ${w}w`)
     .join(',');
 
-  const title = getLocalizedText(data.title, currentLang) || data.title || data.id || "";
+  // Clone template and set data
+  const jumbotron = jumbotronTemplate.content.cloneNode(true);
+  const img = jumbotron.querySelector('img');
+  const h1 = jumbotron.querySelector('h1');
+  const menuIconsContainer = jumbotron.querySelector('#menu-icons');
+
+  const titleText = getLocalizedText(data.title, currentLang) || data.title || data.id || "";
   const backgroundImage = data.backgroundImage;
   const srcset = (Array.isArray(data.srcset) && data.srcset.length > 0) ? data.srcset.join(",") : data.srcset;
-  if (jumbotronPlaceholder) {
-    jumbotronPlaceholder.innerHTML = `
-      <div class="food-jumbotron dark-overlay text-white">
-        <img
-          src="${backgroundImage || defaultBackgroundImage}"
-          srcset="${srcset || defaultSrcset}"
-          alt=""
-          class="food-jumbotron-bg section-bg-cover"
-        >
-        <div class="food-jumbotron-caption container">
-          <h1 id="title-1" class="special-title-2 animate-on-scroll" data-animate="fadeInDown">${title}</h1>
-          <div id="menu-icons" class="animate-on-scroll" data-animate="fadeInUp"></div>
-        </div>
-      </div>
-    `;
-    // Render menu icons if present
-    const menuIconsContainer = document.getElementById("menu-icons");
-    const categories = data.subCategories || (Array.isArray(data.categories) ? data.categories : null);
-    if (menuIconsContainer && Array.isArray(categories) && categories.length > 0) {
-      const categoriesHtml = categories.map(category => {
-        const subtitle = getLocalizedText(category.subTitle || category.subtitle, currentLang) || "";
-        const categoryHtml = Array.isArray(category.subcategories)
-          ? category.subcategories.map(subcat => {
-              const text = getLocalizedText(subcat.title, currentLang) || subcat.id || "";
-              return `
-              <div class="col">
-                <a href="#${subcat.id}" class="smooth-scroll">
-                  <img class="menu-icon" src="/${subcat.icon}" alt="${text}">
-                  <h6 class="menu-icon-text mt-3 mb-0">${text}</h6>
-                </a>
-              </div>
-            `;
-            }).join("")
-          : "";
-        return `
-          ${subtitle ? `<h2 class=\"special-title-3\">${subtitle}</h2>` : ""}
-          <div class="row">
-            ${categoryHtml}
-          </div><br>
-        `;
-      }).join("");
-      menuIconsContainer.innerHTML = categoriesHtml;
-    }
+
+  img.src = backgroundImage || defaultBackgroundImage;
+  img.srcset = srcset || defaultSrcset;
+  h1.textContent = titleText;
+
+  // Populate menu icons from data
+  const categories = data.subCategories || (Array.isArray(data.categories) ? data.categories : null);
+  if (Array.isArray(categories) && categories.length > 0) {
+    categories.forEach(category => {
+      const subtitle = getLocalizedText(category.subTitle || category.subtitle, currentLang) || "";
+      if (subtitle) {
+        const h2 = document.createElement('h2');
+        h2.className = 'special-title-3';
+        h2.textContent = subtitle;
+        menuIconsContainer.appendChild(h2);
+      }
+
+      const row = document.createElement('div');
+      row.className = 'row';
+      if (Array.isArray(category.subcategories)) {
+        category.subcategories.forEach(subcat => {
+          const iconTemplate = document.querySelector('#menu-icon-template');
+          const icon = iconTemplate.content.cloneNode(true);
+          const link = icon.querySelector('a');
+          const iconImg = icon.querySelector('img');
+          const h6 = icon.querySelector('h6');
+          const text = getLocalizedText(subcat.title, currentLang) || subcat.id || "";
+          link.href = `#${subcat.id}`;
+          iconImg.src = `/${subcat.icon}`;
+          iconImg.alt = text;
+          h6.textContent = text;
+          row.appendChild(icon);
+        });
+      }
+      menuIconsContainer.appendChild(row);
+      menuIconsContainer.appendChild(document.createElement('br'));
+    });
   }
+
+  jumbotronPlaceholder.appendChild(jumbotron);
 }
 
 if (window.initAnimations) window.initAnimations();
