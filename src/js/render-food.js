@@ -48,14 +48,29 @@
  *   - The drinks exception is layout only: no image column and details take col-md-12.
  *   - Formules pages reuse the same renderer with OU highlight handling and formule-title.
  *
- * Helper functions: detectLanguage, getLocalizedText, createEl, createFoodImageCol, createVeganIndicator, createFoodTitle,
- *                   buildGoogleSheetCsvUrl, loadSheetMappedItems, parseCsv, mapSheetRowToItem, mergeSheetItemsIntoData,
- *                   parseBoolean, normalizeColumnName, getRowValue, buildLocalizedField
+ * Helper functions: detectLanguage, getLocalizedText, createEl, getTemplateRefs, createFoodImageCol, createVeganIndicator, createFoodTitle.
+ * Data parsing/sheet mapping helpers are provided by render-food-data.js.
  */
 
 const DRINKS_DATA_KEY = 'drinks-data';
 const FORMULES_DATA_KEY = 'formules-data';
-const OU_TEXT_BY_LANG = { fr: '<u>OU</u>', en: '<u>OR</u>', zh: '<u>或</u>' };
+const OU_TEXT_BY_LANG = { fr: 'OU', en: 'OR', zh: '或' };
+
+let templateRefsCache = null;
+
+function getTemplateRefs() {
+  if (templateRefsCache) return templateRefsCache;
+  templateRefsCache = {
+    foodTitle: document.querySelector('#food-title-template'),
+    foodItem: document.querySelector('#food-item-template'),
+    foodSubcategory: document.querySelector('#food-subcategory-template'),
+    foodCategory: document.querySelector('#food-category-template'),
+    categorySpecialTitle: document.querySelector('#category-special-title-template'),
+    jumbotron: document.querySelector('#jumbotron-template'),
+    menuIcon: document.querySelector('#menu-icon-template')
+  };
+  return templateRefsCache;
+}
 
 function detectLanguage() {
   if (window.location.pathname.includes('/en/')) return 'en';
@@ -72,237 +87,20 @@ function getLocalizedText(textObj, lang) {
 function createEl(tag, classList = [], content = null, attrs = {}) {
   const el = document.createElement(tag);
   if (Array.isArray(classList)) el.classList.add(...classList);
-  if (content !== null) el.innerHTML = content;
+  if (content !== null) el.textContent = content;
   for (const [key, value] of Object.entries(attrs)) {
     el.setAttribute(key, value);
   }
   return el;
 }
 
-function parseBoolean(value) {
-  if (typeof value === 'boolean') return value;
-  if (typeof value !== 'string') return false;
-  const normalized = value.trim().toLowerCase();
-  return normalized === 'true' || normalized === '1' || normalized === 'yes' || normalized === 'y';
-}
+const {
+  loadSheetMappedItems,
+  mergeSheetItemsIntoData
+} = window.renderFoodDataUtils || {};
 
-function normalizeColumnName(name) {
-  return (name || '')
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '_')
-    .replace(/^_+|_+$/g, '');
-}
-
-function parseCsv(text) {
-  const rows = [];
-  let currentRow = [];
-  let currentCell = '';
-  let inQuotes = false;
-
-  for (let i = 0; i < text.length; i += 1) {
-    const char = text[i];
-    const nextChar = text[i + 1];
-
-    if (char === '"') {
-      if (inQuotes && nextChar === '"') {
-        currentCell += '"';
-        i += 1;
-      } else {
-        inQuotes = !inQuotes;
-      }
-      continue;
-    }
-
-    if (char === ',' && !inQuotes) {
-      currentRow.push(currentCell);
-      currentCell = '';
-      continue;
-    }
-
-    if ((char === '\n' || char === '\r') && !inQuotes) {
-      if (char === '\r' && nextChar === '\n') i += 1;
-      currentRow.push(currentCell);
-      rows.push(currentRow);
-      currentRow = [];
-      currentCell = '';
-      continue;
-    }
-
-    currentCell += char;
-  }
-
-  if (currentCell.length > 0 || currentRow.length > 0) {
-    currentRow.push(currentCell);
-    rows.push(currentRow);
-  }
-
-  return rows;
-}
-
-function getRowValue(row, keys) {
-  for (const key of keys) {
-    const value = row[key];
-    if (typeof value === 'string' && value.trim() !== '') return value.trim();
-  }
-  return '';
-}
-
-function buildLocalizedField(row, field) {
-  const shortKey = field.replace(/_/g, '');
-  const fr = getRowValue(row, [`${field}_fr`, `${shortKey}_fr`]);
-  const en = getRowValue(row, [`${field}_en`, `${shortKey}_en`]);
-  const zh = getRowValue(row, [`${field}_zh`, `${shortKey}_zh`]);
-  if (!fr && !en && !zh) return null;
-  return { fr, en, zh };
-}
-
-function mapSheetRowToItem(row) {
-  // Required field: subcategory_id and name (at least in one language)
-  const subcategoryId = getRowValue(row, ['subcategory_id', 'subcategory', 'subcat_id']);
-  if (!subcategoryId) return null;
-
-  const name = buildLocalizedField(row, 'name');
-  if (!name) return null;
-
-  const item = { name };
-
-  // Optional fields:
-  const specialTitle = buildLocalizedField(row, 'special_title');
-  if (specialTitle) item.specialTitle = specialTitle;
-
-  const description = buildLocalizedField(row, 'description');
-  if (description) item.description = description;
-
-  const price = getRowValue(row, ['price']);
-  if (price) item.price = price;
-
-  const image = getRowValue(row, ['image', 'image_url']);
-  if (image) item.image = image;
-
-  const veganType = getRowValue(row, ['vegan_type', 'vegantype']);
-  if (veganType) item.veganType = veganType;
-
-  const showHrRaw = getRowValue(row, ['show_hr', 'showhr']);
-  if (showHrRaw && parseBoolean(showHrRaw)) item.showHr = true;
-
-  const ouHighlightRaw = getRowValue(row, ['ou_highlight', 'ouhighlight']);
-  if (ouHighlightRaw && parseBoolean(ouHighlightRaw)) item['ou-highlight'] = true;
-
-  return { subcategoryId, item };
-}
-
-function buildGoogleSheetCsvUrl(rawUrl) {
-  if (!rawUrl) return '';
-  let parsed;
-  try {
-    parsed = new URL(rawUrl);
-  } catch (error) {
-    console.warn('[render-food] Invalid google sheet URL:', rawUrl, error);
-    return '';
-  }
-
-  const isGoogleSheet = parsed.hostname.includes('docs.google.com') && parsed.pathname.includes('/spreadsheets/');
-  if (!isGoogleSheet) return rawUrl;
-
-  if (parsed.searchParams.get('output') === 'csv' || parsed.searchParams.get('format') === 'csv') {
-    return rawUrl;
-  }
-
-  const idMatch = parsed.pathname.match(/\/spreadsheets\/d\/([^/]+)/);
-  if (!idMatch) return '';
-  const spreadsheetId = idMatch[1];
-
-  let gid = parsed.searchParams.get('gid') || '';
-  if (!gid && parsed.hash) {
-    const hashMatch = parsed.hash.match(/gid=([0-9]+)/);
-    if (hashMatch) gid = hashMatch[1];
-  }
-
-  const csvUrl = new URL(`https://docs.google.com/spreadsheets/d/${spreadsheetId}/export`);
-  csvUrl.searchParams.set('format', 'csv');
-  csvUrl.searchParams.set('gid', gid || '0');
-  return csvUrl.toString();
-}
-
-async function loadSheetMappedItems(sheetUrl) {
-  if (!sheetUrl) return [];
-  const csvUrl = buildGoogleSheetCsvUrl(sheetUrl);
-  if (!csvUrl) return [];
-
-  const response = await fetch(csvUrl, { cache: 'no-store' });
-  if (!response.ok) {
-    throw new Error(`[render-food] Failed to fetch sheet CSV. status: ${response.status}`);
-  }
-
-  const csvText = await response.text();
-  const rows = parseCsv(csvText);
-  if (rows.length < 2) return [];
-
-  const headers = rows[0].map(normalizeColumnName);
-  const mapped = [];
-
-  for (let rowIndex = 1; rowIndex < rows.length; rowIndex += 1) {
-    const rowValues = rows[rowIndex];
-    const isEmptyRow = rowValues.every(cell => !cell || cell.trim() === '');
-    if (isEmptyRow) continue;
-
-    const rowObj = {};
-    headers.forEach((header, colIndex) => {
-      rowObj[header] = rowValues[colIndex] || '';
-    });
-
-    const mappedRow = mapSheetRowToItem(rowObj);
-    if (mappedRow) mapped.push(mappedRow);
-  }
-
-  return mapped;
-}
-
-function mergeSheetItemsIntoData(data, mappedItems) {
-  if (!Array.isArray(data.categories)) {
-    return { totalItems: 0, unknownSubcategories: [] };
-  }
-
-  // Sheet-first mode: once a sheet is configured and fetched, JSON items are ignored.
-  data.categories.forEach(category => {
-    if (!Array.isArray(category.subcategories)) return;
-    category.subcategories.forEach(subcat => {
-      subcat.items = [];
-    });
-  });
-
-  if (!Array.isArray(mappedItems) || mappedItems.length === 0) {
-    return { totalItems: 0, unknownSubcategories: [] };
-  }
-
-  const itemsBySubcategory = new Map();
-  mappedItems.forEach(({ subcategoryId, item }) => {
-    if (!itemsBySubcategory.has(subcategoryId)) {
-      itemsBySubcategory.set(subcategoryId, []);
-    }
-    itemsBySubcategory.get(subcategoryId).push(item);
-  });
-
-  const seenSubcategories = new Set();
-  data.categories.forEach(category => {
-    if (!Array.isArray(category.subcategories)) return;
-    category.subcategories.forEach(subcat => {
-      const subcatId = subcat.id;
-      if (!subcatId) return;
-      if (itemsBySubcategory.has(subcatId)) {
-        subcat.items = itemsBySubcategory.get(subcatId);
-        seenSubcategories.add(subcatId);
-      }
-    });
-  });
-
-  const unknownSubcategories = [];
-  itemsBySubcategory.forEach((_, subcatId) => {
-    if (!seenSubcategories.has(subcatId)) unknownSubcategories.push(subcatId);
-  });
-
-  return { totalItems: mappedItems.length, unknownSubcategories };
+if (!loadSheetMappedItems || !mergeSheetItemsIntoData) {
+  console.error('[render-food] Missing data utils. Ensure /js/render-food-data.js is loaded before /js/render-food.js');
 }
 
 
@@ -332,7 +130,8 @@ function createFoodImageCol(image) {
 }
 
 function createFoodTitle(item, currentLang, isFormule) {
-  const titleNode = document.querySelector('#food-title-template').content.cloneNode(true).querySelector('h3');
+  const { foodTitle } = getTemplateRefs();
+  const titleNode = foodTitle.content.cloneNode(true).querySelector('h3');
   titleNode.className = isFormule ? 'formule-title' : 'food-title';
   titleNode.querySelector('.food-name').textContent = getLocalizedText(item.name, currentLang);
   const priceNode = titleNode.querySelector('.food-price');
@@ -346,10 +145,13 @@ function createFoodTitle(item, currentLang, isFormule) {
 
 function renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage) {
   const isFormulesPage = jsonFilePath.includes(FORMULES_DATA_KEY);
-  const row = document.querySelector('#food-item-template').content.cloneNode(true).querySelector('.menu-item');
+  const { foodItem } = getTemplateRefs();
+  const row = foodItem.content.cloneNode(true).querySelector('.menu-item');
   if (isFormulesPage && item['ou-highlight']) {
     const ouTextDiv = createEl('div', ['col-md-2', 'menu-OU-text']);
-    ouTextDiv.innerHTML = OU_TEXT_BY_LANG[currentLang] || OU_TEXT_BY_LANG.fr;
+    const underlined = document.createElement('u');
+    underlined.textContent = OU_TEXT_BY_LANG[currentLang] || OU_TEXT_BY_LANG.fr;
+    ouTextDiv.appendChild(underlined);
     row.appendChild(ouTextDiv);
   } else if (!isDrinksPage) {
     row.appendChild(createFoodImageCol(item.image));
@@ -365,7 +167,8 @@ function renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage) {
 }
 
 function renderSubcategory(subcat, currentLang, jsonFilePath, isDrinksPage) {
-  const subcatDiv = document.querySelector('#food-subcategory-template').content.cloneNode(true).querySelector('.food-subcategory');
+  const { foodSubcategory } = getTemplateRefs();
+  const subcatDiv = foodSubcategory.content.cloneNode(true).querySelector('.food-subcategory');
   subcatDiv.id = subcat.id;
   subcatDiv.querySelector('.subcategory-title').textContent = getLocalizedText(subcat.title, currentLang);
   if (Array.isArray(subcat.items)) {
@@ -379,7 +182,8 @@ function renderSubcategory(subcat, currentLang, jsonFilePath, isDrinksPage) {
 }
 
 function renderCategory(category, currentLang, jsonFilePath, isDrinksPage) {
-  const categoryDiv = document.querySelector('#food-category-template').content.cloneNode(true).querySelector('.food-category');
+  const { foodCategory } = getTemplateRefs();
+  const categoryDiv = foodCategory.content.cloneNode(true).querySelector('.food-category');
   categoryDiv.id = category.id;
   const description = categoryDiv.querySelector('.category-description');
   if (category.description) description.textContent = getLocalizedText(category.description, currentLang);
@@ -439,10 +243,10 @@ async function renderFoodAndJumbotron(foodContainer, currentLang) {
       return;
     }
 
-    const categorySpecialTitleTemplate = document.querySelector('#category-special-title-template');
+    const { categorySpecialTitle } = getTemplateRefs();
     data.categories.forEach(category => {
       if (category.specialTitle) {
-        const specialBlock = categorySpecialTitleTemplate.content.cloneNode(true);
+        const specialBlock = categorySpecialTitle.content.cloneNode(true);
         specialBlock.querySelector('.special-title-3').textContent = getLocalizedText(category.specialTitle, currentLang);
         foodContainer.appendChild(specialBlock);
       }
@@ -457,7 +261,7 @@ async function renderFoodAndJumbotron(foodContainer, currentLang) {
 function renderJumbotron(data, currentLang) {
   // Template lookup and guards
   const jumbotronPlaceholder = document.getElementById("jumbotron-placeholder");
-  const jumbotronTemplate = document.querySelector('#jumbotron-template');
+  const { jumbotron: jumbotronTemplate, menuIcon: iconTemplate } = getTemplateRefs();
   if (!jumbotronPlaceholder || !jumbotronTemplate) return;
 
   // Default image/srcset config from template attributes
@@ -478,7 +282,6 @@ function renderJumbotron(data, currentLang) {
   const img = jumbotron.querySelector('img');
   const h1 = jumbotron.querySelector('h1');
   const menuIconsContainer = jumbotron.querySelector('#menu-icons');
-  const iconTemplate = document.querySelector('#menu-icon-template');
 
   // Populate top-level jumbotron data
   const titleText = getLocalizedText(data.title, currentLang) || data.title || data.id || "";
