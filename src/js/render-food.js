@@ -306,7 +306,6 @@ function createVeganIndicator(veganType) {
     'aria-label': 'Go to menu legend'
   } : {};
   const veganIndicatorCol = createEl(indicatorTag, ['col-md-1', 'vegan-indicator', 'text-right'], null, indicatorAttrs);
-  veganIndicatorCol.style.flex = "0 0 auto";
   if (veganType) {
     const veganLogo = document.createElement('img');
     veganLogo.classList.add('vegan-logo');
