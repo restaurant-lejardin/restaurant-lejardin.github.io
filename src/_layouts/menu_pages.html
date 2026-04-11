@@ -15,9 +15,66 @@
   <body id="{{ page.id | default: 'menu' }}">
 
     {% include header.html %}
+
+    <!-- Template: Jumbotron with menu icons -->
+    <template id="jumbotron-template" data-default-bg="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609326356/Autres/bamboo2_iaabt7.jpg" data-default-srcset-base="https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto" data-default-srcset-id="v1609326356/Autres/bamboo2_iaabt7.jpg" data-default-srcset-widths="300,400,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2100,2200,2300,2400,2500">
+      <div class="food-jumbotron dark-overlay text-white">
+        <img class="food-jumbotron-bg section-bg-cover" alt="">
+        <div class="food-jumbotron-caption container">
+          <h1 id="title-1" class="special-title-2 animate-on-scroll" data-animate="fadeInDown"></h1>
+          <div id="menu-icons" class="animate-on-scroll" data-animate="fadeInUp"></div>
+        </div>
+      </div>
+    </template>
+
+    <!-- Template: Menu icon item -->
+    <template id="menu-icon-template">
+      <div class="col">
+        <a class="smooth-scroll">
+          <img class="menu-icon" alt="">
+          <h6 class="menu-icon-text mt-3 mb-0"></h6>
+        </a>
+      </div>
+    </template>
+
+    <!-- Template: Food title row -->
+    <template id="food-title-template">
+      <h3>
+        <span class="food-name"></span>
+        <span class="food-price"></span>
+      </h3>
+    </template>
+
+    <!-- Template: Food item row shell -->
+    <template id="food-item-template">
+      <div class="row align-items-center menu-item animate-on-scroll" data-animate="fadeInUp"></div>
+    </template>
+
+    <!-- Template: Subcategory section shell -->
+    <template id="food-subcategory-template">
+      <div class="food-subcategory">
+        <h2 class="banner subcategory-title"></h2>
+        <hr class="food-horizontal-rule">
+      </div>
+    </template>
+
+    <!-- Template: Category section shell -->
+    <template id="food-category-template">
+      <div class="food-category">
+        <p class="category-description"></p>
+      </div>
+    </template>
+
+    <!-- Template: Category special title block -->
+    <template id="category-special-title-template">
+      <div>
+        <hr class="food-horizontal-separation">
+        <h2 class="special-title-3"></h2>
+      </div>
+    </template>
+
     <main>
       <div id="jumbotron-placeholder"></div>
-      <div id="menu-icons-placeholder"></div>
 
       <!-- FOOD: DESCRIPTIONS -->
       <div class="food-descriptions container">
@@ -78,6 +135,9 @@
     <script>
       window.menuNavigationData = {{ site.data.menu_navigation | jsonify }};
     </script>
+    <script src="{{ site.baseurl }}/js/render-food-data.js"></script>
+    <script src="{{ site.baseurl }}/js/render-food-config.js"></script>
+    <script src="{{ site.baseurl }}/js/render-food-renderer.js"></script>
     <script src="{{ site.baseurl }}/js/render-food.js"></script>
     <script src="{{ site.baseurl }}/js/render-header-footer.js"></script>
     <!-- jQuery -->
