@@ -219,3 +219,4 @@ Optional columns:
 - Add Chinese
 - Refactor js code using classes instead of ids. Clean corresponding HTML code
 - Fix errors shown in console
+- Move specialTitle at subCat level instead of item ?

@@ -8,50 +8,23 @@
  * Dependencies (load order):
  *   1) render-food-data.js
  *   2) render-food-config.js
- *   3) render-food-viewmodel.js
- *   4) render-food-renderer.js
- *   5) render-food.js (this file)
+ *   3) render-food-renderer.js
+ *   4) render-food.js (this file)
  *
  * DOMContentLoaded
  *   └─ renderFoodAndJumbotron(container, lang)
  *        ├─ resolvePageContext(container)
- *        │    ├─ normalize jsonFilePath from data-json
- *        │    ├─ read googleSheetUrl from data-google-sheet-url
- *        │    └─ compute isDrinksPage / isFormulesPage flags
  *        ├─ loadMenuData({ jsonFilePath, googleSheetUrl }) via render-food-data.js
- *        │    ├─ fetchJsonData(jsonFilePath)
- *        │    ├─ if googleSheetUrl: loadSheetMappedItems(sheetUrl)
- *        │    └─ return final render data + sheetResult status
  *        └─ (on final data)
  *             ├─ reportSheetLoadWarnings(sheetApplied, sheetResult)
  *             ├─ menuRenderer.renderJumbotron(data, lang)
- *             │    ├─ buildJumbotronViewModel(...) via render-food-viewmodel.js
- *             │    ├─ clone #jumbotron-template and populate title/background
- *             │    └─ iterate categories/subcategories to createMenuIcon(...)
  *             └─ menuRenderer.renderMenuCategories(container, data, lang, pageContext)
- *                   ├─ buildMenuCategoriesViewModel(...) via render-food-viewmodel.js
- *                   │    └─ includes pre-localized item fields (name/description/special title/price/ou)
- *                   └─ for each category in categories view model:
- *                         ├─ clone #category-special-title-template when specialTitle exists
+ *                   └─ for each category in data.categories:
  *                         └─ menuRenderer.renderCategory(category, lang, pageContext)
- *                         ├─ clone #food-category-template and populate id/description
  *                         └─ for each subcategory in category.subcategories:
  *                               └─ menuRenderer.renderSubcategory(subcat, lang, pageContext)
- *                                     ├─ clone #food-subcategory-template and populate title/id
  *                                     └─ for each item in subcat.items:
- *                                           ├─ append item separator when item.showHr
- *                                           ├─ append item.specialTitle when present
  *                                           └─ menuRenderer.renderFoodItem(item, lang, pageContext)
- *                                                 ├─ clone #food-item-template row shell
- *                                                 ├─ if pageContext.isFormulesPage and item['ou-highlight']:
- *                                                 │    └─ render OU / OR / 或 label
- *                                                 ├─ else if not pageContext.isDrinksPage:
- *                                                 │    └─ createFoodImageCol(item.image)
- *                                                 ├─ createVeganIndicator(item.veganType)
- *                                                 ├─ create details column
- *                                                 │    └─ createFoodTitle(item, lang, isFormule)
- *                                                 │         └─ uses food-title or formule-title
- *                                                 └─ append description when item.description
  *
  * Architecture schema:
  *
@@ -75,11 +48,6 @@
  *      - loadMenuData(JSON structure + Google Sheet items)
  *      - loadSheetMappedItems
  *      - buildMenuDataFromSheet
- *                 |
- *                 v
- *   [render-food-viewmodel.js]
- *      - buildJumbotronViewModel
- *      - buildMenuCategoriesViewModel
  *
  * Key behavior:
  *   - Google Sheet URL is required as item source.
@@ -94,11 +62,6 @@ const {
   ouTextByLang,
   templateSelectors
 } = window.renderFoodConfig || {};
-
-const {
-  buildJumbotronViewModel,
-  buildMenuCategoriesViewModel
-} = window.renderFoodViewModelUtils || {};
 
 let templateRefsCache = null;
 
@@ -169,9 +132,7 @@ const menuRenderer = createMenuRenderer
       getTemplateRefs,
       getLocalizedText,
       createEl,
-      ouTextByLang,
-      buildJumbotronViewModel,
-      buildMenuCategoriesViewModel
+      ouTextByLang
     })
   : {
       renderFoodItem: () => document.createElement('div'),
