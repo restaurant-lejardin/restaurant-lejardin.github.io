@@ -304,28 +304,25 @@ function mergeSheetItemsIntoData(data, mappedItems) {
 
 
 function createVeganIndicator(veganType) {
-  const indicatorTag = veganType ? 'a' : 'div';
-  const indicatorAttrs = veganType ? {
+  if (!veganType) return createEl('div', ['col-md-1', 'vegan-indicator', 'text-right']);
+  const veganLogo = document.createElement('img');
+  veganLogo.className = 'vegan-logo';
+  veganLogo.src = veganType === 'vege' ? '/media/vg.png' : '/media/vg_pos.png';
+  veganLogo.alt = veganType === 'vege' ? 'Végétarien' : 'Végétarien Possible';
+  const col = createEl('a', ['col-md-1', 'vegan-indicator', 'text-right'], null, {
     href: '#menu-legend',
     'aria-label': 'Go to menu legend'
-  } : {};
-  const veganIndicatorCol = createEl(indicatorTag, ['col-md-1', 'vegan-indicator', 'text-right'], null, indicatorAttrs);
-  if (veganType) {
-    const veganLogo = document.createElement('img');
-    veganLogo.classList.add('vegan-logo');
-    veganLogo.src = veganType === 'vege' ? '/media/vg.png' : '/media/vg_pos.png';
-    veganLogo.alt = veganType === 'vege' ? 'Végétarien' : 'Végétarien Possible';
-    veganIndicatorCol.appendChild(veganLogo);
-  }
-  return veganIndicatorCol;
+  });
+  col.appendChild(veganLogo);
+  return col;
 }
 
 function createFoodImageCol(image) {
   const imgCol = createEl('div', ['col-md-2', 'food-image']);
   if (image) {
     const img = document.createElement('img');
-    img.classList.add('rounded-circle', 'lazyload');
-    img.setAttribute('data-src', image);
+    img.className = 'rounded-circle lazyload';
+    img.dataset.src = image;
     imgCol.appendChild(img);
   }
   return imgCol;
@@ -350,13 +347,11 @@ function renderFoodItem(item, currentLang, jsonFilePath, isDrinksPage) {
   } else if (!isDrinksPage) {
     row.appendChild(createFoodImageCol(item.image));
   }
-  const veganIndicatorCol = createVeganIndicator(item.veganType);
-  if (veganIndicatorCol) row.appendChild(veganIndicatorCol);
+  row.appendChild(createVeganIndicator(item.veganType));
   const detailsCol = createEl('div', [isDrinksPage ? 'col-md-12' : 'col-md-9']);
   detailsCol.appendChild(createFoodTitle(item, currentLang, isFormulesPage));
   if (item.description) {
-    const description = createEl('p', ['food-ingredients'], getLocalizedText(item.description, currentLang));
-    detailsCol.appendChild(description);
+    detailsCol.appendChild(createEl('p', ['food-ingredients'], getLocalizedText(item.description, currentLang)));
   }
   row.appendChild(detailsCol);
   return row;
@@ -452,7 +447,7 @@ async function renderFoodAndJumbotron(foodContainer, currentLang) {
 }
 
 
-function renderJumbotron(foodContainer, data, currentLang) {
+function renderJumbotron(data, currentLang) {
   const jumbotronPlaceholder = document.getElementById("jumbotron-placeholder");
   const defaultBackgroundImage = jumbotronPlaceholder?.dataset.defaultBg || "";
   const defaultSrcsetBase = jumbotronPlaceholder?.dataset.defaultSrcsetBase || "";
