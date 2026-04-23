@@ -49,25 +49,26 @@
       </ul>
 
       <div class="ml-auto d-flex align-items-center">
-        <!-- page.language switcher -->
-        <div class="page.language-switcher d-flex mr-3">
-          {% assign current_page = page.url | remove: '/index.html' | remove: '.html' %}
-          {% if page.lang == 'en' %}
-            {% assign fr_page = current_page | replace: '/en/', '/' %}
-            {% if fr_page == '' or fr_page == '/' %}
-              <a href="{{ site.baseurl }}/index.html" class="nav-link px-2">🇫🇷 FR</a>
-            {% else %}
-              <a href="{{ site.baseurl }}{{ fr_page }}.html" class="nav-link px-2">🇫🇷 FR</a>
+        <!-- language switcher -->
+        <div class="language-switcher d-flex mr-3">
+          {% comment %} Strip lang prefix and .html to get base path {% endcomment %}
+          {% assign base_path = page.url | remove: '/index.html' | remove: '.html' %}
+          {% for lang in site.data.languages %}
+            {% if lang.prefix != '' %}
+              {% assign base_path = base_path | remove_first: lang.prefix %}
             {% endif %}
-            <span class="nav-link px-2 active">🇬🇧 EN</span>
-          {% else %}
-            <span class="nav-link px-2 active">🇫🇷 FR</span>
-            {% if current_page == '' or current_page == '/' %}
-              <a href="{{ site.baseurl }}/en/index.html" class="nav-link px-2">🇬🇧 EN</a>
+          {% endfor %}
+          {% for lang in site.data.languages %}
+            {% if lang.code == page.lang %}
+              <span class="nav-link px-2 active">{{ lang.flag }} {{ lang.label }}</span>
             {% else %}
-              <a href="{{ site.baseurl }}/en{{ current_page }}.html" class="nav-link px-2">🇬🇧 EN</a>
+              {% if base_path == '' or base_path == '/' %}
+                <a href="{{ site.baseurl }}{{ lang.prefix }}/index.html" class="nav-link px-2">{{ lang.flag }} {{ lang.label }}</a>
+              {% else %}
+                <a href="{{ site.baseurl }}{{ lang.prefix }}{{ base_path }}.html" class="nav-link px-2">{{ lang.flag }} {{ lang.label }}</a>
+              {% endif %}
             {% endif %}
-          {% endif %}
+          {% endfor %}
         </div>
         
         <!-- Social networks -->

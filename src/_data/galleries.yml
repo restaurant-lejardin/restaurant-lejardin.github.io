@@ -4,6 +4,7 @@ gallery-food:
       title:
         fr: "Raviolis crevettes vapeur"
         en: "Steamed shrimp dumplings"
+        zh: "蒸虾饺"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618678/Entrees/v1_edqlbj.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618678/Entrees/v1_edqlbj.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609618678/Entrees/v1_edqlbj.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618678/Entrees/v1_edqlbj.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618678/Entrees/v1_edqlbj.jpg"
@@ -11,6 +12,7 @@ gallery-food:
       title:
         fr: "Salade chinoise aux crevettes"
         en: "Chinese shrimp salad"
+        zh: "中式虾仁沙拉"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618679/Entrees/13_wdqelz.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618679/Entrees/13_wdqelz.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609618679/Entrees/13_wdqelz.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618679/Entrees/13_wdqelz.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618679/Entrees/13_wdqelz.jpg"
@@ -18,6 +20,7 @@ gallery-food:
       title:
         fr: "Rouleau de printemps"
         en: "Spring roll"
+        zh: "越南春卷"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618678/Entrees/12a_sg9vdr.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618678/Entrees/12a_sg9vdr.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609618678/Entrees/12a_sg9vdr.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618678/Entrees/12a_sg9vdr.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618678/Entrees/12a_sg9vdr.jpg"
@@ -25,6 +28,7 @@ gallery-food:
       title:
         fr: "Wok de boeuf pimenté"
         en: "Spicy beef wok"
+        zh: "香辣牛肉炒锅"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619142/Food/k1_gafxld.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619142/Food/k1_gafxld.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619142/Food/k1_gafxld.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619142/Food/k1_gafxld.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619142/Food/k1_gafxld.jpg"
@@ -32,6 +36,7 @@ gallery-food:
       title:
         fr: "Vermicelles de soja aux légumes"
         en: "Soybean vermicelli with vegetables"
+        zh: "素炒绿豆粉丝"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619142/Food/77_mdmzy7.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619142/Food/77_mdmzy7.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619142/Food/77_mdmzy7.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619142/Food/77_mdmzy7.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619142/Food/77_mdmzy7.jpg"
@@ -39,6 +44,7 @@ gallery-food:
       title:
         fr: "Canard grillé du chef"
         en: "Chef's grilled duck"
+        zh: "主厨烧鸭"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1610796543/Food/18b_ndopxm.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1610796543/Food/18b_ndopxm.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1610796543/Food/18b_ndopxm.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1610796543/Food/18b_ndopxm.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1610796543/Food/18b_ndopxm.jpg"
@@ -46,6 +52,7 @@ gallery-food:
       title:
         fr: "Boeuf au gingembre sur plat en fonte"
         en: "Ginger beef on cast iron plate"
+        zh: "铁板姜牛肉"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609617486/Food/f1g_vhpoic.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609617486/Food/f1g_vhpoic.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609617486/Food/f1g_vhpoic.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609617486/Food/f1g_vhpoic.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609617486/Food/f1g_vhpoic.jpg"
@@ -53,6 +60,7 @@ gallery-food:
       title:
         fr: "Crevettes grillées \"sel et poivre\""
         en: "Grilled shrimp 'salt and pepper'"
+        zh: "椒盐烤虾"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609617486/Food/27_ff5wvc.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609617486/Food/27_ff5wvc.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609617486/Food/27_ff5wvc.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609617486/Food/27_ff5wvc.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609617486/Food/27_ff5wvc.jpg"
@@ -60,6 +68,7 @@ gallery-food:
       title:
         fr: "Riz sauté YangZhou"
         en: "Yangzhou fried rice"
+        zh: "扬州炒饭"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618975/Food/81a_xlkhlo.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609618975/Food/81a_xlkhlo.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609618975/Food/81a_xlkhlo.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618975/Food/81a_xlkhlo.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609618975/Food/81a_xlkhlo.jpg"
@@ -70,6 +79,7 @@ gallery-desserts:
       title:
         fr: "Assortiment maison <br>Gingembre, perles de coco, nougats chinois"
         en: "House assortment <br>Ginger, coconut pearls, Chinese nougat"
+        zh: "主厨精选<br>姜汁、椰子珍珠、中国牛轧糖"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/assortiment_maison_t7heqj.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/assortiment_maison_t7heqj.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/assortiment_maison_t7heqj.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/assortiment_maison_t7heqj.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/assortiment_maison_t7heqj.jpg"
@@ -77,6 +87,7 @@ gallery-desserts:
       title:
         fr: "Raviolis frits <br> A la crème d'haricots rouges"
         en: "Fried dumplings <br> With red bean cream"
+        zh: "炸饺子<br>红豆沙馅"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/raviolis_frits_bxb3hh.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/raviolis_frits_bxb3hh.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/raviolis_frits_bxb3hh.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/raviolis_frits_bxb3hh.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/raviolis_frits_bxb3hh.jpg"
@@ -84,6 +95,7 @@ gallery-desserts:
       title:
         fr: "Coupe Shanghai"
         en: "Shanghai cup"
+        zh: "上海冰淇淋杯"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/coupe_Shanghai_iz7zv9.jpg"
@@ -91,6 +103,7 @@ gallery-desserts:
       title:
         fr: "Beignets de pomme"
         en: "Apple fritters"
+        zh: "苹果炸饼"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/beignets_de_pomme_jljsrj.jpg"
@@ -98,6 +111,7 @@ gallery-desserts:
       title:
         fr: "China Blue"
         en: "China Blue"
+        zh: "蓝色中国"
       src: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/china_blue_b2xhob.jpg"
       srcset: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_600/v1609619308/desserts/china_blue_b2xhob.jpg 1x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1000/v1609619308/desserts/china_blue_b2xhob.jpg 2x, https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/china_blue_b2xhob.jpg 3x"
       src_lg: "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_1500/v1609619308/desserts/china_blue_b2xhob.jpg"

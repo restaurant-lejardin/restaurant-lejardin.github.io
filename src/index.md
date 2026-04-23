@@ -1,8 +1,7 @@
 ---
 layout: homepage
 lang: fr
-title: Restaurant Chinois Le Jardin
-brand_title: Restaurant Chinois Le Jardin
+id: homepage
 brand_description: Depuis 1975 - Fait Maison
 menu_entrees: Entrées
 menu_plats: Plats

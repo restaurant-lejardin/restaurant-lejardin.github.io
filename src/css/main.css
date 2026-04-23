@@ -957,6 +957,13 @@ a, a:hover {
 }
 
 @media (max-width: 575.98px) {
+  .banner {
+    width: 85vw;
+    max-width: 400px;
+    font-size: 14px;
+    padding: 0 0.5rem;
+  }
+
   .lightbox-content {
     width: 94vw;
     max-height: 76vh;

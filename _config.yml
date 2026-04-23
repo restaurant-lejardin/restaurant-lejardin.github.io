@@ -24,6 +24,6 @@ baseurl: ""
 permalink: /:basename.html
 
 # Language settings
-languages: ["fr", "en"]
+languages: ["fr", "en", "zh"]
 default_lang: "fr"
 exclude_from_localization: ["js", "css", "media", "data"]

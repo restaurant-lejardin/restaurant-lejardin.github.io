@@ -1,10 +1,5 @@
 {
   "id": "drinks",
-  "title": {
-    "fr": "Boissons",
-    "en": "Drinks",
-    "zh": "饮料"
-  },
   "backgroundImage": "https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1536008791/website-template-3/cover-drinks-menu.jpg",
   "srcset":[
       "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1610796996/Autres/cover-drinks-menu_jctpoj.jpg 300w",

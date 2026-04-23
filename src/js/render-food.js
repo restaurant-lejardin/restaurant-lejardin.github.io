@@ -80,8 +80,17 @@ function getTemplateRefs() {
 }
 
 function detectLanguage() {
-  if (window.location.pathname.includes('/en/')) return 'en';
-  if (document.documentElement.lang === 'en') return 'en';
+  const htmlLang = (document.documentElement.lang || '').toLowerCase().trim();
+  if (htmlLang) return htmlLang.split('-')[0];
+
+  const firstPathSegment = (window.location.pathname || '')
+    .split('/')
+    .filter(Boolean)[0];
+
+  if (/^[a-z]{2}$/i.test(firstPathSegment || '')) {
+    return firstPathSegment.toLowerCase();
+  }
+
   return 'fr';
 }
 

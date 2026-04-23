@@ -1,0 +1,14 @@
+- code: fr
+  label: FR
+  flag: 🇫🇷
+  prefix: ""
+
+- code: en
+  label: EN
+  flag: 🇬🇧
+  prefix: /en
+
+- code: zh
+  label: 中文
+  flag: 🇨🇳
+  prefix: /zh

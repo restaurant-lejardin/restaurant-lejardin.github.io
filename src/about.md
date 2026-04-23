@@ -1,8 +1,7 @@
 ---
 layout: about
 lang: fr
-title: À propos
-permalink: /about.html
+id: about
 ---
 
 <!-- Bienvenue sur la page À propos du Jardin. Nous sommes un restaurant chinois familial situé à Paris, dédié à offrir une expérience culinaire authentique et chaleureuse. -->

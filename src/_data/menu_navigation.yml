@@ -2,6 +2,7 @@
   title: 
     fr: "Nos entrées"
     en: "Our appetizers"
+    zh: "前菜"
   show_in_gallery_subpages: gallery-food
   order: 1
   group: "Menu"
@@ -10,6 +11,7 @@
   title: 
     fr: "Nos plats"
     en: "Our main dishes"
+    zh: "主菜"
   show_in_gallery_subpages: gallery-food
   order: 2
   group: "Menu"
@@ -18,6 +20,7 @@
   title: 
     fr: "Nos desserts"
     en: "Our Desserts"
+    zh: "甜点"  
   show_in_gallery_subpages: gallery-desserts
   order: 3
   group: "Menu"
@@ -26,6 +29,7 @@
   title: 
     fr: "Nos formules"
     en: "Our Set Menus"
+    zh: "套餐"
   order: 4
   group: "Menu"
 
@@ -33,17 +37,20 @@
   title: 
     fr: "Nos boissons"
     en: "Our Beverages"
+    zh: "饮品"
   show_in_gallery_subpages: gallery-desserts
   order: 5
   group: "Menu"
 
-- page: "gallery"
+- page: "gallery-main"
   title:
     fr: "Album"
     en: "Gallery"
+    zh: "相册"
   title_long:
     fr: "Notre galerie photo"
     en: "Our photo gallery"
+    zh: "我们的照片图库"
   id: gallery-main # Need to keep this id for the gallery main page to avoid showing it in its own subpages {% unless nav_item.id == page.id %} compared to id in md files
   order: 6
   group: "Album"
@@ -52,9 +59,11 @@
   title: 
     fr: "Entrées et plats"
     en: "Appetizers and dishes"
+    zh: "前菜与主菜"
   title_long:
     fr: "Galerie des entrées et plats"
     en: "Gallery of starters and main courses"
+    zh: "前菜与主菜图库"
   id: gallery-food
   show_in_gallery_subpages: all
   order: 7
@@ -64,9 +73,11 @@
   title: 
     fr: "Desserts et boissons"
     en: "Desserts and drinks"
+    zh: "甜点与饮品"
   title_long:
     fr: "Galerie des desserts et boissons"
     en: "Gallery of desserts and drinks"
+    zh: "甜点与饮品图库"
   id: gallery-desserts
   show_in_gallery_subpages: all
   order: 8
@@ -76,11 +87,23 @@
   title: 
     fr: "Lieu"
     en: "Location"
+    zh: "地点"
   title_long:
     fr: "Galerie du lieu"
     en: "Gallery of the location"
+    zh: "餐厅图库"
   id: gallery-location
   show_in_gallery_subpages: all
   order: 9
   group: "Album"
   
+- page: "homepage"
+  title: 
+    fr: "Accueil"
+    en: "Home"
+    zh: "首页"
+- page: "about"
+  title: 
+    fr: "À propos"
+    en: "About"
+    zh: "关于"

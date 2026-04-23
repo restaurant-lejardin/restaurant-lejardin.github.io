@@ -1,4 +1,5 @@
 en:
+  site_title: "Le Jardin Chinese Restaurant"
   galleries:
     gallery-food:
       title: "Starters & Main Dishes Gallery"
@@ -55,6 +56,7 @@ en:
     vegan_possible: "This dish can be made vegetarian upon request"
     priceNote: "Prices are indicative only"
 fr:
+  site_title: "Restaurant Chinois Le Jardin"
   galleries:
     food:
       title: "GALERIE PHOTO DES ENTRÉES ET PLATS"
@@ -110,3 +112,60 @@ fr:
     vegan: "Plat végétarien"
     vegan_possible: "Ce plat peut être adapté en version végétarienne sur demande"
     priceNote: "Tarifs à titre indicatif"
+zh:
+  site_title: "月华园中餐厅"
+  galleries:
+    gallery-food:
+      title: "前菜与主菜图库"
+      subtitle: "均衡美味的菜肴"
+      alt_type: "菜肴"
+    gallery-desserts:
+      title: "甜点与饮品图库"
+      subtitle: "各种口味的享受"
+      alt_type: "甜点"
+    gallery-location:
+      title: "餐厅图库"
+      subtitle: "传统氛围"
+      alt_type: "餐厅环境"
+  gallery:
+    title: "相册"
+    subtitle: "通过这本相册了解我们的餐厅"
+    food_title: "前菜与主菜"
+    desserts_title: "甜点与饮品"
+    location_title: "地点"
+    see_button: "查看"
+  about:
+    title: "关于餐厅"
+    subtitle: "传统与热情"
+    directions_title: "路线指引"
+    directions_subtitle: "如何到达"
+    directions_from_republique_title: "从共和国广场出发的路线"
+    directions_from_republique_desc: "餐厅位于共和国广场（Place de la République）地铁站Temple街出口，对面是Camaïeu商店。您将在BNP和法兴银行之间找到我们，位于Meslay街起始处，紧邻Buffalo Grill后门。"
+    metro_station: "共和国广场地铁站"
+    bus_station: "共和国广场公交及夜行客运站"
+    history_title: "我们的历史"
+    history_paragraph1: "我们的家庭餐厅自1975年开业，坐落于一间20世纪初的法式台球厅内。原有的天花板和镜子与1930年代上海风格的装饰相得益彰，在正宗美食中带来传统餐厅的温馨感。我们在此烹制中国美食已有48年，泰国美食已有30年。我们可以根据口味和饮食需求调整菜肴。我们的菜肴均为<b>自制</b>。"
+    history_paragraph2: "餐厅理想地坐落于BNP与法兴银行之间，靠近共和国广场，适合各类聚会——商务餐、朋友聚会或家庭聚餐。整体氛围既热情友好，又不失低调雅致。"
+    site_notice: "本网站旨在展示餐厅的专业水准，属非商业用途。该网站作为个人技术作品集的一部分开发。"
+  header:
+    nav_home: "首页"
+    nav_menu: "菜单"
+    nav_about: "关于"
+    nav_album: "相册"
+    nav_album_food: "前菜与主菜"
+    nav_album_desserts: "甜点与饮品"
+    nav_album_location: "地点"
+  footer:
+    opening_hours_title: "营业时间"
+    opening_hours_desc: "周一至周五开放（公共假日请来电确认）"
+    lunch: "午餐：12:00 - 14:00"
+    dinner: "晚餐：19:00 - 22:00"
+    location_title: "地址"
+    restaurant_name: "花园中餐厅"
+    follow_us: "关注我们"
+    footer: "© 2019 Marios Sofokleous (<a href=\"https://pictureelement.github.io/portfolio-2/\">PictureElement</a>).<br>设计：<a href=\"https://github.com/catherning\">Catherning</a>（Catherine Xu）。"
+  menuLegend:
+    title: "图例"
+    vegan: "素食菜肴"
+    vegan_possible: "此菜肴可根据要求调整为素食版本"
+    priceNote: "价格仅供参考"

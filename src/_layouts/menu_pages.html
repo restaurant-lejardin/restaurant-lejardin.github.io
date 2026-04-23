@@ -1,10 +1,13 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.default_lang | default: 'fr' }}">
   <head>
+    {% assign current_lang = page.lang | default: site.default_lang | default: 'fr' %}
+    {% assign current_menu_item = site.data.menu_navigation | where: 'page', page.id | first %}
+    {% assign menu_page_title = current_menu_item.title[current_lang] | append: " | " | append: site.data.translations[current_lang].site_title | default: page.title %}
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Restaurant Chinois Le Jardin</title>
+    <title>{{ menu_page_title }}</title>
     <!-- Web app manifest -->
     <link rel='manifest' href='{{ site.baseurl }}/manifest.json'>
     <!-- Stylesheets -->

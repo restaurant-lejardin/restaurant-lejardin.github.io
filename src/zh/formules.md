@@ -1,6 +1,6 @@
 ---
 layout: menu_pages
-lang: fr
-id: desserts
+lang: zh
+id: formules
 show_legend: false
 ---

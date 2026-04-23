@@ -35,6 +35,13 @@
  */
 
 (function initRenderFoodRenderer(global) {
+  function resolveMenuTitle(pageId, currentLang) {
+    const navData = Array.isArray(global.menuNavigationData) ? global.menuNavigationData : []; // menuNavigationData is menu_navigation.yml processed by Jekyll
+    const navItem = navData.find(item => item && item.page === pageId);
+    if (!navItem || !navItem.title || typeof navItem.title !== 'object') return '';
+    return getLocalizedText(navItem.title, currentLang);
+  }
+
   function createMenuRenderer(deps) {
     const {
       getTemplateRefs,
@@ -190,7 +197,8 @@
       const sourceSrcset = (Array.isArray(source.srcset) && source.srcset.length > 0)
         ? source.srcset.join(',')
         : source.srcset;
-      const jumbotronTitle = getLocalizedText(source.title, currentLang) || source.title || source.id;
+      const navTitle = resolveMenuTitle(source.id, currentLang);
+      const jumbotronTitle = navTitle || getLocalizedText(source.title, currentLang);
       const jumbotronBackgroundImage = source.backgroundImage || defaultBackgroundImage;
       const jumbotronSrcset = sourceSrcset || defaultSrcset;
       const jumbotronCategories = source.subCategories || (Array.isArray(source.categories) ? source.categories : []);

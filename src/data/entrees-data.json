@@ -1,9 +1,5 @@
 {
   "id": "entrees",
-  "title": {
-    "fr": "Entrées",
-    "en": "Starters"
-  },
   "categories": [
     {
       "subTitle": {

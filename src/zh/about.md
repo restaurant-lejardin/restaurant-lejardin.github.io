@@ -1,6 +1,6 @@
 ---
 layout: about
-lang: en
+lang: zh
 id: about
 ---
 

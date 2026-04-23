@@ -1,7 +1,7 @@
 ---
 layout: gallery_main
 id: gallery-main
-lang: en
+lang: zh
 ---
 
 <!-- Add English-specific content for the Gallery page here if needed -->

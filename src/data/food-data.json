@@ -1,14 +1,11 @@
 {
   "id": "food",
-  "title": {
-    "fr": "Plats",
-    "en": "Dishes"
-  },
   "categories": [
     { 
       "subtitle": {
         "fr": "PLATS A COMPOSER (riz non compris)",
-        "en": "DISHES TO COMPOSE (rice not included)"
+        "en": "DISHES TO COMPOSE (rice not included)",
+        "zh": "自选菜（不含米饭）"
       },
       "subcategories": [
         {
@@ -16,7 +13,8 @@
           "icon": "media/menu/food/wok.svg",
           "title": {
             "fr": "NOS MARMITES ET WOKS",
-            "en": "OUR HOTPOTS AND WOKS"
+            "en": "OUR HOTPOTS AND WOKS",
+            "zh": "我们的火锅和炒锅"
           }
         },
         {
@@ -24,7 +22,8 @@
           "icon": "media/menu/food/meat.svg",
           "title": {
               "fr": "VOLAILLES / VIANDES",
-              "en": "POULTRY / MEAT"
+              "en": "POULTRY / MEAT",
+              "zh": "家禽/肉类"
             }
         },
         {
@@ -41,7 +40,8 @@
     {
       "subtitle": {
         "fr": "ACCOMPAGNEMENT",
-        "en": "SIDES"
+        "en": "SIDES",
+        "zh": "配菜"
       },
       "subcategories": [
         {

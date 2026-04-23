@@ -1,10 +1,5 @@
 {
   "id": "desserts",
-  "title": {
-    "fr": "Desserts",
-    "en": "Desserts",
-    "zh": "甜点"
-  },
   "backgroundImage": "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_2500/v1609619308/desserts/assortiment_maison_t7heqj.jpg",
   "srcset":[
       "https://res.cloudinary.com/lejardin/image/upload/c_scale,f_auto,q_auto,w_300/v1609619308/desserts/assortiment_maison_t7heqj.jpg 300w",

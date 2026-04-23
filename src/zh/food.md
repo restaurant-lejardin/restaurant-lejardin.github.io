@@ -1,6 +1,6 @@
 ---
 layout: menu_pages
-lang: en
-id: entrees
+lang: zh
+id: food
 show_legend: true
 ---

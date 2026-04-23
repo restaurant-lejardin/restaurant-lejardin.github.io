@@ -1,6 +1,6 @@
 ---
 layout: menu_pages
-lang: en
+lang: zh
 id: entrees
 show_legend: true
 ---

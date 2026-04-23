@@ -1,6 +1,6 @@
 ---
 layout: menu_pages
-lang: fr
+lang: zh
 id: desserts
 show_legend: false
 ---

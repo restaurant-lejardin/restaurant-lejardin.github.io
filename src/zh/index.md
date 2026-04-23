@@ -1,6 +1,6 @@
 ---
 layout: homepage
-lang: en
+lang: zh
 id: homepage
 brand_description: Since 1975 - Homemade
 menu_entrees: Starters
