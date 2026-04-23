@@ -180,7 +180,7 @@ a, a:hover {
   position: relative;
   margin: 0 auto;
   display: block;
-  width: 400px; /*TODO: adapt size depending on device*/
+  width: 400px;
   height: 60px;
   border: 1px solid var(--color-brand-red-dark);
   text-align: center;

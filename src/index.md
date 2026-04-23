@@ -3,7 +3,7 @@ layout: homepage
 lang: fr
 id: homepage
 brand_description: Depuis 1975 - Fait Maison
-menu_entrees: Entrées
+menu_entrees: Entrées # TODO: refactor here too, could reuse menu_navigation.yml data instead in html code?
 menu_plats: Plats
 menu_desserts: Desserts
 menu_formules: Formules
